@@ -944,3 +944,1084 @@ TMPro.TextMeshProUGUI:Rebuild(CanvasUpdate)
 UnityEngine.UI.CanvasUpdateRegistry:PerformUpdate()
 UnityEngine.AI.OnNavMeshPreUpdate:Invoke()
 
+SoftMask will not work on Text (TMPro.TextMeshProUGUI) because material 210YouthL SDF Material (UnityEngine.Material) doesn't support masking. Add masking support to your material or set Graphic's material to None to use a default one.
+UnityEngine.Logger:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Debug:LogWarningFormat(Object, String, Object[])
+SoftMasking.SoftMaskable:GetModifiedMaterial(Material)
+TMPro.TMP_MaterialManager:GetMaterialForRendering(MaskableGraphic, Material)
+TMPro.TextMeshProUGUI:UpdateMaterial()
+TMPro.TextMeshProUGUI:Rebuild(CanvasUpdate)
+UnityEngine.UI.CanvasUpdateRegistry:PerformUpdate()
+UnityEngine.AI.OnNavMeshPreUpdate:Invoke()
+
+SoftMask will not work on Text (TMPro.TextMeshProUGUI) because material 210YouthL SDF Material (UnityEngine.Material) doesn't support masking. Add masking support to your material or set Graphic's material to None to use a default one.
+UnityEngine.Logger:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Debug:LogWarningFormat(Object, String, Object[])
+SoftMasking.SoftMaskable:GetModifiedMaterial(Material)
+TMPro.TMP_MaterialManager:GetMaterialForRendering(MaskableGraphic, Material)
+TMPro.TextMeshProUGUI:UpdateMaterial()
+TMPro.TextMeshProUGUI:Rebuild(CanvasUpdate)
+UnityEngine.UI.CanvasUpdateRegistry:PerformUpdate()
+UnityEngine.AI.OnNavMeshPreUpdate:Invoke()
+
+<color=#0099bc><b>DOTWEEN ► </b></color>Max Tweens reached: capacity has automatically been increased from 500/125 to 500/312. Use DOTween.SetTweensCapacity to set it manually at startup
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:LogWarning(Object)
+DG.Tweening.Core.Debugger:LogWarning(Object, Tween)
+DG.Tweening.Core.TweenManager:GetSequence()
+DG.Tweening.DOTween:Sequence()
+InteriorItemBlinker:BuildTween()
+InteriorItemBlinker:Init()
+UnityEngine.Object:Instantiate(Object, Transform, Boolean)
+UnityEngine.Object:Instantiate(T, Transform, Boolean)
+UnityEngine.ResourceManagement.ResourceProviders.InstantiationParameters:Instantiate(TObject)
+UnityEngine.ResourceManagement.ResourceProviders.InstanceProvider:ProvideInstance(ResourceManager, AsyncOperationHandle`1, InstantiationParameters)
+UnityEngine.ResourceManagement.InstanceOperation:Execute()
+UnityEngine.ResourceManagement.AsyncOperations.AsyncOperationBase`1:InvokeExecute()
+UnityEngine.ResourceManagement.AsyncOperations.AsyncOperationBase`1:Start(ResourceManager, AsyncOperationHandle, DelegateList`1)
+UnityEngine.ResourceManagement.ResourceManager:StartOperation(AsyncOperationBase`1, AsyncOperationHandle)
+UnityEngine.ResourceManagement.ResourceManager:ProvideInstance(IInstanceProvider, IResourceLocation, InstantiationParameters)
+UnityEngine.AddressableAssets.AddressablesImpl:InstantiateAsync(IResourceLocation, InstantiationParameters, Boolean)
+UnityEngine.AddressableAssets.AddressablesImpl:InstantiateAsync(Object, InstantiationParameters, Boolean)
+UnityEngine.AddressableAssets.Addressables:InstantiateAsync(Object, Transform, Boolean, Boolean)
+AddressableAssetsLoader:BasicInstantiateAsync(Object, Transform, Boolean, Boolean)
+SushiBar.InteriorFurnitureSpawner:Execute(String, Boolean)
+SushiBar.InteriorItemSlot:IDREventListener<InteriorSlotEvent>.OnDREvent(InteriorSlotEvent)
+DREventManager:EventTrigger(DREvent)
+DREventTriggerManager:InteriorSlotEventTrigger(InteriorSlotEventTarget, InteriorSlotEventType, InteriorZone, Place, Int32)
+DR.InteriorStorage:SendEventUsedData(InteriorSlotEventTarget, InteriorSlotEventType, InteriorZone, Place, InteriorData)
+DR.InteriorStorage:ApplyUsedDatasToSushibar(InteriorSlotEventTarget, InteriorSlotEventType, Place, Action`1)
+DR.InteriorStorage:ApplyUsedDatasToSushibar(IEnumerable`1, Place)
+InteriorSheet:HideSheet()
+ManagementPanel:OnClickClose()
+ManagementScrollerSheet:OnClickClose()
+InteriorSheet:<OnApplySushiBarInternal>b__46_1()
+BecameInactiveEventHandler:Invoke()
+ManagementMessagePopup:OnDirectHandler(Input)
+UnityEngine.Events.UnityAction`1:Invoke(T0)
+UnityEngine.Events.InvokableCall`1:Invoke(T1)
+UnityEngine.Events.UnityEvent`1:Invoke(T0)
+InputSystemWrapper.Handler`4:Handle(Input)
+BecameInactiveEventHandler:Invoke()
+UnityEngine.InputSystem.Utilities.DelegateHelpers:InvokeCallbacksSafe(CallbackArray`1&, String, Object)
+UnityEngine.InputSystem.InputManager:InvokeAfterUpdateCallback(InputUpdateType)
+UnityEngine.InputSystem.InputManager:OnUpdate(InputUpdateType, InputEventBuffer&)
+InputSystemWrapper.OnActionHandler:Invoke(TEnumAction, CallbackContext)
+UnityEngine.InputSystem.LowLevel.<>c__DisplayClass7_0:<set_onUpdate>b__0(NativeInputUpdateType, NativeInputEventBuffer*)
+InputSystemWrapper.OnActionHandler:Invoke(TEnumAction, CallbackContext)
+UnityEngineInternal.Input.NativeInputSystem:NotifyUpdate(NativeInputUpdateType, IntPtr)
+
+SoftMask will not work on Text (TMPro.TextMeshProUGUI) because material 210YouthL SDF Material (UnityEngine.Material) doesn't support masking. Add masking support to your material or set Graphic's material to None to use a default one.
+UnityEngine.Logger:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Debug:LogWarningFormat(Object, String, Object[])
+SoftMasking.SoftMaskable:GetModifiedMaterial(Material)
+TMPro.TMP_MaterialManager:GetMaterialForRendering(MaskableGraphic, Material)
+TMPro.TextMeshProUGUI:UpdateMaterial()
+TMPro.TextMeshProUGUI:Rebuild(CanvasUpdate)
+UnityEngine.UI.CanvasUpdateRegistry:PerformUpdate()
+UnityEngine.AI.OnNavMeshPreUpdate:Invoke()
+
+SoftMask will not work on Text (TMPro.TextMeshProUGUI) because material 210YouthL SDF Material (UnityEngine.Material) doesn't support masking. Add masking support to your material or set Graphic's material to None to use a default one.
+UnityEngine.Logger:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Debug:LogWarningFormat(Object, String, Object[])
+SoftMasking.SoftMaskable:GetModifiedMaterial(Material)
+TMPro.TMP_MaterialManager:GetMaterialForRendering(MaskableGraphic, Material)
+TMPro.TextMeshProUGUI:UpdateMaterial()
+TMPro.TextMeshProUGUI:Rebuild(CanvasUpdate)
+UnityEngine.UI.CanvasUpdateRegistry:PerformUpdate()
+UnityEngine.AI.OnNavMeshPreUpdate:Invoke()
+
+SoftMask will not work on Text (TMPro.TextMeshProUGUI) because material 210YouthL SDF Material (UnityEngine.Material) doesn't support masking. Add masking support to your material or set Graphic's material to None to use a default one.
+UnityEngine.Logger:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Debug:LogWarningFormat(Object, String, Object[])
+SoftMasking.SoftMaskable:GetModifiedMaterial(Material)
+TMPro.TMP_MaterialManager:GetMaterialForRendering(MaskableGraphic, Material)
+TMPro.TextMeshProUGUI:UpdateMaterial()
+TMPro.TextMeshProUGUI:Rebuild(CanvasUpdate)
+UnityEngine.UI.CanvasUpdateRegistry:PerformUpdate()
+UnityEngine.AI.OnNavMeshPreUpdate:Invoke()
+
+SoftMask will not work on Text (TMPro.TextMeshProUGUI) because material 210YouthL SDF Material (UnityEngine.Material) doesn't support masking. Add masking support to your material or set Graphic's material to None to use a default one.
+UnityEngine.Logger:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Debug:LogWarningFormat(Object, String, Object[])
+SoftMasking.SoftMaskable:GetModifiedMaterial(Material)
+TMPro.TMP_MaterialManager:GetMaterialForRendering(MaskableGraphic, Material)
+TMPro.TextMeshProUGUI:UpdateMaterial()
+TMPro.TextMeshProUGUI:Rebuild(CanvasUpdate)
+UnityEngine.UI.CanvasUpdateRegistry:PerformUpdate()
+UnityEngine.AI.OnNavMeshPreUpdate:Invoke()
+
+SoftMask will not work on Text (TMPro.TextMeshProUGUI) because material 210YouthL SDF Material (UnityEngine.Material) doesn't support masking. Add masking support to your material or set Graphic's material to None to use a default one.
+UnityEngine.Logger:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Debug:LogWarningFormat(Object, String, Object[])
+SoftMasking.SoftMaskable:GetModifiedMaterial(Material)
+TMPro.TMP_MaterialManager:GetMaterialForRendering(MaskableGraphic, Material)
+TMPro.TextMeshProUGUI:UpdateMaterial()
+TMPro.TextMeshProUGUI:Rebuild(CanvasUpdate)
+UnityEngine.UI.CanvasUpdateRegistry:PerformUpdate()
+UnityEngine.AI.OnNavMeshPreUpdate:Invoke()
+
+Parent of RectTransform is being set with parent property. Consider using the SetParent method instead, with the worldPositionStays argument set to false. This will retain local orientation and scale rather than world orientation and scale, which can prevent common UI scaling issues.
+UnityEngine.Logger:Log(LogType, Object, Object)
+UnityEngine.Debug:LogWarning(Object, Object)
+UnityEngine.Transform:set_parent(Transform)
+SushiBarMenuActionList:AtttacheingredientsPanel()
+SushiBarMenuActionPanel:InvokeActionMenu()
+SushiBarMenuScroller:OnSelect()
+RecipeScrollerSheet:OnDirectHandler(Input)
+ManagementPanel:OnDirectHandler(Input)
+UnityEngine.Events.UnityAction`1:Invoke(T0)
+UnityEngine.Events.InvokableCall`1:Invoke(T1)
+UnityEngine.Events.UnityEvent`1:Invoke(T0)
+InputSystemWrapper.Handler`4:Handle(Input)
+BecameInactiveEventHandler:Invoke()
+UnityEngine.InputSystem.Utilities.DelegateHelpers:InvokeCallbacksSafe(CallbackArray`1&, String, Object)
+UnityEngine.InputSystem.InputManager:InvokeAfterUpdateCallback(InputUpdateType)
+UnityEngine.InputSystem.InputManager:OnUpdate(InputUpdateType, InputEventBuffer&)
+InputSystemWrapper.OnActionHandler:Invoke(TEnumAction, CallbackContext)
+UnityEngine.InputSystem.LowLevel.<>c__DisplayClass7_0:<set_onUpdate>b__0(NativeInputUpdateType, NativeInputEventBuffer*)
+InputSystemWrapper.OnActionHandler:Invoke(TEnumAction, CallbackContext)
+UnityEngineInternal.Input.NativeInputSystem:NotifyUpdate(NativeInputUpdateType, IntPtr)
+
+Parent of RectTransform is being set with parent property. Consider using the SetParent method instead, with the worldPositionStays argument set to false. This will retain local orientation and scale rather than world orientation and scale, which can prevent common UI scaling issues.
+UnityEngine.Logger:Log(LogType, Object, Object)
+UnityEngine.Debug:LogWarning(Object, Object)
+UnityEngine.Transform:set_parent(Transform)
+SushiBarMenuActionList:AtttacheingredientsPanel()
+SushiBarMenuActionPanel:InvokeActionMenu()
+SushiBarMenuScroller:OnSelect()
+RecipeScrollerSheet:OnDirectHandler(Input)
+ManagementPanel:OnDirectHandler(Input)
+UnityEngine.Events.UnityAction`1:Invoke(T0)
+UnityEngine.Events.InvokableCall`1:Invoke(T1)
+UnityEngine.Events.UnityEvent`1:Invoke(T0)
+InputSystemWrapper.Handler`4:Handle(Input)
+BecameInactiveEventHandler:Invoke()
+UnityEngine.InputSystem.Utilities.DelegateHelpers:InvokeCallbacksSafe(CallbackArray`1&, String, Object)
+UnityEngine.InputSystem.InputManager:InvokeAfterUpdateCallback(InputUpdateType)
+UnityEngine.InputSystem.InputManager:OnUpdate(InputUpdateType, InputEventBuffer&)
+InputSystemWrapper.OnActionHandler:Invoke(TEnumAction, CallbackContext)
+UnityEngine.InputSystem.LowLevel.<>c__DisplayClass7_0:<set_onUpdate>b__0(NativeInputUpdateType, NativeInputEventBuffer*)
+InputSystemWrapper.OnActionHandler:Invoke(TEnumAction, CallbackContext)
+UnityEngineInternal.Input.NativeInputSystem:NotifyUpdate(NativeInputUpdateType, IntPtr)
+
+Unloading 3 Unused Serialized files (Serialized files now loaded: 457)
+Releasing render texture that is set as Camera.targetTexture!
+UnityEngine.ResourceManagement.ResourceProviders.AssetBundleProvider:Release(IResourceLocation, Object)
+UnityEngine.ResourceManagement.AsyncOperations.ProviderOperation`1:Destroy()
+UnityEngine.ResourceManagement.AsyncOperations.AsyncOperationBase`1:DecrementReferenceCount()
+UnityEngine.ResourceManagement.AsyncOperations.GroupOperation:ReleaseDependencies()
+UnityEngine.ResourceManagement.AsyncOperations.AsyncOperationBase`1:DecrementReferenceCount()
+UnityEngine.ResourceManagement.AsyncOperations.AsyncOperationHandle`1:Release()
+UnityEngine.ResourceManagement.AsyncOperations.ProviderOperation`1:Destroy()
+UnityEngine.ResourceManagement.AsyncOperations.AsyncOperationBase`1:DecrementReferenceCount()
+UnityEngine.ResourceManagement.ResourceProviders.InstanceProvider:ReleaseInstance(ResourceManager, GameObject)
+UnityEngine.ResourceManagement.AsyncOperations.AsyncOperationBase`1:DecrementReferenceCount()
+UnityEngine.ResourceManagement.ResourceManager:Release(AsyncOperationHandle)
+UnityEngine.AddressableAssets.Addressables:ReleaseInstance(GameObject)
+ManagementPanel:OnDestroy()
+
+[ line 2039404888]
+
+UnloadTime: 146.454200 ms
+
+Unloading 5392 unused Assets to reduce memory usage. Loaded Objects now: 122457.
+Total: 226.829000 ms (FindLiveObjects: 5.391500 ms CreateObjectMapping: 4.717400 ms MarkObjects: 208.326200 ms  DeleteObjects: 8.393300 ms)
+
+Unloading 0 Unused Serialized files (Serialized files now loaded: 442)
+
+Unloading 0 unused Assets to reduce memory usage. Loaded Objects now: 122457.
+Total: 196.011100 ms (FindLiveObjects: 5.460300 ms CreateObjectMapping: 4.366200 ms MarkObjects: 185.959300 ms  DeleteObjects: 0.224600 ms)
+
+Unloading 1 Unused Serialized files (Serialized files now loaded: 445)
+UnloadTime: 0.880500 ms
+
+Unloading 6 unused Assets to reduce memory usage. Loaded Objects now: 122631.
+Total: 195.429400 ms (FindLiveObjects: 5.036300 ms CreateObjectMapping: 4.240300 ms MarkObjects: 185.883800 ms  DeleteObjects: 0.268000 ms)
+
+Unloading 1 Unused Serialized files (Serialized files now loaded: 445)
+UnloadTime: 1.249300 ms
+
+Unloading 836 unused Assets to reduce memory usage. Loaded Objects now: 122457.
+Total: 195.473900 ms (FindLiveObjects: 5.063100 ms CreateObjectMapping: 4.361200 ms MarkObjects: 184.337400 ms  DeleteObjects: 1.711500 ms)
+
+Unloading 0 Unused Serialized files (Serialized files now loaded: 442)
+
+Unloading 0 unused Assets to reduce memory usage. Loaded Objects now: 122457.
+Total: 194.544500 ms (FindLiveObjects: 5.264900 ms CreateObjectMapping: 4.049500 ms MarkObjects: 185.001900 ms  DeleteObjects: 0.227400 ms)
+
+Unloading 1 Unused Serialized files (Serialized files now loaded: 444)
+UnloadTime: 0.798900 ms
+
+Unloading 261 unused Assets to reduce memory usage. Loaded Objects now: 135203.
+Total: 214.903100 ms (FindLiveObjects: 5.957500 ms CreateObjectMapping: 4.581100 ms MarkObjects: 203.775600 ms  DeleteObjects: 0.588100 ms)
+
+Req StartScenario :Main_Mission10 ,[Option]isIgnorePlayingScenario : False
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+ScenarioManager:StartScenario(String, Action`1, Boolean, Boolean, Boolean)
+<ProcessMissionSequenceV2>d__190:MoveNext()
+UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+
+Req StartScenario :Main_Mission10_AfterCharmTutorial ,[Option]isIgnorePlayingScenario : False
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+ScenarioManager:StartScenario(String, Action`1, Boolean, Boolean, Boolean)
+TutorialStepHelper:StartDaialogueStep()
+TutorialStepHelper:ActivateTutorial()
+TutorialStepHelper:StartTutorialStep(Action)
+UnityEngine.AI.OnNavMeshPreUpdate:Invoke()
+DG.Tweening.Tween:OnTweenCallback(TweenCallback, Tween)
+DG.Tweening.Tween:DoGoto(Tween, Single, Int32, UpdateMode)
+DG.Tweening.Core.TweenManager:Update(Tween, Single, Single, Boolean)
+DG.Tweening.Core.TweenManager:Update(UpdateType, Single, Single)
+DG.Tweening.Core.DOTweenComponent:Update()
+
+Req StartScenario :ManagementApp_Contents_Unlock_Yoshie ,[Option]isIgnorePlayingScenario : False
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+ScenarioManager:StartScenario(String, Action`1, Boolean, Boolean, Boolean)
+<ProcessMissionSequenceV2>d__190:MoveNext()
+UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+
+Req StartScenario :Main_Mission10_1_Complete ,[Option]isIgnorePlayingScenario : False
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+ScenarioManager:StartScenario(String, Action`1, Boolean, Boolean, Boolean)
+<ProcessMissionSequenceV2>d__190:MoveNext()
+UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+
+Unloading 2 Unused Serialized files (Serialized files now loaded: 441)
+UnloadTime: 24.878400 ms
+
+Unloading 4867 unused Assets to reduce memory usage. Loaded Objects now: 43644.
+Total: 121.447200 ms (FindLiveObjects: 2.193500 ms CreateObjectMapping: 1.758300 ms MarkObjects: 112.184200 ms  DeleteObjects: 5.310600 ms)
+
+Unloading 0 Unused Serialized files (Serialized files now loaded: 417)
+
+Unloading 0 unused Assets to reduce memory usage. Loaded Objects now: 43644.
+Total: 115.702500 ms (FindLiveObjects: 1.818200 ms CreateObjectMapping: 1.435500 ms MarkObjects: 112.390200 ms  DeleteObjects: 0.058000 ms)
+
+Unloading 1 Unused Serialized files (Serialized files now loaded: 422)
+UnloadTime: 0.542300 ms
+
+Unloading 8655 unused Assets to reduce memory usage. Loaded Objects now: 86836.
+Total: 159.813300 ms (FindLiveObjects: 3.107500 ms CreateObjectMapping: 2.775500 ms MarkObjects: 151.432800 ms  DeleteObjects: 2.497000 ms)
+
+Animation Count is 1
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+AnimationInstancingMgr:ReadTexture(BinaryReader, String)
+AnimationManager:CreateAnimationInfoFromFile(GameObject, AnimationInstancing)
+AnimationInstancing:InitializeAnimation()
+AnimationInstancingMgr:AddInstance(GameObject)
+AnimationInstancing:Start()
+
+Can Support Instancing
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+
+The referenced script on this Behaviour (Game Object '<null>') is missing!
+The referenced script on this Behaviour (Game Object '<null>') is missing!
+Failed to create agent because there is no valid NavMesh
+UnityEngine.Object:Instantiate(Object, Vector3, Quaternion, Transform)
+UnityEngine.Object:Instantiate(T, Vector3, Quaternion, Transform)
+FishAllocator:DoInstanceFishOrGroup(GameObject, Action`1, Boolean)
+<InstanceCheckRoutine>d__38:MoveNext()
+UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+
+[ line 2039407144]
+
+Failed to create agent because there is no valid NavMesh
+UnityEngine.Object:Instantiate(Object, Vector3, Quaternion, Transform)
+UnityEngine.Object:Instantiate(T, Vector3, Quaternion, Transform)
+FishAllocator:DoInstanceFishOrGroup(GameObject, Action`1, Boolean)
+<InstanceCheckRoutine>d__38:MoveNext()
+UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+
+[ line 2039407144]
+
+Failed to create agent because there is no valid NavMesh
+UnityEngine.Object:Instantiate(Object, Vector3, Quaternion, Transform)
+UnityEngine.Object:Instantiate(T, Vector3, Quaternion, Transform)
+FishAllocator:DoInstanceFishOrGroup(GameObject, Action`1, Boolean)
+<InstanceCheckRoutine>d__38:MoveNext()
+UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+
+[ line 2039407144]
+
+Failed to create agent because there is no valid NavMesh
+UnityEngine.Object:Instantiate(Object, Vector3, Quaternion, Transform)
+UnityEngine.Object:Instantiate(T, Vector3, Quaternion, Transform)
+FishAllocator:DoInstanceFishOrGroup(GameObject, Action`1, Boolean)
+<InstanceCheckRoutine>d__38:MoveNext()
+UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+
+[ line 2039407144]
+
+Failed to create agent because there is no valid NavMesh
+UnityEngine.Object:Instantiate(Object, Vector3, Quaternion, Transform)
+UnityEngine.Object:Instantiate(T, Vector3, Quaternion, Transform)
+FishAllocator:DoInstanceFishOrGroup(GameObject, Action`1, Boolean)
+<InstanceCheckRoutine>d__38:MoveNext()
+UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+
+[ line 2039407144]
+
+Failed to create agent because there is no valid NavMesh
+UnityEngine.Object:Instantiate(Object, Vector3, Quaternion, Transform)
+UnityEngine.Object:Instantiate(T, Vector3, Quaternion, Transform)
+FishAllocator:DoInstanceFishOrGroup(GameObject, Action`1, Boolean)
+<InstanceCheckRoutine>d__38:MoveNext()
+UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+
+[ line 2039407144]
+
+Failed to create agent because there is no valid NavMesh
+UnityEngine.Object:Instantiate(Object, Vector3, Quaternion, Transform)
+UnityEngine.Object:Instantiate(T, Vector3, Quaternion, Transform)
+FishAllocator:DoInstanceFishOrGroup(GameObject, Action`1, Boolean)
+<InstanceCheckRoutine>d__38:MoveNext()
+UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+
+[ line 2039407144]
+
+Failed to create agent because there is no valid NavMesh
+UnityEngine.Object:Instantiate(Object, Vector3, Quaternion, Transform)
+UnityEngine.Object:Instantiate(T, Vector3, Quaternion, Transform)
+FishAllocator:DoInstanceFishOrGroup(GameObject, Action`1, Boolean)
+<InstanceCheckRoutine>d__38:MoveNext()
+UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+
+[ line 2039407144]
+
+Failed to create agent because there is no valid NavMesh
+UnityEngine.Object:Instantiate(Object, Vector3, Quaternion, Transform)
+UnityEngine.Object:Instantiate(T, Vector3, Quaternion, Transform)
+FishAllocator:DoInstanceFishOrGroup(GameObject, Action`1, Boolean)
+<InstanceCheckRoutine>d__38:MoveNext()
+UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+
+[ line 2039407144]
+
+Failed to create agent because there is no valid NavMesh
+UnityEngine.Object:Instantiate(Object, Vector3, Quaternion, Transform)
+UnityEngine.Object:Instantiate(T, Vector3, Quaternion, Transform)
+FishAllocator:DoInstanceFishOrGroup(GameObject, Action`1, Boolean)
+<InstanceCheckRoutine>d__38:MoveNext()
+UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+
+[ line 2039407144]
+
+Failed to create agent because there is no valid NavMesh
+UnityEngine.Object:Instantiate(Object, Vector3, Quaternion, Transform)
+UnityEngine.Object:Instantiate(T, Vector3, Quaternion, Transform)
+FishAllocator:DoInstanceFishOrGroup(GameObject, Action`1, Boolean)
+<InstanceCheckRoutine>d__38:MoveNext()
+UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+
+[ line 2039407144]
+
+Failed to create agent because there is no valid NavMesh
+UnityEngine.Object:Instantiate(Object, Vector3, Quaternion, Transform)
+UnityEngine.Object:Instantiate(T, Vector3, Quaternion, Transform)
+FishAllocator:DoInstanceFishOrGroup(GameObject, Action`1, Boolean)
+<InstanceCheckRoutine>d__38:MoveNext()
+UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+
+[ line 2039407144]
+
+Req StartScenario :Main_Mission10_2 ,[Option]isIgnorePlayingScenario : True
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+ScenarioManager:StartScenario(String, Action`1, Boolean, Boolean, Boolean)
+<ProcessMissionSequenceV2>d__190:MoveNext()
+UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+
+Failed to create agent because there is no valid NavMesh
+UnityEngine.Object:Instantiate(Object, Vector3, Quaternion, Transform)
+UnityEngine.Object:Instantiate(T, Vector3, Quaternion, Transform)
+FishAllocator:DoInstanceFishOrGroup(GameObject, Action`1, Boolean)
+<InstanceCheckRoutine>d__38:MoveNext()
+UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+
+[ line 2039407144]
+
+Failed to create agent because there is no valid NavMesh
+UnityEngine.Object:Instantiate(Object, Vector3, Quaternion, Transform)
+UnityEngine.Object:Instantiate(T, Vector3, Quaternion, Transform)
+FishAllocator:DoInstanceFishOrGroup(GameObject, Action`1, Boolean)
+<InstanceCheckRoutine>d__38:MoveNext()
+UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+
+[ line 2039407144]
+
+Please play only one sound for the audioSourceTransform.
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:LogWarning(Object)
+SoundManager:PlaySound(SoundPlayInfo, Transform, Boolean, SameClipPlayType)
+AniClipSoundEvent:Fire(Animator)
+AniEventConsumer:OnAniClipSoundEvent(AnimationEvent)
+
+Failed to create agent because there is no valid NavMesh
+UnityEngine.Object:Instantiate(Object, Vector3, Quaternion, Transform)
+UnityEngine.Object:Instantiate(T, Vector3, Quaternion, Transform)
+FishAllocator:DoInstanceFishOrGroup(GameObject, Action`1, Boolean)
+<InstanceCheckRoutine>d__38:MoveNext()
+UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+
+[ line 2039407144]
+
+Failed to create agent because there is no valid NavMesh
+UnityEngine.Object:Instantiate(Object, Vector3, Quaternion, Transform)
+UnityEngine.Object:Instantiate(T, Vector3, Quaternion, Transform)
+FishAllocator:DoInstanceFishOrGroup(GameObject, Action`1, Boolean)
+<InstanceCheckRoutine>d__38:MoveNext()
+UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+
+[ line 2039407144]
+
+Please play only one sound for the audioSourceTransform.
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:LogWarning(Object)
+SoundManager:PlaySound(SoundPlayInfo, Transform, Boolean, SameClipPlayType)
+AniClipSoundEvent:Fire(Animator)
+AniEventConsumer:OnAniClipSoundEvent(AnimationEvent)
+
+Failed to create agent because there is no valid NavMesh
+UnityEngine.Object:Instantiate(Object, Vector3, Quaternion, Transform)
+UnityEngine.Object:Instantiate(T, Vector3, Quaternion, Transform)
+FishAllocator:DoInstanceFishOrGroup(GameObject, Action`1, Boolean)
+<InstanceCheckRoutine>d__38:MoveNext()
+UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+
+[ line 2039407144]
+
+Failed to create agent because there is no valid NavMesh
+UnityEngine.Object:Instantiate(Object, Vector3, Quaternion, Transform)
+UnityEngine.Object:Instantiate(T, Vector3, Quaternion, Transform)
+FishAllocator:DoInstanceFishOrGroup(GameObject, Action`1, Boolean)
+<InstanceCheckRoutine>d__38:MoveNext()
+UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+
+[ line 2039407144]
+
+Failed to create agent because there is no valid NavMesh
+UnityEngine.Object:Instantiate(Object, Vector3, Quaternion, Transform)
+UnityEngine.Object:Instantiate(T, Vector3, Quaternion, Transform)
+FishAllocator:DoInstanceFishOrGroup(GameObject, Action`1, Boolean)
+<InstanceCheckRoutine>d__38:MoveNext()
+UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+
+[ line 2039407144]
+
+Req StartScenario :C_Area_Block ,[Option]isIgnorePlayingScenario : False
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+ScenarioManager:StartScenario(String, Action`1, Boolean, Boolean, Boolean)
+BarricadeTrigger:EnterPlayer(Vector3)
+BarricadeTrigger:OnTriggerEnter2DInternal(Collider2D)
+BarricadeTrigger:OnTriggerEnter2D(Collider2D)
+
+Failed to create agent because there is no valid NavMesh
+UnityEngine.Object:Instantiate(Object, Vector3, Quaternion, Transform)
+UnityEngine.Object:Instantiate(T, Vector3, Quaternion, Transform)
+FishAllocator:DoInstanceFishOrGroup(GameObject, Action`1, Boolean)
+<InstanceCheckRoutine>d__38:MoveNext()
+UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+
+[ line 2039407144]
+
+Failed to create agent because there is no valid NavMesh
+UnityEngine.Object:Instantiate(Object, Vector3, Quaternion, Transform)
+UnityEngine.Object:Instantiate(T, Vector3, Quaternion, Transform)
+FishAllocator:DoInstanceFishOrGroup(GameObject, Action`1, Boolean)
+<InstanceCheckRoutine>d__38:MoveNext()
+UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+
+[ line 2039407144]
+
+Failed to create agent because there is no valid NavMesh
+UnityEngine.Object:Instantiate(Object, Vector3, Quaternion, Transform)
+UnityEngine.Object:Instantiate(T, Vector3, Quaternion, Transform)
+FishAllocator:DoInstanceFishOrGroup(GameObject, Action`1, Boolean)
+<InstanceCheckRoutine>d__38:MoveNext()
+UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+
+[ line 2039407144]
+
+Req StartScenario :C_Area_Block ,[Option]isIgnorePlayingScenario : False
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+ScenarioManager:StartScenario(String, Action`1, Boolean, Boolean, Boolean)
+BarricadeTrigger:EnterPlayer(Vector3)
+BarricadeTrigger:OnTriggerEnter2DInternal(Collider2D)
+BarricadeTrigger:OnTriggerEnter2D(Collider2D)
+
+Unloading 2 Unused Serialized files (Serialized files now loaded: 450)
+UnloadTime: 170.967500 ms
+
+Unloading 28860 unused Assets to reduce memory usage. Loaded Objects now: 44089.
+Total: 165.911800 ms (FindLiveObjects: 3.007100 ms CreateObjectMapping: 3.306700 ms MarkObjects: 143.465800 ms  DeleteObjects: 16.131400 ms)
+
+Unloading 1 Unused Serialized files (Serialized files now loaded: 421)
+UnloadTime: 0.770600 ms
+
+Unloading 283 unused Assets to reduce memory usage. Loaded Objects now: 43637.
+Total: 115.227000 ms (FindLiveObjects: 2.027200 ms CreateObjectMapping: 1.397700 ms MarkObjects: 110.381900 ms  DeleteObjects: 1.419100 ms)
+
+Unloading 0 Unused Serialized files (Serialized files now loaded: 418)
+
+Unloading 0 unused Assets to reduce memory usage. Loaded Objects now: 43637.
+Total: 115.076700 ms (FindLiveObjects: 1.693400 ms CreateObjectMapping: 1.300400 ms MarkObjects: 111.992400 ms  DeleteObjects: 0.089600 ms)
+
+Unloading 1 Unused Serialized files (Serialized files now loaded: 421)
+UnloadTime: 0.431900 ms
+
+Unloading 265 unused Assets to reduce memory usage. Loaded Objects now: 56491.
+Total: 130.797000 ms (FindLiveObjects: 2.193700 ms CreateObjectMapping: 2.120000 ms MarkObjects: 126.010600 ms  DeleteObjects: 0.471400 ms)
+
+The AnimationClip 'LobbyCloudMove007' used by the Animation component 'Cloud001 (2)' must be marked as Legacy.
+UnityEngine.Object:Instantiate(Object, Transform, Boolean)
+UnityEngine.Object:Instantiate(T, Transform, Boolean)
+UnityEngine.ResourceManagement.ResourceProviders.InstantiationParameters:Instantiate(TObject)
+UnityEngine.ResourceManagement.ResourceProviders.InstanceProvider:ProvideInstance(ResourceManager, AsyncOperationHandle`1, InstantiationParameters)
+UnityEngine.ResourceManagement.InstanceOperation:Execute()
+UnityEngine.ResourceManagement.AsyncOperations.AsyncOperationBase`1:InvokeExecute()
+System.Action`1:Invoke(T)
+UnityEngine.ResourceManagement.AsyncOperations.<>c__DisplayClass57_0:<add_CompletedTypeless>b__0(AsyncOperationHandle`1)
+System.Action`1:Invoke(T)
+DelegateList`1:Invoke(T)
+UnityEngine.ResourceManagement.AsyncOperations.AsyncOperationBase`1:InvokeCompletionEvent()
+UnityEngine.ResourceManagement.AsyncOperations.AsyncOperationBase`1:Complete(TObject, Boolean, Exception, Boolean)
+UnityEngine.ResourceManagement.AsyncOperations.ProviderOperation`1:ProviderCompleted(T, Boolean, Exception)
+UnityEngine.ResourceManagement.ResourceProviders.InternalOp:CompleteOperation()
+System.Action`1:Invoke(T)
+UnityEngine.AsyncOperation:InvokeCompletionEvent()
+
+[ line 2039405544]
+
+Default clip could not be found in attached animations list.
+UnityEngine.Object:Instantiate(Object, Transform, Boolean)
+UnityEngine.Object:Instantiate(T, Transform, Boolean)
+UnityEngine.ResourceManagement.ResourceProviders.InstantiationParameters:Instantiate(TObject)
+UnityEngine.ResourceManagement.ResourceProviders.InstanceProvider:ProvideInstance(ResourceManager, AsyncOperationHandle`1, InstantiationParameters)
+UnityEngine.ResourceManagement.InstanceOperation:Execute()
+UnityEngine.ResourceManagement.AsyncOperations.AsyncOperationBase`1:InvokeExecute()
+System.Action`1:Invoke(T)
+UnityEngine.ResourceManagement.AsyncOperations.<>c__DisplayClass57_0:<add_CompletedTypeless>b__0(AsyncOperationHandle`1)
+System.Action`1:Invoke(T)
+DelegateList`1:Invoke(T)
+UnityEngine.ResourceManagement.AsyncOperations.AsyncOperationBase`1:InvokeCompletionEvent()
+UnityEngine.ResourceManagement.AsyncOperations.AsyncOperationBase`1:Complete(TObject, Boolean, Exception, Boolean)
+UnityEngine.ResourceManagement.AsyncOperations.ProviderOperation`1:ProviderCompleted(T, Boolean, Exception)
+UnityEngine.ResourceManagement.ResourceProviders.InternalOp:CompleteOperation()
+System.Action`1:Invoke(T)
+UnityEngine.AsyncOperation:InvokeCompletionEvent()
+
+[ line 2039405896]
+
+Req StartScenario :Main_Mission10_Complete ,[Option]isIgnorePlayingScenario : False
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+ScenarioManager:StartScenario(String, Action`1, Boolean, Boolean, Boolean)
+<StartScenarioRoutinue>d__38:MoveNext()
+UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+
+Req StartScenario :Main_Mission11 ,[Option]isIgnorePlayingScenario : False
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+ScenarioManager:StartScenario(String, Action`1, Boolean, Boolean, Boolean)
+<ProcessMissionSequenceV2>d__190:MoveNext()
+UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+
+Unloading 2 Unused Serialized files (Serialized files now loaded: 428)
+UnloadTime: 26.389200 ms
+
+Unloading 1450 unused Assets to reduce memory usage. Loaded Objects now: 43840.
+Total: 156.730500 ms (FindLiveObjects: 2.388800 ms CreateObjectMapping: 1.985700 ms MarkObjects: 149.269100 ms  DeleteObjects: 3.086400 ms)
+
+Unloading 0 Unused Serialized files (Serialized files now loaded: 417)
+
+Unloading 0 unused Assets to reduce memory usage. Loaded Objects now: 43840.
+Total: 150.360800 ms (FindLiveObjects: 2.125500 ms CreateObjectMapping: 1.408300 ms MarkObjects: 146.731000 ms  DeleteObjects: 0.095300 ms)
+
+Unloading 1 Unused Serialized files (Serialized files now loaded: 419)
+UnloadTime: 0.547800 ms
+
+Unloading 7403 unused Assets to reduce memory usage. Loaded Objects now: 98516.
+Total: 172.804100 ms (FindLiveObjects: 4.060500 ms CreateObjectMapping: 3.044300 ms MarkObjects: 163.581100 ms  DeleteObjects: 2.116900 ms)
+
+Animation Count is 1
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+AnimationInstancingMgr:ReadTexture(BinaryReader, String)
+AnimationManager:CreateAnimationInfoFromFile(GameObject, AnimationInstancing)
+AnimationInstancing:InitializeAnimation()
+AnimationInstancingMgr:AddInstance(GameObject)
+AnimationInstancing:Start()
+
+Animation Count is 1
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+AnimationInstancingMgr:ReadTexture(BinaryReader, String)
+AnimationManager:CreateAnimationInfoFromFile(GameObject, AnimationInstancing)
+AnimationInstancing:InitializeAnimation()
+AnimationInstancingMgr:AddInstance(GameObject)
+AnimationInstancing:Start()
+
+Can Support Instancing
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+
+The referenced script on this Behaviour (Game Object '<null>') is missing!
+The referenced script on this Behaviour (Game Object '<null>') is missing!
+Failed to create agent because there is no valid NavMesh
+UnityEngine.Object:Instantiate(Object, Vector3, Quaternion, Transform)
+UnityEngine.Object:Instantiate(T, Vector3, Quaternion, Transform)
+FishAllocator:DoInstanceFishOrGroup(GameObject, Action`1, Boolean)
+<InstanceCheckRoutine>d__38:MoveNext()
+UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+
+[ line 2039407144]
+
+Failed to create agent because there is no valid NavMesh
+UnityEngine.Object:Instantiate(Object, Vector3, Quaternion, Transform)
+UnityEngine.Object:Instantiate(T, Vector3, Quaternion, Transform)
+FishAllocator:DoInstanceFishOrGroup(GameObject, Action`1, Boolean)
+<InstanceCheckRoutine>d__38:MoveNext()
+UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+
+[ line 2039407144]
+
+Failed to create agent because there is no valid NavMesh
+UnityEngine.Object:Instantiate(Object, Vector3, Quaternion, Transform)
+UnityEngine.Object:Instantiate(T, Vector3, Quaternion, Transform)
+FishAllocator:DoInstanceFishOrGroup(GameObject, Action`1, Boolean)
+<InstanceCheckRoutine>d__38:MoveNext()
+UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+
+[ line 2039407144]
+
+Failed to create agent because there is no valid NavMesh
+UnityEngine.Object:Instantiate(Object, Vector3, Quaternion, Transform)
+UnityEngine.Object:Instantiate(T, Vector3, Quaternion, Transform)
+FishAllocator:DoInstanceFishOrGroup(GameObject, Action`1, Boolean)
+<InstanceCheckRoutine>d__38:MoveNext()
+UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+
+[ line 2039407144]
+
+Failed to create agent because there is no valid NavMesh
+UnityEngine.Object:Instantiate(Object, Vector3, Quaternion, Transform)
+UnityEngine.Object:Instantiate(T, Vector3, Quaternion, Transform)
+FishAllocator:DoInstanceFishOrGroup(GameObject, Action`1, Boolean)
+<InstanceCheckRoutine>d__38:MoveNext()
+UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+
+[ line 2039407144]
+
+Failed to create agent because there is no valid NavMesh
+UnityEngine.Object:Instantiate(Object, Vector3, Quaternion, Transform)
+UnityEngine.Object:Instantiate(T, Vector3, Quaternion, Transform)
+FishAllocator:DoInstanceFishOrGroup(GameObject, Action`1, Boolean)
+<InstanceCheckRoutine>d__38:MoveNext()
+UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+
+[ line 2039407144]
+
+Failed to create agent because there is no valid NavMesh
+UnityEngine.Object:Instantiate(Object, Vector3, Quaternion, Transform)
+UnityEngine.Object:Instantiate(T, Vector3, Quaternion, Transform)
+FishAllocator:DoInstanceFishOrGroup(GameObject, Action`1, Boolean)
+<InstanceCheckRoutine>d__38:MoveNext()
+UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+
+[ line 2039407144]
+
+Failed to create agent because there is no valid NavMesh
+UnityEngine.Object:Instantiate(Object, Vector3, Quaternion, Transform)
+UnityEngine.Object:Instantiate(T, Vector3, Quaternion, Transform)
+FishAllocator:DoInstanceFishOrGroup(GameObject, Action`1, Boolean)
+<InstanceCheckRoutine>d__38:MoveNext()
+UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+
+[ line 2039407144]
+
+Failed to create agent because there is no valid NavMesh
+UnityEngine.Object:Instantiate(Object, Vector3, Quaternion, Transform)
+UnityEngine.Object:Instantiate(T, Vector3, Quaternion, Transform)
+FishAllocator:DoInstanceFishOrGroup(GameObject, Action`1, Boolean)
+<InstanceCheckRoutine>d__38:MoveNext()
+UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+
+[ line 2039407144]
+
+Failed to create agent because there is no valid NavMesh
+UnityEngine.Object:Instantiate(Object, Vector3, Quaternion, Transform)
+UnityEngine.Object:Instantiate(T, Vector3, Quaternion, Transform)
+FishAllocator:DoInstanceFishOrGroup(GameObject, Action`1, Boolean)
+<InstanceCheckRoutine>d__38:MoveNext()
+UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+
+[ line 2039407144]
+
+Failed to create agent because there is no valid NavMesh
+UnityEngine.Object:Instantiate(Object, Vector3, Quaternion, Transform)
+UnityEngine.Object:Instantiate(T, Vector3, Quaternion, Transform)
+FishAllocator:DoInstanceFishOrGroup(GameObject, Action`1, Boolean)
+<InstanceCheckRoutine>d__38:MoveNext()
+UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+
+[ line 2039407144]
+
+Req StartScenario :Main_Mission11_1_CutStart ,[Option]isIgnorePlayingScenario : False
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+ScenarioManager:StartScenario(String, Action`1, Boolean, Boolean, Boolean)
+Common.Contents.DialogueContainer:Show()
+BecameInactiveEventHandler:Invoke()
+UnityEngine.Events.UnityEvent:Invoke()
+Common.Contents.<OnTrigger_Do>d__23:MoveNext()
+UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+
+Req StartScenario :Main_Mission11_1_Complete ,[Option]isIgnorePlayingScenario : False
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+ScenarioManager:StartScenario(String, Action`1, Boolean, Boolean, Boolean)
+<ProcessMissionSequenceV2>d__190:MoveNext()
+UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+
+Unloading 2 Unused Serialized files (Serialized files now loaded: 443)
+UnloadTime: 156.339500 ms
+
+Unloading 39724 unused Assets to reduce memory usage. Loaded Objects now: 51976.
+Total: 192.944700 ms (FindLiveObjects: 3.911900 ms CreateObjectMapping: 5.113000 ms MarkObjects: 161.983500 ms  DeleteObjects: 21.935800 ms)
+
+Unloading 0 Unused Serialized files (Serialized files now loaded: 420)
+
+Unloading 0 unused Assets to reduce memory usage. Loaded Objects now: 51976.
+Total: 157.881400 ms (FindLiveObjects: 2.485700 ms CreateObjectMapping: 2.459200 ms MarkObjects: 151.819000 ms  DeleteObjects: 1.116700 ms)
+
+Unloading 1 Unused Serialized files (Serialized files now loaded: 422)
+UnloadTime: 0.508200 ms
+
+Unloading 4095 unused Assets to reduce memory usage. Loaded Objects now: 69308.
+Total: 186.294800 ms (FindLiveObjects: 2.562300 ms CreateObjectMapping: 2.445800 ms MarkObjects: 179.709200 ms  DeleteObjects: 1.576600 ms)
+
+Req StartScenario :Main_Mission11_2_Complete ,[Option]isIgnorePlayingScenario : False
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+ScenarioManager:StartScenario(String, Action`1, Boolean, Boolean, Boolean)
+<ProcessMissionSequenceV2>d__190:MoveNext()
+UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+
+Req StartScenario :boss000_enter ,[Option]isIgnorePlayingScenario : False
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+ScenarioManager:StartScenario(String, Action`1, Boolean, Boolean, Boolean)
+BossGiantSquidController:StartFirstContactDialog()
+BecameInactiveEventHandler:Invoke()
+UnityEngine.Events.UnityEvent:Invoke()
+EventControlTriggerBase:ExecuteDialogTrigger()
+BossGiantSquidControlTrigger:OnTriggerEnter2D(Collider2D)
+
+[SaveData] BattleInfoSaveData's BossTryCounts List is NULL.
+UnityEngine.Logger:LogFormat(LogType, String, Object[])
+UnityEngine.Debug:LogWarningFormat(String, Object[])
+SaveData:IsFirstTryBoss(EnumBossFishType)
+BossGiantSquidController:OnBossAnimationEvent(String)
+
+Req StartScenario :boss000_start ,[Option]isIgnorePlayingScenario : False
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+ScenarioManager:StartScenario(String, Action`1, Boolean, Boolean, Boolean)
+BossGiantSquidController:<StartDialogAfterFirstInkShot>b__56_0()
+UnityEngine.AI.OnNavMeshPreUpdate:Invoke()
+DG.Tweening.Tween:OnTweenCallback(TweenCallback, Tween)
+DG.Tweening.Tween:DoGoto(Tween, Single, Int32, UpdateMode)
+DG.Tweening.Core.TweenManager:Update(Tween, Single, Single, Boolean)
+DG.Tweening.Core.TweenManager:Update(UpdateType, Single, Single)
+DG.Tweening.Core.DOTweenComponent:Update()
+
+Req StartScenario :Main_Mission11_3_Complete ,[Option]isIgnorePlayingScenario : False
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+ScenarioManager:StartScenario(String, Action`1, Boolean, Boolean, Boolean)
+<ProcessMissionSequenceV2>d__190:MoveNext()
+UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+
+Req StartScenario :Main_Mission11_4_LegCutEvent ,[Option]isIgnorePlayingScenario : False
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+ScenarioManager:StartScenario(String, Action`1, Boolean, Boolean, Boolean)
+Common.Contents.DialogueContainer:Show()
+BecameInactiveEventHandler:Invoke()
+UnityEngine.Events.UnityEvent:Invoke()
+Common.Contents.<OnTrigger_Do>d__23:MoveNext()
+UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+
+Req StartScenario :boss000_exit ,[Option]isIgnorePlayingScenario : False
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+ScenarioManager:StartScenario(String, Action`1, Boolean, Boolean, Boolean)
+<ProcessMissionSequenceV2>d__190:MoveNext()
+UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+
+Unloading 2 Unused Serialized files (Serialized files now loaded: 438)
+UnloadTime: 53.039000 ms
+
+Unloading 8397 unused Assets to reduce memory usage. Loaded Objects now: 44286.
+Total: 150.015500 ms (FindLiveObjects: 2.386500 ms CreateObjectMapping: 2.013900 ms MarkObjects: 138.082100 ms  DeleteObjects: 7.532300 ms)
+
+Unloading 1 Unused Serialized files (Serialized files now loaded: 420)
+UnloadTime: 0.896100 ms
+
+Unloading 287 unused Assets to reduce memory usage. Loaded Objects now: 43835.
+Total: 151.530500 ms (FindLiveObjects: 1.983800 ms CreateObjectMapping: 1.478800 ms MarkObjects: 147.595700 ms  DeleteObjects: 0.471600 ms)
+
+Unloading 0 Unused Serialized files (Serialized files now loaded: 418)
+
+Unloading 0 unused Assets to reduce memory usage. Loaded Objects now: 43835.
+Total: 151.919700 ms (FindLiveObjects: 2.188300 ms CreateObjectMapping: 1.392400 ms MarkObjects: 148.257000 ms  DeleteObjects: 0.081400 ms)
+
+Unloading 1 Unused Serialized files (Serialized files now loaded: 421)
+UnloadTime: 0.417400 ms
+
+Unloading 265 unused Assets to reduce memory usage. Loaded Objects now: 56689.
+Total: 155.463700 ms (FindLiveObjects: 2.576000 ms CreateObjectMapping: 2.006300 ms MarkObjects: 150.401100 ms  DeleteObjects: 0.479500 ms)
+
+Req StartScenario :Main_Mission11_Complete ,[Option]isIgnorePlayingScenario : False
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+ScenarioManager:StartScenario(String, Action`1, Boolean, Boolean, Boolean)
+<StartScenarioRoutinue>d__38:MoveNext()
+UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+
+Req StartScenario :Main_Mission12 ,[Option]isIgnorePlayingScenario : False
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+ScenarioManager:StartScenario(String, Action`1, Boolean, Boolean, Boolean)
+<ProcessMissionSequenceV2>d__190:MoveNext()
+UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+
+Req StartScenario :Mission_NeedCall ,[Option]isIgnorePlayingScenario : False
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+ScenarioManager:StartScenario(String, Action`1, Boolean, Boolean, Boolean)
+Common.Contents.DialogueContainer:Show()
+BecameInactiveEventHandler:Invoke()
+UnityEngine.Events.UnityEvent:Invoke()
+Common.TargetTriggerBase:OnTrigger_Impl(Collider2D, Boolean)
+
+Parent of RectTransform is being set with parent property. Consider using the SetParent method instead, with the worldPositionStays argument set to false. This will retain local orientation and scale rather than world orientation and scale, which can prevent common UI scaling issues.
+UnityEngine.Logger:Log(LogType, Object, Object)
+UnityEngine.Debug:LogWarning(Object, Object)
+UnityEngine.Transform:set_parent(Transform)
+MissionHUD:RemoveMission(MissionData)
+MissionHUD:IMissionCompletedListener.CompletedMission(MissionData, Int32)
+<>c__DisplayClass143_0:<ApplyMissionDone>b__0(IMissionCompletedListener)
+System.Action`1:Invoke(T)
+MissionManager:ExecuteMissionEventListener(Action`1)
+MissionManager:ApplyMissionDone(MissionData, Boolean)
+<ProcessMissionSequenceV2>d__190:MoveNext()
+UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+
+Req StartScenario :Main_Mission12_complete ,[Option]isIgnorePlayingScenario : False
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+ScenarioManager:StartScenario(String, Action`1, Boolean, Boolean, Boolean)
+<StartScenarioRoutinue>d__38:MoveNext()
+UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+
+Unloading 2 Unused Serialized files (Serialized files now loaded: 450)
+UnloadTime: 17.380100 ms
+
+Unloading 1298 unused Assets to reduce memory usage. Loaded Objects now: 119911.
+Total: 234.454400 ms (FindLiveObjects: 5.088500 ms CreateObjectMapping: 4.439000 ms MarkObjects: 222.168400 ms  DeleteObjects: 2.757500 ms)
+
+Unloading 0 Unused Serialized files (Serialized files now loaded: 442)
+
+Unloading 0 unused Assets to reduce memory usage. Loaded Objects now: 119911.
+Total: 228.862300 ms (FindLiveObjects: 5.210200 ms CreateObjectMapping: 4.234800 ms MarkObjects: 219.196800 ms  DeleteObjects: 0.219800 ms)
+
+Unloading 1 Unused Serialized files (Serialized files now loaded: 445)
+UnloadTime: 0.921700 ms
+
+Unloading 6 unused Assets to reduce memory usage. Loaded Objects now: 120085.
+Total: 228.913900 ms (FindLiveObjects: 5.025200 ms CreateObjectMapping: 4.091500 ms MarkObjects: 219.538300 ms  DeleteObjects: 0.257600 ms)
+
+Req StartScenario :Intermission_Enter ,[Option]isIgnorePlayingScenario : False
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+ScenarioManager:StartScenario(String, Action`1, Boolean, Boolean, Boolean)
+<ProcessMissionSequenceV2>d__190:MoveNext()
+UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+
+Req StartScenario :Intermission_Yoshie_01 ,[Option]isIgnorePlayingScenario : False
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+ScenarioManager:StartScenario(String, Action`1, Boolean, Boolean, Boolean)
+Common.Contents.DialogueContainer:Show()
+BecameInactiveEventHandler:Invoke()
+UnityEngine.Events.UnityEvent:Invoke()
+BecameInactiveEventHandler:Invoke()
+UnityEngine.Events.UnityEvent:Invoke()
+Common.Contents.TalkTarget:Open()
+Common.Contents.TalkPanel:OnTalk()
+BecameInactiveEventHandler:Invoke()
+UnityEngine.Events.UnityEvent:Invoke()
+InputSystemWrapper.Handler`4:OnPhaseHandler(TEnumAction, CallbackContext)
+InputSystemWrapper.OnActionHandler:Invoke(TEnumAction, CallbackContext)
+InputSystemWrapper.Input:Invoke(Handler, OnActionHandler)
+InputSystemWrapper.Handler`4:Handle(Input)
+BecameInactiveEventHandler:Invoke()
+UnityEngine.InputSystem.Utilities.DelegateHelpers:InvokeCallbacksSafe(CallbackArray`1&, String, Object)
+UnityEngine.InputSystem.InputManager:InvokeAfterUpdateCallback(InputUpdateType)
+UnityEngine.InputSystem.InputManager:OnUpdate(InputUpdateType, InputEventBuffer&)
+InputSystemWrapper.OnActionHandler:Invoke(TEnumAction, CallbackContext)
+UnityEngine.InputSystem.LowLevel.<>c__DisplayClass7_0:<set_onUpdate>b__0(NativeInputUpdateType, NativeInputEventBuffer*)
+InputSystemWrapper.OnActionHandler:Invoke(TEnumAction, CallbackContext)
+UnityEngineInternal.Input.NativeInputSystem:NotifyUpdate(NativeInputUpdateType, IntPtr)
+
+Req StartScenario :Intermission_Cobra_01 ,[Option]isIgnorePlayingScenario : False
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+ScenarioManager:StartScenario(String, Action`1, Boolean, Boolean, Boolean)
+Common.Contents.DialogueContainer:Show()
+BecameInactiveEventHandler:Invoke()
+UnityEngine.Events.UnityEvent:Invoke()
+BecameInactiveEventHandler:Invoke()
+UnityEngine.Events.UnityEvent:Invoke()
+Common.Contents.TalkTarget:Open()
+Common.Contents.TalkPanel:OnTalk()
+BecameInactiveEventHandler:Invoke()
+UnityEngine.Events.UnityEvent:Invoke()
+InputSystemWrapper.Handler`4:OnPhaseHandler(TEnumAction, CallbackContext)
+InputSystemWrapper.OnActionHandler:Invoke(TEnumAction, CallbackContext)
+InputSystemWrapper.Input:Invoke(Handler, OnActionHandler)
+InputSystemWrapper.Handler`4:Handle(Input)
+BecameInactiveEventHandler:Invoke()
+UnityEngine.InputSystem.Utilities.DelegateHelpers:InvokeCallbacksSafe(CallbackArray`1&, String, Object)
+UnityEngine.InputSystem.InputManager:InvokeAfterUpdateCallback(InputUpdateType)
+UnityEngine.InputSystem.InputManager:OnUpdate(InputUpdateType, InputEventBuffer&)
+InputSystemWrapper.OnActionHandler:Invoke(TEnumAction, CallbackContext)
+UnityEngine.InputSystem.LowLevel.<>c__DisplayClass7_0:<set_onUpdate>b__0(NativeInputUpdateType, NativeInputEventBuffer*)
+InputSystemWrapper.OnActionHandler:Invoke(TEnumAction, CallbackContext)
+UnityEngineInternal.Input.NativeInputSystem:NotifyUpdate(NativeInputUpdateType, IntPtr)
+
+Req StartScenario :Intermission_Bacon_01 ,[Option]isIgnorePlayingScenario : False
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+ScenarioManager:StartScenario(String, Action`1, Boolean, Boolean, Boolean)
+Common.Contents.DialogueContainer:Show()
+BecameInactiveEventHandler:Invoke()
+UnityEngine.Events.UnityEvent:Invoke()
+BecameInactiveEventHandler:Invoke()
+UnityEngine.Events.UnityEvent:Invoke()
+Common.Contents.TalkTarget:Open()
+Common.Contents.TalkPanel:OnTalk()
+BecameInactiveEventHandler:Invoke()
+UnityEngine.Events.UnityEvent:Invoke()
+InputSystemWrapper.Handler`4:OnPhaseHandler(TEnumAction, CallbackContext)
+InputSystemWrapper.OnActionHandler:Invoke(TEnumAction, CallbackContext)
+InputSystemWrapper.Input:Invoke(Handler, OnActionHandler)
+InputSystemWrapper.Handler`4:Handle(Input)
+BecameInactiveEventHandler:Invoke()
+UnityEngine.InputSystem.Utilities.DelegateHelpers:InvokeCallbacksSafe(CallbackArray`1&, String, Object)
+UnityEngine.InputSystem.InputManager:InvokeAfterUpdateCallback(InputUpdateType)
+UnityEngine.InputSystem.InputManager:OnUpdate(InputUpdateType, InputEventBuffer&)
+InputSystemWrapper.OnActionHandler:Invoke(TEnumAction, CallbackContext)
+UnityEngine.InputSystem.LowLevel.<>c__DisplayClass7_0:<set_onUpdate>b__0(NativeInputUpdateType, NativeInputEventBuffer*)
+InputSystemWrapper.OnActionHandler:Invoke(TEnumAction, CallbackContext)
+UnityEngineInternal.Input.NativeInputSystem:NotifyUpdate(NativeInputUpdateType, IntPtr)
+
+Req StartScenario :Intermission_Bancho_01 ,[Option]isIgnorePlayingScenario : False
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+ScenarioManager:StartScenario(String, Action`1, Boolean, Boolean, Boolean)
+Common.Contents.DialogueContainer:Show()
+BecameInactiveEventHandler:Invoke()
+UnityEngine.Events.UnityEvent:Invoke()
+BecameInactiveEventHandler:Invoke()
+UnityEngine.Events.UnityEvent:Invoke()
+Common.Contents.TalkTarget:Open()
+Common.Contents.TalkPanel:OnTalk()
+BecameInactiveEventHandler:Invoke()
+UnityEngine.Events.UnityEvent:Invoke()
+InputSystemWrapper.Handler`4:OnPhaseHandler(TEnumAction, CallbackContext)
+InputSystemWrapper.OnActionHandler:Invoke(TEnumAction, CallbackContext)
+InputSystemWrapper.Input:Invoke(Handler, OnActionHandler)
+InputSystemWrapper.Handler`4:Handle(Input)
+BecameInactiveEventHandler:Invoke()
+UnityEngine.InputSystem.Utilities.DelegateHelpers:InvokeCallbacksSafe(CallbackArray`1&, String, Object)
+UnityEngine.InputSystem.InputManager:InvokeAfterUpdateCallback(InputUpdateType)
+UnityEngine.InputSystem.InputManager:OnUpdate(InputUpdateType, InputEventBuffer&)
+InputSystemWrapper.OnActionHandler:Invoke(TEnumAction, CallbackContext)
+UnityEngine.InputSystem.LowLevel.<>c__DisplayClass7_0:<set_onUpdate>b__0(NativeInputUpdateType, NativeInputEventBuffer*)
+InputSystemWrapper.OnActionHandler:Invoke(TEnumAction, CallbackContext)
+UnityEngineInternal.Input.NativeInputSystem:NotifyUpdate(NativeInputUpdateType, IntPtr)
+
+Req StartScenario :Intermission_Dave_01 ,[Option]isIgnorePlayingScenario : False
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+ScenarioManager:StartScenario(String, Action`1, Boolean, Boolean, Boolean)
+Common.Contents.DialogueContainer:Show()
+BecameInactiveEventHandler:Invoke()
+UnityEngine.Events.UnityEvent:Invoke()
+BecameInactiveEventHandler:Invoke()
+UnityEngine.Events.UnityEvent:Invoke()
+Common.Contents.TalkTarget:Open()
+Common.Contents.TalkPanel:OnTalk()
+BecameInactiveEventHandler:Invoke()
+UnityEngine.Events.UnityEvent:Invoke()
+InputSystemWrapper.Handler`4:OnPhaseHandler(TEnumAction, CallbackContext)
+InputSystemWrapper.OnActionHandler:Invoke(TEnumAction, CallbackContext)
+InputSystemWrapper.Input:Invoke(Handler, OnActionHandler)
+InputSystemWrapper.Handler`4:Handle(Input)
+BecameInactiveEventHandler:Invoke()
+UnityEngine.InputSystem.Utilities.DelegateHelpers:InvokeCallbacksSafe(CallbackArray`1&, String, Object)
+UnityEngine.InputSystem.InputManager:InvokeAfterUpdateCallback(InputUpdateType)
+UnityEngine.InputSystem.InputManager:OnUpdate(InputUpdateType, InputEventBuffer&)
+InputSystemWrapper.OnActionHandler:Invoke(TEnumAction, CallbackContext)
+UnityEngine.InputSystem.LowLevel.<>c__DisplayClass7_0:<set_onUpdate>b__0(NativeInputUpdateType, NativeInputEventBuffer*)
+InputSystemWrapper.OnActionHandler:Invoke(TEnumAction, CallbackContext)
+UnityEngineInternal.Input.NativeInputSystem:NotifyUpdate(NativeInputUpdateType, IntPtr)
+
+Parent of RectTransform is being set with parent property. Consider using the SetParent method instead, with the worldPositionStays argument set to false. This will retain local orientation and scale rather than world orientation and scale, which can prevent common UI scaling issues.
+UnityEngine.Logger:Log(LogType, Object, Object)
+UnityEngine.Debug:LogWarning(Object, Object)
+UnityEngine.Transform:set_parent(Transform)
+MissionHUD:RemoveMission(MissionData)
+MissionHUD:IMissionCompletedListener.CompletedMission(MissionData, Int32)
+<>c__DisplayClass143_0:<ApplyMissionDone>b__0(IMissionCompletedListener)
+System.Action`1:Invoke(T)
+MissionManager:ExecuteMissionEventListener(Action`1)
+MissionManager:ApplyMissionDone(MissionData, Boolean)
+<ProcessMissionSequenceV2>d__190:MoveNext()
+UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+
+Unloading 1 Unused Serialized files (Serialized files now loaded: 445)
+UnloadTime: 1.232100 ms
+
+Unloading 1890 unused Assets to reduce memory usage. Loaded Objects now: 119921.
+Total: 232.901600 ms (FindLiveObjects: 4.975200 ms CreateObjectMapping: 4.408500 ms MarkObjects: 220.284000 ms  DeleteObjects: 3.233400 ms)
+
+Unloading 0 Unused Serialized files (Serialized files now loaded: 442)
+
+Unloading 0 unused Assets to reduce memory usage. Loaded Objects now: 119921.
+Total: 230.428600 ms (FindLiveObjects: 5.207200 ms CreateObjectMapping: 4.366100 ms MarkObjects: 220.631200 ms  DeleteObjects: 0.223200 ms)
+
+Unloading 1 Unused Serialized files (Serialized files now loaded: 444)
+UnloadTime: 0.790900 ms
+
+Unloading 262 unused Assets to reduce memory usage. Loaded Objects now: 132668.
+Total: 228.363600 ms (FindLiveObjects: 5.920700 ms CreateObjectMapping: 4.597000 ms MarkObjects: 217.236800 ms  DeleteObjects: 0.608100 ms)
+
+Req StartScenario :Main_Mission13 ,[Option]isIgnorePlayingScenario : False
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+ScenarioManager:StartScenario(String, Action`1, Boolean, Boolean, Boolean)
+<ProcessMissionSequenceV2>d__190:MoveNext()
+UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+
