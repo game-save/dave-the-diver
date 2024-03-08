@@ -11,7 +11,7 @@ Direct3D:
 New input system (experimental) initialized
 <RI> Input initialized.
 <RI> Initialized touch support.
-UnloadTime: 1.655700 ms
+UnloadTime: 1.651900 ms
 Odin Serializer ArchitectureInfo initialization with defaults (all unaligned read/writes disabled).
 UnityEngine.Logger:Log(LogType, Object)
 UnityEngine.Debug:Log(Object)
@@ -24,7 +24,7 @@ Sirenix.Serialization.ArchitectureInfo:SetRuntimePlatform(RuntimePlatform)
 Sirenix.Serialization.UnitySerializationInitializer:Initialize()
 
 Unloading 5 Unused Serialized files (Serialized files now loaded: 11)
-UnloadTime: 1.032200 ms
+UnloadTime: 0.923400 ms
 Build Version : v1.0.1.1119.steam
 UnityEngine.Logger:LogFormat(LogType, String, Object[])
 UnityEngine.Debug:LogFormat(String, Object[])
@@ -32,17 +32,16 @@ LogoManager:Awake()
 
 
 Unloading 17 unused Assets to reduce memory usage. Loaded Objects now: 10005.
-Total: 23.469900 ms (FindLiveObjects: 0.759000 ms CreateObjectMapping: 0.947500 ms MarkObjects: 21.656000 ms  DeleteObjects: 0.106800 ms)
+Total: 19.119300 ms (FindLiveObjects: 0.320100 ms CreateObjectMapping: 0.296700 ms MarkObjects: 18.431800 ms  DeleteObjects: 0.070300 ms)
 
-Joystick connected ("Controller (Ultimate Wireless Controller)").
-[7.068803][SingletonAddrScriptableObject] LoadAssetAsync: obj:SoundConfigManager
+[7.109727][SingletonAddrScriptableObject] LoadAssetAsync: obj:SoundConfigManager
 UnityEngine.Logger:LogFormat(LogType, String, Object[])
 UnityEngine.Debug:LogFormat(String, Object[])
 SingletonAddrScriptableObject`1:LoadBundle(Action)
 <Init>d__20:MoveNext()
 UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
 
-[7.258275][SingletonAddrScriptableObject] COMPLETE LoadAssetAsync: obj:SoundConfigManager
+[7.261743][SingletonAddrScriptableObject] COMPLETE LoadAssetAsync: obj:SoundConfigManager
 UnityEngine.Logger:LogFormat(LogType, String, Object[])
 UnityEngine.Debug:LogFormat(String, Object[])
 <>c__DisplayClass5_0:<LoadBundle>b__0(AsyncOperationHandle`1)
@@ -100,7 +99,17 @@ UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
   204,
   104,
   300,
-  201
+  201,
+  101,
+  302,
+  301,
+  504,
+  500,
+  503,
+  501,
+  502,
+  307,
+  203
 ] Removed Value : 309
 UnityEngine.Logger:Log(LogType, Object)
 UnityEngine.Debug:LogWarning(Object)
@@ -141,147 +150,30 @@ Steamworks.CallResult`1:OnRunCallResult(IntPtr, Boolean, UInt64)
 Steamworks.CallbackDispatcher:RunFrame(Boolean)
 
 Unloading 3 Unused Serialized files (Serialized files now loaded: 387)
-UnloadTime: 0.875100 ms
+UnloadTime: 0.830800 ms
 
 Unloading 462 unused Assets to reduce memory usage. Loaded Objects now: 38617.
-Total: 109.523000 ms (FindLiveObjects: 1.494800 ms CreateObjectMapping: 1.384400 ms MarkObjects: 106.101700 ms  DeleteObjects: 0.541100 ms)
-
-Joystick disconnected ("Controller (Ultimate Wireless Controller)").
-Joystick reconnected ("Controller (Ultimate Wireless Controller)").
-[Save Convert] GameData save version 0.0.24 is target version. applying common convert
-UnityEngine.Logger:Log(LogType, Object)
-UnityEngine.Debug:LogWarning(Object)
-SaveConverterTool.SaveConvertSystem:Convert(String, String, String, Boolean&, Boolean)
-DR.Save.SaveLoadManagerBase`1:TryLoadFromSlot(Int32, Boolean, T&)
-DR.Save.SaveSystem:LoadGameDataFromSlot(Int32, Boolean)
-SaveLoadPopup:OnOK()
-UnityEngine.Events.UnityAction`1:Invoke(T0)
-UnityEngine.Events.InvokableCall`1:Invoke(T1)
-UnityEngine.Events.UnityEvent`1:Invoke(T0)
-InputSystemWrapper.Handler`4:Handle(Input)
-BecameInactiveEventHandler:Invoke()
-UnityEngine.InputSystem.Utilities.DelegateHelpers:InvokeCallbacksSafe(CallbackArray`1&, String, Object)
-UnityEngine.InputSystem.InputManager:InvokeAfterUpdateCallback(InputUpdateType)
-UnityEngine.InputSystem.InputManager:OnUpdate(InputUpdateType, InputEventBuffer&)
-InputSystemWrapper.OnActionHandler:Invoke(TEnumAction, CallbackContext)
-UnityEngine.InputSystem.LowLevel.<>c__DisplayClass7_0:<set_onUpdate>b__0(NativeInputUpdateType, NativeInputEventBuffer*)
-InputSystemWrapper.OnActionHandler:Invoke(TEnumAction, CallbackContext)
-UnityEngineInternal.Input.NativeInputSystem:NotifyUpdate(NativeInputUpdateType, IntPtr)
-
-[Save Convert] GameData Converting... Prev Ver : -100, Next Ver : -100
-UnityEngine.Logger:Log(LogType, Object)
-UnityEngine.Debug:LogWarning(Object)
-SaveConverterTool.SaveConverterBase:ConvertToTargetVersion(JObject)
-SaveConverterTool.SaveConverter_GD_Common:ConvertToTargetVersion(JObject)
-SaveConverterTool.<>c__DisplayClass4_0:<Convert>g__ApplyCommonConvert|0()
-SaveConverterTool.SaveConvertSystem:Convert(String, String, String, Boolean&, Boolean)
-DR.Save.SaveLoadManagerBase`1:TryLoadFromSlot(Int32, Boolean, T&)
-DR.Save.SaveSystem:LoadGameDataFromSlot(Int32, Boolean)
-SaveLoadPopup:OnOK()
-UnityEngine.Events.UnityAction`1:Invoke(T0)
-UnityEngine.Events.InvokableCall`1:Invoke(T1)
-UnityEngine.Events.UnityEvent`1:Invoke(T0)
-InputSystemWrapper.Handler`4:Handle(Input)
-BecameInactiveEventHandler:Invoke()
-UnityEngine.InputSystem.Utilities.DelegateHelpers:InvokeCallbacksSafe(CallbackArray`1&, String, Object)
-UnityEngine.InputSystem.InputManager:InvokeAfterUpdateCallback(InputUpdateType)
-UnityEngine.InputSystem.InputManager:OnUpdate(InputUpdateType, InputEventBuffer&)
-InputSystemWrapper.OnActionHandler:Invoke(TEnumAction, CallbackContext)
-UnityEngine.InputSystem.LowLevel.<>c__DisplayClass7_0:<set_onUpdate>b__0(NativeInputUpdateType, NativeInputEventBuffer*)
-InputSystemWrapper.OnActionHandler:Invoke(TEnumAction, CallbackContext)
-UnityEngineInternal.Input.NativeInputSystem:NotifyUpdate(NativeInputUpdateType, IntPtr)
-
-[Save Convert] Array Token "clearedEvents": [
-  0,
-  100,
-  204,
-  104,
-  300,
-  201
-] Removed Value : 309
-UnityEngine.Logger:Log(LogType, Object)
-UnityEngine.Debug:LogWarning(Object)
-SaveConverterTool.JsonConverter:RemoveFromArray(JToken, JToken)
-SaveConverterTool.SaveConverter_GD_Common:ConvertCommon(JObject)
-SaveConverterTool.<>c__DisplayClass4_0:<Convert>g__ApplyCommonConvert|0()
-SaveConverterTool.SaveConvertSystem:Convert(String, String, String, Boolean&, Boolean)
-DR.Save.SaveLoadManagerBase`1:TryLoadFromSlot(Int32, Boolean, T&)
-DR.Save.SaveSystem:LoadGameDataFromSlot(Int32, Boolean)
-SaveLoadPopup:OnOK()
-UnityEngine.Events.UnityAction`1:Invoke(T0)
-UnityEngine.Events.InvokableCall`1:Invoke(T1)
-UnityEngine.Events.UnityEvent`1:Invoke(T0)
-InputSystemWrapper.Handler`4:Handle(Input)
-BecameInactiveEventHandler:Invoke()
-UnityEngine.InputSystem.Utilities.DelegateHelpers:InvokeCallbacksSafe(CallbackArray`1&, String, Object)
-UnityEngine.InputSystem.InputManager:InvokeAfterUpdateCallback(InputUpdateType)
-UnityEngine.InputSystem.InputManager:OnUpdate(InputUpdateType, InputEventBuffer&)
-InputSystemWrapper.OnActionHandler:Invoke(TEnumAction, CallbackContext)
-UnityEngine.InputSystem.LowLevel.<>c__DisplayClass7_0:<set_onUpdate>b__0(NativeInputUpdateType, NativeInputEventBuffer*)
-InputSystemWrapper.OnActionHandler:Invoke(TEnumAction, CallbackContext)
-UnityEngineInternal.Input.NativeInputSystem:NotifyUpdate(NativeInputUpdateType, IntPtr)
-
-[Save Convert] GameData Applied Common Converting
-UnityEngine.Logger:Log(LogType, Object)
-UnityEngine.Debug:LogWarning(Object)
-SaveConverterTool.SaveConverter_GD_Common:ConvertCommon(JObject)
-SaveConverterTool.<>c__DisplayClass4_0:<Convert>g__ApplyCommonConvert|0()
-SaveConverterTool.SaveConvertSystem:Convert(String, String, String, Boolean&, Boolean)
-DR.Save.SaveLoadManagerBase`1:TryLoadFromSlot(Int32, Boolean, T&)
-DR.Save.SaveSystem:LoadGameDataFromSlot(Int32, Boolean)
-SaveLoadPopup:OnOK()
-UnityEngine.Events.UnityAction`1:Invoke(T0)
-UnityEngine.Events.InvokableCall`1:Invoke(T1)
-UnityEngine.Events.UnityEvent`1:Invoke(T0)
-InputSystemWrapper.Handler`4:Handle(Input)
-BecameInactiveEventHandler:Invoke()
-UnityEngine.InputSystem.Utilities.DelegateHelpers:InvokeCallbacksSafe(CallbackArray`1&, String, Object)
-UnityEngine.InputSystem.InputManager:InvokeAfterUpdateCallback(InputUpdateType)
-UnityEngine.InputSystem.InputManager:OnUpdate(InputUpdateType, InputEventBuffer&)
-InputSystemWrapper.OnActionHandler:Invoke(TEnumAction, CallbackContext)
-UnityEngine.InputSystem.LowLevel.<>c__DisplayClass7_0:<set_onUpdate>b__0(NativeInputUpdateType, NativeInputEventBuffer*)
-InputSystemWrapper.OnActionHandler:Invoke(TEnumAction, CallbackContext)
-UnityEngineInternal.Input.NativeInputSystem:NotifyUpdate(NativeInputUpdateType, IntPtr)
-
-[Save Convert] PhotoData save version 0.0.24 is target version. applying common convert
-UnityEngine.Logger:Log(LogType, Object)
-UnityEngine.Debug:LogWarning(Object)
-SaveConverterTool.SaveConvertSystem:Convert(String, String, String, Boolean&, Boolean)
-DR.Save.SaveLoadManagerBase`1:TryLoadFromSlot(Int32, Boolean, T&)
-DR.Save.SaveSystem:LoadGameDataFromSlot(Int32, Boolean)
-SaveLoadPopup:OnOK()
-UnityEngine.Events.UnityAction`1:Invoke(T0)
-UnityEngine.Events.InvokableCall`1:Invoke(T1)
-UnityEngine.Events.UnityEvent`1:Invoke(T0)
-InputSystemWrapper.Handler`4:Handle(Input)
-BecameInactiveEventHandler:Invoke()
-UnityEngine.InputSystem.Utilities.DelegateHelpers:InvokeCallbacksSafe(CallbackArray`1&, String, Object)
-UnityEngine.InputSystem.InputManager:InvokeAfterUpdateCallback(InputUpdateType)
-UnityEngine.InputSystem.InputManager:OnUpdate(InputUpdateType, InputEventBuffer&)
-InputSystemWrapper.OnActionHandler:Invoke(TEnumAction, CallbackContext)
-UnityEngine.InputSystem.LowLevel.<>c__DisplayClass7_0:<set_onUpdate>b__0(NativeInputUpdateType, NativeInputEventBuffer*)
-InputSystemWrapper.OnActionHandler:Invoke(TEnumAction, CallbackContext)
-UnityEngineInternal.Input.NativeInputSystem:NotifyUpdate(NativeInputUpdateType, IntPtr)
+Total: 68.397100 ms (FindLiveObjects: 1.483800 ms CreateObjectMapping: 2.185200 ms MarkObjects: 64.446800 ms  DeleteObjects: 0.280900 ms)
 
 Unloading 2 Unused Serialized files (Serialized files now loaded: 388)
-UnloadTime: 5.714000 ms
+UnloadTime: 4.099100 ms
 Setting up 6 worker threads for Enlighten.
-  Thread -> id: 5500 -> priority: 1 
-  Thread -> id: 5548 -> priority: 1 
-  Thread -> id: 5544 -> priority: 1 
-  Thread -> id: 58c -> priority: 1 
-  Thread -> id: 2bf8 -> priority: 1 
-  Thread -> id: 1b6c -> priority: 1 
+  Thread -> id: 3198 -> priority: 1 
+  Thread -> id: 38c4 -> priority: 1 
+  Thread -> id: 5758 -> priority: 1 
+  Thread -> id: 51c8 -> priority: 1 
+  Thread -> id: 20a4 -> priority: 1 
+  Thread -> id: 4634 -> priority: 1 
 
 Unloading 29 unused Assets to reduce memory usage. Loaded Objects now: 35235.
-Total: 77.742200 ms (FindLiveObjects: 1.920100 ms CreateObjectMapping: 1.300800 ms MarkObjects: 74.380300 ms  DeleteObjects: 0.140600 ms)
+Total: 64.146500 ms (FindLiveObjects: 1.304400 ms CreateObjectMapping: 1.885700 ms MarkObjects: 60.686600 ms  DeleteObjects: 0.269200 ms)
 
 Unloading 0 Unused Serialized files (Serialized files now loaded: 383)
 
 Unloading 0 unused Assets to reduce memory usage. Loaded Objects now: 35235.
-Total: 74.825000 ms (FindLiveObjects: 1.339900 ms CreateObjectMapping: 0.878200 ms MarkObjects: 72.536400 ms  DeleteObjects: 0.070100 ms)
+Total: 63.995800 ms (FindLiveObjects: 1.409300 ms CreateObjectMapping: 1.612300 ms MarkObjects: 60.915200 ms  DeleteObjects: 0.057900 ms)
 
-[88.21609][SingletonAddrScriptableObject] LoadAssetAsync: obj:DialogueAutoTalker
+[17.6829][SingletonAddrScriptableObject] LoadAssetAsync: obj:DialogueAutoTalker
 UnityEngine.Logger:LogFormat(LogType, String, Object[])
 UnityEngine.Debug:LogFormat(String, Object[])
 SingletonAddrScriptableObject`1:LoadBundle(Action)
@@ -289,7 +181,7 @@ SOSingletonFacade:Init()
 <CoChangeSceneAsync>d__78:MoveNext()
 UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
 
-[88.21862][SingletonAddrScriptableObject] LoadAssetAsync: obj:DialogueDictionary
+[17.68556][SingletonAddrScriptableObject] LoadAssetAsync: obj:DialogueDictionary
 UnityEngine.Logger:LogFormat(LogType, String, Object[])
 UnityEngine.Debug:LogFormat(String, Object[])
 SingletonAddrScriptableObject`1:LoadBundle(Action)
@@ -297,14 +189,14 @@ SOSingletonFacade:Init()
 <CoChangeSceneAsync>d__78:MoveNext()
 UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
 
-[88.21951][SingletonAddrScriptableObject] LoadAssetAsync: obj:DialogueTalkerCollection
+[17.6864][SingletonAddrScriptableObject] LoadAssetAsync: obj:DialogueTalkerCollection
 UnityEngine.Logger:LogFormat(LogType, String, Object[])
 UnityEngine.Debug:LogFormat(String, Object[])
 SingletonAddrScriptableObject`1:LoadBundle(Action)
 <CoChangeSceneAsync>d__78:MoveNext()
 UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
 
-[88.28236][SingletonAddrScriptableObject] COMPLETE LoadAssetAsync: obj:DialogueAutoTalker
+[17.74917][SingletonAddrScriptableObject] COMPLETE LoadAssetAsync: obj:DialogueAutoTalker
 UnityEngine.Logger:LogFormat(LogType, String, Object[])
 UnityEngine.Debug:LogFormat(String, Object[])
 <>c__DisplayClass5_0:<LoadBundle>b__0(AsyncOperationHandle`1)
@@ -317,7 +209,7 @@ UnityEngine.ResourceManagement.ResourceProviders.InternalOp:CompleteOperation()
 System.Action`1:Invoke(T)
 UnityEngine.AsyncOperation:InvokeCompletionEvent()
 
-[88.33264][SingletonAddrScriptableObject] COMPLETE LoadAssetAsync: obj:DialogueDictionary
+[17.7993][SingletonAddrScriptableObject] COMPLETE LoadAssetAsync: obj:DialogueDictionary
 UnityEngine.Logger:LogFormat(LogType, String, Object[])
 UnityEngine.Debug:LogFormat(String, Object[])
 <>c__DisplayClass5_0:<LoadBundle>b__0(AsyncOperationHandle`1)
@@ -330,7 +222,7 @@ UnityEngine.ResourceManagement.ResourceProviders.InternalOp:CompleteOperation()
 System.Action`1:Invoke(T)
 UnityEngine.AsyncOperation:InvokeCompletionEvent()
 
-[88.33372][SingletonAddrScriptableObject] COMPLETE LoadAssetAsync: obj:DialogueTalkerCollection
+[17.80023][SingletonAddrScriptableObject] COMPLETE LoadAssetAsync: obj:DialogueTalkerCollection
 UnityEngine.Logger:LogFormat(LogType, String, Object[])
 UnityEngine.Debug:LogFormat(String, Object[])
 <>c__DisplayClass5_0:<LoadBundle>b__0(AsyncOperationHandle`1)
@@ -344,615 +236,644 @@ System.Action`1:Invoke(T)
 UnityEngine.AsyncOperation:InvokeCompletionEvent()
 
 Unloading 1 Unused Serialized files (Serialized files now loaded: 418)
-UnloadTime: 0.347800 ms
+UnloadTime: 0.346500 ms
 
 Unloading 184 unused Assets to reduce memory usage. Loaded Objects now: 35679.
-Total: 67.169600 ms (FindLiveObjects: 1.257400 ms CreateObjectMapping: 1.125300 ms MarkObjects: 64.515800 ms  DeleteObjects: 0.270000 ms)
+Total: 68.979100 ms (FindLiveObjects: 1.303700 ms CreateObjectMapping: 2.055100 ms MarkObjects: 65.329400 ms  DeleteObjects: 0.290300 ms)
 
 Unloading 1 Unused Serialized files (Serialized files now loaded: 418)
-UnloadTime: 0.686800 ms
+UnloadTime: 0.670500 ms
 
 Unloading 7 unused Assets to reduce memory usage. Loaded Objects now: 35516.
-Total: 64.794400 ms (FindLiveObjects: 1.234500 ms CreateObjectMapping: 1.002200 ms MarkObjects: 62.427300 ms  DeleteObjects: 0.129400 ms)
+Total: 68.786300 ms (FindLiveObjects: 1.252100 ms CreateObjectMapping: 2.384400 ms MarkObjects: 65.036300 ms  DeleteObjects: 0.112400 ms)
 
 Unloading 0 Unused Serialized files (Serialized files now loaded: 416)
 
 Unloading 0 unused Assets to reduce memory usage. Loaded Objects now: 35516.
-Total: 65.566800 ms (FindLiveObjects: 1.366400 ms CreateObjectMapping: 0.914800 ms MarkObjects: 63.224000 ms  DeleteObjects: 0.060500 ms)
+Total: 69.585200 ms (FindLiveObjects: 1.333000 ms CreateObjectMapping: 2.513500 ms MarkObjects: 65.678700 ms  DeleteObjects: 0.059000 ms)
 
 Unloading 1 Unused Serialized files (Serialized files now loaded: 419)
-UnloadTime: 0.362600 ms
+UnloadTime: 0.349600 ms
 
-Unloading 341 unused Assets to reduce memory usage. Loaded Objects now: 51037.
-Total: 83.845600 ms (FindLiveObjects: 1.641900 ms CreateObjectMapping: 1.326800 ms MarkObjects: 80.100000 ms  DeleteObjects: 0.775800 ms)
+Unloading 341 unused Assets to reduce memory usage. Loaded Objects now: 51080.
+Total: 85.721200 ms (FindLiveObjects: 1.529900 ms CreateObjectMapping: 2.127800 ms MarkObjects: 81.199900 ms  DeleteObjects: 0.863100 ms)
 
-Parent of RectTransform is being set with parent property. Consider using the SetParent method instead, with the worldPositionStays argument set to false. This will retain local orientation and scale rather than world orientation and scale, which can prevent common UI scaling issues.
-UnityEngine.Logger:Log(LogType, Object, Object)
-UnityEngine.Debug:LogWarning(Object, Object)
-UnityEngine.Transform:set_parent(Transform)
-MissionHUD:RemoveMission(MissionData)
-System.Action`1:Invoke(T)
-MissionManager:ExecuteMissionEventListener(Action`1)
-MissionManager:SelectMission(Int32, Boolean)
-DR.Phone.TodoAppListPanel:OnDirectHandler(Input)
-DR.Phone.TodoAppPanel:OnDirectHandler(Input)
-UnityEngine.Events.UnityAction`1:Invoke(T0)
-UnityEngine.Events.InvokableCall`1:Invoke(T1)
-UnityEngine.Events.UnityEvent`1:Invoke(T0)
-InputSystemWrapper.Handler`4:Handle(Input)
-BecameInactiveEventHandler:Invoke()
-UnityEngine.InputSystem.Utilities.DelegateHelpers:InvokeCallbacksSafe(CallbackArray`1&, String, Object)
-UnityEngine.InputSystem.InputManager:InvokeAfterUpdateCallback(InputUpdateType)
-UnityEngine.InputSystem.InputManager:OnUpdate(InputUpdateType, InputEventBuffer&)
-InputSystemWrapper.OnActionHandler:Invoke(TEnumAction, CallbackContext)
-UnityEngine.InputSystem.LowLevel.<>c__DisplayClass7_0:<set_onUpdate>b__0(NativeInputUpdateType, NativeInputEventBuffer*)
-InputSystemWrapper.OnActionHandler:Invoke(TEnumAction, CallbackContext)
-UnityEngineInternal.Input.NativeInputSystem:NotifyUpdate(NativeInputUpdateType, IntPtr)
+Unloading 2 Unused Serialized files (Serialized files now loaded: 424)
+UnloadTime: 11.221500 ms
 
-Parent of RectTransform is being set with parent property. Consider using the SetParent method instead, with the worldPositionStays argument set to false. This will retain local orientation and scale rather than world orientation and scale, which can prevent common UI scaling issues.
-UnityEngine.Logger:Log(LogType, Object, Object)
-UnityEngine.Debug:LogWarning(Object, Object)
-UnityEngine.Transform:set_parent(Transform)
-MissionHUD:RemoveMission(MissionData)
-System.Action`1:Invoke(T)
-MissionManager:ExecuteMissionEventListener(Action`1)
-MissionManager:SelectMission(Int32, Boolean)
-DR.Phone.TodoAppListPanel:OnDirectHandler(Input)
-DR.Phone.TodoAppPanel:OnDirectHandler(Input)
-UnityEngine.Events.UnityAction`1:Invoke(T0)
-UnityEngine.Events.InvokableCall`1:Invoke(T1)
-UnityEngine.Events.UnityEvent`1:Invoke(T0)
-InputSystemWrapper.Handler`4:Handle(Input)
-BecameInactiveEventHandler:Invoke()
-UnityEngine.InputSystem.Utilities.DelegateHelpers:InvokeCallbacksSafe(CallbackArray`1&, String, Object)
-UnityEngine.InputSystem.InputManager:InvokeAfterUpdateCallback(InputUpdateType)
-UnityEngine.InputSystem.InputManager:OnUpdate(InputUpdateType, InputEventBuffer&)
-InputSystemWrapper.OnActionHandler:Invoke(TEnumAction, CallbackContext)
-UnityEngine.InputSystem.LowLevel.<>c__DisplayClass7_0:<set_onUpdate>b__0(NativeInputUpdateType, NativeInputEventBuffer*)
-InputSystemWrapper.OnActionHandler:Invoke(TEnumAction, CallbackContext)
-UnityEngineInternal.Input.NativeInputSystem:NotifyUpdate(NativeInputUpdateType, IntPtr)
-
-Req StartScenario :Call_Bancho01 ,[Option]isIgnorePlayingScenario : False
-UnityEngine.Logger:Log(LogType, Object)
-UnityEngine.Debug:Log(Object)
-ScenarioManager:StartScenario(String, Action`1, Boolean, Boolean, Boolean)
-<Process>d__27:MoveNext()
-UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
-
-Unloading 2 Unused Serialized files (Serialized files now loaded: 449)
-UnloadTime: 19.086700 ms
-
-Unloading 1294 unused Assets to reduce memory usage. Loaded Objects now: 120396.
-Total: 165.309700 ms (FindLiveObjects: 4.820700 ms CreateObjectMapping: 5.389300 ms MarkObjects: 152.769600 ms  DeleteObjects: 2.328800 ms)
-
-Unloading 0 Unused Serialized files (Serialized files now loaded: 443)
-
-Unloading 0 unused Assets to reduce memory usage. Loaded Objects now: 120394.
-Total: 163.904800 ms (FindLiveObjects: 4.691900 ms CreateObjectMapping: 5.143100 ms MarkObjects: 153.864000 ms  DeleteObjects: 0.205200 ms)
-
-Unloading 1 Unused Serialized files (Serialized files now loaded: 444)
-Shader 'Water2D/Metaballs_RegularFresnel': fallback shader 'UnLit' not found
-UnloadTime: 0.766000 ms
-
-Unloading 84 unused Assets to reduce memory usage. Loaded Objects now: 135383.
-Total: 176.415800 ms (FindLiveObjects: 5.441800 ms CreateObjectMapping: 4.840100 ms MarkObjects: 165.532000 ms  DeleteObjects: 0.601200 ms)
-
-Req StartScenario :Side_Doowa01_CoralPorridge_Bancho01 ,[Option]isIgnorePlayingScenario : False
-UnityEngine.Logger:Log(LogType, Object)
-UnityEngine.Debug:Log(Object)
-ScenarioManager:StartScenario(String, Action`1, Boolean, Boolean, Boolean)
-<ProcessMissionSequenceV2>d__190:MoveNext()
-UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
-
-SoftMask will not work on Text (TMPro.TextMeshProUGUI) because material 210YouthL SDF Material (UnityEngine.Material) doesn't support masking. Add masking support to your material or set Graphic's material to None to use a default one.
-UnityEngine.Logger:LogFormat(LogType, Object, String, Object[])
-UnityEngine.Debug:LogWarningFormat(Object, String, Object[])
-SoftMasking.SoftMaskable:GetModifiedMaterial(Material)
-TMPro.TMP_MaterialManager:GetMaterialForRendering(MaskableGraphic, Material)
-TMPro.TextMeshProUGUI:UpdateMaterial()
-TMPro.TextMeshProUGUI:Rebuild(CanvasUpdate)
-UnityEngine.UI.CanvasUpdateRegistry:PerformUpdate()
-UnityEngine.AI.OnNavMeshPreUpdate:Invoke()
-
-SoftMask will not work on Text (TMPro.TextMeshProUGUI) because material 210YouthL SDF Material (UnityEngine.Material) doesn't support masking. Add masking support to your material or set Graphic's material to None to use a default one.
-UnityEngine.Logger:LogFormat(LogType, Object, String, Object[])
-UnityEngine.Debug:LogWarningFormat(Object, String, Object[])
-SoftMasking.SoftMaskable:GetModifiedMaterial(Material)
-TMPro.TMP_MaterialManager:GetMaterialForRendering(MaskableGraphic, Material)
-TMPro.TextMeshProUGUI:UpdateMaterial()
-TMPro.TextMeshProUGUI:Rebuild(CanvasUpdate)
-UnityEngine.UI.CanvasUpdateRegistry:PerformUpdate()
-UnityEngine.AI.OnNavMeshPreUpdate:Invoke()
-
-Unloading 3 Unused Serialized files (Serialized files now loaded: 452)
-UnloadTime: 123.772200 ms
-
-Unloading 1951 unused Assets to reduce memory usage. Loaded Objects now: 124333.
-Total: 187.857500 ms (FindLiveObjects: 5.412400 ms CreateObjectMapping: 4.431800 ms MarkObjects: 175.102300 ms  DeleteObjects: 2.910300 ms)
-
-Unloading 1 Unused Serialized files (Serialized files now loaded: 445)
-UnloadTime: 1.154400 ms
-
-Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 124150.
-Total: 181.113700 ms (FindLiveObjects: 5.061100 ms CreateObjectMapping: 4.590700 ms MarkObjects: 171.163200 ms  DeleteObjects: 0.297900 ms)
-
-Unloading 0 Unused Serialized files (Serialized files now loaded: 442)
-
-Unloading 0 unused Assets to reduce memory usage. Loaded Objects now: 124150.
-Total: 182.765400 ms (FindLiveObjects: 5.383800 ms CreateObjectMapping: 4.222800 ms MarkObjects: 172.918000 ms  DeleteObjects: 0.239900 ms)
-
-Unloading 1 Unused Serialized files (Serialized files now loaded: 444)
-UnloadTime: 0.805300 ms
-
-Unloading 261 unused Assets to reduce memory usage. Loaded Objects now: 136896.
-Total: 198.471400 ms (FindLiveObjects: 6.293700 ms CreateObjectMapping: 4.298900 ms MarkObjects: 187.275300 ms  DeleteObjects: 0.602300 ms)
-
-Unloading 2 Unused Serialized files (Serialized files now loaded: 422)
-UnloadTime: 11.622000 ms
-
-Unloading 2488 unused Assets to reduce memory usage. Loaded Objects now: 45421.
-Total: 122.483100 ms (FindLiveObjects: 2.090300 ms CreateObjectMapping: 1.801600 ms MarkObjects: 115.728000 ms  DeleteObjects: 2.862400 ms)
-
-Unloading 0 Unused Serialized files (Serialized files now loaded: 416)
-
-Unloading 0 unused Assets to reduce memory usage. Loaded Objects now: 45421.
-Total: 119.093500 ms (FindLiveObjects: 2.167700 ms CreateObjectMapping: 1.386500 ms MarkObjects: 115.460600 ms  DeleteObjects: 0.077900 ms)
-
-Unloading 1 Unused Serialized files (Serialized files now loaded: 418)
-UnloadTime: 0.576700 ms
-
-Unloading 8632 unused Assets to reduce memory usage. Loaded Objects now: 84782.
-Total: 156.721800 ms (FindLiveObjects: 3.130700 ms CreateObjectMapping: 3.753400 ms MarkObjects: 147.426800 ms  DeleteObjects: 2.410000 ms)
-
-The referenced script on this Behaviour (Game Object '<null>') is missing!
-The referenced script on this Behaviour (Game Object '<null>') is missing!
-Failed to create agent because there is no valid NavMesh
-UnityEngine.Object:Instantiate(Object, Vector3, Quaternion, Transform)
-UnityEngine.Object:Instantiate(T, Vector3, Quaternion, Transform)
-FishAllocator:DoInstanceFishOrGroup(GameObject, Action`1, Boolean)
-<InstanceCheckRoutine>d__38:MoveNext()
-UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
-
-[ line -416357544]
-
-Failed to create agent because there is no valid NavMesh
-UnityEngine.Object:Instantiate(Object, Vector3, Quaternion, Transform)
-UnityEngine.Object:Instantiate(T, Vector3, Quaternion, Transform)
-FishAllocator:DoInstanceFishOrGroup(GameObject, Action`1, Boolean)
-<InstanceCheckRoutine>d__38:MoveNext()
-UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
-
-[ line -416357544]
-
-Please play only one sound for the audioSourceTransform.
-UnityEngine.Logger:Log(LogType, Object)
-UnityEngine.Debug:LogWarning(Object)
-SoundManager:PlaySound(SoundPlayInfo, Transform, Boolean, SameClipPlayType)
-AniClipSoundEvent:Fire(Animator)
-AniEventConsumer:OnAniClipSoundEvent(AnimationEvent)
-
-Please play only one sound for the audioSourceTransform.
-UnityEngine.Logger:Log(LogType, Object)
-UnityEngine.Debug:LogWarning(Object)
-SoundManager:PlaySound(SoundPlayInfo, Transform, Boolean, SameClipPlayType)
-AniClipSoundEvent:Fire(Animator)
-AniEventConsumer:OnAniClipSoundEvent(AnimationEvent)
-
-Please play only one sound for the audioSourceTransform.
-UnityEngine.Logger:Log(LogType, Object)
-UnityEngine.Debug:LogWarning(Object)
-SoundManager:PlaySound(SoundPlayInfo, Transform, Boolean, SameClipPlayType)
-AniClipSoundEvent:Fire(Animator)
-AniEventConsumer:OnAniClipSoundEvent(AnimationEvent)
-
-Please play only one sound for the audioSourceTransform.
-UnityEngine.Logger:Log(LogType, Object)
-UnityEngine.Debug:LogWarning(Object)
-SoundManager:PlaySound(SoundPlayInfo, Transform, Boolean, SameClipPlayType)
-AniClipSoundEvent:Fire(Animator)
-AniEventConsumer:OnAniClipSoundEvent(AnimationEvent)
-
-Please play only one sound for the audioSourceTransform.
-UnityEngine.Logger:Log(LogType, Object)
-UnityEngine.Debug:LogWarning(Object)
-SoundManager:PlaySound(SoundPlayInfo, Transform, Boolean, SameClipPlayType)
-AniClipSoundEvent:Fire(Animator)
-AniEventConsumer:OnAniClipSoundEvent(AnimationEvent)
-
-Please play only one sound for the audioSourceTransform.
-UnityEngine.Logger:Log(LogType, Object)
-UnityEngine.Debug:LogWarning(Object)
-SoundManager:PlaySound(SoundPlayInfo, Transform, Boolean, SameClipPlayType)
-AniClipSoundEvent:Fire(Animator)
-AniEventConsumer:OnAniClipSoundEvent(AnimationEvent)
-
-Please play only one sound for the audioSourceTransform.
-UnityEngine.Logger:Log(LogType, Object)
-UnityEngine.Debug:LogWarning(Object)
-SoundManager:PlaySound(SoundPlayInfo, Transform, Boolean, SameClipPlayType)
-AniClipSoundEvent:Fire(Animator)
-AniEventConsumer:OnAniClipSoundEvent(AnimationEvent)
-
-Please play only one sound for the audioSourceTransform.
-UnityEngine.Logger:Log(LogType, Object)
-UnityEngine.Debug:LogWarning(Object)
-SoundManager:PlaySound(SoundPlayInfo, Transform, Boolean, SameClipPlayType)
-AniClipSoundEvent:Fire(Animator)
-AniEventConsumer:OnAniClipSoundEvent(AnimationEvent)
-
-Req StartScenario :Side_Whale04_EllieNotice ,[Option]isIgnorePlayingScenario : True
-UnityEngine.Logger:Log(LogType, Object)
-UnityEngine.Debug:Log(Object)
-ScenarioManager:StartScenario(String, Action`1, Boolean, Boolean, Boolean)
-<ProcessMissionSequenceV2>d__190:MoveNext()
-UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
-
-Req StartScenario :Side_Whale04_DoorFound ,[Option]isIgnorePlayingScenario : True
-UnityEngine.Logger:Log(LogType, Object)
-UnityEngine.Debug:Log(Object)
-ScenarioManager:StartScenario(String, Action`1, Boolean, Boolean, Boolean)
-<ProcessMissionSequenceV2>d__190:MoveNext()
-UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
-
-Please play only one sound for the audioSourceTransform.
-UnityEngine.Logger:Log(LogType, Object)
-UnityEngine.Debug:LogWarning(Object)
-SoundManager:PlaySound(SoundPlayInfo, Transform, Boolean, SameClipPlayType)
-VisualSoundTarget:PlaySoundAndEffect()
-
-Please play only one sound for the audioSourceTransform.
-UnityEngine.Logger:Log(LogType, Object)
-UnityEngine.Debug:LogWarning(Object)
-SoundManager:PlaySound(SoundPlayInfo, Transform, Boolean, SameClipPlayType)
-VisualSoundTarget:PlaySoundAndEffect()
-
-Req StartScenario :Side_Whale04_EnterDoor ,[Option]isIgnorePlayingScenario : False
-UnityEngine.Logger:Log(LogType, Object)
-UnityEngine.Debug:Log(Object)
-ScenarioManager:StartScenario(String, Action`1, Boolean, Boolean, Boolean)
-<ProcessMissionSequenceV2>d__190:MoveNext()
-UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
-
-Unloading 2 Unused Serialized files (Serialized files now loaded: 444)
-UnloadTime: 153.646200 ms
-
-Unloading 32219 unused Assets to reduce memory usage. Loaded Objects now: 57787.
-Total: 182.476300 ms (FindLiveObjects: 4.373100 ms CreateObjectMapping: 3.999500 ms MarkObjects: 151.984400 ms  DeleteObjects: 22.118700 ms)
-
-Unloading 0 Unused Serialized files (Serialized files now loaded: 420)
-
-Unloading 0 unused Assets to reduce memory usage. Loaded Objects now: 57785.
-Total: 152.919100 ms (FindLiveObjects: 2.614800 ms CreateObjectMapping: 2.896400 ms MarkObjects: 146.242100 ms  DeleteObjects: 1.165400 ms)
-
-Unloading 1 Unused Serialized files (Serialized files now loaded: 422)
-UnloadTime: 0.501100 ms
-
-Unloading 2307 unused Assets to reduce memory usage. Loaded Objects now: 64467.
-Total: 156.295200 ms (FindLiveObjects: 2.242700 ms CreateObjectMapping: 2.717200 ms MarkObjects: 150.358400 ms  DeleteObjects: 0.975900 ms)
-
-Req StartScenario :Side_Whale04_FoundWhaleCub_01 ,[Option]isIgnorePlayingScenario : True
-UnityEngine.Logger:Log(LogType, Object)
-UnityEngine.Debug:Log(Object)
-ScenarioManager:StartScenario(String, Action`1, Boolean, Boolean, Boolean)
-<ProcessMissionSequenceV2>d__190:MoveNext()
-UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
-
-Req StartScenario :Side_Whale04_PettingWhale01 ,[Option]isIgnorePlayingScenario : False
-UnityEngine.Logger:Log(LogType, Object)
-UnityEngine.Debug:Log(Object)
-ScenarioManager:StartScenario(String, Action`1, Boolean, Boolean, Boolean)
-MiniGame.Petting.<Petting>d__23:MoveNext()
-UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
-
-Req StartScenario :Side_Whale04_PettingWhale02 ,[Option]isIgnorePlayingScenario : False
-UnityEngine.Logger:Log(LogType, Object)
-UnityEngine.Debug:Log(Object)
-ScenarioManager:StartScenario(String, Action`1, Boolean, Boolean, Boolean)
-MiniGame.Petting.<Petting>d__23:MoveNext()
-UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
-
-Req StartScenario :Side_Whale04_WhaleCubFollow ,[Option]isIgnorePlayingScenario : False
-UnityEngine.Logger:Log(LogType, Object)
-UnityEngine.Debug:Log(Object)
-ScenarioManager:StartScenario(String, Action`1, Boolean, Boolean, Boolean)
-<ProcessMissionSequenceV2>d__190:MoveNext()
-UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
-
-Unloading 2 Unused Serialized files (Serialized files now loaded: 435)
-Coroutine couldn't be started because the the game object 'CameraSubBoundssTrigger_HumpbackWhale' is inactive!
-DR.CameraSubBoundsCollection:StartLerp()
-BecameInactiveEventHandler:Invoke()
-UnityEngine.Events.UnityEvent:Invoke()
-Common.TargetTriggerBase:OnDisable()
-
-[ line -416357832]
-
-UnloadTime: 35.478100 ms
-
-Unloading 5583 unused Assets to reduce memory usage. Loaded Objects now: 50326.
-Total: 137.384300 ms (FindLiveObjects: 2.367100 ms CreateObjectMapping: 1.987600 ms MarkObjects: 127.642100 ms  DeleteObjects: 5.386600 ms)
-
-Unloading 0 Unused Serialized files (Serialized files now loaded: 416)
-
-Unloading 0 unused Assets to reduce memory usage. Loaded Objects now: 50326.
-Total: 132.506700 ms (FindLiveObjects: 2.367700 ms CreateObjectMapping: 1.836200 ms MarkObjects: 127.969200 ms  DeleteObjects: 0.332800 ms)
-
-Unloading 1 Unused Serialized files (Serialized files now loaded: 419)
-UnloadTime: 0.493400 ms
-
-Unloading 4873 unused Assets to reduce memory usage. Loaded Objects now: 91854.
-Total: 229.237400 ms (FindLiveObjects: 3.183100 ms CreateObjectMapping: 2.209300 ms MarkObjects: 222.109900 ms  DeleteObjects: 1.734700 ms)
-
-Failed to create agent because there is no valid NavMesh
-UnityEngine.Object:Instantiate(Object, Vector3, Quaternion, Transform)
-UnityEngine.Object:Instantiate(T, Vector3, Quaternion, Transform)
-FishAllocator:DoInstanceFishOrGroup(GameObject, Action`1, Boolean)
-<InstanceCheckRoutine>d__38:MoveNext()
-UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
-
-[ line -416357544]
-
-Failed to create agent because there is no valid NavMesh
-UnityEngine.Object:Instantiate(Object, Vector3, Quaternion, Transform)
-UnityEngine.Object:Instantiate(T, Vector3, Quaternion, Transform)
-FishAllocator:DoInstanceFishOrGroup(GameObject, Action`1, Boolean)
-<InstanceCheckRoutine>d__38:MoveNext()
-UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
-
-[ line -416357544]
-
-Req StartScenario :Side_Whale06_FirstEnemyEncounter ,[Option]isIgnorePlayingScenario : False
-UnityEngine.Logger:Log(LogType, Object)
-UnityEngine.Debug:Log(Object)
-ScenarioManager:StartScenario(String, Action`1, Boolean, Boolean, Boolean)
-Common.Contents.DialogueContainer:Show()
-BecameInactiveEventHandler:Invoke()
-UnityEngine.Events.UnityEvent:Invoke()
-Common.Contents.<OnTrigger_Do>d__23:MoveNext()
-UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
-
-Req StartScenario :Side_Whale06_FirstEnemyEncounter_Complete ,[Option]isIgnorePlayingScenario : False
-UnityEngine.Logger:Log(LogType, Object)
-UnityEngine.Debug:Log(Object)
-ScenarioManager:StartScenario(String, Action`1, Boolean, Boolean, Boolean)
-EscortMission_WaveChecker:<OnClearWave>b__28_0()
-UnityEngine.AI.OnNavMeshPreUpdate:Invoke()
-DG.Tweening.Tween:OnTweenCallback(TweenCallback, Tween)
-DG.Tweening.Tween:DoGoto(Tween, Single, Int32, UpdateMode)
-DG.Tweening.Core.TweenManager:Update(Tween, Single, Single, Boolean)
-DG.Tweening.Core.TweenManager:Update(UpdateType, Single, Single)
-DG.Tweening.Core.DOTweenComponent:Update()
-
-Req StartScenario :Side_Whale06_SecondEnemyEncounter ,[Option]isIgnorePlayingScenario : False
-UnityEngine.Logger:Log(LogType, Object)
-UnityEngine.Debug:Log(Object)
-ScenarioManager:StartScenario(String, Action`1, Boolean, Boolean, Boolean)
-Common.Contents.DialogueContainer:Show()
-BecameInactiveEventHandler:Invoke()
-UnityEngine.Events.UnityEvent:Invoke()
-Common.Contents.<OnTrigger_Do>d__23:MoveNext()
-UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
-
-Req StartScenario :Side_Whale06_SecondEnemyEncounter_Complete ,[Option]isIgnorePlayingScenario : False
-UnityEngine.Logger:Log(LogType, Object)
-UnityEngine.Debug:Log(Object)
-ScenarioManager:StartScenario(String, Action`1, Boolean, Boolean, Boolean)
-EscortMission_WaveChecker:<OnClearWave>b__28_0()
-UnityEngine.AI.OnNavMeshPreUpdate:Invoke()
-DG.Tweening.Tween:OnTweenCallback(TweenCallback, Tween)
-DG.Tweening.Tween:DoGoto(Tween, Single, Int32, UpdateMode)
-DG.Tweening.Core.TweenManager:Update(Tween, Single, Single, Boolean)
-DG.Tweening.Core.TweenManager:Update(UpdateType, Single, Single)
-DG.Tweening.Core.DOTweenComponent:Update()
-
-Req StartScenario :Side_Whale06_ThirdEnemyEncounter ,[Option]isIgnorePlayingScenario : False
-UnityEngine.Logger:Log(LogType, Object)
-UnityEngine.Debug:Log(Object)
-ScenarioManager:StartScenario(String, Action`1, Boolean, Boolean, Boolean)
-Common.Contents.DialogueContainer:Show()
-BecameInactiveEventHandler:Invoke()
-UnityEngine.Events.UnityEvent:Invoke()
-Common.Contents.<OnTrigger_Do>d__23:MoveNext()
-UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
-
-Req StartScenario :Side_Whale06_ThirdEnemyEncounter_Complete ,[Option]isIgnorePlayingScenario : False
-UnityEngine.Logger:Log(LogType, Object)
-UnityEngine.Debug:Log(Object)
-ScenarioManager:StartScenario(String, Action`1, Boolean, Boolean, Boolean)
-EscortMission_WaveChecker:<OnClearWave>b__28_0()
-UnityEngine.AI.OnNavMeshPreUpdate:Invoke()
-DG.Tweening.Tween:OnTweenCallback(TweenCallback, Tween)
-DG.Tweening.Tween:DoGoto(Tween, Single, Int32, UpdateMode)
-DG.Tweening.Core.TweenManager:Update(Tween, Single, Single, Boolean)
-DG.Tweening.Core.TweenManager:Update(UpdateType, Single, Single)
-DG.Tweening.Core.DOTweenComponent:Update()
-
-Req StartScenario :Side_Whale06_WhaleArrived ,[Option]isIgnorePlayingScenario : True
-UnityEngine.Logger:Log(LogType, Object)
-UnityEngine.Debug:Log(Object)
-ScenarioManager:StartScenario(String, Action`1, Boolean, Boolean, Boolean)
-<ProcessMissionSequenceV2>d__190:MoveNext()
-UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
-
-Unloading 2 Unused Serialized files (Serialized files now loaded: 437)
-UnloadTime: 80.256100 ms
-
-Unloading 10155 unused Assets to reduce memory usage. Loaded Objects now: 50525.
-Total: 148.133400 ms (FindLiveObjects: 2.633900 ms CreateObjectMapping: 2.227700 ms MarkObjects: 134.712400 ms  DeleteObjects: 8.558600 ms)
-
-Unloading 1 Unused Serialized files (Serialized files now loaded: 419)
-UnloadTime: 0.784700 ms
-
-Unloading 22 unused Assets to reduce memory usage. Loaded Objects now: 50339.
-Total: 146.571400 ms (FindLiveObjects: 2.151700 ms CreateObjectMapping: 2.145100 ms MarkObjects: 142.093600 ms  DeleteObjects: 0.180300 ms)
+Unloading 1278 unused Assets to reduce memory usage. Loaded Objects now: 42628.
+Total: 92.299100 ms (FindLiveObjects: 1.972500 ms CreateObjectMapping: 2.516100 ms MarkObjects: 84.134200 ms  DeleteObjects: 3.675400 ms)
 
 Unloading 0 Unused Serialized files (Serialized files now loaded: 417)
 
-Unloading 0 unused Assets to reduce memory usage. Loaded Objects now: 50339.
-Total: 145.444600 ms (FindLiveObjects: 2.306400 ms CreateObjectMapping: 1.502500 ms MarkObjects: 141.550300 ms  DeleteObjects: 0.084600 ms)
+Unloading 0 unused Assets to reduce memory usage. Loaded Objects now: 42628.
+Total: 87.735400 ms (FindLiveObjects: 1.769100 ms CreateObjectMapping: 2.469800 ms MarkObjects: 83.423500 ms  DeleteObjects: 0.072500 ms)
 
-Unloading 1 Unused Serialized files (Serialized files now loaded: 420)
-UnloadTime: 0.437100 ms
+Unloading 1 Unused Serialized files (Serialized files now loaded: 451)
+UnloadTime: 0.458700 ms
+There is already a MainThreadDispatcher in the scene. Removing myself...
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:LogWarning(Object)
+UniRx.MainThreadDispatcher:Awake()
 
-Unloading 258 unused Assets to reduce memory usage. Loaded Objects now: 63184.
-Total: 152.142200 ms (FindLiveObjects: 2.864900 ms CreateObjectMapping: 2.870100 ms MarkObjects: 145.703300 ms  DeleteObjects: 0.703300 ms)
 
-Req StartScenario :Side_Whale06_BoatTalk ,[Option]isIgnorePlayingScenario : False
+Unloading 2448 unused Assets to reduce memory usage. Loaded Objects now: 69416.
+Total: 106.254600 ms (FindLiveObjects: 2.183700 ms CreateObjectMapping: 3.876500 ms MarkObjects: 99.183300 ms  DeleteObjects: 1.010600 ms)
+
+Parent of RectTransform is being set with parent property. Consider using the SetParent method instead, with the worldPositionStays argument set to false. This will retain local orientation and scale rather than world orientation and scale, which can prevent common UI scaling issues.
+UnityEngine.Logger:Log(LogType, Object, Object)
+UnityEngine.Debug:LogWarning(Object, Object)
+UnityEngine.Transform:set_parent(Transform)
+MissionHUD:RemoveMission(MissionData)
+MissionHUD:IMissionCompletedListener.CompletedMission(MissionData, Int32)
+<>c__DisplayClass143_0:<ApplyMissionDone>b__0(IMissionCompletedListener)
+System.Action`1:Invoke(T)
+MissionManager:ExecuteMissionEventListener(Action`1)
+MissionManager:ApplyMissionDone(MissionData, Boolean)
+<ProcessMissionSequenceV2>d__190:MoveNext()
+UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+
+Req StartScenario :Side_Kazhin03_GumoFarm_Gumo_Eat ,[Option]isIgnorePlayingScenario : False
 UnityEngine.Logger:Log(LogType, Object)
 UnityEngine.Debug:Log(Object)
 ScenarioManager:StartScenario(String, Action`1, Boolean, Boolean, Boolean)
 <StartScenarioRoutinue>d__38:MoveNext()
 UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
 
-Req StartScenario :Boss_SpecialBoss_01_Start ,[Option]isIgnorePlayingScenario : False
+[ShowCheckMark] show=True, enableAnim=False
+UnityEngine.Logger:LogFormat(LogType, String, Object[])
+UnityEngine.Debug:LogFormat(String, Object[])
+MVMissionBoardPaper:ShowCheckMark(Boolean, Boolean)
+MVMissionBoardPaper:SetPaperUIByState(EPostState)
+VillageBoardSystem:RefressPaperUIState()
+<coOpenMissionBoardUI>d__42:MoveNext()
+UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+
+[ShowCheckMark] show=True, enableAnim=False
+UnityEngine.Logger:LogFormat(LogType, String, Object[])
+UnityEngine.Debug:LogFormat(String, Object[])
+MVMissionBoardPaper:ShowCheckMark(Boolean, Boolean)
+MVMissionBoardPaper:SetPaperUIByState(EPostState)
+VillageBoardSystem:RefressPaperUIState()
+<coOpenMissionBoardUI>d__42:MoveNext()
+UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+
+Unloading 2 Unused Serialized files (Serialized files now loaded: 466)
+UnloadTime: 66.073400 ms
+
+Unloading 4883 unused Assets to reduce memory usage. Loaded Objects now: 51462.
+Total: 114.138200 ms (FindLiveObjects: 2.391300 ms CreateObjectMapping: 4.428900 ms MarkObjects: 102.095100 ms  DeleteObjects: 5.222300 ms)
+
+Unloading 0 Unused Serialized files (Serialized files now loaded: 419)
+
+Unloading 0 unused Assets to reduce memory usage. Loaded Objects now: 51462.
+Total: 107.159600 ms (FindLiveObjects: 2.362700 ms CreateObjectMapping: 4.038900 ms MarkObjects: 100.671600 ms  DeleteObjects: 0.085800 ms)
+
+Unloading 1 Unused Serialized files (Serialized files now loaded: 421)
+UnloadTime: 0.612000 ms
+
+Unloading 8626 unused Assets to reduce memory usage. Loaded Objects now: 90454.
+Total: 130.683700 ms (FindLiveObjects: 3.114100 ms CreateObjectMapping: 9.539500 ms MarkObjects: 115.822700 ms  DeleteObjects: 2.206900 ms)
+
+The referenced script on this Behaviour (Game Object '<null>') is missing!
+The referenced script on this Behaviour (Game Object '<null>') is missing!
+Please play only one sound for the audioSourceTransform.
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:LogWarning(Object)
+SoundManager:PlaySound(SoundPlayInfo, Transform, Boolean, SameClipPlayType)
+AniClipSoundEvent:Fire(Animator)
+AniEventConsumer:OnAniClipSoundEvent(AnimationEvent)
+
+Please play only one sound for the audioSourceTransform.
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:LogWarning(Object)
+SoundManager:PlaySound(SoundPlayInfo, Transform, Boolean, SameClipPlayType)
+AniClipSoundEvent:Fire(Animator)
+AniEventConsumer:OnAniClipSoundEvent(AnimationEvent)
+
+Please play only one sound for the audioSourceTransform.
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:LogWarning(Object)
+SoundManager:PlaySound(SoundPlayInfo, Transform, Boolean, SameClipPlayType)
+AniClipSoundEvent:Fire(Animator)
+AniEventConsumer:OnAniClipSoundEvent(AnimationEvent)
+
+Failed to create agent because there is no valid NavMesh
+UnityEngine.Object:Instantiate(Object, Vector3, Quaternion, Transform)
+UnityEngine.Object:Instantiate(T, Vector3, Quaternion, Transform)
+FishAllocator:DoInstanceFishOrGroup(GameObject, Action`1, Boolean)
+<InstanceCheckRoutine>d__38:MoveNext()
+UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+
+[ line -61872648]
+
+Please play only one sound for the audioSourceTransform.
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:LogWarning(Object)
+SoundManager:PlaySound(SoundPlayInfo, Transform, Boolean, SameClipPlayType)
+AniClipSoundEvent:Fire(Animator)
+AniEventConsumer:OnAniClipSoundEvent(AnimationEvent)
+
+Please play only one sound for the audioSourceTransform.
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:LogWarning(Object)
+SoundManager:PlaySound(SoundPlayInfo, Transform, Boolean, SameClipPlayType)
+AniClipSoundEvent:Fire(Animator)
+AniEventConsumer:OnAniClipSoundEvent(AnimationEvent)
+
+Please play only one sound for the audioSourceTransform.
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:LogWarning(Object)
+SoundManager:PlaySound(SoundPlayInfo, Transform, Boolean, SameClipPlayType)
+AniClipSoundEvent:Fire(Animator)
+AniEventConsumer:OnAniClipSoundEvent(AnimationEvent)
+
+Failed to create agent because there is no valid NavMesh
+UnityEngine.Object:Instantiate(Object, Vector3, Quaternion, Transform)
+UnityEngine.Object:Instantiate(T, Vector3, Quaternion, Transform)
+FishAllocator:DoInstanceFishOrGroup(GameObject, Action`1, Boolean)
+<InstanceCheckRoutine>d__38:MoveNext()
+UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+
+[ line -61872648]
+
+Please play only one sound for the audioSourceTransform.
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:LogWarning(Object)
+SoundManager:PlaySound(SoundPlayInfo, Transform, Boolean, SameClipPlayType)
+AniClipSoundEvent:Fire(Animator)
+AniEventConsumer:OnAniClipSoundEvent(AnimationEvent)
+
+Please play only one sound for the audioSourceTransform.
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:LogWarning(Object)
+SoundManager:PlaySound(SoundPlayInfo, Transform, Boolean, SameClipPlayType)
+AniClipSoundEvent:Fire(Animator)
+AniEventConsumer:OnAniClipSoundEvent(AnimationEvent)
+
+Failed to create agent because there is no valid NavMesh
+UnityEngine.Object:Instantiate(Object, Vector3, Quaternion, Transform)
+UnityEngine.Object:Instantiate(T, Vector3, Quaternion, Transform)
+FishAllocator:DoInstanceFishOrGroup(GameObject, Action`1, Boolean)
+<InstanceCheckRoutine>d__38:MoveNext()
+UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+
+[ line -61872648]
+
+Please play only one sound for the audioSourceTransform.
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:LogWarning(Object)
+SoundManager:PlaySound(SoundPlayInfo, Transform, Boolean, SameClipPlayType)
+AniClipSoundEvent:Fire(Animator)
+AniEventConsumer:OnAniClipSoundEvent(AnimationEvent)
+
+Please play only one sound for the audioSourceTransform.
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:LogWarning(Object)
+SoundManager:PlaySound(SoundPlayInfo, Transform, Boolean, SameClipPlayType)
+AniClipSoundEvent:Fire(Animator)
+AniEventConsumer:OnAniClipSoundEvent(AnimationEvent)
+
+Please play only one sound for the audioSourceTransform.
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:LogWarning(Object)
+SoundManager:PlaySound(SoundPlayInfo, Transform, Boolean, SameClipPlayType)
+AniClipSoundEvent:Fire(Animator)
+AniEventConsumer:OnAniClipSoundEvent(AnimationEvent)
+
+Please play only one sound for the audioSourceTransform.
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:LogWarning(Object)
+SoundManager:PlaySound(SoundPlayInfo, Transform, Boolean, SameClipPlayType)
+AniClipSoundEvent:Fire(Animator)
+AniEventConsumer:OnAniClipSoundEvent(AnimationEvent)
+
+Please play only one sound for the audioSourceTransform.
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:LogWarning(Object)
+SoundManager:PlaySound(SoundPlayInfo, Transform, Boolean, SameClipPlayType)
+AniClipSoundEvent:Fire(Animator)
+AniEventConsumer:OnAniClipSoundEvent(AnimationEvent)
+
+Please play only one sound for the audioSourceTransform.
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:LogWarning(Object)
+SoundManager:PlaySound(SoundPlayInfo, Transform, Boolean, SameClipPlayType)
+AniClipSoundEvent:Fire(Animator)
+AniEventConsumer:OnAniClipSoundEvent(AnimationEvent)
+
+Please play only one sound for the audioSourceTransform.
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:LogWarning(Object)
+SoundManager:PlaySound(SoundPlayInfo, Transform, Boolean, SameClipPlayType)
+AniClipSoundEvent:Fire(Animator)
+AniEventConsumer:OnAniClipSoundEvent(AnimationEvent)
+
+Failed to create agent because there is no valid NavMesh
+UnityEngine.Object:Instantiate(Object, Vector3, Quaternion, Transform)
+UnityEngine.Object:Instantiate(T, Vector3, Quaternion, Transform)
+FishAllocator:DoInstanceFishOrGroup(GameObject, Action`1, Boolean)
+<InstanceCheckRoutine>d__38:MoveNext()
+UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+
+[ line -61872648]
+
+Please play only one sound for the audioSourceTransform.
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:LogWarning(Object)
+SoundManager:PlaySound(SoundPlayInfo, Transform, Boolean, SameClipPlayType)
+AniClipSoundEvent:Fire(Animator)
+AniEventConsumer:OnAniClipSoundEvent(AnimationEvent)
+
+Please play only one sound for the audioSourceTransform.
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:LogWarning(Object)
+SoundManager:PlaySound(SoundPlayInfo, Transform, Boolean, SameClipPlayType)
+AniClipSoundEvent:Fire(Animator)
+AniEventConsumer:OnAniClipSoundEvent(AnimationEvent)
+
+Please play only one sound for the audioSourceTransform.
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:LogWarning(Object)
+SoundManager:PlaySound(SoundPlayInfo, Transform, Boolean, SameClipPlayType)
+AniClipSoundEvent:Fire(Animator)
+AniEventConsumer:OnAniClipSoundEvent(AnimationEvent)
+
+Failed to create agent because there is no valid NavMesh
+UnityEngine.Object:Instantiate(Object, Vector3, Quaternion, Transform)
+UnityEngine.Object:Instantiate(T, Vector3, Quaternion, Transform)
+FishAllocator:DoInstanceFishOrGroup(GameObject, Action`1, Boolean)
+<InstanceCheckRoutine>d__38:MoveNext()
+UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+
+[ line -61872648]
+
+Please play only one sound for the audioSourceTransform.
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:LogWarning(Object)
+SoundManager:PlaySound(SoundPlayInfo, Transform, Boolean, SameClipPlayType)
+AniClipSoundEvent:Fire(Animator)
+AniEventConsumer:OnAniClipSoundEvent(AnimationEvent)
+
+Unloading 2 Unused Serialized files (Serialized files now loaded: 444)
+UnloadTime: 151.467300 ms
+
+Unloading 30416 unused Assets to reduce memory usage. Loaded Objects now: 55619.
+Total: 125.284300 ms (FindLiveObjects: 3.488000 ms CreateObjectMapping: 7.357300 ms MarkObjects: 97.725000 ms  DeleteObjects: 16.713500 ms)
+
+Unloading 0 Unused Serialized files (Serialized files now loaded: 419)
+
+Unloading 0 unused Assets to reduce memory usage. Loaded Objects now: 55619.
+Total: 111.884400 ms (FindLiveObjects: 2.465000 ms CreateObjectMapping: 4.801700 ms MarkObjects: 103.922800 ms  DeleteObjects: 0.694300 ms)
+
+Unloading 1 Unused Serialized files (Serialized files now loaded: 453)
+UnloadTime: 0.515600 ms
+There is already a MainThreadDispatcher in the scene. Removing myself...
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:LogWarning(Object)
+UniRx.MainThreadDispatcher:Awake()
+
+
+Unloading 2448 unused Assets to reduce memory usage. Loaded Objects now: 81561.
+Total: 115.283100 ms (FindLiveObjects: 2.887300 ms CreateObjectMapping: 4.653900 ms MarkObjects: 106.782800 ms  DeleteObjects: 0.958700 ms)
+
+[ShowCheckMark] show=True, enableAnim=False
+UnityEngine.Logger:LogFormat(LogType, String, Object[])
+UnityEngine.Debug:LogFormat(String, Object[])
+MVMissionBoardPaper:ShowCheckMark(Boolean, Boolean)
+MVMissionBoardPaper:SetPaperUIByState(EPostState)
+VillageBoardSystem:RefressPaperUIState()
+<coOpenMissionBoardUI>d__42:MoveNext()
+UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+
+[ShowCheckMark] show=True, enableAnim=False
+UnityEngine.Logger:LogFormat(LogType, String, Object[])
+UnityEngine.Debug:LogFormat(String, Object[])
+MVMissionBoardPaper:ShowCheckMark(Boolean, Boolean)
+MVMissionBoardPaper:SetPaperUIByState(EPostState)
+VillageBoardSystem:RefressPaperUIState()
+<coOpenMissionBoardUI>d__42:MoveNext()
+UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+
+[ShowCheckMark] show=True, enableAnim=False
+UnityEngine.Logger:LogFormat(LogType, String, Object[])
+UnityEngine.Debug:LogFormat(String, Object[])
+MVMissionBoardPaper:ShowCheckMark(Boolean, Boolean)
+MVMissionBoardPaper:SetPaperUIByState(EPostState)
+VillageBoardSystem:RefressPaperUIState()
+VillageBoardSystem:OnDREvent(DRMissionEvent)
+DREventManager:EventTrigger(DREvent)
+DREventTriggerManager:DRMissionEventTrigger(DRMissionEventType, DRMissionEventData)
+MissionData:ClearMissionTask()
+MissionData:Done(Boolean)
+MissionManager:ApplyMissionDone(MissionData, Boolean)
+<ApplyMissionDoneRoutinue>d__144:MoveNext()
+UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+
+[ShowCheckMark] show=True, enableAnim=False
+UnityEngine.Logger:LogFormat(LogType, String, Object[])
+UnityEngine.Debug:LogFormat(String, Object[])
+MVMissionBoardPaper:ShowCheckMark(Boolean, Boolean)
+MVMissionBoardPaper:SetPaperUIByState(EPostState)
+VillageBoardSystem:RefressPaperUIState()
+VillageBoardSystem:OnDREvent(DRMissionEvent)
+DREventManager:EventTrigger(DREvent)
+DREventTriggerManager:DRMissionEventTrigger(DRMissionEventType, DRMissionEventData)
+MissionData:ClearMissionTask()
+MissionData:Done(Boolean)
+MissionManager:ApplyMissionDone(MissionData, Boolean)
+<ApplyMissionDoneRoutinue>d__144:MoveNext()
+UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+
+[ShowCheckMark] show=True, enableAnim=False
+UnityEngine.Logger:LogFormat(LogType, String, Object[])
+UnityEngine.Debug:LogFormat(String, Object[])
+MVMissionBoardPaper:ShowCheckMark(Boolean, Boolean)
+MVMissionBoardPaper:SetPaperUIByState(EPostState)
+VillageBoardSystem:RefressPaperUIState()
+VillageBoardSystem:RefreshSubFrame()
+VillageBoardSystem:OnDREvent(DRMissionEvent)
+DREventManager:EventTrigger(DREvent)
+DREventTriggerManager:DRMissionEventTrigger(DRMissionEventType, DRMissionEventData)
+MissionData:ClearMissionTask()
+MissionData:Done(Boolean)
+MissionManager:ApplyMissionDone(MissionData, Boolean)
+<ApplyMissionDoneRoutinue>d__144:MoveNext()
+UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+
+[ShowCheckMark] show=True, enableAnim=False
+UnityEngine.Logger:LogFormat(LogType, String, Object[])
+UnityEngine.Debug:LogFormat(String, Object[])
+MVMissionBoardPaper:ShowCheckMark(Boolean, Boolean)
+MVMissionBoardPaper:SetPaperUIByState(EPostState)
+VillageBoardSystem:RefressPaperUIState()
+VillageBoardSystem:RefreshSubFrame()
+VillageBoardSystem:OnDREvent(DRMissionEvent)
+DREventManager:EventTrigger(DREvent)
+DREventTriggerManager:DRMissionEventTrigger(DRMissionEventType, DRMissionEventData)
+MissionData:ClearMissionTask()
+MissionData:Done(Boolean)
+MissionManager:ApplyMissionDone(MissionData, Boolean)
+<ApplyMissionDoneRoutinue>d__144:MoveNext()
+UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+
+Parent of RectTransform is being set with parent property. Consider using the SetParent method instead, with the worldPositionStays argument set to false. This will retain local orientation and scale rather than world orientation and scale, which can prevent common UI scaling issues.
+UnityEngine.Logger:Log(LogType, Object, Object)
+UnityEngine.Debug:LogWarning(Object, Object)
+UnityEngine.Transform:set_parent(Transform)
+MissionHUD:RemoveMission(MissionData)
+MissionHUD:IMissionCompletedListener.CompletedMission(MissionData, Int32)
+<>c__DisplayClass143_0:<ApplyMissionDone>b__0(IMissionCompletedListener)
+System.Action`1:Invoke(T)
+MissionManager:ExecuteMissionEventListener(Action`1)
+MissionManager:ApplyMissionDone(MissionData, Boolean)
+<ProcessMissionSequenceV2>d__190:MoveNext()
+UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+
+[ShowCheckMark] show=True, enableAnim=False
+UnityEngine.Logger:LogFormat(LogType, String, Object[])
+UnityEngine.Debug:LogFormat(String, Object[])
+MVMissionBoardPaper:ShowCheckMark(Boolean, Boolean)
+MVMissionBoardPaper:SetPaperUIByState(EPostState)
+VillageBoardSystem:RefressPaperUIState()
+VillageBoardSystem:CompletedMission(MissionData, Int32)
+<>c__DisplayClass143_0:<ApplyMissionDone>b__0(IMissionCompletedListener)
+System.Action`1:Invoke(T)
+MissionManager:ExecuteMissionEventListener(Action`1)
+MissionManager:ApplyMissionDone(MissionData, Boolean)
+<ProcessMissionSequenceV2>d__190:MoveNext()
+UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+
+[ShowCheckMark] show=True, enableAnim=False
+UnityEngine.Logger:LogFormat(LogType, String, Object[])
+UnityEngine.Debug:LogFormat(String, Object[])
+MVMissionBoardPaper:ShowCheckMark(Boolean, Boolean)
+MVMissionBoardPaper:SetPaperUIByState(EPostState)
+VillageBoardSystem:RefressPaperUIState()
+VillageBoardSystem:CompletedMission(MissionData, Int32)
+<>c__DisplayClass143_0:<ApplyMissionDone>b__0(IMissionCompletedListener)
+System.Action`1:Invoke(T)
+MissionManager:ExecuteMissionEventListener(Action`1)
+MissionManager:ApplyMissionDone(MissionData, Boolean)
+<ProcessMissionSequenceV2>d__190:MoveNext()
+UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+
+[ShowCheckMark] show=True, enableAnim=False
+UnityEngine.Logger:LogFormat(LogType, String, Object[])
+UnityEngine.Debug:LogFormat(String, Object[])
+MVMissionBoardPaper:ShowCheckMark(Boolean, Boolean)
+MVMissionBoardPaper:SetPaperUIByState(EPostState)
+VillageBoardSystem:RefressPaperUIState()
+VillageBoardSystem:RefreshSubFrame()
+VillageBoardSystem:CompletedMission(MissionData, Int32)
+<>c__DisplayClass143_0:<ApplyMissionDone>b__0(IMissionCompletedListener)
+System.Action`1:Invoke(T)
+MissionManager:ExecuteMissionEventListener(Action`1)
+MissionManager:ApplyMissionDone(MissionData, Boolean)
+<ProcessMissionSequenceV2>d__190:MoveNext()
+UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+
+[ShowCheckMark] show=True, enableAnim=False
+UnityEngine.Logger:LogFormat(LogType, String, Object[])
+UnityEngine.Debug:LogFormat(String, Object[])
+MVMissionBoardPaper:ShowCheckMark(Boolean, Boolean)
+MVMissionBoardPaper:SetPaperUIByState(EPostState)
+VillageBoardSystem:RefressPaperUIState()
+VillageBoardSystem:RefreshSubFrame()
+VillageBoardSystem:CompletedMission(MissionData, Int32)
+<>c__DisplayClass143_0:<ApplyMissionDone>b__0(IMissionCompletedListener)
+System.Action`1:Invoke(T)
+MissionManager:ExecuteMissionEventListener(Action`1)
+MissionManager:ApplyMissionDone(MissionData, Boolean)
+<ProcessMissionSequenceV2>d__190:MoveNext()
+UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+
+[ShowCheckMark] show=True, enableAnim=False
+UnityEngine.Logger:LogFormat(LogType, String, Object[])
+UnityEngine.Debug:LogFormat(String, Object[])
+MVMissionBoardPaper:ShowCheckMark(Boolean, Boolean)
+MVMissionBoardPaper:SetPaperUIByState(EPostState)
+VillageBoardSystem:RefressPaperUIState()
+VillageBoardSystem:OnDREvent(DRMissionEvent)
+DREventManager:EventTrigger(DREvent)
+DREventTriggerManager:DRMissionEventTrigger(DRMissionEventType, DRMissionEventData)
+MissionData:ClearMissionTask()
+MissionData:Done(Boolean)
+MissionManager:ApplyMissionDone(MissionData, Boolean)
+<ApplyMissionDoneRoutinue>d__144:MoveNext()
+UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+
+[ShowCheckMark] show=True, enableAnim=False
+UnityEngine.Logger:LogFormat(LogType, String, Object[])
+UnityEngine.Debug:LogFormat(String, Object[])
+MVMissionBoardPaper:ShowCheckMark(Boolean, Boolean)
+MVMissionBoardPaper:SetPaperUIByState(EPostState)
+VillageBoardSystem:RefressPaperUIState()
+VillageBoardSystem:OnDREvent(DRMissionEvent)
+DREventManager:EventTrigger(DREvent)
+DREventTriggerManager:DRMissionEventTrigger(DRMissionEventType, DRMissionEventData)
+MissionData:ClearMissionTask()
+MissionData:Done(Boolean)
+MissionManager:ApplyMissionDone(MissionData, Boolean)
+<ApplyMissionDoneRoutinue>d__144:MoveNext()
+UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+
+[ShowCheckMark] show=True, enableAnim=False
+UnityEngine.Logger:LogFormat(LogType, String, Object[])
+UnityEngine.Debug:LogFormat(String, Object[])
+MVMissionBoardPaper:ShowCheckMark(Boolean, Boolean)
+MVMissionBoardPaper:SetPaperUIByState(EPostState)
+VillageBoardSystem:RefressPaperUIState()
+VillageBoardSystem:RefreshSubFrame()
+VillageBoardSystem:OnDREvent(DRMissionEvent)
+DREventManager:EventTrigger(DREvent)
+DREventTriggerManager:DRMissionEventTrigger(DRMissionEventType, DRMissionEventData)
+MissionData:ClearMissionTask()
+MissionData:Done(Boolean)
+MissionManager:ApplyMissionDone(MissionData, Boolean)
+<ApplyMissionDoneRoutinue>d__144:MoveNext()
+UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+
+[ShowCheckMark] show=True, enableAnim=False
+UnityEngine.Logger:LogFormat(LogType, String, Object[])
+UnityEngine.Debug:LogFormat(String, Object[])
+MVMissionBoardPaper:ShowCheckMark(Boolean, Boolean)
+MVMissionBoardPaper:SetPaperUIByState(EPostState)
+VillageBoardSystem:RefressPaperUIState()
+VillageBoardSystem:RefreshSubFrame()
+VillageBoardSystem:OnDREvent(DRMissionEvent)
+DREventManager:EventTrigger(DREvent)
+DREventTriggerManager:DRMissionEventTrigger(DRMissionEventType, DRMissionEventData)
+MissionData:ClearMissionTask()
+MissionData:Done(Boolean)
+MissionManager:ApplyMissionDone(MissionData, Boolean)
+<ApplyMissionDoneRoutinue>d__144:MoveNext()
+UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+
+Parent of RectTransform is being set with parent property. Consider using the SetParent method instead, with the worldPositionStays argument set to false. This will retain local orientation and scale rather than world orientation and scale, which can prevent common UI scaling issues.
+UnityEngine.Logger:Log(LogType, Object, Object)
+UnityEngine.Debug:LogWarning(Object, Object)
+UnityEngine.Transform:set_parent(Transform)
+MissionHUD:RemoveMission(MissionData)
+MissionHUD:IMissionCompletedListener.CompletedMission(MissionData, Int32)
+<>c__DisplayClass143_0:<ApplyMissionDone>b__0(IMissionCompletedListener)
+System.Action`1:Invoke(T)
+MissionManager:ExecuteMissionEventListener(Action`1)
+MissionManager:ApplyMissionDone(MissionData, Boolean)
+<ProcessMissionSequenceV2>d__190:MoveNext()
+UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+
+[ShowCheckMark] show=True, enableAnim=False
+UnityEngine.Logger:LogFormat(LogType, String, Object[])
+UnityEngine.Debug:LogFormat(String, Object[])
+MVMissionBoardPaper:ShowCheckMark(Boolean, Boolean)
+MVMissionBoardPaper:SetPaperUIByState(EPostState)
+VillageBoardSystem:RefressPaperUIState()
+VillageBoardSystem:CompletedMission(MissionData, Int32)
+<>c__DisplayClass143_0:<ApplyMissionDone>b__0(IMissionCompletedListener)
+System.Action`1:Invoke(T)
+MissionManager:ExecuteMissionEventListener(Action`1)
+MissionManager:ApplyMissionDone(MissionData, Boolean)
+<ProcessMissionSequenceV2>d__190:MoveNext()
+UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+
+[ShowCheckMark] show=True, enableAnim=False
+UnityEngine.Logger:LogFormat(LogType, String, Object[])
+UnityEngine.Debug:LogFormat(String, Object[])
+MVMissionBoardPaper:ShowCheckMark(Boolean, Boolean)
+MVMissionBoardPaper:SetPaperUIByState(EPostState)
+VillageBoardSystem:RefressPaperUIState()
+VillageBoardSystem:CompletedMission(MissionData, Int32)
+<>c__DisplayClass143_0:<ApplyMissionDone>b__0(IMissionCompletedListener)
+System.Action`1:Invoke(T)
+MissionManager:ExecuteMissionEventListener(Action`1)
+MissionManager:ApplyMissionDone(MissionData, Boolean)
+<ProcessMissionSequenceV2>d__190:MoveNext()
+UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+
+[ShowCheckMark] show=True, enableAnim=False
+UnityEngine.Logger:LogFormat(LogType, String, Object[])
+UnityEngine.Debug:LogFormat(String, Object[])
+MVMissionBoardPaper:ShowCheckMark(Boolean, Boolean)
+MVMissionBoardPaper:SetPaperUIByState(EPostState)
+VillageBoardSystem:RefressPaperUIState()
+VillageBoardSystem:RefreshSubFrame()
+VillageBoardSystem:CompletedMission(MissionData, Int32)
+<>c__DisplayClass143_0:<ApplyMissionDone>b__0(IMissionCompletedListener)
+System.Action`1:Invoke(T)
+MissionManager:ExecuteMissionEventListener(Action`1)
+MissionManager:ApplyMissionDone(MissionData, Boolean)
+<ProcessMissionSequenceV2>d__190:MoveNext()
+UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+
+[ShowCheckMark] show=True, enableAnim=False
+UnityEngine.Logger:LogFormat(LogType, String, Object[])
+UnityEngine.Debug:LogFormat(String, Object[])
+MVMissionBoardPaper:ShowCheckMark(Boolean, Boolean)
+MVMissionBoardPaper:SetPaperUIByState(EPostState)
+VillageBoardSystem:RefressPaperUIState()
+VillageBoardSystem:RefreshSubFrame()
+VillageBoardSystem:CompletedMission(MissionData, Int32)
+<>c__DisplayClass143_0:<ApplyMissionDone>b__0(IMissionCompletedListener)
+System.Action`1:Invoke(T)
+MissionManager:ExecuteMissionEventListener(Action`1)
+MissionManager:ApplyMissionDone(MissionData, Boolean)
+<ProcessMissionSequenceV2>d__190:MoveNext()
+UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+
+Unloading 2 Unused Serialized files (Serialized files now loaded: 467)
+UnloadTime: 67.586800 ms
+
+Unloading 6212 unused Assets to reduce memory usage. Loaded Objects now: 47172.
+Total: 101.489900 ms (FindLiveObjects: 2.409700 ms CreateObjectMapping: 3.619500 ms MarkObjects: 87.725000 ms  DeleteObjects: 7.735000 ms)
+
+Unloading 1 Unused Serialized files (Serialized files now loaded: 419)
+UnloadTime: 0.795000 ms
+
+Unloading 7 unused Assets to reduce memory usage. Loaded Objects now: 46999.
+Total: 90.209900 ms (FindLiveObjects: 2.063800 ms CreateObjectMapping: 2.475700 ms MarkObjects: 85.528700 ms  DeleteObjects: 0.140700 ms)
+
+Unloading 0 Unused Serialized files (Serialized files now loaded: 417)
+
+Unloading 0 unused Assets to reduce memory usage. Loaded Objects now: 46999.
+Total: 91.344300 ms (FindLiveObjects: 2.190400 ms CreateObjectMapping: 3.082900 ms MarkObjects: 85.997000 ms  DeleteObjects: 0.073300 ms)
+
+Unloading 1 Unused Serialized files (Serialized files now loaded: 420)
+UnloadTime: 0.437200 ms
+
+Unloading 265 unused Assets to reduce memory usage. Loaded Objects now: 59801.
+Total: 108.165700 ms (FindLiveObjects: 2.716700 ms CreateObjectMapping: 3.363200 ms MarkObjects: 101.710100 ms  DeleteObjects: 0.375200 ms)
+
+Req StartScenario :Main_Mission19_End_02_boat_earthquake ,[Option]isIgnorePlayingScenario : False
 UnityEngine.Logger:Log(LogType, Object)
 UnityEngine.Debug:Log(Object)
 ScenarioManager:StartScenario(String, Action`1, Boolean, Boolean, Boolean)
 <ProcessMissionSequenceV2>d__190:MoveNext()
 UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
 
-Unloading 2 Unused Serialized files (Serialized files now loaded: 450)
-UnloadTime: 26.729800 ms
+Req StartScenario :Boss_MantisShrimp_Start ,[Option]isIgnorePlayingScenario : False
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+ScenarioManager:StartScenario(String, Action`1, Boolean, Boolean, Boolean)
+<ProcessMissionSequenceV2>d__190:MoveNext()
+UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
 
-Unloading 2127 unused Assets to reduce memory usage. Loaded Objects now: 127709.
-Total: 244.027600 ms (FindLiveObjects: 4.882700 ms CreateObjectMapping: 4.532000 ms MarkObjects: 230.981000 ms  DeleteObjects: 3.631200 ms)
+Unloading 2 Unused Serialized files (Serialized files now loaded: 428)
+UnloadTime: 28.117200 ms
 
-Unloading 0 Unused Serialized files (Serialized files now loaded: 442)
-
-Unloading 0 unused Assets to reduce memory usage. Loaded Objects now: 127709.
-Total: 242.070800 ms (FindLiveObjects: 4.920500 ms CreateObjectMapping: 4.343500 ms MarkObjects: 232.574400 ms  DeleteObjects: 0.231800 ms)
-
-Unloading 1 Unused Serialized files (Serialized files now loaded: 444)
-Shader 'Water2D/Metaballs_RegularFresnel': fallback shader 'UnLit' not found
-UnloadTime: 0.811200 ms
-
-Unloading 85 unused Assets to reduce memory usage. Loaded Objects now: 142460.
-Total: 254.045200 ms (FindLiveObjects: 5.747300 ms CreateObjectMapping: 4.941500 ms MarkObjects: 242.794500 ms  DeleteObjects: 0.561200 ms)
-
-Parent of RectTransform is being set with parent property. Consider using the SetParent method instead, with the worldPositionStays argument set to false. This will retain local orientation and scale rather than world orientation and scale, which can prevent common UI scaling issues.
-UnityEngine.Logger:Log(LogType, Object, Object)
-UnityEngine.Debug:LogWarning(Object, Object)
-UnityEngine.Transform:set_parent(Transform)
-SushiBarContractPanel:SetRoot(RectTransform)
-StaffScrollerSheetHire:Hire()
-SushiBar.Staff.StaffHireScroller:OnSideMenuResult(Int32, String)
-System.Action`2:Invoke(T1, T2)
-Data:InvokeSortAction()
-UnityEngine.Events.UnityAction`1:Invoke(T0)
-UnityEngine.Events.InvokableCall`1:Invoke(T1)
-UnityEngine.Events.UnityEvent`1:Invoke(T0)
-InputSystemWrapper.Handler`4:Handle(Input)
-BecameInactiveEventHandler:Invoke()
-UnityEngine.InputSystem.Utilities.DelegateHelpers:InvokeCallbacksSafe(CallbackArray`1&, String, Object)
-UnityEngine.InputSystem.InputManager:InvokeAfterUpdateCallback(InputUpdateType)
-UnityEngine.InputSystem.InputManager:OnUpdate(InputUpdateType, InputEventBuffer&)
-InputSystemWrapper.OnActionHandler:Invoke(TEnumAction, CallbackContext)
-UnityEngine.InputSystem.LowLevel.<>c__DisplayClass7_0:<set_onUpdate>b__0(NativeInputUpdateType, NativeInputEventBuffer*)
-InputSystemWrapper.OnActionHandler:Invoke(TEnumAction, CallbackContext)
-UnityEngineInternal.Input.NativeInputSystem:NotifyUpdate(NativeInputUpdateType, IntPtr)
-
-Parent of RectTransform is being set with parent property. Consider using the SetParent method instead, with the worldPositionStays argument set to false. This will retain local orientation and scale rather than world orientation and scale, which can prevent common UI scaling issues.
-UnityEngine.Logger:Log(LogType, Object, Object)
-UnityEngine.Debug:LogWarning(Object, Object)
-UnityEngine.Transform:set_parent(Transform)
-SushiBar.Staff.StaffAssistantManagement:ShowAssistant(RectTransform, StaffSheetTab, ExecuteEvent, Action`3, Action)
-StaffScrollerSheetManagement:ShowAssistantWatingRoom(ExecuteEvent, RectTransform, Action, Action)
-StaffScrollerSheetManagement:OnStaffManagementResultInternal(ManagementMenu, String, StaffScrollAddedCellView&)
-StaffScrollerSheetManagement:OnStaffManagementResult(Int32, String)
-System.Action`2:Invoke(T1, T2)
-Data:InvokeSortAction()
-UnityEngine.Events.UnityAction`1:Invoke(T0)
-UnityEngine.Events.InvokableCall`1:Invoke(T1)
-UnityEngine.Events.UnityEvent`1:Invoke(T0)
-InputSystemWrapper.Handler`4:Handle(Input)
-BecameInactiveEventHandler:Invoke()
-UnityEngine.InputSystem.Utilities.DelegateHelpers:InvokeCallbacksSafe(CallbackArray`1&, String, Object)
-UnityEngine.InputSystem.InputManager:InvokeAfterUpdateCallback(InputUpdateType)
-UnityEngine.InputSystem.InputManager:OnUpdate(InputUpdateType, InputEventBuffer&)
-InputSystemWrapper.OnActionHandler:Invoke(TEnumAction, CallbackContext)
-UnityEngine.InputSystem.LowLevel.<>c__DisplayClass7_0:<set_onUpdate>b__0(NativeInputUpdateType, NativeInputEventBuffer*)
-InputSystemWrapper.OnActionHandler:Invoke(TEnumAction, CallbackContext)
-UnityEngineInternal.Input.NativeInputSystem:NotifyUpdate(NativeInputUpdateType, IntPtr)
-
-Unloading 2 Unused Serialized files (Serialized files now loaded: 452)
-UnloadTime: 132.275600 ms
-
-Unloading 2289 unused Assets to reduce memory usage. Loaded Objects now: 129460.
-Total: 267.606300 ms (FindLiveObjects: 5.603000 ms CreateObjectMapping: 4.627900 ms MarkObjects: 253.743600 ms  DeleteObjects: 3.630900 ms)
-
-Unloading 1 Unused Serialized files (Serialized files now loaded: 444)
-UnloadTime: 1.212600 ms
-
-Unloading 7 unused Assets to reduce memory usage. Loaded Objects now: 129289.
-Total: 259.936100 ms (FindLiveObjects: 5.196100 ms CreateObjectMapping: 4.274100 ms MarkObjects: 250.214400 ms  DeleteObjects: 0.250500 ms)
-
-Unloading 0 Unused Serialized files (Serialized files now loaded: 442)
-
-Unloading 0 unused Assets to reduce memory usage. Loaded Objects now: 129289.
-Total: 259.040700 ms (FindLiveObjects: 5.385400 ms CreateObjectMapping: 4.223500 ms MarkObjects: 249.218900 ms  DeleteObjects: 0.212600 ms)
-
-Unloading 1 Unused Serialized files (Serialized files now loaded: 444)
-UnloadTime: 0.845800 ms
-
-Unloading 261 unused Assets to reduce memory usage. Loaded Objects now: 142035.
-Total: 278.276400 ms (FindLiveObjects: 6.110700 ms CreateObjectMapping: 4.605000 ms MarkObjects: 266.977800 ms  DeleteObjects: 0.582600 ms)
-
-Unloading 2 Unused Serialized files (Serialized files now loaded: 448)
-UnloadTime: 12.057000 ms
-
-Unloading 2390 unused Assets to reduce memory usage. Loaded Objects now: 128103.
-Total: 261.692300 ms (FindLiveObjects: 5.266900 ms CreateObjectMapping: 4.430500 ms MarkObjects: 249.131300 ms  DeleteObjects: 2.862900 ms)
-
-Unloading 0 Unused Serialized files (Serialized files now loaded: 442)
-
-Unloading 0 unused Assets to reduce memory usage. Loaded Objects now: 128103.
-Total: 257.980100 ms (FindLiveObjects: 5.454400 ms CreateObjectMapping: 4.260700 ms MarkObjects: 248.055000 ms  DeleteObjects: 0.209400 ms)
-
-Unloading 1 Unused Serialized files (Serialized files now loaded: 444)
-UnloadTime: 0.826300 ms
-
-Unloading 671 unused Assets to reduce memory usage. Loaded Objects now: 146076.
-Total: 281.447300 ms (FindLiveObjects: 6.654500 ms CreateObjectMapping: 4.905300 ms MarkObjects: 268.972300 ms  DeleteObjects: 0.914200 ms)
-
-Unloading 2 Unused Serialized files (Serialized files now loaded: 446)
-UnloadTime: 16.342700 ms
-
-Unloading 3710 unused Assets to reduce memory usage. Loaded Objects now: 129252.
-Total: 271.155300 ms (FindLiveObjects: 5.392100 ms CreateObjectMapping: 4.590600 ms MarkObjects: 257.678100 ms  DeleteObjects: 3.493900 ms)
-
-Unloading 1 Unused Serialized files (Serialized files now loaded: 444)
-UnloadTime: 1.204100 ms
-
-Unloading 7 unused Assets to reduce memory usage. Loaded Objects now: 129081.
-Total: 264.615500 ms (FindLiveObjects: 5.328900 ms CreateObjectMapping: 4.536800 ms MarkObjects: 254.499900 ms  DeleteObjects: 0.249000 ms)
-
-Unloading 0 Unused Serialized files (Serialized files now loaded: 442)
-
-Unloading 0 unused Assets to reduce memory usage. Loaded Objects now: 129081.
-Total: 261.932100 ms (FindLiveObjects: 5.361900 ms CreateObjectMapping: 4.276000 ms MarkObjects: 252.084900 ms  DeleteObjects: 0.208800 ms)
-
-Unloading 1 Unused Serialized files (Serialized files now loaded: 444)
-UnloadTime: 0.819700 ms
-
-Unloading 262 unused Assets to reduce memory usage. Loaded Objects now: 141836.
-Total: 279.960300 ms (FindLiveObjects: 6.001400 ms CreateObjectMapping: 5.137400 ms MarkObjects: 268.225000 ms  DeleteObjects: 0.595900 ms)
-
-Unloading 2 Unused Serialized files (Serialized files now loaded: 423)
-UnloadTime: 12.787000 ms
-
-Unloading 1083 unused Assets to reduce memory usage. Loaded Objects now: 50178.
-Total: 202.776300 ms (FindLiveObjects: 2.223700 ms CreateObjectMapping: 1.622700 ms MarkObjects: 196.373300 ms  DeleteObjects: 2.556000 ms)
+Unloading 1387 unused Assets to reduce memory usage. Loaded Objects now: 47905.
+Total: 130.799200 ms (FindLiveObjects: 2.193300 ms CreateObjectMapping: 2.784500 ms MarkObjects: 123.297500 ms  DeleteObjects: 2.523500 ms)
 
 Unloading 0 Unused Serialized files (Serialized files now loaded: 416)
 
-Unloading 0 unused Assets to reduce memory usage. Loaded Objects now: 50178.
-Total: 200.169400 ms (FindLiveObjects: 2.335900 ms CreateObjectMapping: 1.680100 ms MarkObjects: 196.069900 ms  DeleteObjects: 0.082800 ms)
+Unloading 0 unused Assets to reduce memory usage. Loaded Objects now: 47905.
+Total: 126.766800 ms (FindLiveObjects: 2.313100 ms CreateObjectMapping: 2.387100 ms MarkObjects: 121.989300 ms  DeleteObjects: 0.076400 ms)
 
 Unloading 1 Unused Serialized files (Serialized files now loaded: 419)
-UnloadTime: 0.518600 ms
+UnloadTime: 0.520100 ms
 
-Unloading 4212 unused Assets to reduce memory usage. Loaded Objects now: 94761.
-Total: 206.478100 ms (FindLiveObjects: 3.345100 ms CreateObjectMapping: 2.477300 ms MarkObjects: 199.217300 ms  DeleteObjects: 1.437800 ms)
+Unloading 4212 unused Assets to reduce memory usage. Loaded Objects now: 92481.
+Total: 151.616600 ms (FindLiveObjects: 3.286600 ms CreateObjectMapping: 3.882900 ms MarkObjects: 143.011400 ms  DeleteObjects: 1.435100 ms)
 
 Animation Count is 1
 UnityEngine.Logger:Log(LogType, Object)
@@ -983,7 +904,7 @@ FishAllocator:DoInstanceFishOrGroup(GameObject, Action`1, Boolean)
 <InstanceCheckRoutine>d__38:MoveNext()
 UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
 
-[ line -416357544]
+[ line -61872648]
 
 Failed to create agent because there is no valid NavMesh
 UnityEngine.Object:Instantiate(Object, Vector3, Quaternion, Transform)
@@ -992,26 +913,44 @@ FishAllocator:DoInstanceFishOrGroup(GameObject, Action`1, Boolean)
 <InstanceCheckRoutine>d__38:MoveNext()
 UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
 
-[ line -416357544]
+[ line -61872648]
 
-Unloading 2 Unused Serialized files (Serialized files now loaded: 440)
-UnloadTime: 99.655400 ms
+Failed to create agent because there is no valid NavMesh
+UnityEngine.Object:Instantiate(Object, Vector3, Quaternion, Transform)
+UnityEngine.Object:Instantiate(T, Vector3, Quaternion, Transform)
+FishAllocator:DoInstanceFishOrGroup(GameObject, Action`1, Boolean)
+<InstanceCheckRoutine>d__38:MoveNext()
+UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
 
-Unloading 13977 unused Assets to reduce memory usage. Loaded Objects now: 58547.
-Total: 244.141000 ms (FindLiveObjects: 2.923500 ms CreateObjectMapping: 2.898000 ms MarkObjects: 228.331000 ms  DeleteObjects: 9.987800 ms)
+[ line -61872648]
+
+Please play only one sound for the audioSourceTransform.
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:LogWarning(Object)
+SoundManager:PlaySound(SoundPlayInfo, Transform, Boolean, SameClipPlayType)
+AniClipSoundEvent:Fire(Animator)
+AniEventConsumer:OnAniClipSoundEvent(AnimationEvent)
+
+Unloading 2 Unused Serialized files (Serialized files now loaded: 439)
+UnloadTime: 100.149100 ms
+
+Unloading 13992 unused Assets to reduce memory usage. Loaded Objects now: 56270.
+Total: 213.869100 ms (FindLiveObjects: 3.071100 ms CreateObjectMapping: 5.504600 ms MarkObjects: 196.653400 ms  DeleteObjects: 8.639200 ms)
 
 Unloading 0 Unused Serialized files (Serialized files now loaded: 420)
 
-Unloading 0 unused Assets to reduce memory usage. Loaded Objects now: 58545.
-Total: 225.276600 ms (FindLiveObjects: 2.499900 ms CreateObjectMapping: 2.726200 ms MarkObjects: 219.518500 ms  DeleteObjects: 0.531100 ms)
+Unloading 0 unused Assets to reduce memory usage. Loaded Objects now: 56268.
+Total: 196.471200 ms (FindLiveObjects: 2.850100 ms CreateObjectMapping: 4.540900 ms MarkObjects: 188.548700 ms  DeleteObjects: 0.530800 ms)
 
-Unloading 1 Unused Serialized files (Serialized files now loaded: 421)
-UnloadTime: 0.509800 ms
+Unloading 1 Unused Serialized files (Serialized files now loaded: 422)
+UnloadTime: 0.495100 ms
+The AnimationClip 'Ani3D_MantisShrimp_Normal_Dead_A_01' used by the Animation component 'Boss_MantisShrimp01' must be marked as Legacy.
+Default clip could not be found in attached animations list.
 
-Unloading 1196 unused Assets to reduce memory usage. Loaded Objects now: 75011.
-Total: 252.330300 ms (FindLiveObjects: 2.583400 ms CreateObjectMapping: 2.152900 ms MarkObjects: 246.844300 ms  DeleteObjects: 0.748700 ms)
+Unloading 3049 unused Assets to reduce memory usage. Loaded Objects now: 71291.
+Total: 215.123400 ms (FindLiveObjects: 2.460400 ms CreateObjectMapping: 3.887200 ms MarkObjects: 207.571400 ms  DeleteObjects: 1.203900 ms)
 
-Req StartScenario :boss001_enter ,[Option]isIgnorePlayingScenario : False
+Req StartScenario :Boss_MantisShrimp_EnterBossRoom ,[Option]isIgnorePlayingScenario : False
 UnityEngine.Logger:Log(LogType, Object)
 UnityEngine.Debug:Log(Object)
 ScenarioManager:StartScenario(String, Action`1, Boolean, Boolean, Boolean)
@@ -1019,102 +958,751 @@ SA.GlobalMethods:ScenarioStart(String, Action`1)
 <DoJob>d__41:MoveNext()
 UniRx.<WrapEnumerator>d__291:MoveNext()
 UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
-UniRx.Operators.FromCoroutineObservable`1:SubscribeCore(IObserver`1, IDisposable)
-UniRx.Operators.OperatorObservableBase`1:Subscribe(IObserver`1)
-<>c__DisplayClass42_0:<Start>b__3(Boolean)
-SRDebugger.Services.PinEntryCompleteCallback:Invoke(Boolean)
-UniRx.Operators.Take:OnNext(T)
-UniRx.Operators.Where:OnNext(T)
-UniRx.ReactiveProperty`1:RaiseOnNext(T&)
-UniRx.ReactiveProperty`1:set_Value(T)
-SignalWithParam:AddSignal(Boolean)
-BossSceneTriggerCollider:OnTriggerEnter2D(Collider2D)
 
-Req StartScenario :boss001_enter02 ,[Option]isIgnorePlayingScenario : False
+Req StartScenario :Boss_MantisShrimp_BeforeBattle ,[Option]isIgnorePlayingScenario : False
 UnityEngine.Logger:Log(LogType, Object)
 UnityEngine.Debug:Log(Object)
 ScenarioManager:StartScenario(String, Action`1, Boolean, Boolean, Boolean)
 SA.GlobalMethods:ScenarioStart(String, Action`1)
-MoveCamToBossAndBackToPlayer:<DoJob>b__6_0()
-UnityEngine.AI.OnNavMeshPreUpdate:Invoke()
-DG.Tweening.Tween:OnTweenCallback(TweenCallback, Tween)
-DG.Tweening.Tween:DoGoto(Tween, Single, Int32, UpdateMode)
-DG.Tweening.Core.TweenManager:Update(Tween, Single, Single, Boolean)
-DG.Tweening.Core.TweenManager:Update(UpdateType, Single, Single)
-DG.Tweening.Core.DOTweenComponent:Update()
-
-Material 'Boss_HermitCrab01_Cover (Instance)' with Shader 'ProjectDR/2D_Sprite_Uber' doesn't have a color property '_Color'
-UnityEngine.Material:get_color()
-<Disappear>d__4:MoveNext()
+<DoJob>d__41:MoveNext()
+UniRx.<WrapEnumerator>d__291:MoveNext()
 UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
 
-[ line -416355640]
+Please play only one sound for the audioSourceTransform.
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:LogWarning(Object)
+SoundManager:PlaySound(SoundPlayInfo, Transform, Boolean, SameClipPlayType)
+AniClipSoundEventOnlyKey:Fire(Animator)
+AniEventConsumer:OnAniClipSoundEvent(AnimationEvent)
 
-Material 'Boss_HermitCrab01_Cover (Instance)' with Shader 'ProjectDR/2D_Sprite_Uber' doesn't have a color property '_Color'
-UnityEngine.Material:get_color()
-<Disappear>d__4:MoveNext()
+Please play only one sound for the audioSourceTransform.
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:LogWarning(Object)
+SoundManager:PlaySound(SoundPlayInfo, Transform, Boolean, SameClipPlayType)
+AniClipSoundEventOnlyKey:Fire(Animator)
+AniEventConsumer:OnAniClipSoundEvent(AnimationEvent)
+
+Please play only one sound for the audioSourceTransform.
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:LogWarning(Object)
+SoundManager:PlaySound(SoundPlayInfo, Transform, Boolean, SameClipPlayType)
+AniClipSoundEventOnlyKey:Fire(Animator)
+AniEventConsumer:OnAniClipSoundEvent(AnimationEvent)
+
+Please play only one sound for the audioSourceTransform.
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:LogWarning(Object)
+SoundManager:PlaySound(SoundPlayInfo, Transform, Boolean, SameClipPlayType)
+AniClipSoundEventOnlyKey:Fire(Animator)
+AniEventConsumer:OnAniClipSoundEvent(AnimationEvent)
+
+Please play only one sound for the audioSourceTransform.
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:LogWarning(Object)
+SoundManager:PlaySound(SoundPlayInfo, Transform, Boolean, SameClipPlayType)
+AniClipSoundEventOnlyKey:Fire(Animator)
+AniEventConsumer:OnAniClipSoundEvent(AnimationEvent)
+
+Please play only one sound for the audioSourceTransform.
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:LogWarning(Object)
+SoundManager:PlaySound(SoundPlayInfo, Transform, Boolean, SameClipPlayType)
+AniClipSoundEventOnlyKey:Fire(Animator)
+AniEventConsumer:OnAniClipSoundEvent(AnimationEvent)
+
+Please play only one sound for the audioSourceTransform.
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:LogWarning(Object)
+SoundManager:PlaySound(SoundPlayInfo, Transform, Boolean, SameClipPlayType)
+AniClipSoundEventOnlyKey:Fire(Animator)
+AniEventConsumer:OnAniClipSoundEvent(AnimationEvent)
+
+Please play only one sound for the audioSourceTransform.
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:LogWarning(Object)
+SoundManager:PlaySound(SoundPlayInfo, Transform, Boolean, SameClipPlayType)
+AniClipSoundEventOnlyKey:Fire(Animator)
+AniEventConsumer:OnAniClipSoundEvent(AnimationEvent)
+
+Please play only one sound for the audioSourceTransform.
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:LogWarning(Object)
+SoundManager:PlaySound(SoundPlayInfo, Transform, Boolean, SameClipPlayType)
+AniClipSoundEventOnlyKey:Fire(Animator)
+AniEventConsumer:OnAniClipSoundEvent(AnimationEvent)
+
+Please play only one sound for the audioSourceTransform.
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:LogWarning(Object)
+SoundManager:PlaySound(SoundPlayInfo, Transform, Boolean, SameClipPlayType)
+AniClipSoundEventOnlyKey:Fire(Animator)
+AniEventConsumer:OnAniClipSoundEvent(AnimationEvent)
+
+Please play only one sound for the audioSourceTransform.
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:LogWarning(Object)
+SoundManager:PlaySound(SoundPlayInfo, Transform, Boolean, SameClipPlayType)
+AniClipSoundEventOnlyKey:Fire(Animator)
+AniEventConsumer:OnAniClipSoundEvent(AnimationEvent)
+
+Please play only one sound for the audioSourceTransform.
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:LogWarning(Object)
+SoundManager:PlaySound(SoundPlayInfo, Transform, Boolean, SameClipPlayType)
+AniClipSoundEventOnlyKey:Fire(Animator)
+AniEventConsumer:OnAniClipSoundEvent(AnimationEvent)
+
+Please play only one sound for the audioSourceTransform.
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:LogWarning(Object)
+SoundManager:PlaySound(SoundPlayInfo, Transform, Boolean, SameClipPlayType)
+AniClipSoundEventOnlyKey:Fire(Animator)
+AniEventConsumer:OnAniClipSoundEvent(AnimationEvent)
+
+Please play only one sound for the audioSourceTransform.
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:LogWarning(Object)
+SoundManager:PlaySound(SoundPlayInfo, Transform, Boolean, SameClipPlayType)
+AniClipSoundEventOnlyKey:Fire(Animator)
+AniEventConsumer:OnAniClipSoundEvent(AnimationEvent)
+
+Please play only one sound for the audioSourceTransform.
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:LogWarning(Object)
+SoundManager:PlaySound(SoundPlayInfo, Transform, Boolean, SameClipPlayType)
+AniClipSoundEventOnlyKey:Fire(Animator)
+AniEventConsumer:OnAniClipSoundEvent(AnimationEvent)
+
+Please play only one sound for the audioSourceTransform.
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:LogWarning(Object)
+SoundManager:PlaySound(SoundPlayInfo, Transform, Boolean, SameClipPlayType)
+AniClipSoundEventOnlyKey:Fire(Animator)
+AniEventConsumer:OnAniClipSoundEvent(AnimationEvent)
+
+Please play only one sound for the audioSourceTransform.
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:LogWarning(Object)
+SoundManager:PlaySound(SoundPlayInfo, Transform, Boolean, SameClipPlayType)
+AniClipSoundEventOnlyKey:Fire(Animator)
+AniEventConsumer:OnAniClipSoundEvent(AnimationEvent)
+
+Please play only one sound for the audioSourceTransform.
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:LogWarning(Object)
+SoundManager:PlaySound(SoundPlayInfo, Transform, Boolean, SameClipPlayType)
+AniClipSoundEventOnlyKey:Fire(Animator)
+AniEventConsumer:OnAniClipSoundEvent(AnimationEvent)
+
+Please play only one sound for the audioSourceTransform.
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:LogWarning(Object)
+SoundManager:PlaySound(SoundPlayInfo, Transform, Boolean, SameClipPlayType)
+AniClipSoundEventOnlyKey:Fire(Animator)
+AniEventConsumer:OnAniClipSoundEvent(AnimationEvent)
+
+Please play only one sound for the audioSourceTransform.
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:LogWarning(Object)
+SoundManager:PlaySound(SoundPlayInfo, Transform, Boolean, SameClipPlayType)
+AniClipSoundEventOnlyKey:Fire(Animator)
+AniEventConsumer:OnAniClipSoundEvent(AnimationEvent)
+
+Please play only one sound for the audioSourceTransform.
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:LogWarning(Object)
+SoundManager:PlaySound(SoundPlayInfo, Transform, Boolean, SameClipPlayType)
+AniClipSoundEventOnlyKey:Fire(Animator)
+AniEventConsumer:OnAniClipSoundEvent(AnimationEvent)
+
+Please play only one sound for the audioSourceTransform.
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:LogWarning(Object)
+SoundManager:PlaySound(SoundPlayInfo, Transform, Boolean, SameClipPlayType)
+AniClipSoundEventOnlyKey:Fire(Animator)
+AniEventConsumer:OnAniClipSoundEvent(AnimationEvent)
+
+Please play only one sound for the audioSourceTransform.
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:LogWarning(Object)
+SoundManager:PlaySound(SoundPlayInfo, Transform, Boolean, SameClipPlayType)
+AniClipSoundEventOnlyKey:Fire(Animator)
+AniEventConsumer:OnAniClipSoundEvent(AnimationEvent)
+
+Please play only one sound for the audioSourceTransform.
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:LogWarning(Object)
+SoundManager:PlaySound(SoundPlayInfo, Transform, Boolean, SameClipPlayType)
+AniClipSoundEventOnlyKey:Fire(Animator)
+AniEventConsumer:OnAniClipSoundEvent(AnimationEvent)
+
+Please play only one sound for the audioSourceTransform.
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:LogWarning(Object)
+SoundManager:PlaySound(SoundPlayInfo, Transform, Boolean, SameClipPlayType)
+AniClipSoundEventOnlyKey:Fire(Animator)
+AniEventConsumer:OnAniClipSoundEvent(AnimationEvent)
+
+Please play only one sound for the audioSourceTransform.
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:LogWarning(Object)
+SoundManager:PlaySound(SoundPlayInfo, Transform, Boolean, SameClipPlayType)
+AniClipSoundEventOnlyKey:Fire(Animator)
+AniEventConsumer:OnAniClipSoundEvent(AnimationEvent)
+
+Please play only one sound for the audioSourceTransform.
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:LogWarning(Object)
+SoundManager:PlaySound(SoundPlayInfo, Transform, Boolean, SameClipPlayType)
+AniClipSoundEventOnlyKey:Fire(Animator)
+AniEventConsumer:OnAniClipSoundEvent(AnimationEvent)
+
+Please play only one sound for the audioSourceTransform.
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:LogWarning(Object)
+SoundManager:PlaySound(SoundPlayInfo, Transform, Boolean, SameClipPlayType)
+AniClipSoundEventOnlyKey:Fire(Animator)
+AniEventConsumer:OnAniClipSoundEvent(AnimationEvent)
+
+Please play only one sound for the audioSourceTransform.
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:LogWarning(Object)
+SoundManager:PlaySound(SoundPlayInfo, Transform, Boolean, SameClipPlayType)
+AniClipSoundEventOnlyKey:Fire(Animator)
+AniEventConsumer:OnAniClipSoundEvent(AnimationEvent)
+
+Please play only one sound for the audioSourceTransform.
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:LogWarning(Object)
+SoundManager:PlaySound(SoundPlayInfo, Transform, Boolean, SameClipPlayType)
+AniClipSoundEventOnlyKey:Fire(Animator)
+AniEventConsumer:OnAniClipSoundEvent(AnimationEvent)
+
+Please play only one sound for the audioSourceTransform.
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:LogWarning(Object)
+SoundManager:PlaySound(SoundPlayInfo, Transform, Boolean, SameClipPlayType)
+AniClipSoundEventOnlyKey:Fire(Animator)
+AniEventConsumer:OnAniClipSoundEvent(AnimationEvent)
+
+Please play only one sound for the audioSourceTransform.
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:LogWarning(Object)
+SoundManager:PlaySound(SoundPlayInfo, Transform, Boolean, SameClipPlayType)
+AniClipSoundEventOnlyKey:Fire(Animator)
+AniEventConsumer:OnAniClipSoundEvent(AnimationEvent)
+
+Please play only one sound for the audioSourceTransform.
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:LogWarning(Object)
+SoundManager:PlaySound(SoundPlayInfo, Transform, Boolean, SameClipPlayType)
+AniClipSoundEventOnlyKey:Fire(Animator)
+AniEventConsumer:OnAniClipSoundEvent(AnimationEvent)
+
+Please play only one sound for the audioSourceTransform.
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:LogWarning(Object)
+SoundManager:PlaySound(SoundPlayInfo, Transform, Boolean, SameClipPlayType)
+AniClipSoundEventOnlyKey:Fire(Animator)
+AniEventConsumer:OnAniClipSoundEvent(AnimationEvent)
+
+Please play only one sound for the audioSourceTransform.
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:LogWarning(Object)
+SoundManager:PlaySound(SoundPlayInfo, Transform, Boolean, SameClipPlayType)
+AniClipSoundEventOnlyKey:Fire(Animator)
+AniEventConsumer:OnAniClipSoundEvent(AnimationEvent)
+
+SpawnItem !!!
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+BossMantisShrimpController:Action_SpawnItem()
+System.Reflection.MonoMethod:Invoke(Object, BindingFlags, Binder, Object[], CultureInfo)
+System.Reflection.MethodBase:Invoke(Object, Object[])
+SA.BOSS.SABossControllerBase`4:FireActionEvent(String)
+SA.BOSS.SABossControllerBase`4:FireEvent(SpecifiedEvent, SpecifiedClipEvent)
+System.Action`1:Invoke(T)
+System.Collections.Generic.List`1:ForEach(Action`1)
+AniEventConsumer:CustomClipEvent(AnimationEvent)
+
+Please play only one sound for the audioSourceTransform.
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:LogWarning(Object)
+SoundManager:PlaySound(SoundPlayInfo, Transform, Boolean, SameClipPlayType)
+AniClipSoundEventOnlyKey:Fire(Animator)
+AniEventConsumer:OnAniClipSoundEvent(AnimationEvent)
+
+Please play only one sound for the audioSourceTransform.
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:LogWarning(Object)
+SoundManager:PlaySound(SoundPlayInfo, Transform, Boolean, SameClipPlayType)
+AniClipSoundEventOnlyKey:Fire(Animator)
+AniEventConsumer:OnAniClipSoundEvent(AnimationEvent)
+
+Please play only one sound for the audioSourceTransform.
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:LogWarning(Object)
+SoundManager:PlaySound(SoundPlayInfo, Transform, Boolean, SameClipPlayType)
+AniClipSoundEventOnlyKey:Fire(Animator)
+AniEventConsumer:OnAniClipSoundEvent(AnimationEvent)
+
+Please play only one sound for the audioSourceTransform.
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:LogWarning(Object)
+SoundManager:PlaySound(SoundPlayInfo, Transform, Boolean, SameClipPlayType)
+AniClipSoundEventOnlyKey:Fire(Animator)
+AniEventConsumer:OnAniClipSoundEvent(AnimationEvent)
+
+Please play only one sound for the audioSourceTransform.
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:LogWarning(Object)
+SoundManager:PlaySound(SoundPlayInfo, Transform, Boolean, SameClipPlayType)
+AniClipSoundEventOnlyKey:Fire(Animator)
+AniEventConsumer:OnAniClipSoundEvent(AnimationEvent)
+
+Please play only one sound for the audioSourceTransform.
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:LogWarning(Object)
+SoundManager:PlaySound(SoundPlayInfo, Transform, Boolean, SameClipPlayType)
+AniClipSoundEventOnlyKey:Fire(Animator)
+AniEventConsumer:OnAniClipSoundEvent(AnimationEvent)
+
+Please play only one sound for the audioSourceTransform.
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:LogWarning(Object)
+SoundManager:PlaySound(SoundPlayInfo, Transform, Boolean, SameClipPlayType)
+AniClipSoundEventOnlyKey:Fire(Animator)
+AniEventConsumer:OnAniClipSoundEvent(AnimationEvent)
+
+Please play only one sound for the audioSourceTransform.
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:LogWarning(Object)
+SoundManager:PlaySound(SoundPlayInfo, Transform, Boolean, SameClipPlayType)
+AniClipSoundEventOnlyKey:Fire(Animator)
+AniEventConsumer:OnAniClipSoundEvent(AnimationEvent)
+
+Please play only one sound for the audioSourceTransform.
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:LogWarning(Object)
+SoundManager:PlaySound(SoundPlayInfo, Transform, Boolean, SameClipPlayType)
+AniClipSoundEventOnlyKey:Fire(Animator)
+AniEventConsumer:OnAniClipSoundEvent(AnimationEvent)
+
+Please play only one sound for the audioSourceTransform.
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:LogWarning(Object)
+SoundManager:PlaySound(SoundPlayInfo, Transform, Boolean, SameClipPlayType)
+AniClipSoundEventOnlyKey:Fire(Animator)
+AniEventConsumer:OnAniClipSoundEvent(AnimationEvent)
+
+Please play only one sound for the audioSourceTransform.
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:LogWarning(Object)
+SoundManager:PlaySound(SoundPlayInfo, Transform, Boolean, SameClipPlayType)
+AniClipSoundEventOnlyKey:Fire(Animator)
+AniEventConsumer:OnAniClipSoundEvent(AnimationEvent)
+
+Please play only one sound for the audioSourceTransform.
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:LogWarning(Object)
+SoundManager:PlaySound(SoundPlayInfo, Transform, Boolean, SameClipPlayType)
+AniClipSoundEventOnlyKey:Fire(Animator)
+AniEventConsumer:OnAniClipSoundEvent(AnimationEvent)
+
+Please play only one sound for the audioSourceTransform.
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:LogWarning(Object)
+SoundManager:PlaySound(SoundPlayInfo, Transform, Boolean, SameClipPlayType)
+AniClipSoundEventOnlyKey:Fire(Animator)
+AniEventConsumer:OnAniClipSoundEvent(AnimationEvent)
+
+SpawnItem !!!
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+BossMantisShrimpController:Action_SpawnItem()
+System.Reflection.MonoMethod:Invoke(Object, BindingFlags, Binder, Object[], CultureInfo)
+System.Reflection.MethodBase:Invoke(Object, Object[])
+SA.BOSS.SABossControllerBase`4:FireActionEvent(String)
+SA.BOSS.SABossControllerBase`4:FireEvent(SpecifiedEvent, SpecifiedClipEvent)
+System.Action`1:Invoke(T)
+System.Collections.Generic.List`1:ForEach(Action`1)
+AniEventConsumer:CustomClipEvent(AnimationEvent)
+
+Please play only one sound for the audioSourceTransform.
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:LogWarning(Object)
+SoundManager:PlaySound(SoundPlayInfo, Transform, Boolean, SameClipPlayType)
+AniClipSoundEventOnlyKey:Fire(Animator)
+AniEventConsumer:OnAniClipSoundEvent(AnimationEvent)
+
+Please play only one sound for the audioSourceTransform.
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:LogWarning(Object)
+SoundManager:PlaySound(SoundPlayInfo, Transform, Boolean, SameClipPlayType)
+AniClipSoundEventOnlyKey:Fire(Animator)
+AniEventConsumer:OnAniClipSoundEvent(AnimationEvent)
+
+Please play only one sound for the audioSourceTransform.
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:LogWarning(Object)
+SoundManager:PlaySound(SoundPlayInfo, Transform, Boolean, SameClipPlayType)
+AniClipSoundEventOnlyKey:Fire(Animator)
+AniEventConsumer:OnAniClipSoundEvent(AnimationEvent)
+
+Please play only one sound for the audioSourceTransform.
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:LogWarning(Object)
+SoundManager:PlaySound(SoundPlayInfo, Transform, Boolean, SameClipPlayType)
+AniClipSoundEventOnlyKey:Fire(Animator)
+AniEventConsumer:OnAniClipSoundEvent(AnimationEvent)
+
+Please play only one sound for the audioSourceTransform.
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:LogWarning(Object)
+SoundManager:PlaySound(SoundPlayInfo, Transform, Boolean, SameClipPlayType)
+AniClipSoundEventOnlyKey:Fire(Animator)
+AniEventConsumer:OnAniClipSoundEvent(AnimationEvent)
+
+Please play only one sound for the audioSourceTransform.
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:LogWarning(Object)
+SoundManager:PlaySound(SoundPlayInfo, Transform, Boolean, SameClipPlayType)
+AniClipSoundEventOnlyKey:Fire(Animator)
+AniEventConsumer:OnAniClipSoundEvent(AnimationEvent)
+
+Please play only one sound for the audioSourceTransform.
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:LogWarning(Object)
+SoundManager:PlaySound(SoundPlayInfo, Transform, Boolean, SameClipPlayType)
+AniClipSoundEventOnlyKey:Fire(Animator)
+AniEventConsumer:OnAniClipSoundEvent(AnimationEvent)
+
+Please play only one sound for the audioSourceTransform.
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:LogWarning(Object)
+SoundManager:PlaySound(SoundPlayInfo, Transform, Boolean, SameClipPlayType)
+AniClipSoundEventOnlyKey:Fire(Animator)
+AniEventConsumer:OnAniClipSoundEvent(AnimationEvent)
+
+Please play only one sound for the audioSourceTransform.
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:LogWarning(Object)
+SoundManager:PlaySound(SoundPlayInfo, Transform, Boolean, SameClipPlayType)
+AniClipSoundEventOnlyKey:Fire(Animator)
+AniEventConsumer:OnAniClipSoundEvent(AnimationEvent)
+
+Please play only one sound for the audioSourceTransform.
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:LogWarning(Object)
+SoundManager:PlaySound(SoundPlayInfo, Transform, Boolean, SameClipPlayType)
+AniClipSoundEventOnlyKey:Fire(Animator)
+AniEventConsumer:OnAniClipSoundEvent(AnimationEvent)
+
+SpawnItem !!!
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+BossMantisShrimpController:Action_SpawnItem()
+System.Reflection.MonoMethod:Invoke(Object, BindingFlags, Binder, Object[], CultureInfo)
+System.Reflection.MethodBase:Invoke(Object, Object[])
+SA.BOSS.SABossControllerBase`4:FireActionEvent(String)
+SA.BOSS.SABossControllerBase`4:FireEvent(SpecifiedEvent, SpecifiedClipEvent)
+System.Action`1:Invoke(T)
+System.Collections.Generic.List`1:ForEach(Action`1)
+AniEventConsumer:CustomClipEvent(AnimationEvent)
+
+Please play only one sound for the audioSourceTransform.
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:LogWarning(Object)
+SoundManager:PlaySound(SoundPlayInfo, Transform, Boolean, SameClipPlayType)
+AniClipSoundEventOnlyKey:Fire(Animator)
+AniEventConsumer:OnAniClipSoundEvent(AnimationEvent)
+
+Please play only one sound for the audioSourceTransform.
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:LogWarning(Object)
+SoundManager:PlaySound(SoundPlayInfo, Transform, Boolean, SameClipPlayType)
+AniClipSoundEventOnlyKey:Fire(Animator)
+AniEventConsumer:OnAniClipSoundEvent(AnimationEvent)
+
+Please play only one sound for the audioSourceTransform.
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:LogWarning(Object)
+SoundManager:PlaySound(SoundPlayInfo, Transform, Boolean, SameClipPlayType)
+AniClipSoundEventOnlyKey:Fire(Animator)
+AniEventConsumer:OnAniClipSoundEvent(AnimationEvent)
+
+temp : 애니 time over 22%, 철공에 닿았지만
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:LogError(Object)
+BossMantisShrimpController:<InitTryCheckHitIronBallReaction>b__39_0(Collider2D)
+System.Action`1:Invoke(T)
+UniRx.Triggers.ObservableTrigger2DTrigger:OnTriggerEnter2D(Collider2D)
+
+Please play only one sound for the audioSourceTransform.
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:LogWarning(Object)
+SoundManager:PlaySound(SoundPlayInfo, Transform, Boolean, SameClipPlayType)
+AniClipSoundEventOnlyKey:Fire(Animator)
+AniEventConsumer:OnAniClipSoundEvent(AnimationEvent)
+
+Please play only one sound for the audioSourceTransform.
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:LogWarning(Object)
+SoundManager:PlaySound(SoundPlayInfo, Transform, Boolean, SameClipPlayType)
+AniClipSoundEventOnlyKey:Fire(Animator)
+AniEventConsumer:OnAniClipSoundEvent(AnimationEvent)
+
+Please play only one sound for the audioSourceTransform.
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:LogWarning(Object)
+SoundManager:PlaySound(SoundPlayInfo, Transform, Boolean, SameClipPlayType)
+AniClipSoundEventOnlyKey:Fire(Animator)
+AniEventConsumer:OnAniClipSoundEvent(AnimationEvent)
+
+Please play only one sound for the audioSourceTransform.
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:LogWarning(Object)
+SoundManager:PlaySound(SoundPlayInfo, Transform, Boolean, SameClipPlayType)
+AniClipSoundEventOnlyKey:Fire(Animator)
+AniEventConsumer:OnAniClipSoundEvent(AnimationEvent)
+
+Please play only one sound for the audioSourceTransform.
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:LogWarning(Object)
+SoundManager:PlaySound(SoundPlayInfo, Transform, Boolean, SameClipPlayType)
+AniClipSoundEventOnlyKey:Fire(Animator)
+AniEventConsumer:OnAniClipSoundEvent(AnimationEvent)
+
+SpawnItem !!!
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+BossMantisShrimpController:Action_SpawnItem()
+System.Reflection.MonoMethod:Invoke(Object, BindingFlags, Binder, Object[], CultureInfo)
+System.Reflection.MethodBase:Invoke(Object, Object[])
+SA.BOSS.SABossControllerBase`4:FireActionEvent(String)
+SA.BOSS.SABossControllerBase`4:FireEvent(SpecifiedEvent, SpecifiedClipEvent)
+System.Action`1:Invoke(T)
+System.Collections.Generic.List`1:ForEach(Action`1)
+AniEventConsumer:CustomClipEvent(AnimationEvent)
+
+Please play only one sound for the audioSourceTransform.
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:LogWarning(Object)
+SoundManager:PlaySound(SoundPlayInfo, Transform, Boolean, SameClipPlayType)
+AniClipSoundEventOnlyKey:Fire(Animator)
+AniEventConsumer:OnAniClipSoundEvent(AnimationEvent)
+
+Please play only one sound for the audioSourceTransform.
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:LogWarning(Object)
+SoundManager:PlaySound(SoundPlayInfo, Transform, Boolean, SameClipPlayType)
+AniClipSoundEventOnlyKey:Fire(Animator)
+AniEventConsumer:OnAniClipSoundEvent(AnimationEvent)
+
+Please play only one sound for the audioSourceTransform.
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:LogWarning(Object)
+SoundManager:PlaySound(SoundPlayInfo, Transform, Boolean, SameClipPlayType)
+AniClipSoundEventOnlyKey:Fire(Animator)
+AniEventConsumer:OnAniClipSoundEvent(AnimationEvent)
+
+Please play only one sound for the audioSourceTransform.
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:LogWarning(Object)
+SoundManager:PlaySound(SoundPlayInfo, Transform, Boolean, SameClipPlayType)
+AniClipSoundEventOnlyKey:Fire(Animator)
+AniEventConsumer:OnAniClipSoundEvent(AnimationEvent)
+
+Please play only one sound for the audioSourceTransform.
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:LogWarning(Object)
+SoundManager:PlaySound(SoundPlayInfo, Transform, Boolean, SameClipPlayType)
+AniClipSoundEventOnlyKey:Fire(Animator)
+AniEventConsumer:OnAniClipSoundEvent(AnimationEvent)
+
+Please play only one sound for the audioSourceTransform.
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:LogWarning(Object)
+SoundManager:PlaySound(SoundPlayInfo, Transform, Boolean, SameClipPlayType)
+AniClipSoundEventOnlyKey:Fire(Animator)
+AniEventConsumer:OnAniClipSoundEvent(AnimationEvent)
+
+Please play only one sound for the audioSourceTransform.
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:LogWarning(Object)
+SoundManager:PlaySound(SoundPlayInfo, Transform, Boolean, SameClipPlayType)
+AniClipSoundEventOnlyKey:Fire(Animator)
+AniEventConsumer:OnAniClipSoundEvent(AnimationEvent)
+
+Please play only one sound for the audioSourceTransform.
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:LogWarning(Object)
+SoundManager:PlaySound(SoundPlayInfo, Transform, Boolean, SameClipPlayType)
+AniClipSoundEventOnlyKey:Fire(Animator)
+AniEventConsumer:OnAniClipSoundEvent(AnimationEvent)
+
+Please play only one sound for the audioSourceTransform.
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:LogWarning(Object)
+SoundManager:PlaySound(SoundPlayInfo, Transform, Boolean, SameClipPlayType)
+AniClipSoundEventOnlyKey:Fire(Animator)
+AniEventConsumer:OnAniClipSoundEvent(AnimationEvent)
+
+Please play only one sound for the audioSourceTransform.
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:LogWarning(Object)
+SoundManager:PlaySound(SoundPlayInfo, Transform, Boolean, SameClipPlayType)
+AniClipSoundEventOnlyKey:Fire(Animator)
+AniEventConsumer:OnAniClipSoundEvent(AnimationEvent)
+
+Please play only one sound for the audioSourceTransform.
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:LogWarning(Object)
+SoundManager:PlaySound(SoundPlayInfo, Transform, Boolean, SameClipPlayType)
+AniClipSoundEventOnlyKey:Fire(Animator)
+AniEventConsumer:OnAniClipSoundEvent(AnimationEvent)
+
+Please play only one sound for the audioSourceTransform.
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:LogWarning(Object)
+SoundManager:PlaySound(SoundPlayInfo, Transform, Boolean, SameClipPlayType)
+AniClipSoundEventOnlyKey:Fire(Animator)
+AniEventConsumer:OnAniClipSoundEvent(AnimationEvent)
+
+Please play only one sound for the audioSourceTransform.
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:LogWarning(Object)
+SoundManager:PlaySound(SoundPlayInfo, Transform, Boolean, SameClipPlayType)
+AniClipSoundEventOnlyKey:Fire(Animator)
+AniEventConsumer:OnAniClipSoundEvent(AnimationEvent)
+
+Please play only one sound for the audioSourceTransform.
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:LogWarning(Object)
+SoundManager:PlaySound(SoundPlayInfo, Transform, Boolean, SameClipPlayType)
+AniClipSoundEventOnlyKey:Fire(Animator)
+AniEventConsumer:OnAniClipSoundEvent(AnimationEvent)
+
+Please play only one sound for the audioSourceTransform.
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:LogWarning(Object)
+SoundManager:PlaySound(SoundPlayInfo, Transform, Boolean, SameClipPlayType)
+AniClipSoundEventOnlyKey:Fire(Animator)
+AniEventConsumer:OnAniClipSoundEvent(AnimationEvent)
+
+SpawnItem !!!
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+BossMantisShrimpController:Action_SpawnItem()
+System.Reflection.MonoMethod:Invoke(Object, BindingFlags, Binder, Object[], CultureInfo)
+System.Reflection.MethodBase:Invoke(Object, Object[])
+SA.BOSS.SABossControllerBase`4:FireActionEvent(String)
+SA.BOSS.SABossControllerBase`4:FireEvent(SpecifiedEvent, SpecifiedClipEvent)
+System.Action`1:Invoke(T)
+System.Collections.Generic.List`1:ForEach(Action`1)
+AniEventConsumer:CustomClipEvent(AnimationEvent)
+
+Please play only one sound for the audioSourceTransform.
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:LogWarning(Object)
+SoundManager:PlaySound(SoundPlayInfo, Transform, Boolean, SameClipPlayType)
+AniClipSoundEventOnlyKey:Fire(Animator)
+AniEventConsumer:OnAniClipSoundEvent(AnimationEvent)
+
+Please play only one sound for the audioSourceTransform.
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:LogWarning(Object)
+SoundManager:PlaySound(SoundPlayInfo, Transform, Boolean, SameClipPlayType)
+AniClipSoundEventOnlyKey:Fire(Animator)
+AniEventConsumer:OnAniClipSoundEvent(AnimationEvent)
+
+Please play only one sound for the audioSourceTransform.
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:LogWarning(Object)
+SoundManager:PlaySound(SoundPlayInfo, Transform, Boolean, SameClipPlayType)
+AniClipSoundEventOnlyKey:Fire(Animator)
+AniEventConsumer:OnAniClipSoundEvent(AnimationEvent)
+
+temp : 애니 time over 22%, 철공에 닿았지만
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:LogError(Object)
+BossMantisShrimpController:<InitTryCheckHitIronBallReaction>b__39_0(Collider2D)
+System.Action`1:Invoke(T)
+UniRx.Triggers.ObservableTrigger2DTrigger:OnTriggerEnter2D(Collider2D)
+
+Please play only one sound for the audioSourceTransform.
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:LogWarning(Object)
+SoundManager:PlaySound(SoundPlayInfo, Transform, Boolean, SameClipPlayType)
+AniClipSoundEventOnlyKey:Fire(Animator)
+AniEventConsumer:OnAniClipSoundEvent(AnimationEvent)
+
+Please play only one sound for the audioSourceTransform.
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:LogWarning(Object)
+SoundManager:PlaySound(SoundPlayInfo, Transform, Boolean, SameClipPlayType)
+AniClipSoundEventOnlyKey:Fire(Animator)
+AniEventConsumer:OnAniClipSoundEvent(AnimationEvent)
+
+The AnimationClip 'Ani3D_MantisShrimp_Normal_Dead_A_01' used by the Animation component 'Boss_MantisShrimp01' must be marked as Legacy.
+System.Action`1:Invoke(T)
+BecameInactiveEventHandler:Invoke()
+UnityEngine.Events.UnityEvent:Invoke()
+UnityEngine.Timeline.SignalReceiver:OnNotify(Playable, INotification, Object)
+
+[ line -61872200]
+
+Default clip could not be found in attached animations list.
+System.Action`1:Invoke(T)
+BecameInactiveEventHandler:Invoke()
+UnityEngine.Events.UnityEvent:Invoke()
+UnityEngine.Timeline.SignalReceiver:OnNotify(Playable, INotification, Object)
+
+[ line -61871848]
+
+Req StartScenario :Boss_MantisShrimp_PickUpItem ,[Option]isIgnorePlayingScenario : False
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+ScenarioManager:StartScenario(String, Action`1, Boolean, Boolean, Boolean)
+SA.GlobalMethods:ScenarioStart(String, Action`1)
+<DoJob>d__41:MoveNext()
+UniRx.<WrapEnumerator>d__291:MoveNext()
 UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
 
-[ line -416355640]
-
-Material 'Boss_HermitCrab01_Cover (Instance)' with Shader 'ProjectDR/2D_Sprite_Uber' doesn't have a color property '_Color'
-UnityEngine.Material:get_color()
-<Disappear>d__4:MoveNext()
+There is no CustomTag Object
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:LogError(Object)
+CameraManager:StartSequenceCamAciton(CameraSequenceInfo, Action)
+ScenarioManager:PlaySequenceNode(DRSequence, Action`1)
+ScenarioManager:StartScenario(String, Action`1, Boolean, Boolean, Boolean)
+SA.GlobalMethods:ScenarioStart(String, Action`1)
+<DoJob>d__41:MoveNext()
+UniRx.<WrapEnumerator>d__291:MoveNext()
 UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
 
-[ line -416355640]
-
-Material 'Boss_HermitCrab01_Cover (Instance)' with Shader 'ProjectDR/2D_Sprite_Uber' doesn't have a color property '_Color'
-UnityEngine.Material:get_color()
-<Disappear>d__4:MoveNext()
-UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
-
-[ line -416355640]
-
-Material 'Boss_HermitCrab01_Cover (Instance)' with Shader 'ProjectDR/2D_Sprite_Uber' doesn't have a color property '_Color'
-UnityEngine.Material:get_color()
-<Disappear>d__4:MoveNext()
-UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
-
-[ line -416355640]
-
-Material 'Boss_HermitCrab01_Cover (Instance)' with Shader 'ProjectDR/2D_Sprite_Uber' doesn't have a color property '_Color'
-UnityEngine.Material:get_color()
-<Disappear>d__4:MoveNext()
-UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
-
-[ line -416355640]
-
-Req StartScenario :Boss_SpecialBoss_01_PickUpItem ,[Option]isIgnorePlayingScenario : False
+Req StartScenario :Boss_MantisShrimp_PickUp ,[Option]isIgnorePlayingScenario : False
 UnityEngine.Logger:Log(LogType, Object)
 UnityEngine.Debug:Log(Object)
 ScenarioManager:StartScenario(String, Action`1, Boolean, Boolean, Boolean)
 <ProcessMissionSequenceV2>d__190:MoveNext()
 UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
 
-Req StartScenario :boss001_PickUp ,[Option]isIgnorePlayingScenario : False
-UnityEngine.Logger:Log(LogType, Object)
-UnityEngine.Debug:Log(Object)
-ScenarioManager:StartScenario(String, Action`1, Boolean, Boolean, Boolean)
-<ProcessMissionSequenceV2>d__190:MoveNext()
-UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+Unloading 2 Unused Serialized files (Serialized files now loaded: 434)
+UnloadTime: 39.077600 ms
 
-Unloading 2 Unused Serialized files (Serialized files now loaded: 433)
-UnloadTime: 49.437200 ms
+Unloading 4301 unused Assets to reduce memory usage. Loaded Objects now: 55996.
+Total: 152.120800 ms (FindLiveObjects: 2.614300 ms CreateObjectMapping: 4.183400 ms MarkObjects: 140.067100 ms  DeleteObjects: 5.255500 ms)
 
-Unloading 3738 unused Assets to reduce memory usage. Loaded Objects now: 58228.
-Total: 225.156600 ms (FindLiveObjects: 2.719300 ms CreateObjectMapping: 2.545000 ms MarkObjects: 215.099900 ms  DeleteObjects: 4.791700 ms)
+Unloading 0 Unused Serialized files (Serialized files now loaded: 419)
 
-Unloading 0 Unused Serialized files (Serialized files now loaded: 420)
-
-Unloading 0 unused Assets to reduce memory usage. Loaded Objects now: 58226.
-Total: 216.242300 ms (FindLiveObjects: 2.563900 ms CreateObjectMapping: 2.019500 ms MarkObjects: 211.478700 ms  DeleteObjects: 0.179700 ms)
+Unloading 0 unused Assets to reduce memory usage. Loaded Objects now: 55996.
+Total: 143.367200 ms (FindLiveObjects: 2.383800 ms CreateObjectMapping: 4.180100 ms MarkObjects: 136.701600 ms  DeleteObjects: 0.101400 ms)
 
 Unloading 1 Unused Serialized files (Serialized files now loaded: 422)
-UnloadTime: 0.537700 ms
+UnloadTime: 0.531900 ms
 
-Unloading 4211 unused Assets to reduce memory usage. Loaded Objects now: 102539.
-Total: 226.664700 ms (FindLiveObjects: 4.160900 ms CreateObjectMapping: 2.838700 ms MarkObjects: 218.157100 ms  DeleteObjects: 1.507300 ms)
+Unloading 4206 unused Assets to reduce memory usage. Loaded Objects now: 100254.
+Total: 166.977800 ms (FindLiveObjects: 3.433000 ms CreateObjectMapping: 4.870100 ms MarkObjects: 157.149700 ms  DeleteObjects: 1.524300 ms)
 
 Animation Count is 1
 UnityEngine.Logger:Log(LogType, Object)
@@ -1145,215 +1733,129 @@ FishAllocator:DoInstanceFishOrGroup(GameObject, Action`1, Boolean)
 <InstanceCheckRoutine>d__38:MoveNext()
 UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
 
-[ line -416357544]
+[ line -61872648]
 
-Failed to create agent because there is no valid NavMesh
-UnityEngine.Object:Instantiate(Object, Vector3, Quaternion, Transform)
-UnityEngine.Object:Instantiate(T, Vector3, Quaternion, Transform)
-FishAllocator:DoInstanceFishOrGroup(GameObject, Action`1, Boolean)
-<InstanceCheckRoutine>d__38:MoveNext()
-UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+Unloading 2 Unused Serialized files (Serialized files now loaded: 442)
+UnloadTime: 97.314100 ms
 
-[ line -416357544]
-
-Failed to create agent because there is no valid NavMesh
-UnityEngine.Object:Instantiate(Object, Vector3, Quaternion, Transform)
-UnityEngine.Object:Instantiate(T, Vector3, Quaternion, Transform)
-FishAllocator:DoInstanceFishOrGroup(GameObject, Action`1, Boolean)
-<InstanceCheckRoutine>d__38:MoveNext()
-UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
-
-[ line -416357544]
-
-Not Battle QTE State!! QTEData의 성공or실패 이 후 릴리즈 되는 시간 참고
-UnityEngine.Logger:Log(LogType, Object)
-UnityEngine.Debug:LogError(Object)
-AniEventConsumer:CustomClipEvent(AnimationEvent)
-
-Please play only one sound for the audioSourceTransform.
-UnityEngine.Logger:Log(LogType, Object)
-UnityEngine.Debug:LogWarning(Object)
-SoundManager:PlaySound(SoundPlayInfo, Transform, Boolean, SameClipPlayType)
-AniClipSoundEvent:Fire(Animator)
-AniEventConsumer:OnAniClipSoundEvent(AnimationEvent)
-
-Please play only one sound for the audioSourceTransform.
-UnityEngine.Logger:Log(LogType, Object)
-UnityEngine.Debug:LogWarning(Object)
-SoundManager:PlaySound(SoundPlayInfo, Transform, Boolean, SameClipPlayType)
-AniClipSoundEvent:Fire(Animator)
-AniEventConsumer:OnAniClipSoundEvent(AnimationEvent)
-
-Please play only one sound for the audioSourceTransform.
-UnityEngine.Logger:Log(LogType, Object)
-UnityEngine.Debug:LogWarning(Object)
-SoundManager:PlaySound(SoundPlayInfo, Transform, Boolean, SameClipPlayType)
-AniClipSoundEvent:Fire(Animator)
-AniEventConsumer:OnAniClipSoundEvent(AnimationEvent)
-
-Failed to create agent because there is no valid NavMesh
-UnityEngine.Object:Instantiate(Object, Vector3, Quaternion, Transform)
-UnityEngine.Object:Instantiate(T, Vector3, Quaternion, Transform)
-FishAllocator:DoInstanceFishOrGroup(GameObject, Action`1, Boolean)
-<InstanceCheckRoutine>d__38:MoveNext()
-UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
-
-[ line -416357544]
-
-Failed to create agent because there is no valid NavMesh
-UnityEngine.Object:Instantiate(Object, Vector3, Quaternion, Transform)
-UnityEngine.Object:Instantiate(T, Vector3, Quaternion, Transform)
-FishAllocator:DoInstanceFishOrGroup(GameObject, Action`1, Boolean)
-<InstanceCheckRoutine>d__38:MoveNext()
-UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
-
-[ line -416357544]
-
-Failed to create agent because there is no valid NavMesh
-UnityEngine.Object:Instantiate(Object, Vector3, Quaternion, Transform)
-UnityEngine.Object:Instantiate(T, Vector3, Quaternion, Transform)
-FishAllocator:DoInstanceFishOrGroup(GameObject, Action`1, Boolean)
-<InstanceCheckRoutine>d__38:MoveNext()
-UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
-
-[ line -416357544]
-
-Failed to create agent because there is no valid NavMesh
-UnityEngine.Object:Instantiate(Object, Vector3, Quaternion, Transform)
-UnityEngine.Object:Instantiate(T, Vector3, Quaternion, Transform)
-FishAllocator:DoInstanceFishOrGroup(GameObject, Action`1, Boolean)
-<InstanceCheckRoutine>d__38:MoveNext()
-UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
-
-[ line -416357544]
-
-Failed to create agent because there is no valid NavMesh
-UnityEngine.Object:Instantiate(Object, Vector3, Quaternion, Transform)
-UnityEngine.Object:Instantiate(T, Vector3, Quaternion, Transform)
-FishAllocator:DoInstanceFishOrGroup(GameObject, Action`1, Boolean)
-<InstanceCheckRoutine>d__38:MoveNext()
-UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
-
-[ line -416357544]
-
-Failed to create agent because there is no valid NavMesh
-UnityEngine.Object:Instantiate(Object, Vector3, Quaternion, Transform)
-UnityEngine.Object:Instantiate(T, Vector3, Quaternion, Transform)
-FishAllocator:DoInstanceFishOrGroup(GameObject, Action`1, Boolean)
-<InstanceCheckRoutine>d__38:MoveNext()
-UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
-
-[ line -416357544]
-
-Failed to create agent because there is no valid NavMesh
-UnityEngine.Object:Instantiate(Object, Vector3, Quaternion, Transform)
-UnityEngine.Object:Instantiate(T, Vector3, Quaternion, Transform)
-FishAllocator:DoInstanceFishOrGroup(GameObject, Action`1, Boolean)
-<InstanceCheckRoutine>d__38:MoveNext()
-UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
-
-[ line -416357544]
-
-Req StartScenario :Night_Warning ,[Option]isIgnorePlayingScenario : False
-UnityEngine.Logger:Log(LogType, Object)
-UnityEngine.Debug:Log(Object)
-ScenarioManager:StartScenario(String, Action`1, Boolean, Boolean, Boolean)
-BarricadeTrigger:EnterPlayer(Vector3)
-BarricadeTrigger:OnTriggerEnter2DInternal(Collider2D)
-BarricadeTrigger:OnTriggerEnter2D(Collider2D)
-
-Failed to create agent because there is no valid NavMesh
-UnityEngine.Object:Instantiate(Object, Vector3, Quaternion, Transform)
-UnityEngine.Object:Instantiate(T, Vector3, Quaternion, Transform)
-FishAllocator:DoInstanceFishOrGroup(GameObject, Action`1, Boolean)
-<InstanceCheckRoutine>d__38:MoveNext()
-UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
-
-[ line -416357544]
-
-Failed to create agent because there is no valid NavMesh
-UnityEngine.Object:Instantiate(Object, Vector3, Quaternion, Transform)
-UnityEngine.Object:Instantiate(T, Vector3, Quaternion, Transform)
-FishAllocator:DoInstanceFishOrGroup(GameObject, Action`1, Boolean)
-<InstanceCheckRoutine>d__38:MoveNext()
-UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
-
-[ line -416357544]
-
-Failed to create agent because there is no valid NavMesh
-UnityEngine.Object:Instantiate(Object, Vector3, Quaternion, Transform)
-UnityEngine.Object:Instantiate(T, Vector3, Quaternion, Transform)
-FishAllocator:DoInstanceFishOrGroup(GameObject, Action`1, Boolean)
-<InstanceCheckRoutine>d__38:MoveNext()
-UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
-
-[ line -416357544]
-
-Failed to create agent because there is no valid NavMesh
-UnityEngine.Object:Instantiate(Object, Vector3, Quaternion, Transform)
-UnityEngine.Object:Instantiate(T, Vector3, Quaternion, Transform)
-FishAllocator:DoInstanceFishOrGroup(GameObject, Action`1, Boolean)
-<InstanceCheckRoutine>d__38:MoveNext()
-UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
-
-[ line -416357544]
-
-Failed to create agent because there is no valid NavMesh
-UnityEngine.Object:Instantiate(Object, Vector3, Quaternion, Transform)
-UnityEngine.Object:Instantiate(T, Vector3, Quaternion, Transform)
-FishAllocator:DoInstanceFishOrGroup(GameObject, Action`1, Boolean)
-<InstanceCheckRoutine>d__38:MoveNext()
-UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
-
-[ line -416357544]
-
-Unloading 2 Unused Serialized files (Serialized files now loaded: 443)
-UnloadTime: 106.249400 ms
-
-Unloading 15077 unused Assets to reduce memory usage. Loaded Objects now: 50616.
-Total: 202.819900 ms (FindLiveObjects: 2.960500 ms CreateObjectMapping: 2.688900 ms MarkObjects: 186.713800 ms  DeleteObjects: 10.456300 ms)
+Unloading 14684 unused Assets to reduce memory usage. Loaded Objects now: 48338.
+Total: 143.505800 ms (FindLiveObjects: 2.655500 ms CreateObjectMapping: 4.696200 ms MarkObjects: 127.112500 ms  DeleteObjects: 9.040800 ms)
 
 Unloading 1 Unused Serialized files (Serialized files now loaded: 419)
-UnloadTime: 1.081400 ms
+UnloadTime: 0.804400 ms
 
-Unloading 274 unused Assets to reduce memory usage. Loaded Objects now: 50178.
-Total: 198.944200 ms (FindLiveObjects: 2.170700 ms CreateObjectMapping: 1.679800 ms MarkObjects: 194.557400 ms  DeleteObjects: 0.535500 ms)
+Unloading 273 unused Assets to reduce memory usage. Loaded Objects now: 47899.
+Total: 128.447800 ms (FindLiveObjects: 2.106000 ms CreateObjectMapping: 3.245900 ms MarkObjects: 122.676900 ms  DeleteObjects: 0.418200 ms)
 
 Unloading 0 Unused Serialized files (Serialized files now loaded: 417)
 
-Unloading 0 unused Assets to reduce memory usage. Loaded Objects now: 50178.
-Total: 196.610900 ms (FindLiveObjects: 2.312400 ms CreateObjectMapping: 1.500800 ms MarkObjects: 192.711700 ms  DeleteObjects: 0.085400 ms)
+Unloading 0 unused Assets to reduce memory usage. Loaded Objects now: 47899.
+Total: 127.962300 ms (FindLiveObjects: 2.190000 ms CreateObjectMapping: 3.198900 ms MarkObjects: 122.489600 ms  DeleteObjects: 0.083200 ms)
 
 Unloading 1 Unused Serialized files (Serialized files now loaded: 420)
-UnloadTime: 0.449600 ms
+UnloadTime: 0.428800 ms
 
-Unloading 265 unused Assets to reduce memory usage. Loaded Objects now: 63036.
-Total: 217.336000 ms (FindLiveObjects: 2.837000 ms CreateObjectMapping: 2.102200 ms MarkObjects: 211.920500 ms  DeleteObjects: 0.475600 ms)
+Unloading 265 unused Assets to reduce memory usage. Loaded Objects now: 60699.
+Total: 143.890500 ms (FindLiveObjects: 2.790400 ms CreateObjectMapping: 3.596100 ms MarkObjects: 137.020300 ms  DeleteObjects: 0.483300 ms)
 
-Req StartScenario :Boss_SpecialBoss01_Complete ,[Option]isIgnorePlayingScenario : False
+Req StartScenario :Boss_MantisShrimp_Complete ,[Option]isIgnorePlayingScenario : False
 UnityEngine.Logger:Log(LogType, Object)
 UnityEngine.Debug:Log(Object)
 ScenarioManager:StartScenario(String, Action`1, Boolean, Boolean, Boolean)
 <StartScenarioRoutinue>d__38:MoveNext()
 UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
 
-Unloading 2 Unused Serialized files (Serialized files now loaded: 450)
-UnloadTime: 20.628000 ms
+Unloading 3 Unused Serialized files (Serialized files now loaded: 450)
+UnloadTime: 20.604000 ms
 
-Unloading 1605 unused Assets to reduce memory usage. Loaded Objects now: 133522.
-Total: 303.401600 ms (FindLiveObjects: 5.627800 ms CreateObjectMapping: 4.440100 ms MarkObjects: 290.487700 ms  DeleteObjects: 2.845400 ms)
+Unloading 1185 unused Assets to reduce memory usage. Loaded Objects now: 130545.
+Total: 248.294100 ms (FindLiveObjects: 5.363900 ms CreateObjectMapping: 7.768500 ms MarkObjects: 232.802100 ms  DeleteObjects: 2.359100 ms)
 
 Unloading 0 Unused Serialized files (Serialized files now loaded: 442)
 
-Unloading 0 unused Assets to reduce memory usage. Loaded Objects now: 133522.
-Total: 299.466400 ms (FindLiveObjects: 5.722100 ms CreateObjectMapping: 4.891400 ms MarkObjects: 288.630300 ms  DeleteObjects: 0.222200 ms)
+Unloading 0 unused Assets to reduce memory usage. Loaded Objects now: 130545.
+Total: 247.982900 ms (FindLiveObjects: 5.559400 ms CreateObjectMapping: 8.987400 ms MarkObjects: 233.218800 ms  DeleteObjects: 0.216900 ms)
+
+Unloading 1 Unused Serialized files (Serialized files now loaded: 444)
+UnloadTime: 0.826900 ms
+
+Unloading 671 unused Assets to reduce memory usage. Loaded Objects now: 148520.
+Total: 265.237400 ms (FindLiveObjects: 6.885800 ms CreateObjectMapping: 8.480300 ms MarkObjects: 248.994900 ms  DeleteObjects: 0.876000 ms)
+
+Unloading 2 Unused Serialized files (Serialized files now loaded: 446)
+UnloadTime: 15.325400 ms
+
+Unloading 3712 unused Assets to reduce memory usage. Loaded Objects now: 131523.
+Total: 249.692100 ms (FindLiveObjects: 5.533800 ms CreateObjectMapping: 8.288800 ms MarkObjects: 232.380600 ms  DeleteObjects: 3.488000 ms)
+
+Unloading 0 Unused Serialized files (Serialized files now loaded: 442)
+
+Unloading 0 unused Assets to reduce memory usage. Loaded Objects now: 131523.
+Total: 247.782000 ms (FindLiveObjects: 5.570200 ms CreateObjectMapping: 7.761800 ms MarkObjects: 234.226800 ms  DeleteObjects: 0.222500 ms)
 
 Unloading 1 Unused Serialized files (Serialized files now loaded: 444)
 Shader 'Water2D/Metaballs_RegularFresnel': fallback shader 'UnLit' not found
-UnloadTime: 0.835300 ms
+UnloadTime: 0.831700 ms
 
-Unloading 85 unused Assets to reduce memory usage. Loaded Objects now: 148273.
-Total: 315.704400 ms (FindLiveObjects: 6.492100 ms CreateObjectMapping: 5.236600 ms MarkObjects: 303.407200 ms  DeleteObjects: 0.568000 ms)
+Unloading 84 unused Assets to reduce memory usage. Loaded Objects now: 146554.
+Total: 265.838400 ms (FindLiveObjects: 6.561800 ms CreateObjectMapping: 8.783000 ms MarkObjects: 249.910300 ms  DeleteObjects: 0.582600 ms)
+
+Req StartScenario :Main_Mission19_End_02_Sushi_Talk ,[Option]isIgnorePlayingScenario : False
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+ScenarioManager:StartScenario(String, Action`1, Boolean, Boolean, Boolean)
+<ProcessMissionSequenceV2>d__190:MoveNext()
+UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+
+Req StartScenario :VIP_Mission_MichaelBang01_Complete_01 ,[Option]isIgnorePlayingScenario : False
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+ScenarioManager:StartScenario(String, Action`1, Boolean, Boolean, Boolean)
+<StartScenarioRoutinue>d__38:MoveNext()
+UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+
+Parent of RectTransform is being set with parent property. Consider using the SetParent method instead, with the worldPositionStays argument set to false. This will retain local orientation and scale rather than world orientation and scale, which can prevent common UI scaling issues.
+UnityEngine.Logger:Log(LogType, Object, Object)
+UnityEngine.Debug:LogWarning(Object, Object)
+UnityEngine.Transform:set_parent(Transform)
+MissionHUD:RemoveMission(MissionData)
+MissionHUD:IMissionCompletedListener.CompletedMission(MissionData, Int32)
+<>c__DisplayClass143_0:<ApplyMissionDone>b__0(IMissionCompletedListener)
+System.Action`1:Invoke(T)
+MissionManager:ExecuteMissionEventListener(Action`1)
+MissionManager:ApplyMissionDone(MissionData, Boolean)
+<ProcessMissionSequenceV2>d__190:MoveNext()
+UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+
+Req StartScenario :VIP_Mission_MichaelBang01_Complete_02 ,[Option]isIgnorePlayingScenario : False
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+ScenarioManager:StartScenario(String, Action`1, Boolean, Boolean, Boolean)
+<StartScenarioRoutinue>d__38:MoveNext()
+UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+
+Parent of RectTransform is being set with parent property. Consider using the SetParent method instead, with the worldPositionStays argument set to false. This will retain local orientation and scale rather than world orientation and scale, which can prevent common UI scaling issues.
+UnityEngine.Logger:Log(LogType, Object, Object)
+UnityEngine.Debug:LogWarning(Object, Object)
+UnityEngine.Transform:set_parent(Transform)
+SushiBarContractPanel:SetRoot(RectTransform)
+StaffScrollerSheetManagement:ShowFAContract(StaffScrollAddedCellView, Action`1, Action)
+StaffScrollerSheetManagement:OnStaffWatingRoomResultInternal(ManagementMenu, String, StaffScrollAddedCellView&)
+StaffScrollerSheetManagement:OnStaffWatingRoomResult(Int32, String)
+System.Action`2:Invoke(T1, T2)
+Data:InvokeSortAction()
+UnityEngine.Events.UnityAction`1:Invoke(T0)
+UnityEngine.Events.InvokableCall`1:Invoke(T1)
+UnityEngine.Events.UnityEvent`1:Invoke(T0)
+InputSystemWrapper.Handler`4:Handle(Input)
+BecameInactiveEventHandler:Invoke()
+UnityEngine.InputSystem.Utilities.DelegateHelpers:InvokeCallbacksSafe(CallbackArray`1&, String, Object)
+UnityEngine.InputSystem.InputManager:InvokeAfterUpdateCallback(InputUpdateType)
+UnityEngine.InputSystem.InputManager:OnUpdate(InputUpdateType, InputEventBuffer&)
+InputSystemWrapper.OnActionHandler:Invoke(TEnumAction, CallbackContext)
+UnityEngine.InputSystem.LowLevel.<>c__DisplayClass7_0:<set_onUpdate>b__0(NativeInputUpdateType, NativeInputEventBuffer*)
+InputSystemWrapper.OnActionHandler:Invoke(TEnumAction, CallbackContext)
+UnityEngineInternal.Input.NativeInputSystem:NotifyUpdate(NativeInputUpdateType, IntPtr)
 
 SoftMask will not work on Text (TMPro.TextMeshProUGUI) because material 210YouthL SDF Material (UnityEngine.Material) doesn't support masking. Add masking support to your material or set Graphic's material to None to use a default one.
 UnityEngine.Logger:LogFormat(LogType, Object, String, Object[])
@@ -1449,136 +1951,154 @@ UnityEngine.InputSystem.LowLevel.<>c__DisplayClass7_0:<set_onUpdate>b__0(NativeI
 InputSystemWrapper.OnActionHandler:Invoke(TEnumAction, CallbackContext)
 UnityEngineInternal.Input.NativeInputSystem:NotifyUpdate(NativeInputUpdateType, IntPtr)
 
-Unloading 2 Unused Serialized files (Serialized files now loaded: 452)
-Releasing render texture that is set as Camera.targetTexture!
-UnityEngine.ResourceManagement.ResourceProviders.AssetBundleProvider:Release(IResourceLocation, Object)
-UnityEngine.ResourceManagement.AsyncOperations.ProviderOperation`1:Destroy()
-UnityEngine.ResourceManagement.AsyncOperations.AsyncOperationBase`1:DecrementReferenceCount()
-UnityEngine.ResourceManagement.AsyncOperations.GroupOperation:ReleaseDependencies()
-UnityEngine.ResourceManagement.AsyncOperations.AsyncOperationBase`1:DecrementReferenceCount()
-UnityEngine.ResourceManagement.AsyncOperations.AsyncOperationHandle`1:Release()
-UnityEngine.ResourceManagement.AsyncOperations.ProviderOperation`1:Destroy()
-UnityEngine.ResourceManagement.AsyncOperations.AsyncOperationBase`1:DecrementReferenceCount()
-UnityEngine.ResourceManagement.ResourceProviders.InstanceProvider:ReleaseInstance(ResourceManager, GameObject)
-UnityEngine.ResourceManagement.AsyncOperations.AsyncOperationBase`1:DecrementReferenceCount()
-UnityEngine.ResourceManagement.ResourceManager:Release(AsyncOperationHandle)
-UnityEngine.AddressableAssets.Addressables:ReleaseInstance(GameObject)
-ManagementPanel:OnDestroy()
+Parent of RectTransform is being set with parent property. Consider using the SetParent method instead, with the worldPositionStays argument set to false. This will retain local orientation and scale rather than world orientation and scale, which can prevent common UI scaling issues.
+UnityEngine.Logger:Log(LogType, Object, Object)
+UnityEngine.Debug:LogWarning(Object, Object)
+UnityEngine.Transform:set_parent(Transform)
+SushiBarMenuActionList:AtttacheingredientsPanel()
+SushiBarMenuActionPanel:InvokeActionMenu()
+SushiBarMenuScroller:OnSelect()
+RecipeScrollerSheet:OnDirectHandler(Input)
+ManagementPanel:OnDirectHandler(Input)
+UnityEngine.Events.UnityAction`1:Invoke(T0)
+UnityEngine.Events.InvokableCall`1:Invoke(T1)
+UnityEngine.Events.UnityEvent`1:Invoke(T0)
+InputSystemWrapper.Handler`4:Handle(Input)
+BecameInactiveEventHandler:Invoke()
+UnityEngine.InputSystem.Utilities.DelegateHelpers:InvokeCallbacksSafe(CallbackArray`1&, String, Object)
+UnityEngine.InputSystem.InputManager:InvokeAfterUpdateCallback(InputUpdateType)
+UnityEngine.InputSystem.InputManager:OnUpdate(InputUpdateType, InputEventBuffer&)
+InputSystemWrapper.OnActionHandler:Invoke(TEnumAction, CallbackContext)
+UnityEngine.InputSystem.LowLevel.<>c__DisplayClass7_0:<set_onUpdate>b__0(NativeInputUpdateType, NativeInputEventBuffer*)
+InputSystemWrapper.OnActionHandler:Invoke(TEnumAction, CallbackContext)
+UnityEngineInternal.Input.NativeInputSystem:NotifyUpdate(NativeInputUpdateType, IntPtr)
 
-[ line -416359800]
+Unloading 2 Unused Serialized files (Serialized files now loaded: 466)
+UnloadTime: 140.211800 ms
 
-UnloadTime: 134.938100 ms
-
-Unloading 4158 unused Assets to reduce memory usage. Loaded Objects now: 135133.
-Total: 328.324000 ms (FindLiveObjects: 5.734100 ms CreateObjectMapping: 4.764100 ms MarkObjects: 311.195600 ms  DeleteObjects: 6.629500 ms)
-
-Unloading 0 Unused Serialized files (Serialized files now loaded: 441)
-
-Unloading 0 unused Assets to reduce memory usage. Loaded Objects now: 135133.
-Total: 320.874100 ms (FindLiveObjects: 5.894100 ms CreateObjectMapping: 4.460200 ms MarkObjects: 310.297100 ms  DeleteObjects: 0.222300 ms)
-
-Unloading 1 Unused Serialized files (Serialized files now loaded: 444)
-UnloadTime: 0.939300 ms
-
-Unloading 6 unused Assets to reduce memory usage. Loaded Objects now: 135307.
-Total: 322.599300 ms (FindLiveObjects: 5.642500 ms CreateObjectMapping: 4.573100 ms MarkObjects: 312.135800 ms  DeleteObjects: 0.247500 ms)
-
-Unloading 1 Unused Serialized files (Serialized files now loaded: 444)
-UnloadTime: 1.389300 ms
-
-Unloading 7 unused Assets to reduce memory usage. Loaded Objects now: 135133.
-Total: 320.021900 ms (FindLiveObjects: 5.510500 ms CreateObjectMapping: 4.496500 ms MarkObjects: 309.745500 ms  DeleteObjects: 0.268600 ms)
+Unloading 6480 unused Assets to reduce memory usage. Loaded Objects now: 135054.
+Total: 284.569200 ms (FindLiveObjects: 5.965200 ms CreateObjectMapping: 9.210400 ms MarkObjects: 259.587400 ms  DeleteObjects: 9.805500 ms)
 
 Unloading 0 Unused Serialized files (Serialized files now loaded: 441)
 
-Unloading 0 unused Assets to reduce memory usage. Loaded Objects now: 135133.
-Total: 323.203100 ms (FindLiveObjects: 5.585500 ms CreateObjectMapping: 4.188900 ms MarkObjects: 313.186300 ms  DeleteObjects: 0.241600 ms)
+Unloading 0 unused Assets to reduce memory usage. Loaded Objects now: 135054.
+Total: 272.348700 ms (FindLiveObjects: 6.042800 ms CreateObjectMapping: 8.892600 ms MarkObjects: 257.199200 ms  DeleteObjects: 0.213500 ms)
+
+Unloading 1 Unused Serialized files (Serialized files now loaded: 444)
+UnloadTime: 0.942500 ms
+
+Unloading 6 unused Assets to reduce memory usage. Loaded Objects now: 135228.
+Total: 271.596100 ms (FindLiveObjects: 5.475900 ms CreateObjectMapping: 8.285000 ms MarkObjects: 257.597900 ms  DeleteObjects: 0.236800 ms)
+
+Parent of RectTransform is being set with parent property. Consider using the SetParent method instead, with the worldPositionStays argument set to false. This will retain local orientation and scale rather than world orientation and scale, which can prevent common UI scaling issues.
+UnityEngine.Logger:Log(LogType, Object, Object)
+UnityEngine.Debug:LogWarning(Object, Object)
+UnityEngine.Transform:set_parent(Transform)
+MissionHUD:RemoveMission(MissionData)
+MissionHUD:IMissionCompletedListener.CompletedMission(MissionData, Int32)
+<>c__DisplayClass143_0:<ApplyMissionDone>b__0(IMissionCompletedListener)
+System.Action`1:Invoke(T)
+MissionManager:ExecuteMissionEventListener(Action`1)
+MissionManager:ApplyMissionDone(MissionData, Boolean)
+<ProcessMissionSequenceV2>d__190:MoveNext()
+UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+
+Req StartScenario :Intermission_Chapter4_Bacon_InCave ,[Option]isIgnorePlayingScenario : False
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+ScenarioManager:StartScenario(String, Action`1, Boolean, Boolean, Boolean)
+<ProcessMissionSequenceV2>d__190:MoveNext()
+UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+
+Req StartScenario :Intermission_Chapter4_Bacon_Password ,[Option]isIgnorePlayingScenario : False
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+ScenarioManager:StartScenario(String, Action`1, Boolean, Boolean, Boolean)
+<ProcessMissionSequenceV2>d__190:MoveNext()
+UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+
+Req StartScenario :Intermission_Chapter4_Bacon_InTortureChamber ,[Option]isIgnorePlayingScenario : False
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+ScenarioManager:StartScenario(String, Action`1, Boolean, Boolean, Boolean)
+<StartScenarioRoutinue>d__38:MoveNext()
+UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+BecameInactiveEventHandler:Invoke()
+UnityEngine.Events.UnityEvent:Invoke()
+TimelineController:Stopped(PlayableDirector)
+System.Action`1:Invoke(T)
+
+Req StartScenario :Intermission_Chapter4_Bacon_TortureChamber_AfterResearch ,[Option]isIgnorePlayingScenario : False
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+ScenarioManager:StartScenario(String, Action`1, Boolean, Boolean, Boolean)
+<ProcessMissionSequenceV2>d__190:MoveNext()
+UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+
+Req StartScenario :Intermission_Chapter4_Bacon_PickUpTreasure ,[Option]isIgnorePlayingScenario : False
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+ScenarioManager:StartScenario(String, Action`1, Boolean, Boolean, Boolean)
+<StartScenarioRoutinue>d__38:MoveNext()
+UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+MiniGame.BaconStory.BaconStoryCaveTreasureItem:OnClickEvent()
+BecameInactiveEventHandler:Invoke()
+UnityEngine.Events.UnityEvent:Invoke()
+MiniGame.BaconStory.BaconStoryPlayerControllerBacon:OnDirectHandler(Input)
+UnityEngine.Events.UnityAction`1:Invoke(T0)
+UnityEngine.Events.InvokableCall`1:Invoke(T1)
+UnityEngine.Events.UnityEvent`1:Invoke(T0)
+InputSystemWrapper.Handler`4:Handle(Input)
+BecameInactiveEventHandler:Invoke()
+UnityEngine.InputSystem.Utilities.DelegateHelpers:InvokeCallbacksSafe(CallbackArray`1&, String, Object)
+UnityEngine.InputSystem.InputManager:InvokeAfterUpdateCallback(InputUpdateType)
+UnityEngine.InputSystem.InputManager:OnUpdate(InputUpdateType, InputEventBuffer&)
+InputSystemWrapper.OnActionHandler:Invoke(TEnumAction, CallbackContext)
+UnityEngine.InputSystem.LowLevel.<>c__DisplayClass7_0:<set_onUpdate>b__0(NativeInputUpdateType, NativeInputEventBuffer*)
+InputSystemWrapper.OnActionHandler:Invoke(TEnumAction, CallbackContext)
+UnityEngineInternal.Input.NativeInputSystem:NotifyUpdate(NativeInputUpdateType, IntPtr)
+
+Parent of RectTransform is being set with parent property. Consider using the SetParent method instead, with the worldPositionStays argument set to false. This will retain local orientation and scale rather than world orientation and scale, which can prevent common UI scaling issues.
+UnityEngine.Logger:Log(LogType, Object, Object)
+UnityEngine.Debug:LogWarning(Object, Object)
+UnityEngine.Transform:set_parent(Transform)
+MissionHUD:RemoveMission(MissionData)
+MissionHUD:IMissionCompletedListener.CompletedMission(MissionData, Int32)
+<>c__DisplayClass143_0:<ApplyMissionDone>b__0(IMissionCompletedListener)
+System.Action`1:Invoke(T)
+MissionManager:ExecuteMissionEventListener(Action`1)
+MissionManager:ApplyMissionDone(MissionData, Boolean)
+<ProcessMissionSequenceV2>d__190:MoveNext()
+UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+
+Unloading 2 Unused Serialized files (Serialized files now loaded: 445)
+UnloadTime: 1.449100 ms
+
+Unloading 2234 unused Assets to reduce memory usage. Loaded Objects now: 135517.
+Total: 280.123200 ms (FindLiveObjects: 5.711400 ms CreateObjectMapping: 8.994500 ms MarkObjects: 261.872500 ms  DeleteObjects: 3.544200 ms)
+
+Unloading 0 Unused Serialized files (Serialized files now loaded: 441)
+
+Unloading 0 unused Assets to reduce memory usage. Loaded Objects now: 135517.
+Total: 272.295700 ms (FindLiveObjects: 5.713100 ms CreateObjectMapping: 8.701400 ms MarkObjects: 257.658000 ms  DeleteObjects: 0.222600 ms)
 
 Unloading 1 Unused Serialized files (Serialized files now loaded: 443)
-UnloadTime: 0.868100 ms
+UnloadTime: 0.883900 ms
 
-Unloading 261 unused Assets to reduce memory usage. Loaded Objects now: 147879.
-Total: 335.623200 ms (FindLiveObjects: 6.264900 ms CreateObjectMapping: 4.552900 ms MarkObjects: 324.171700 ms  DeleteObjects: 0.632300 ms)
+Unloading 259 unused Assets to reduce memory usage. Loaded Objects now: 148159.
+Total: 288.637300 ms (FindLiveObjects: 6.564400 ms CreateObjectMapping: 8.867800 ms MarkObjects: 272.610000 ms  DeleteObjects: 0.594400 ms)
 
-Req StartScenario :Tutorial_SushiBarEvent_GetMail ,[Option]isIgnorePlayingScenario : False
+Req StartScenario :Main_Mission20_Start ,[Option]isIgnorePlayingScenario : False
 UnityEngine.Logger:Log(LogType, Object)
 UnityEngine.Debug:Log(Object)
 ScenarioManager:StartScenario(String, Action`1, Boolean, Boolean, Boolean)
-TutorialStepHelper:StartDaialogueStep()
-TutorialStepHelper:ActivateTutorial()
-TutorialStepHelper:StartTutorialStep(Action)
-TutorialHelper:StartTutorialStep()
-TutorialHelper:ActivateTutorial(Int32, Int32, Action, Action`1)
-<>c__DisplayClass60_0:<LoadPrefab>b__0(AsyncOperationHandle`1)
-System.Action`1:Invoke(T)
-DelegateList`1:Invoke(T)
-UnityEngine.ResourceManagement.AsyncOperations.AsyncOperationBase`1:InvokeCompletionEvent()
-UnityEngine.ResourceManagement.AsyncOperations.AsyncOperationBase`1:Complete(TObject, Boolean, Exception, Boolean)
-UnityEngine.ResourceManagement.AsyncOperations.AsyncOperationBase`1:Complete(TObject, Boolean, String)
-UnityEngine.ResourceManagement.InstanceOperation:Execute()
-UnityEngine.ResourceManagement.AsyncOperations.AsyncOperationBase`1:InvokeExecute()
-System.Action`1:Invoke(T)
-UnityEngine.ResourceManagement.AsyncOperations.<>c__DisplayClass57_0:<add_CompletedTypeless>b__0(AsyncOperationHandle`1)
-System.Action`1:Invoke(T)
-DelegateList`1:Invoke(T)
-UnityEngine.ResourceManagement.AsyncOperations.AsyncOperationBase`1:InvokeCompletionEvent()
-UnityEngine.ResourceManagement.AsyncOperations.AsyncOperationBase`1:Complete(TObject, Boolean, Exception, Boolean)
-UnityEngine.ResourceManagement.AsyncOperations.ProviderOperation`1:ProviderCompleted(T, Boolean, Exception)
-UnityEngine.ResourceManagement.ResourceProviders.InternalOp:CompleteOperation()
-System.Action`1:Invoke(T)
-UnityEngine.AsyncOperation:InvokeCompletionEvent()
+<ProcessMissionSequenceV2>d__190:MoveNext()
+UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
 
-<color=#0099bc><b>DOTWEEN ► </b></color>An error inside a tween callback was taken care of (Void StartUIPresetStep()) ► Object reference not set to an instance of an object.
-
-  at TutorialStepHelper.StartUIPresetStep () [0x00000] in <00000000000000000000000000000000>:0 
-  at TutorialStepHelper.ActivateTutorial () [0x00000] in <00000000000000000000000000000000>:0 
-  at TutorialStepHelper.StartTutorialStep (System.Action onFinish) [0x00000] in <00000000000000000000000000000000>:0 
-  at UnityEngine.AI.NavMesh+OnNavMeshPreUpdate.Invoke () [0x00000] in <00000000000000000000000000000000>:0 
-  at DG.Tweening.Tween.OnTweenCallback (DG.Tweening.TweenCallback callback, DG.Tweening.Tween t) [0x00000] in <00000000000000000000000000000000>:0 
-  at DG.Tweening.Tween.DoGoto (DG.Tweening.Tween t, System.Single toPosition, System.Int32 toCompletedLoops, DG.Tweening.Core.Enums.UpdateMode updateMode) [0x00000] in <00000000000000000000000000000000>:0 
-  at DG.Tweening.Core.TweenManager.Update (DG.Tweening.Tween t, System.Single deltaTime, System.Single independentTime, System.Boolean isSingleTweenManualUpdate) [0x00000] in <00000000000000000000000000000000>:0 
-  at DG.Tweening.Core.TweenManager.Update (DG.Tweening.UpdateType updateType, System.Single deltaTime, System.Single independentTime) [0x00000] in <00000000000000000000000000000000>:0 
-  at DG.Tweening.Core.DOTweenComponent.Update () [0x00000] in <00000000000000000000000000000000>:0 
-
-UnityEngine.Logger:Log(LogType, Object)
-UnityEngine.Debug:LogWarning(Object)
-DG.Tweening.Tween:OnTweenCallback(TweenCallback, Tween)
-DG.Tweening.Tween:DoGoto(Tween, Single, Int32, UpdateMode)
-DG.Tweening.Core.TweenManager:Update(Tween, Single, Single, Boolean)
-DG.Tweening.Core.TweenManager:Update(UpdateType, Single, Single)
-DG.Tweening.Core.DOTweenComponent:Update()
-
-Req StartScenario :Tutorial_SushiBarEvent_Start ,[Option]isIgnorePlayingScenario : False
+Req StartScenario :Side_Udo01_Start ,[Option]isIgnorePlayingScenario : False
 UnityEngine.Logger:Log(LogType, Object)
 UnityEngine.Debug:Log(Object)
 ScenarioManager:StartScenario(String, Action`1, Boolean, Boolean, Boolean)
-TutorialStepHelper:StartDaialogueStep()
-TutorialStepHelper:ActivateTutorial()
-TutorialStepHelper:StartTutorialStep(Action)
-UnityEngine.AI.OnNavMeshPreUpdate:Invoke()
-DG.Tweening.Tween:OnTweenCallback(TweenCallback, Tween)
-DG.Tweening.Tween:DoGoto(Tween, Single, Int32, UpdateMode)
-DG.Tweening.Core.TweenManager:Update(Tween, Single, Single, Boolean)
-DG.Tweening.Core.TweenManager:Update(UpdateType, Single, Single)
-DG.Tweening.Core.DOTweenComponent:Update()
-
-<color=#0099bc><b>DOTWEEN ► </b></color>An error inside a tween callback was taken care of (Void StartUIPresetStep()) ► Object reference not set to an instance of an object.
-
-  at TutorialStepHelper.StartUIPresetStep () [0x00000] in <00000000000000000000000000000000>:0 
-  at TutorialStepHelper.ActivateTutorial () [0x00000] in <00000000000000000000000000000000>:0 
-  at TutorialStepHelper.StartTutorialStep (System.Action onFinish) [0x00000] in <00000000000000000000000000000000>:0 
-  at UnityEngine.AI.NavMesh+OnNavMeshPreUpdate.Invoke () [0x00000] in <00000000000000000000000000000000>:0 
-  at DG.Tweening.Tween.OnTweenCallback (DG.Tweening.TweenCallback callback, DG.Tweening.Tween t) [0x00000] in <00000000000000000000000000000000>:0 
-  at DG.Tweening.Tween.DoGoto (DG.Tweening.Tween t, System.Single toPosition, System.Int32 toCompletedLoops, DG.Tweening.Core.Enums.UpdateMode updateMode) [0x00000] in <00000000000000000000000000000000>:0 
-  at DG.Tweening.Core.TweenManager.Update (DG.Tweening.Tween t, System.Single deltaTime, System.Single independentTime, System.Boolean isSingleTweenManualUpdate) [0x00000] in <00000000000000000000000000000000>:0 
-  at DG.Tweening.Core.TweenManager.Update (DG.Tweening.UpdateType updateType, System.Single deltaTime, System.Single independentTime) [0x00000] in <00000000000000000000000000000000>:0 
-  at DG.Tweening.Core.DOTweenComponent.Update () [0x00000] in <00000000000000000000000000000000>:0 
-
-UnityEngine.Logger:Log(LogType, Object)
-UnityEngine.Debug:LogWarning(Object)
-DG.Tweening.Tween:OnTweenCallback(TweenCallback, Tween)
-DG.Tweening.Tween:DoGoto(Tween, Single, Int32, UpdateMode)
-DG.Tweening.Core.TweenManager:Update(Tween, Single, Single, Boolean)
-DG.Tweening.Core.TweenManager:Update(UpdateType, Single, Single)
-DG.Tweening.Core.DOTweenComponent:Update()
+<ProcessMissionSequenceV2>d__190:MoveNext()
+UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
 
