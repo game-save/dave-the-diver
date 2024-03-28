@@ -11,7 +11,7 @@ Direct3D:
 New input system (experimental) initialized
 <RI> Input initialized.
 <RI> Initialized touch support.
-UnloadTime: 1.839400 ms
+UnloadTime: 2.865500 ms
 Odin Serializer ArchitectureInfo initialization with defaults (all unaligned read/writes disabled).
 UnityEngine.Logger:Log(LogType, Object)
 UnityEngine.Debug:Log(Object)
@@ -24,7 +24,7 @@ Sirenix.Serialization.ArchitectureInfo:SetRuntimePlatform(RuntimePlatform)
 Sirenix.Serialization.UnitySerializationInitializer:Initialize()
 
 Unloading 5 Unused Serialized files (Serialized files now loaded: 11)
-UnloadTime: 1.152100 ms
+UnloadTime: 1.659900 ms
 Build Version : v1.0.1.1119.steam
 UnityEngine.Logger:LogFormat(LogType, String, Object[])
 UnityEngine.Debug:LogFormat(String, Object[])
@@ -32,16 +32,16 @@ LogoManager:Awake()
 
 
 Unloading 17 unused Assets to reduce memory usage. Loaded Objects now: 10005.
-Total: 19.312300 ms (FindLiveObjects: 0.577800 ms CreateObjectMapping: 0.420800 ms MarkObjects: 18.218900 ms  DeleteObjects: 0.093600 ms)
+Total: 55.895500 ms (FindLiveObjects: 0.305500 ms CreateObjectMapping: 0.208900 ms MarkObjects: 55.289100 ms  DeleteObjects: 0.091200 ms)
 
-[7.673568][SingletonAddrScriptableObject] LoadAssetAsync: obj:SoundConfigManager
+[7.470935][SingletonAddrScriptableObject] LoadAssetAsync: obj:SoundConfigManager
 UnityEngine.Logger:LogFormat(LogType, String, Object[])
 UnityEngine.Debug:LogFormat(String, Object[])
 SingletonAddrScriptableObject`1:LoadBundle(Action)
 <Init>d__20:MoveNext()
 UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
 
-[7.862747][SingletonAddrScriptableObject] COMPLETE LoadAssetAsync: obj:SoundConfigManager
+[7.66162][SingletonAddrScriptableObject] COMPLETE LoadAssetAsync: obj:SoundConfigManager
 UnityEngine.Logger:LogFormat(LogType, String, Object[])
 UnityEngine.Debug:LogFormat(String, Object[])
 <>c__DisplayClass5_0:<LoadBundle>b__0(AsyncOperationHandle`1)
@@ -93,50 +93,6 @@ DR.Save.SaveSystem:LoadAllData()
 DR.Save.<InitSaveSystem>d__37:MoveNext()
 UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
 
-[Save Convert] Array Token "clearedEvents": [
-  0,
-  100,
-  204,
-  104,
-  300,
-  201,
-  101,
-  302,
-  301,
-  504,
-  500,
-  503,
-  501,
-  502,
-  307,
-  203,
-  604,
-  606,
-  601,
-  602,
-  605,
-  603,
-  610,
-  611,
-  630,
-  620,
-  621,
-  625,
-  623,
-  624,
-  626
-] Removed Value : 309
-UnityEngine.Logger:Log(LogType, Object)
-UnityEngine.Debug:LogWarning(Object)
-SaveConverterTool.JsonConverter:RemoveFromArray(JToken, JToken)
-SaveConverterTool.SaveConverter_GD_Common:ConvertCommon(JObject)
-SaveConverterTool.<>c__DisplayClass4_0:<Convert>g__ApplyCommonConvert|0()
-SaveConverterTool.SaveConvertSystem:Convert(String, String, String, Boolean&, Boolean)
-DR.Save.SaveLoadManagerBase`1:LoadData()
-DR.Save.SaveSystem:LoadAllData()
-DR.Save.<InitSaveSystem>d__37:MoveNext()
-UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
-
 [Save Convert] GameData Applied Common Converting
 UnityEngine.Logger:Log(LogType, Object)
 UnityEngine.Debug:LogWarning(Object)
@@ -157,6 +113,7 @@ DR.Save.SaveSystem:LoadAllData()
 DR.Save.<InitSaveSystem>d__37:MoveNext()
 UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
 
+Joystick connected ("Controller (Ultimate Wireless Controller)").
 httpCode=OK, Rescode=2001
 UnityEngine.Logger:LogFormat(LogType, String, Object[])
 UnityEngine.Debug:LogFormat(String, Object[])
@@ -164,14 +121,12 @@ Steamworks.APIDispatchDelegate:Invoke(T, Boolean)
 Steamworks.CallResult`1:OnRunCallResult(IntPtr, Boolean, UInt64)
 Steamworks.CallbackDispatcher:RunFrame(Boolean)
 
-Unloading 3 Unused Serialized files (Serialized files now loaded: 387)
-UnloadTime: 0.880500 ms
+Unloading 3 Unused Serialized files (Serialized files now loaded: 385)
+UnloadTime: 0.801500 ms
 
-Unloading 462 unused Assets to reduce memory usage. Loaded Objects now: 38617.
-Total: 78.094300 ms (FindLiveObjects: 1.471400 ms CreateObjectMapping: 1.436700 ms MarkObjects: 74.894100 ms  DeleteObjects: 0.291500 ms)
+Unloading 462 unused Assets to reduce memory usage. Loaded Objects now: 38611.
+Total: 68.168500 ms (FindLiveObjects: 1.420200 ms CreateObjectMapping: 1.233700 ms MarkObjects: 65.175400 ms  DeleteObjects: 0.338500 ms)
 
-Joystick disconnected ("Controller (Ultimate Wireless Controller)").
-Joystick connected ("Controller (Ultimate Wireless Controller)").
 [Save Convert] GameData save version 0.0.24 is target version. applying common convert
 UnityEngine.Logger:Log(LogType, Object)
 UnityEngine.Debug:LogWarning(Object)
@@ -215,61 +170,6 @@ UnityEngine.InputSystem.LowLevel.<>c__DisplayClass7_0:<set_onUpdate>b__0(NativeI
 InputSystemWrapper.OnActionHandler:Invoke(TEnumAction, CallbackContext)
 UnityEngineInternal.Input.NativeInputSystem:NotifyUpdate(NativeInputUpdateType, IntPtr)
 
-[Save Convert] Array Token "clearedEvents": [
-  0,
-  100,
-  204,
-  104,
-  300,
-  201,
-  101,
-  302,
-  301,
-  504,
-  500,
-  503,
-  501,
-  502,
-  307,
-  203,
-  604,
-  606,
-  601,
-  602,
-  605,
-  603,
-  610,
-  611,
-  630,
-  620,
-  621,
-  625,
-  623,
-  624,
-  626
-] Removed Value : 309
-UnityEngine.Logger:Log(LogType, Object)
-UnityEngine.Debug:LogWarning(Object)
-SaveConverterTool.JsonConverter:RemoveFromArray(JToken, JToken)
-SaveConverterTool.SaveConverter_GD_Common:ConvertCommon(JObject)
-SaveConverterTool.<>c__DisplayClass4_0:<Convert>g__ApplyCommonConvert|0()
-SaveConverterTool.SaveConvertSystem:Convert(String, String, String, Boolean&, Boolean)
-DR.Save.SaveLoadManagerBase`1:TryLoadFromSlot(Int32, Boolean, T&)
-DR.Save.SaveSystem:LoadGameDataFromSlot(Int32, Boolean)
-SaveLoadPopup:OnOK()
-UnityEngine.Events.UnityAction`1:Invoke(T0)
-UnityEngine.Events.InvokableCall`1:Invoke(T1)
-UnityEngine.Events.UnityEvent`1:Invoke(T0)
-InputSystemWrapper.Handler`4:Handle(Input)
-BecameInactiveEventHandler:Invoke()
-UnityEngine.InputSystem.Utilities.DelegateHelpers:InvokeCallbacksSafe(CallbackArray`1&, String, Object)
-UnityEngine.InputSystem.InputManager:InvokeAfterUpdateCallback(InputUpdateType)
-UnityEngine.InputSystem.InputManager:OnUpdate(InputUpdateType, InputEventBuffer&)
-InputSystemWrapper.OnActionHandler:Invoke(TEnumAction, CallbackContext)
-UnityEngine.InputSystem.LowLevel.<>c__DisplayClass7_0:<set_onUpdate>b__0(NativeInputUpdateType, NativeInputEventBuffer*)
-InputSystemWrapper.OnActionHandler:Invoke(TEnumAction, CallbackContext)
-UnityEngineInternal.Input.NativeInputSystem:NotifyUpdate(NativeInputUpdateType, IntPtr)
-
 [Save Convert] GameData Applied Common Converting
 UnityEngine.Logger:Log(LogType, Object)
 UnityEngine.Debug:LogWarning(Object)
@@ -312,25 +212,25 @@ UnityEngine.InputSystem.LowLevel.<>c__DisplayClass7_0:<set_onUpdate>b__0(NativeI
 InputSystemWrapper.OnActionHandler:Invoke(TEnumAction, CallbackContext)
 UnityEngineInternal.Input.NativeInputSystem:NotifyUpdate(NativeInputUpdateType, IntPtr)
 
-Unloading 2 Unused Serialized files (Serialized files now loaded: 388)
-UnloadTime: 5.795200 ms
+Unloading 2 Unused Serialized files (Serialized files now loaded: 387)
+UnloadTime: 5.579100 ms
 Setting up 6 worker threads for Enlighten.
-  Thread -> id: 58fc -> priority: 1 
+  Thread -> id: 57c -> priority: 1 
+  Thread -> id: 4af0 -> priority: 1 
   Thread -> id: 4b20 -> priority: 1 
-  Thread -> id: 58dc -> priority: 1 
-  Thread -> id: 23a0 -> priority: 1 
-  Thread -> id: 58d0 -> priority: 1 
-  Thread -> id: 28c4 -> priority: 1 
+  Thread -> id: 1dc0 -> priority: 1 
+  Thread -> id: 4a94 -> priority: 1 
+  Thread -> id: 478c -> priority: 1 
 
-Unloading 29 unused Assets to reduce memory usage. Loaded Objects now: 35235.
-Total: 89.833700 ms (FindLiveObjects: 1.299200 ms CreateObjectMapping: 1.151000 ms MarkObjects: 87.244600 ms  DeleteObjects: 0.138500 ms)
+Unloading 29 unused Assets to reduce memory usage. Loaded Objects now: 35232.
+Total: 99.593800 ms (FindLiveObjects: 1.771400 ms CreateObjectMapping: 1.319100 ms MarkObjects: 96.319600 ms  DeleteObjects: 0.183000 ms)
 
-Unloading 0 Unused Serialized files (Serialized files now loaded: 383)
+Unloading 0 Unused Serialized files (Serialized files now loaded: 382)
 
-Unloading 0 unused Assets to reduce memory usage. Loaded Objects now: 35235.
-Total: 91.798700 ms (FindLiveObjects: 1.410800 ms CreateObjectMapping: 1.038700 ms MarkObjects: 89.311200 ms  DeleteObjects: 0.037800 ms)
+Unloading 0 unused Assets to reduce memory usage. Loaded Objects now: 35232.
+Total: 98.689500 ms (FindLiveObjects: 1.406400 ms CreateObjectMapping: 1.009700 ms MarkObjects: 96.234700 ms  DeleteObjects: 0.038300 ms)
 
-[57.67606][SingletonAddrScriptableObject] LoadAssetAsync: obj:DialogueAutoTalker
+[36.73811][SingletonAddrScriptableObject] LoadAssetAsync: obj:DialogueAutoTalker
 UnityEngine.Logger:LogFormat(LogType, String, Object[])
 UnityEngine.Debug:LogFormat(String, Object[])
 SingletonAddrScriptableObject`1:LoadBundle(Action)
@@ -338,7 +238,7 @@ SOSingletonFacade:Init()
 <CoChangeSceneAsync>d__78:MoveNext()
 UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
 
-[57.67847][SingletonAddrScriptableObject] LoadAssetAsync: obj:DialogueDictionary
+[36.74068][SingletonAddrScriptableObject] LoadAssetAsync: obj:DialogueDictionary
 UnityEngine.Logger:LogFormat(LogType, String, Object[])
 UnityEngine.Debug:LogFormat(String, Object[])
 SingletonAddrScriptableObject`1:LoadBundle(Action)
@@ -346,14 +246,14 @@ SOSingletonFacade:Init()
 <CoChangeSceneAsync>d__78:MoveNext()
 UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
 
-[57.67948][SingletonAddrScriptableObject] LoadAssetAsync: obj:DialogueTalkerCollection
+[36.7416][SingletonAddrScriptableObject] LoadAssetAsync: obj:DialogueTalkerCollection
 UnityEngine.Logger:LogFormat(LogType, String, Object[])
 UnityEngine.Debug:LogFormat(String, Object[])
 SingletonAddrScriptableObject`1:LoadBundle(Action)
 <CoChangeSceneAsync>d__78:MoveNext()
 UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
 
-[57.7424][SingletonAddrScriptableObject] COMPLETE LoadAssetAsync: obj:DialogueAutoTalker
+[36.80464][SingletonAddrScriptableObject] COMPLETE LoadAssetAsync: obj:DialogueAutoTalker
 UnityEngine.Logger:LogFormat(LogType, String, Object[])
 UnityEngine.Debug:LogFormat(String, Object[])
 <>c__DisplayClass5_0:<LoadBundle>b__0(AsyncOperationHandle`1)
@@ -366,7 +266,7 @@ UnityEngine.ResourceManagement.ResourceProviders.InternalOp:CompleteOperation()
 System.Action`1:Invoke(T)
 UnityEngine.AsyncOperation:InvokeCompletionEvent()
 
-[57.82583][SingletonAddrScriptableObject] COMPLETE LoadAssetAsync: obj:DialogueDictionary
+[36.85452][SingletonAddrScriptableObject] COMPLETE LoadAssetAsync: obj:DialogueDictionary
 UnityEngine.Logger:LogFormat(LogType, String, Object[])
 UnityEngine.Debug:LogFormat(String, Object[])
 <>c__DisplayClass5_0:<LoadBundle>b__0(AsyncOperationHandle`1)
@@ -379,7 +279,7 @@ UnityEngine.ResourceManagement.ResourceProviders.InternalOp:CompleteOperation()
 System.Action`1:Invoke(T)
 UnityEngine.AsyncOperation:InvokeCompletionEvent()
 
-[57.82676][SingletonAddrScriptableObject] COMPLETE LoadAssetAsync: obj:DialogueTalkerCollection
+[36.85544][SingletonAddrScriptableObject] COMPLETE LoadAssetAsync: obj:DialogueTalkerCollection
 UnityEngine.Logger:LogFormat(LogType, String, Object[])
 UnityEngine.Debug:LogFormat(String, Object[])
 <>c__DisplayClass5_0:<LoadBundle>b__0(AsyncOperationHandle`1)
@@ -392,220 +292,45 @@ UnityEngine.ResourceManagement.ResourceProviders.InternalOp:CompleteOperation()
 System.Action`1:Invoke(T)
 UnityEngine.AsyncOperation:InvokeCompletionEvent()
 
-Unloading 1 Unused Serialized files (Serialized files now loaded: 418)
-UnloadTime: 0.371500 ms
+Unloading 1 Unused Serialized files (Serialized files now loaded: 417)
+UnloadTime: 0.356900 ms
 
-Unloading 184 unused Assets to reduce memory usage. Loaded Objects now: 35679.
-Total: 69.149900 ms (FindLiveObjects: 1.212500 ms CreateObjectMapping: 1.184800 ms MarkObjects: 66.528700 ms  DeleteObjects: 0.223000 ms)
+Unloading 184 unused Assets to reduce memory usage. Loaded Objects now: 35676.
+Total: 68.318100 ms (FindLiveObjects: 1.276800 ms CreateObjectMapping: 1.165600 ms MarkObjects: 65.629800 ms  DeleteObjects: 0.245300 ms)
 
-Unloading 1 Unused Serialized files (Serialized files now loaded: 418)
-UnloadTime: 0.789300 ms
+Unloading 1 Unused Serialized files (Serialized files now loaded: 417)
+UnloadTime: 0.693200 ms
 
-Unloading 7 unused Assets to reduce memory usage. Loaded Objects now: 35508.
-Total: 70.969200 ms (FindLiveObjects: 1.395100 ms CreateObjectMapping: 1.450200 ms MarkObjects: 68.042700 ms  DeleteObjects: 0.080600 ms)
+Unloading 7 unused Assets to reduce memory usage. Loaded Objects now: 35513.
+Total: 67.321300 ms (FindLiveObjects: 1.226200 ms CreateObjectMapping: 1.133900 ms MarkObjects: 64.879200 ms  DeleteObjects: 0.081200 ms)
 
 Unloading 0 Unused Serialized files (Serialized files now loaded: 415)
 
-Unloading 0 unused Assets to reduce memory usage. Loaded Objects now: 35508.
-Total: 69.045600 ms (FindLiveObjects: 1.469800 ms CreateObjectMapping: 1.366000 ms MarkObjects: 66.167500 ms  DeleteObjects: 0.041500 ms)
+Unloading 0 unused Assets to reduce memory usage. Loaded Objects now: 35513.
+Total: 68.168500 ms (FindLiveObjects: 1.436900 ms CreateObjectMapping: 1.014400 ms MarkObjects: 65.679100 ms  DeleteObjects: 0.037600 ms)
 
 Unloading 1 Unused Serialized files (Serialized files now loaded: 418)
-UnloadTime: 0.396100 ms
+UnloadTime: 0.393100 ms
 
-Unloading 341 unused Assets to reduce memory usage. Loaded Objects now: 51029.
-Total: 85.009600 ms (FindLiveObjects: 1.629200 ms CreateObjectMapping: 1.345500 ms MarkObjects: 81.307000 ms  DeleteObjects: 0.727200 ms)
+Unloading 341 unused Assets to reduce memory usage. Loaded Objects now: 49371.
+Total: 85.937500 ms (FindLiveObjects: 1.530700 ms CreateObjectMapping: 1.537900 ms MarkObjects: 82.066000 ms  DeleteObjects: 0.802500 ms)
 
-Unloading 2 Unused Serialized files (Serialized files now loaded: 447)
-UnloadTime: 11.255600 ms
+Unloading 2 Unused Serialized files (Serialized files now loaded: 427)
+UnloadTime: 17.461900 ms
 
-Unloading 1274 unused Assets to reduce memory usage. Loaded Objects now: 118335.
-Total: 151.189100 ms (FindLiveObjects: 4.492400 ms CreateObjectMapping: 5.267000 ms MarkObjects: 139.420200 ms  DeleteObjects: 2.009000 ms)
+Unloading 3098 unused Assets to reduce memory usage. Loaded Objects now: 43471.
+Total: 93.335200 ms (FindLiveObjects: 2.096200 ms CreateObjectMapping: 1.610400 ms MarkObjects: 85.671000 ms  DeleteObjects: 3.956800 ms)
 
-Unloading 0 Unused Serialized files (Serialized files now loaded: 442)
+Unloading 0 Unused Serialized files (Serialized files now loaded: 416)
 
-Unloading 0 unused Assets to reduce memory usage. Loaded Objects now: 118335.
-Total: 149.181400 ms (FindLiveObjects: 4.497600 ms CreateObjectMapping: 5.542400 ms MarkObjects: 139.013700 ms  DeleteObjects: 0.127100 ms)
+Unloading 0 unused Assets to reduce memory usage. Loaded Objects now: 43471.
+Total: 87.370500 ms (FindLiveObjects: 1.718400 ms CreateObjectMapping: 1.437600 ms MarkObjects: 84.159100 ms  DeleteObjects: 0.055000 ms)
 
-Unloading 1 Unused Serialized files (Serialized files now loaded: 444)
-UnloadTime: 0.824200 ms
+Unloading 1 Unused Serialized files (Serialized files now loaded: 419)
+UnloadTime: 0.487900 ms
 
-Unloading 736 unused Assets to reduce memory usage. Loaded Objects now: 142816.
-Total: 182.072900 ms (FindLiveObjects: 7.400800 ms CreateObjectMapping: 4.303100 ms MarkObjects: 169.512300 ms  DeleteObjects: 0.856100 ms)
-
-The referenced script on this Behaviour (Game Object '<null>') is missing!
-The referenced script on this Behaviour (Game Object '<null>') is missing!
-Unloading 2 Unused Serialized files (Serialized files now loaded: 445)
-UnloadTime: 22.000400 ms
-
-Unloading 18165 unused Assets to reduce memory usage. Loaded Objects now: 119269.
-Total: 162.633900 ms (FindLiveObjects: 4.884900 ms CreateObjectMapping: 5.323400 ms MarkObjects: 143.171000 ms  DeleteObjects: 9.254100 ms)
-
-Unloading 1 Unused Serialized files (Serialized files now loaded: 444)
-UnloadTime: 1.140400 ms
-
-Unloading 7 unused Assets to reduce memory usage. Loaded Objects now: 119098.
-Total: 147.192300 ms (FindLiveObjects: 4.317400 ms CreateObjectMapping: 4.063500 ms MarkObjects: 138.622000 ms  DeleteObjects: 0.188900 ms)
-
-Unloading 0 Unused Serialized files (Serialized files now loaded: 442)
-
-Unloading 0 unused Assets to reduce memory usage. Loaded Objects now: 119098.
-Total: 150.443400 ms (FindLiveObjects: 4.654700 ms CreateObjectMapping: 3.968800 ms MarkObjects: 141.701200 ms  DeleteObjects: 0.118200 ms)
-
-Unloading 1 Unused Serialized files (Serialized files now loaded: 444)
-UnloadTime: 0.765800 ms
-
-Unloading 262 unused Assets to reduce memory usage. Loaded Objects now: 131850.
-Total: 165.853000 ms (FindLiveObjects: 5.868100 ms CreateObjectMapping: 4.364700 ms MarkObjects: 155.181500 ms  DeleteObjects: 0.438400 ms)
-
-Unloading 2 Unused Serialized files (Serialized files now loaded: 423)
-UnloadTime: 11.117900 ms
-
-Unloading 977 unused Assets to reduce memory usage. Loaded Objects now: 42856.
-Total: 93.898300 ms (FindLiveObjects: 1.943700 ms CreateObjectMapping: 1.666800 ms MarkObjects: 86.931300 ms  DeleteObjects: 3.356100 ms)
-
-Unloading 0 Unused Serialized files (Serialized files now loaded: 417)
-
-Unloading 0 unused Assets to reduce memory usage. Loaded Objects now: 42856.
-Total: 90.361400 ms (FindLiveObjects: 1.714500 ms CreateObjectMapping: 1.575800 ms MarkObjects: 87.027200 ms  DeleteObjects: 0.043500 ms)
-
-Unloading 1 Unused Serialized files (Serialized files now loaded: 451)
-UnloadTime: 0.464000 ms
-There is already a MainThreadDispatcher in the scene. Removing myself...
-UnityEngine.Logger:Log(LogType, Object)
-UnityEngine.Debug:LogWarning(Object)
-UniRx.MainThreadDispatcher:Awake()
-
-
-Unloading 2448 unused Assets to reduce memory usage. Loaded Objects now: 69643.
-Total: 108.335700 ms (FindLiveObjects: 2.142500 ms CreateObjectMapping: 2.041800 ms MarkObjects: 103.264300 ms  DeleteObjects: 0.886800 ms)
-
-<color=#0099bc><b>DOTWEEN ► </b></color>This material doesn't have a _EMColor property
-UnityEngine.Logger:Log(LogType, Object)
-UnityEngine.Debug:LogWarning(Object)
-DG.Tweening.Core.Debugger:LogWarning(Object, Tween)
-DG.Tweening.ShortcutExtensions:DOColor(Material, Color, String, Single)
-MVFarmFieldController:BlinkFieldOn(Int32)
-MVFarmUIController:UpdateLaneFocus()
-MVFarmUIController:Init(VillageFarmSystem)
-<coOpenMermanFarmUI>d__28:MoveNext()
-UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
-
-<color=#0099bc><b>DOTWEEN ► </b></color>This material doesn't have a _EMColor property
-UnityEngine.Logger:Log(LogType, Object)
-UnityEngine.Debug:LogWarning(Object)
-DG.Tweening.Core.Debugger:LogWarning(Object, Tween)
-DG.Tweening.ShortcutExtensions:DOColor(Material, Color, String, Single)
-MVFarmFieldController:BlinkFieldOn(Int32)
-MVFarmUIController:UpdateLaneFocus()
-UnityEngine.Events.UnityAction`1:Invoke(T0)
-UnityEngine.Events.InvokableCall`1:Invoke(T1)
-UnityEngine.Events.UnityEvent`1:Invoke(T0)
-InputSystemWrapper.Handler`4:Handle(Input)
-BecameInactiveEventHandler:Invoke()
-UnityEngine.InputSystem.Utilities.DelegateHelpers:InvokeCallbacksSafe(CallbackArray`1&, String, Object)
-UnityEngine.InputSystem.InputManager:InvokeAfterUpdateCallback(InputUpdateType)
-UnityEngine.InputSystem.InputManager:OnUpdate(InputUpdateType, InputEventBuffer&)
-InputSystemWrapper.OnActionHandler:Invoke(TEnumAction, CallbackContext)
-UnityEngine.InputSystem.LowLevel.<>c__DisplayClass7_0:<set_onUpdate>b__0(NativeInputUpdateType, NativeInputEventBuffer*)
-InputSystemWrapper.OnActionHandler:Invoke(TEnumAction, CallbackContext)
-UnityEngineInternal.Input.NativeInputSystem:NotifyUpdate(NativeInputUpdateType, IntPtr)
-
-<color=#0099bc><b>DOTWEEN ► </b></color>This material doesn't have a _EMColor property
-UnityEngine.Logger:Log(LogType, Object)
-UnityEngine.Debug:LogWarning(Object)
-DG.Tweening.Core.Debugger:LogWarning(Object, Tween)
-DG.Tweening.ShortcutExtensions:DOColor(Material, Color, String, Single)
-MVFarmFieldController:BlinkFieldOn(Int32)
-MVFarmUIController:UpdateLaneFocus()
-UnityEngine.Events.UnityAction`1:Invoke(T0)
-UnityEngine.Events.InvokableCall`1:Invoke(T1)
-UnityEngine.Events.UnityEvent`1:Invoke(T0)
-InputSystemWrapper.Handler`4:Handle(Input)
-BecameInactiveEventHandler:Invoke()
-UnityEngine.InputSystem.Utilities.DelegateHelpers:InvokeCallbacksSafe(CallbackArray`1&, String, Object)
-UnityEngine.InputSystem.InputManager:InvokeAfterUpdateCallback(InputUpdateType)
-UnityEngine.InputSystem.InputManager:OnUpdate(InputUpdateType, InputEventBuffer&)
-InputSystemWrapper.OnActionHandler:Invoke(TEnumAction, CallbackContext)
-UnityEngine.InputSystem.LowLevel.<>c__DisplayClass7_0:<set_onUpdate>b__0(NativeInputUpdateType, NativeInputEventBuffer*)
-InputSystemWrapper.OnActionHandler:Invoke(TEnumAction, CallbackContext)
-UnityEngineInternal.Input.NativeInputSystem:NotifyUpdate(NativeInputUpdateType, IntPtr)
-
-<color=#0099bc><b>DOTWEEN ► </b></color>This material doesn't have a _EMColor property
-UnityEngine.Logger:Log(LogType, Object)
-UnityEngine.Debug:LogWarning(Object)
-DG.Tweening.Core.Debugger:LogWarning(Object, Tween)
-DG.Tweening.ShortcutExtensions:DOColor(Material, Color, String, Single)
-MVFarmFieldController:BlinkFieldOn(Int32)
-MVFarmUIController:UpdateLaneFocus()
-UnityEngine.Events.UnityAction`1:Invoke(T0)
-UnityEngine.Events.InvokableCall`1:Invoke(T1)
-UnityEngine.Events.UnityEvent`1:Invoke(T0)
-InputSystemWrapper.Handler`4:Handle(Input)
-BecameInactiveEventHandler:Invoke()
-UnityEngine.InputSystem.Utilities.DelegateHelpers:InvokeCallbacksSafe(CallbackArray`1&, String, Object)
-UnityEngine.InputSystem.InputManager:InvokeAfterUpdateCallback(InputUpdateType)
-UnityEngine.InputSystem.InputManager:OnUpdate(InputUpdateType, InputEventBuffer&)
-InputSystemWrapper.OnActionHandler:Invoke(TEnumAction, CallbackContext)
-UnityEngine.InputSystem.LowLevel.<>c__DisplayClass7_0:<set_onUpdate>b__0(NativeInputUpdateType, NativeInputEventBuffer*)
-InputSystemWrapper.OnActionHandler:Invoke(TEnumAction, CallbackContext)
-UnityEngineInternal.Input.NativeInputSystem:NotifyUpdate(NativeInputUpdateType, IntPtr)
-
-<color=#0099bc><b>DOTWEEN ► </b></color>This material doesn't have a _EMColor property
-UnityEngine.Logger:Log(LogType, Object)
-UnityEngine.Debug:LogWarning(Object)
-DG.Tweening.Core.Debugger:LogWarning(Object, Tween)
-DG.Tweening.ShortcutExtensions:DOColor(Material, Color, String, Single)
-MVFarmFieldController:BlinkFieldOn(Int32)
-MVFarmUIController:UpdateLaneFocus()
-UnityEngine.Events.UnityAction`1:Invoke(T0)
-UnityEngine.Events.InvokableCall`1:Invoke(T1)
-UnityEngine.Events.UnityEvent`1:Invoke(T0)
-InputSystemWrapper.Handler`4:Handle(Input)
-BecameInactiveEventHandler:Invoke()
-UnityEngine.InputSystem.Utilities.DelegateHelpers:InvokeCallbacksSafe(CallbackArray`1&, String, Object)
-UnityEngine.InputSystem.InputManager:InvokeAfterUpdateCallback(InputUpdateType)
-UnityEngine.InputSystem.InputManager:OnUpdate(InputUpdateType, InputEventBuffer&)
-InputSystemWrapper.OnActionHandler:Invoke(TEnumAction, CallbackContext)
-UnityEngine.InputSystem.LowLevel.<>c__DisplayClass7_0:<set_onUpdate>b__0(NativeInputUpdateType, NativeInputEventBuffer*)
-InputSystemWrapper.OnActionHandler:Invoke(TEnumAction, CallbackContext)
-UnityEngineInternal.Input.NativeInputSystem:NotifyUpdate(NativeInputUpdateType, IntPtr)
-
-<color=#0099bc><b>DOTWEEN ► </b></color>This material doesn't have a _EMColor property
-UnityEngine.Logger:Log(LogType, Object)
-UnityEngine.Debug:LogWarning(Object)
-DG.Tweening.Core.Debugger:LogWarning(Object, Tween)
-DG.Tweening.ShortcutExtensions:DOColor(Material, Color, String, Single)
-MVFarmFieldController:BlinkFieldOn(Int32)
-MVFarmUIController:UpdateLaneFocus()
-UnityEngine.Events.UnityAction`1:Invoke(T0)
-UnityEngine.Events.InvokableCall`1:Invoke(T1)
-UnityEngine.Events.UnityEvent`1:Invoke(T0)
-InputSystemWrapper.Handler`4:Handle(Input)
-BecameInactiveEventHandler:Invoke()
-UnityEngine.InputSystem.Utilities.DelegateHelpers:InvokeCallbacksSafe(CallbackArray`1&, String, Object)
-UnityEngine.InputSystem.InputManager:InvokeAfterUpdateCallback(InputUpdateType)
-UnityEngine.InputSystem.InputManager:OnUpdate(InputUpdateType, InputEventBuffer&)
-InputSystemWrapper.OnActionHandler:Invoke(TEnumAction, CallbackContext)
-UnityEngine.InputSystem.LowLevel.<>c__DisplayClass7_0:<set_onUpdate>b__0(NativeInputUpdateType, NativeInputEventBuffer*)
-InputSystemWrapper.OnActionHandler:Invoke(TEnumAction, CallbackContext)
-UnityEngineInternal.Input.NativeInputSystem:NotifyUpdate(NativeInputUpdateType, IntPtr)
-
-Unloading 2 Unused Serialized files (Serialized files now loaded: 467)
-UnloadTime: 68.448100 ms
-
-Unloading 4891 unused Assets to reduce memory usage. Loaded Objects now: 51609.
-Total: 119.734300 ms (FindLiveObjects: 2.415500 ms CreateObjectMapping: 2.763500 ms MarkObjects: 109.732700 ms  DeleteObjects: 4.822300 ms)
-
-Unloading 0 Unused Serialized files (Serialized files now loaded: 420)
-
-Unloading 0 unused Assets to reduce memory usage. Loaded Objects now: 51607.
-Total: 111.499100 ms (FindLiveObjects: 2.042900 ms CreateObjectMapping: 2.604900 ms MarkObjects: 106.798700 ms  DeleteObjects: 0.052100 ms)
-
-Unloading 1 Unused Serialized files (Serialized files now loaded: 421)
-UnloadTime: 0.564800 ms
-
-Unloading 7397 unused Assets to reduce memory usage. Loaded Objects now: 105915.
-Total: 127.213500 ms (FindLiveObjects: 3.626000 ms CreateObjectMapping: 3.249500 ms MarkObjects: 118.264000 ms  DeleteObjects: 2.073600 ms)
+Unloading 3844 unused Assets to reduce memory usage. Loaded Objects now: 88604.
+Total: 122.677200 ms (FindLiveObjects: 3.195000 ms CreateObjectMapping: 2.673900 ms MarkObjects: 115.202700 ms  DeleteObjects: 1.604700 ms)
 
 Animation Count is 1
 UnityEngine.Logger:Log(LogType, Object)
@@ -629,105 +354,50 @@ Can Support Instancing
 UnityEngine.Logger:Log(LogType, Object)
 UnityEngine.Debug:Log(Object)
 
-The referenced script on this Behaviour (Game Object '<null>') is missing!
-The referenced script on this Behaviour (Game Object '<null>') is missing!
-Please play only one sound for the audioSourceTransform.
-UnityEngine.Logger:Log(LogType, Object)
-UnityEngine.Debug:LogWarning(Object)
-SoundManager:PlaySound(SoundPlayInfo, Transform, Boolean, SameClipPlayType)
-AniClipSoundEvent:Fire(Animator)
-AniEventConsumer:OnAniClipSoundEvent(AnimationEvent)
+Failed to create agent because there is no valid NavMesh
+UnityEngine.Object:Instantiate(Object, Vector3, Quaternion, Transform)
+UnityEngine.Object:Instantiate(T, Vector3, Quaternion, Transform)
+FishAllocator:DoInstanceFishOrGroup(GameObject, Action`1, Boolean)
+<InstanceCheckRoutine>d__38:MoveNext()
+UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
 
-Please play only one sound for the audioSourceTransform.
-UnityEngine.Logger:Log(LogType, Object)
-UnityEngine.Debug:LogWarning(Object)
-SoundManager:PlaySound(SoundPlayInfo, Transform, Boolean, SameClipPlayType)
-AniClipSoundEvent:Fire(Animator)
-AniEventConsumer:OnAniClipSoundEvent(AnimationEvent)
+[ line -1559303800]
 
-Please play only one sound for the audioSourceTransform.
-UnityEngine.Logger:Log(LogType, Object)
-UnityEngine.Debug:LogWarning(Object)
-SoundManager:PlaySound(SoundPlayInfo, Transform, Boolean, SameClipPlayType)
-AniClipSoundEvent:Fire(Animator)
-AniEventConsumer:OnAniClipSoundEvent(AnimationEvent)
+Failed to create agent because there is no valid NavMesh
+UnityEngine.Object:Instantiate(Object, Vector3, Quaternion, Transform)
+UnityEngine.Object:Instantiate(T, Vector3, Quaternion, Transform)
+FishAllocator:DoInstanceFishOrGroup(GameObject, Action`1, Boolean)
+<InstanceCheckRoutine>d__38:MoveNext()
+UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
 
-Please play only one sound for the audioSourceTransform.
-UnityEngine.Logger:Log(LogType, Object)
-UnityEngine.Debug:LogWarning(Object)
-SoundManager:PlaySound(SoundPlayInfo, Transform, Boolean, SameClipPlayType)
-AniClipSoundEvent:Fire(Animator)
-AniEventConsumer:OnAniClipSoundEvent(AnimationEvent)
+[ line -1559303800]
 
-Please play only one sound for the audioSourceTransform.
-UnityEngine.Logger:Log(LogType, Object)
-UnityEngine.Debug:LogWarning(Object)
-SoundManager:PlaySound(SoundPlayInfo, Transform, Boolean, SameClipPlayType)
-AniClipSoundEvent:Fire(Animator)
-AniEventConsumer:OnAniClipSoundEvent(AnimationEvent)
+Failed to create agent because there is no valid NavMesh
+UnityEngine.Object:Instantiate(Object, Vector3, Quaternion, Transform)
+UnityEngine.Object:Instantiate(T, Vector3, Quaternion, Transform)
+FishAllocator:DoInstanceFishOrGroup(GameObject, Action`1, Boolean)
+<InstanceCheckRoutine>d__38:MoveNext()
+UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
 
-Please play only one sound for the audioSourceTransform.
-UnityEngine.Logger:Log(LogType, Object)
-UnityEngine.Debug:LogWarning(Object)
-SoundManager:PlaySound(SoundPlayInfo, Transform, Boolean, SameClipPlayType)
-AniClipSoundEvent:Fire(Animator)
-AniEventConsumer:OnAniClipSoundEvent(AnimationEvent)
+[ line -1559303800]
 
-Please play only one sound for the audioSourceTransform.
-UnityEngine.Logger:Log(LogType, Object)
-UnityEngine.Debug:LogWarning(Object)
-SoundManager:PlaySound(SoundPlayInfo, Transform, Boolean, SameClipPlayType)
-AniClipSoundEvent:Fire(Animator)
-AniEventConsumer:OnAniClipSoundEvent(AnimationEvent)
+Failed to create agent because there is no valid NavMesh
+UnityEngine.Object:Instantiate(Object, Vector3, Quaternion, Transform)
+UnityEngine.Object:Instantiate(T, Vector3, Quaternion, Transform)
+FishAllocator:DoInstanceFishOrGroup(GameObject, Action`1, Boolean)
+<InstanceCheckRoutine>d__38:MoveNext()
+UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
 
-Please play only one sound for the audioSourceTransform.
-UnityEngine.Logger:Log(LogType, Object)
-UnityEngine.Debug:LogWarning(Object)
-SoundManager:PlaySound(SoundPlayInfo, Transform, Boolean, SameClipPlayType)
-AniClipSoundEvent:Fire(Animator)
-AniEventConsumer:OnAniClipSoundEvent(AnimationEvent)
+[ line -1559303800]
 
-Please play only one sound for the audioSourceTransform.
-UnityEngine.Logger:Log(LogType, Object)
-UnityEngine.Debug:LogWarning(Object)
-SoundManager:PlaySound(SoundPlayInfo, Transform, Boolean, SameClipPlayType)
-AniClipSoundEvent:Fire(Animator)
-AniEventConsumer:OnAniClipSoundEvent(AnimationEvent)
+Failed to create agent because there is no valid NavMesh
+UnityEngine.Object:Instantiate(Object, Vector3, Quaternion, Transform)
+UnityEngine.Object:Instantiate(T, Vector3, Quaternion, Transform)
+FishAllocator:DoInstanceFishOrGroup(GameObject, Action`1, Boolean)
+<InstanceCheckRoutine>d__38:MoveNext()
+UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
 
-Please play only one sound for the audioSourceTransform.
-UnityEngine.Logger:Log(LogType, Object)
-UnityEngine.Debug:LogWarning(Object)
-SoundManager:PlaySound(SoundPlayInfo, Transform, Boolean, SameClipPlayType)
-AniClipSoundEvent:Fire(Animator)
-AniEventConsumer:OnAniClipSoundEvent(AnimationEvent)
-
-Please play only one sound for the audioSourceTransform.
-UnityEngine.Logger:Log(LogType, Object)
-UnityEngine.Debug:LogWarning(Object)
-SoundManager:PlaySound(SoundPlayInfo, Transform, Boolean, SameClipPlayType)
-AniClipSoundEvent:Fire(Animator)
-AniEventConsumer:OnAniClipSoundEvent(AnimationEvent)
-
-Please play only one sound for the audioSourceTransform.
-UnityEngine.Logger:Log(LogType, Object)
-UnityEngine.Debug:LogWarning(Object)
-SoundManager:PlaySound(SoundPlayInfo, Transform, Boolean, SameClipPlayType)
-AniClipSoundEvent:Fire(Animator)
-AniEventConsumer:OnAniClipSoundEvent(AnimationEvent)
-
-Please play only one sound for the audioSourceTransform.
-UnityEngine.Logger:Log(LogType, Object)
-UnityEngine.Debug:LogWarning(Object)
-SoundManager:PlaySound(SoundPlayInfo, Transform, Boolean, SameClipPlayType)
-AniClipSoundEvent:Fire(Animator)
-AniEventConsumer:OnAniClipSoundEvent(AnimationEvent)
-
-Please play only one sound for the audioSourceTransform.
-UnityEngine.Logger:Log(LogType, Object)
-UnityEngine.Debug:LogWarning(Object)
-SoundManager:PlaySound(SoundPlayInfo, Transform, Boolean, SameClipPlayType)
-AniClipSoundEvent:Fire(Animator)
-AniEventConsumer:OnAniClipSoundEvent(AnimationEvent)
+[ line -1559303800]
 
 Please play only one sound for the audioSourceTransform.
 UnityEngine.Logger:Log(LogType, Object)
@@ -743,42 +413,7 @@ FishAllocator:DoInstanceFishOrGroup(GameObject, Action`1, Boolean)
 <InstanceCheckRoutine>d__38:MoveNext()
 UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
 
-[ line 519432008]
-
-Please play only one sound for the audioSourceTransform.
-UnityEngine.Logger:Log(LogType, Object)
-UnityEngine.Debug:LogWarning(Object)
-SoundManager:PlaySound(SoundPlayInfo, Transform, Boolean, SameClipPlayType)
-AniClipSoundEvent:Fire(Animator)
-AniEventConsumer:OnAniClipSoundEvent(AnimationEvent)
-
-Please play only one sound for the audioSourceTransform.
-UnityEngine.Logger:Log(LogType, Object)
-UnityEngine.Debug:LogWarning(Object)
-SoundManager:PlaySound(SoundPlayInfo, Transform, Boolean, SameClipPlayType)
-AniClipSoundEvent:Fire(Animator)
-AniEventConsumer:OnAniClipSoundEvent(AnimationEvent)
-
-Please play only one sound for the audioSourceTransform.
-UnityEngine.Logger:Log(LogType, Object)
-UnityEngine.Debug:LogWarning(Object)
-SoundManager:PlaySound(SoundPlayInfo, Transform, Boolean, SameClipPlayType)
-AniClipSoundEvent:Fire(Animator)
-AniEventConsumer:OnAniClipSoundEvent(AnimationEvent)
-
-Please play only one sound for the audioSourceTransform.
-UnityEngine.Logger:Log(LogType, Object)
-UnityEngine.Debug:LogWarning(Object)
-SoundManager:PlaySound(SoundPlayInfo, Transform, Boolean, SameClipPlayType)
-AniClipSoundEvent:Fire(Animator)
-AniEventConsumer:OnAniClipSoundEvent(AnimationEvent)
-
-Please play only one sound for the audioSourceTransform.
-UnityEngine.Logger:Log(LogType, Object)
-UnityEngine.Debug:LogWarning(Object)
-SoundManager:PlaySound(SoundPlayInfo, Transform, Boolean, SameClipPlayType)
-AniClipSoundEvent:Fire(Animator)
-AniEventConsumer:OnAniClipSoundEvent(AnimationEvent)
+[ line -1559303800]
 
 Failed to create agent because there is no valid NavMesh
 UnityEngine.Object:Instantiate(Object, Vector3, Quaternion, Transform)
@@ -787,14 +422,7 @@ FishAllocator:DoInstanceFishOrGroup(GameObject, Action`1, Boolean)
 <InstanceCheckRoutine>d__38:MoveNext()
 UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
 
-[ line 519432008]
-
-Please play only one sound for the audioSourceTransform.
-UnityEngine.Logger:Log(LogType, Object)
-UnityEngine.Debug:LogWarning(Object)
-SoundManager:PlaySound(SoundPlayInfo, Transform, Boolean, SameClipPlayType)
-AniClipSoundEvent:Fire(Animator)
-AniEventConsumer:OnAniClipSoundEvent(AnimationEvent)
+[ line -1559303800]
 
 Failed to create agent because there is no valid NavMesh
 UnityEngine.Object:Instantiate(Object, Vector3, Quaternion, Transform)
@@ -803,804 +431,141 @@ FishAllocator:DoInstanceFishOrGroup(GameObject, Action`1, Boolean)
 <InstanceCheckRoutine>d__38:MoveNext()
 UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
 
-[ line 519432008]
+[ line -1559303800]
 
-Failed to create agent because there is no valid NavMesh
-UnityEngine.Object:Instantiate(Object, Vector3, Quaternion, Transform)
-UnityEngine.Object:Instantiate(T, Vector3, Quaternion, Transform)
-FishAllocator:DoInstanceFishOrGroup(GameObject, Action`1, Boolean)
-<InstanceCheckRoutine>d__38:MoveNext()
-UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
-
-[ line 519432008]
-
-Failed to create agent because there is no valid NavMesh
-UnityEngine.Object:Instantiate(Object, Vector3, Quaternion, Transform)
-UnityEngine.Object:Instantiate(T, Vector3, Quaternion, Transform)
-FishAllocator:DoInstanceFishOrGroup(GameObject, Action`1, Boolean)
-<InstanceCheckRoutine>d__38:MoveNext()
-UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
-
-[ line 519432008]
-
-Please play only one sound for the audioSourceTransform.
-UnityEngine.Logger:Log(LogType, Object)
-UnityEngine.Debug:LogWarning(Object)
-SoundManager:PlaySound(SoundPlayInfo, Transform, Boolean, SameClipPlayType)
-AniClipSoundEvent:Fire(Animator)
-AniEventConsumer:OnAniClipSoundEvent(AnimationEvent)
-
-Failed to create agent because there is no valid NavMesh
-UnityEngine.Object:Instantiate(Object, Vector3, Quaternion, Transform)
-UnityEngine.Object:Instantiate(T, Vector3, Quaternion, Transform)
-FishAllocator:DoInstanceFishOrGroup(GameObject, Action`1, Boolean)
-<InstanceCheckRoutine>d__38:MoveNext()
-UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
-
-[ line 519432008]
-
-Failed to create agent because there is no valid NavMesh
-UnityEngine.Object:Instantiate(Object, Vector3, Quaternion, Transform)
-UnityEngine.Object:Instantiate(T, Vector3, Quaternion, Transform)
-FishAllocator:DoInstanceFishOrGroup(GameObject, Action`1, Boolean)
-<InstanceCheckRoutine>d__38:MoveNext()
-UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
-
-[ line 519432008]
-
-Failed to create agent because there is no valid NavMesh
-UnityEngine.Object:Instantiate(Object, Vector3, Quaternion, Transform)
-UnityEngine.Object:Instantiate(T, Vector3, Quaternion, Transform)
-FishAllocator:DoInstanceFishOrGroup(GameObject, Action`1, Boolean)
-<InstanceCheckRoutine>d__38:MoveNext()
-UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
-
-[ line 519432008]
-
-Failed to create agent because there is no valid NavMesh
-UnityEngine.Object:Instantiate(Object, Vector3, Quaternion, Transform)
-UnityEngine.Object:Instantiate(T, Vector3, Quaternion, Transform)
-FishAllocator:DoInstanceFishOrGroup(GameObject, Action`1, Boolean)
-<InstanceCheckRoutine>d__38:MoveNext()
-UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
-
-[ line 519432008]
-
-Failed to create agent because there is no valid NavMesh
-UnityEngine.Object:Instantiate(Object, Vector3, Quaternion, Transform)
-UnityEngine.Object:Instantiate(T, Vector3, Quaternion, Transform)
-FishAllocator:DoInstanceFishOrGroup(GameObject, Action`1, Boolean)
-<InstanceCheckRoutine>d__38:MoveNext()
-UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
-
-[ line 519432008]
-
-Failed to create agent because there is no valid NavMesh
-UnityEngine.Object:Instantiate(Object, Vector3, Quaternion, Transform)
-UnityEngine.Object:Instantiate(T, Vector3, Quaternion, Transform)
-FishAllocator:DoInstanceFishOrGroup(GameObject, Action`1, Boolean)
-<InstanceCheckRoutine>d__38:MoveNext()
-UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
-
-[ line 519432008]
-
-Unloading 2 Unused Serialized files (Serialized files now loaded: 445)
-UnloadTime: 161.644900 ms
-
-Unloading 34021 unused Assets to reduce memory usage. Loaded Objects now: 43378.
-Total: 115.111100 ms (FindLiveObjects: 3.314200 ms CreateObjectMapping: 3.867200 ms MarkObjects: 87.739300 ms  DeleteObjects: 20.190000 ms)
-
-Unloading 1 Unused Serialized files (Serialized files now loaded: 420)
-UnloadTime: 0.773500 ms
-
-Unloading 273 unused Assets to reduce memory usage. Loaded Objects now: 42941.
-Total: 94.906900 ms (FindLiveObjects: 1.663100 ms CreateObjectMapping: 1.348000 ms MarkObjects: 91.494300 ms  DeleteObjects: 0.400900 ms)
-
-Unloading 0 Unused Serialized files (Serialized files now loaded: 418)
-
-Unloading 0 unused Assets to reduce memory usage. Loaded Objects now: 42941.
-Total: 95.201100 ms (FindLiveObjects: 1.641800 ms CreateObjectMapping: 1.466000 ms MarkObjects: 92.039500 ms  DeleteObjects: 0.053200 ms)
-
-Unloading 1 Unused Serialized files (Serialized files now loaded: 421)
-UnloadTime: 0.417300 ms
-
-Unloading 265 unused Assets to reduce memory usage. Loaded Objects now: 55694.
-Total: 110.549200 ms (FindLiveObjects: 2.151700 ms CreateObjectMapping: 2.219200 ms MarkObjects: 105.802600 ms  DeleteObjects: 0.375400 ms)
-
-The AnimationClip 'LobbyCloudMove007' used by the Animation component 'Cloud001 (2)' must be marked as Legacy.
-UnityEngine.Object:Instantiate(Object, Transform, Boolean)
-UnityEngine.Object:Instantiate(T, Transform, Boolean)
-UnityEngine.ResourceManagement.ResourceProviders.InstantiationParameters:Instantiate(TObject)
-UnityEngine.ResourceManagement.ResourceProviders.InstanceProvider:ProvideInstance(ResourceManager, AsyncOperationHandle`1, InstantiationParameters)
-UnityEngine.ResourceManagement.InstanceOperation:Execute()
-UnityEngine.ResourceManagement.AsyncOperations.AsyncOperationBase`1:InvokeExecute()
-System.Action`1:Invoke(T)
-UnityEngine.ResourceManagement.AsyncOperations.<>c__DisplayClass57_0:<add_CompletedTypeless>b__0(AsyncOperationHandle`1)
-System.Action`1:Invoke(T)
-DelegateList`1:Invoke(T)
-UnityEngine.ResourceManagement.AsyncOperations.AsyncOperationBase`1:InvokeCompletionEvent()
-UnityEngine.ResourceManagement.AsyncOperations.AsyncOperationBase`1:Complete(TObject, Boolean, Exception, Boolean)
-UnityEngine.ResourceManagement.AsyncOperations.ProviderOperation`1:ProviderCompleted(T, Boolean, Exception)
-UnityEngine.ResourceManagement.ResourceProviders.InternalOp:CompleteOperation()
-System.Action`1:Invoke(T)
-UnityEngine.AsyncOperation:InvokeCompletionEvent()
-
-[ line 519430408]
-
-Default clip could not be found in attached animations list.
-UnityEngine.Object:Instantiate(Object, Transform, Boolean)
-UnityEngine.Object:Instantiate(T, Transform, Boolean)
-UnityEngine.ResourceManagement.ResourceProviders.InstantiationParameters:Instantiate(TObject)
-UnityEngine.ResourceManagement.ResourceProviders.InstanceProvider:ProvideInstance(ResourceManager, AsyncOperationHandle`1, InstantiationParameters)
-UnityEngine.ResourceManagement.InstanceOperation:Execute()
-UnityEngine.ResourceManagement.AsyncOperations.AsyncOperationBase`1:InvokeExecute()
-System.Action`1:Invoke(T)
-UnityEngine.ResourceManagement.AsyncOperations.<>c__DisplayClass57_0:<add_CompletedTypeless>b__0(AsyncOperationHandle`1)
-System.Action`1:Invoke(T)
-DelegateList`1:Invoke(T)
-UnityEngine.ResourceManagement.AsyncOperations.AsyncOperationBase`1:InvokeCompletionEvent()
-UnityEngine.ResourceManagement.AsyncOperations.AsyncOperationBase`1:Complete(TObject, Boolean, Exception, Boolean)
-UnityEngine.ResourceManagement.AsyncOperations.ProviderOperation`1:ProviderCompleted(T, Boolean, Exception)
-UnityEngine.ResourceManagement.ResourceProviders.InternalOp:CompleteOperation()
-System.Action`1:Invoke(T)
-UnityEngine.AsyncOperation:InvokeCompletionEvent()
-
-[ line 519430760]
-
-Req StartScenario :Tutorial_Farm_3_Harvest_Phone ,[Option]isIgnorePlayingScenario : False
+Req StartScenario :Night_Warning ,[Option]isIgnorePlayingScenario : False
 UnityEngine.Logger:Log(LogType, Object)
 UnityEngine.Debug:Log(Object)
 ScenarioManager:StartScenario(String, Action`1, Boolean, Boolean, Boolean)
-TutorialStepHelper:StartDaialogueStep()
-TutorialStepHelper:ActivateTutorial()
-TutorialStepHelper:StartTutorialStep(Action)
-TutorialHelper:StartTutorialStep()
-TutorialHelper:ActivateTutorial(Int32, Int32, Action, Action`1)
-<>c__DisplayClass60_0:<LoadPrefab>b__0(AsyncOperationHandle`1)
-System.Action`1:Invoke(T)
-DelegateList`1:Invoke(T)
-UnityEngine.ResourceManagement.AsyncOperations.AsyncOperationBase`1:InvokeCompletionEvent()
-UnityEngine.ResourceManagement.AsyncOperations.AsyncOperationBase`1:Complete(TObject, Boolean, Exception, Boolean)
-UnityEngine.ResourceManagement.AsyncOperations.AsyncOperationBase`1:Complete(TObject, Boolean, String)
-UnityEngine.ResourceManagement.InstanceOperation:Execute()
-UnityEngine.ResourceManagement.AsyncOperations.AsyncOperationBase`1:InvokeExecute()
-System.Action`1:Invoke(T)
-UnityEngine.ResourceManagement.AsyncOperations.<>c__DisplayClass57_0:<add_CompletedTypeless>b__0(AsyncOperationHandle`1)
-System.Action`1:Invoke(T)
-DelegateList`1:Invoke(T)
-UnityEngine.ResourceManagement.AsyncOperations.AsyncOperationBase`1:InvokeCompletionEvent()
-UnityEngine.ResourceManagement.AsyncOperations.AsyncOperationBase`1:Complete(TObject, Boolean, Exception, Boolean)
-UnityEngine.ResourceManagement.AsyncOperations.ProviderOperation`1:ProviderCompleted(T, Boolean, Exception)
-UnityEngine.ResourceManagement.ResourceProviders.InternalOp:CompleteOperation()
-System.Action`1:Invoke(T)
-UnityEngine.AsyncOperation:InvokeCompletionEvent()
+BarricadeTrigger:EnterPlayer(Vector3)
+BarricadeTrigger:OnTriggerEnter2DInternal(Collider2D)
+BarricadeTrigger:OnTriggerEnter2D(Collider2D)
 
-Unloading 2 Unused Serialized files (Serialized files now loaded: 451)
-UnloadTime: 20.522700 ms
-
-Unloading 1168 unused Assets to reduce memory usage. Loaded Objects now: 115598.
-Total: 166.478400 ms (FindLiveObjects: 4.289000 ms CreateObjectMapping: 4.188200 ms MarkObjects: 155.691000 ms  DeleteObjects: 2.309600 ms)
-
-Unloading 0 Unused Serialized files (Serialized files now loaded: 443)
-
-Unloading 0 unused Assets to reduce memory usage. Loaded Objects now: 115598.
-Total: 166.269400 ms (FindLiveObjects: 4.377500 ms CreateObjectMapping: 4.238900 ms MarkObjects: 157.450100 ms  DeleteObjects: 0.202400 ms)
-
-Unloading 1 Unused Serialized files (Serialized files now loaded: 445)
-UnloadTime: 0.742800 ms
-
-Unloading 671 unused Assets to reduce memory usage. Loaded Objects now: 133573.
-Total: 185.480300 ms (FindLiveObjects: 5.723900 ms CreateObjectMapping: 4.395300 ms MarkObjects: 174.448900 ms  DeleteObjects: 0.911600 ms)
-
-The AnimationClip 'LobbyCloudMove007' used by the Animation component 'Cloud001 (2)' must be marked as Legacy.
-DynamicEnvironmentController:Apply(DayTimeState, WeatherType)
-Farm.<Start>d__54:MoveNext()
+Failed to create agent because there is no valid NavMesh
+UnityEngine.Object:Instantiate(Object, Vector3, Quaternion, Transform)
+UnityEngine.Object:Instantiate(T, Vector3, Quaternion, Transform)
+FishAllocator:DoInstanceFishOrGroup(GameObject, Action`1, Boolean)
+<InstanceCheckRoutine>d__38:MoveNext()
 UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
 
-[ line 519432712]
+[ line -1559303800]
 
-Default clip could not be found in attached animations list.
-DynamicEnvironmentController:Apply(DayTimeState, WeatherType)
-Farm.<Start>d__54:MoveNext()
+Failed to create agent because there is no valid NavMesh
+UnityEngine.Object:Instantiate(Object, Vector3, Quaternion, Transform)
+UnityEngine.Object:Instantiate(T, Vector3, Quaternion, Transform)
+FishAllocator:DoInstanceFishOrGroup(GameObject, Action`1, Boolean)
+<InstanceCheckRoutine>d__38:MoveNext()
 UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
 
-[ line 519433064]
+[ line -1559303800]
 
-Req StartScenario :Tutorial_Farm_3_Harvest01 ,[Option]isIgnorePlayingScenario : False
+Req StartScenario :Night_Warning ,[Option]isIgnorePlayingScenario : False
 UnityEngine.Logger:Log(LogType, Object)
 UnityEngine.Debug:Log(Object)
 ScenarioManager:StartScenario(String, Action`1, Boolean, Boolean, Boolean)
-TutorialStepHelper:StartDaialogueStep()
-TutorialStepHelper:ActivateTutorial()
-TutorialStepHelper:StartTutorialStep(Action)
-TutorialHelper:StartTutorialStep()
-BecameInactiveEventHandler:Invoke()
-<>c__DisplayClass38_0:<StartTutorialStep>b__0()
-BecameInactiveEventHandler:Invoke()
-TutorialStepHelper:ProceedTutorial()
-TutorialDynamicCallPublisher:OnPublishEvent()
-TutorialStepHelper:ActivateTutorial()
-TutorialStepHelper:StartTutorialStep(Action)
-TutorialHelper:StartTutorialStep()
-BecameInactiveEventHandler:Invoke()
-<>c__DisplayClass38_0:<StartTutorialStep>b__0()
-BecameInactiveEventHandler:Invoke()
-TutorialStepHelper:ProceedTutorial()
-TutorialStepHelper:StartTutorialStep(Action)
-TutorialHelper:StartTutorialStep()
-TutorialHelper:ActivateTutorial(Int32, Int32, Action, Action`1)
-<>c__DisplayClass60_0:<LoadPrefab>b__0(AsyncOperationHandle`1)
-System.Action`1:Invoke(T)
-DelegateList`1:Invoke(T)
-UnityEngine.ResourceManagement.AsyncOperations.AsyncOperationBase`1:InvokeCompletionEvent()
-UnityEngine.ResourceManagement.AsyncOperations.AsyncOperationBase`1:Complete(TObject, Boolean, Exception, Boolean)
-UnityEngine.ResourceManagement.AsyncOperations.AsyncOperationBase`1:Complete(TObject, Boolean, String)
-UnityEngine.ResourceManagement.InstanceOperation:Execute()
-UnityEngine.ResourceManagement.AsyncOperations.AsyncOperationBase`1:InvokeExecute()
-System.Action`1:Invoke(T)
-UnityEngine.ResourceManagement.AsyncOperations.<>c__DisplayClass57_0:<add_CompletedTypeless>b__0(AsyncOperationHandle`1)
-System.Action`1:Invoke(T)
-DelegateList`1:Invoke(T)
-UnityEngine.ResourceManagement.AsyncOperations.AsyncOperationBase`1:InvokeCompletionEvent()
-UnityEngine.ResourceManagement.AsyncOperations.AsyncOperationBase`1:Complete(TObject, Boolean, Exception, Boolean)
-UnityEngine.ResourceManagement.AsyncOperations.ProviderOperation`1:ProviderCompleted(T, Boolean, Exception)
-UnityEngine.ResourceManagement.ResourceProviders.InternalOp:CompleteOperation()
-System.Action`1:Invoke(T)
-UnityEngine.AsyncOperation:InvokeCompletionEvent()
+BarricadeTrigger:EnterPlayer(Vector3)
+BarricadeTrigger:OnTriggerEnter2DInternal(Collider2D)
+BarricadeTrigger:OnTriggerEnter2D(Collider2D)
 
-Req StartScenario :Tutorial_Farm_3_Harvest02 ,[Option]isIgnorePlayingScenario : False
+Failed to create agent because there is no valid NavMesh
+UnityEngine.Object:Instantiate(Object, Vector3, Quaternion, Transform)
+UnityEngine.Object:Instantiate(T, Vector3, Quaternion, Transform)
+FishAllocator:DoInstanceFishOrGroup(GameObject, Action`1, Boolean)
+<InstanceCheckRoutine>d__38:MoveNext()
+UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+
+[ line -1559303800]
+
+Failed to create agent because there is no valid NavMesh
+UnityEngine.Object:Instantiate(Object, Vector3, Quaternion, Transform)
+UnityEngine.Object:Instantiate(T, Vector3, Quaternion, Transform)
+FishAllocator:DoInstanceFishOrGroup(GameObject, Action`1, Boolean)
+<InstanceCheckRoutine>d__38:MoveNext()
+UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+
+[ line -1559303800]
+
+Failed to create agent because there is no valid NavMesh
+UnityEngine.Object:Instantiate(Object, Vector3, Quaternion, Transform)
+UnityEngine.Object:Instantiate(T, Vector3, Quaternion, Transform)
+FishAllocator:DoInstanceFishOrGroup(GameObject, Action`1, Boolean)
+<InstanceCheckRoutine>d__38:MoveNext()
+UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+
+[ line -1559303800]
+
+Failed to create agent because there is no valid NavMesh
+UnityEngine.Object:Instantiate(Object, Vector3, Quaternion, Transform)
+UnityEngine.Object:Instantiate(T, Vector3, Quaternion, Transform)
+FishAllocator:DoInstanceFishOrGroup(GameObject, Action`1, Boolean)
+<InstanceCheckRoutine>d__38:MoveNext()
+UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+
+[ line -1559303800]
+
+Failed to create agent because there is no valid NavMesh
+UnityEngine.Object:Instantiate(Object, Vector3, Quaternion, Transform)
+UnityEngine.Object:Instantiate(T, Vector3, Quaternion, Transform)
+FishAllocator:DoInstanceFishOrGroup(GameObject, Action`1, Boolean)
+<InstanceCheckRoutine>d__38:MoveNext()
+UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+
+[ line -1559303800]
+
+Please play only one sound for the audioSourceTransform.
 UnityEngine.Logger:Log(LogType, Object)
-UnityEngine.Debug:Log(Object)
-ScenarioManager:StartScenario(String, Action`1, Boolean, Boolean, Boolean)
-TutorialStepHelper:StartDaialogueStep()
-TutorialStepHelper:ActivateTutorial()
-TutorialStepHelper:StartTutorialStep(Action)
-UnityEngine.AI.OnNavMeshPreUpdate:Invoke()
-DG.Tweening.Tween:OnTweenCallback(TweenCallback, Tween)
-DG.Tweening.Tween:DoGoto(Tween, Single, Int32, UpdateMode)
-DG.Tweening.Core.TweenManager:Update(Tween, Single, Single, Boolean)
-DG.Tweening.Core.TweenManager:Update(UpdateType, Single, Single)
-DG.Tweening.Core.DOTweenComponent:Update()
+UnityEngine.Debug:LogWarning(Object)
+SoundManager:PlaySound(SoundPlayInfo, Transform, Boolean, SameClipPlayType)
+AniClipSoundEventOnlyKey:Fire(Animator)
+AniEventConsumer:OnAniClipSoundEvent(AnimationEvent)
 
-Unloading 2 Unused Serialized files (Serialized files now loaded: 449)
-UnloadTime: 19.991300 ms
+Unloading 2 Unused Serialized files (Serialized files now loaded: 440)
+UnloadTime: 112.807800 ms
 
-Unloading 3753 unused Assets to reduce memory usage. Loaded Objects now: 116773.
-Total: 174.825300 ms (FindLiveObjects: 4.410100 ms CreateObjectMapping: 4.236200 ms MarkObjects: 162.551200 ms  DeleteObjects: 3.626700 ms)
+Unloading 16883 unused Assets to reduce memory usage. Loaded Objects now: 43781.
+Total: 101.983100 ms (FindLiveObjects: 2.671700 ms CreateObjectMapping: 2.953100 ms MarkObjects: 84.631800 ms  DeleteObjects: 11.725600 ms)
 
-Unloading 1 Unused Serialized files (Serialized files now loaded: 445)
-UnloadTime: 1.106300 ms
+Unloading 1 Unused Serialized files (Serialized files now loaded: 418)
+UnloadTime: 1.867500 ms
 
-Unloading 18 unused Assets to reduce memory usage. Loaded Objects now: 116591.
-Total: 167.690700 ms (FindLiveObjects: 4.216900 ms CreateObjectMapping: 4.134500 ms MarkObjects: 158.995600 ms  DeleteObjects: 0.343100 ms)
+Unloading 274 unused Assets to reduce memory usage. Loaded Objects now: 43343.
+Total: 88.314400 ms (FindLiveObjects: 1.617300 ms CreateObjectMapping: 1.520600 ms MarkObjects: 84.835100 ms  DeleteObjects: 0.340700 ms)
 
-Unloading 0 Unused Serialized files (Serialized files now loaded: 443)
+Unloading 0 Unused Serialized files (Serialized files now loaded: 416)
 
-Unloading 0 unused Assets to reduce memory usage. Loaded Objects now: 116591.
-Total: 171.904200 ms (FindLiveObjects: 4.535500 ms CreateObjectMapping: 4.005800 ms MarkObjects: 163.150700 ms  DeleteObjects: 0.211500 ms)
-
-Unloading 1 Unused Serialized files (Serialized files now loaded: 445)
-UnloadTime: 0.764300 ms
-
-Unloading 262 unused Assets to reduce memory usage. Loaded Objects now: 129243.
-Total: 187.421600 ms (FindLiveObjects: 5.063000 ms CreateObjectMapping: 4.244400 ms MarkObjects: 177.560200 ms  DeleteObjects: 0.553600 ms)
-
-The AnimationClip 'LobbyCloudMove007' used by the Animation component 'Cloud001 (2)' must be marked as Legacy.
-UnityEngine.Object:Instantiate(Object, Transform, Boolean)
-UnityEngine.Object:Instantiate(T, Transform, Boolean)
-UnityEngine.ResourceManagement.ResourceProviders.InstantiationParameters:Instantiate(TObject)
-UnityEngine.ResourceManagement.ResourceProviders.InstanceProvider:ProvideInstance(ResourceManager, AsyncOperationHandle`1, InstantiationParameters)
-UnityEngine.ResourceManagement.InstanceOperation:Execute()
-UnityEngine.ResourceManagement.AsyncOperations.AsyncOperationBase`1:InvokeExecute()
-System.Action`1:Invoke(T)
-UnityEngine.ResourceManagement.AsyncOperations.<>c__DisplayClass57_0:<add_CompletedTypeless>b__0(AsyncOperationHandle`1)
-System.Action`1:Invoke(T)
-DelegateList`1:Invoke(T)
-UnityEngine.ResourceManagement.AsyncOperations.AsyncOperationBase`1:InvokeCompletionEvent()
-UnityEngine.ResourceManagement.AsyncOperations.AsyncOperationBase`1:Complete(TObject, Boolean, Exception, Boolean)
-UnityEngine.ResourceManagement.AsyncOperations.ProviderOperation`1:ProviderCompleted(T, Boolean, Exception)
-UnityEngine.ResourceManagement.ResourceProviders.InternalOp:CompleteOperation()
-System.Action`1:Invoke(T)
-UnityEngine.AsyncOperation:InvokeCompletionEvent()
-
-[ line 519430408]
-
-Default clip could not be found in attached animations list.
-UnityEngine.Object:Instantiate(Object, Transform, Boolean)
-UnityEngine.Object:Instantiate(T, Transform, Boolean)
-UnityEngine.ResourceManagement.ResourceProviders.InstantiationParameters:Instantiate(TObject)
-UnityEngine.ResourceManagement.ResourceProviders.InstanceProvider:ProvideInstance(ResourceManager, AsyncOperationHandle`1, InstantiationParameters)
-UnityEngine.ResourceManagement.InstanceOperation:Execute()
-UnityEngine.ResourceManagement.AsyncOperations.AsyncOperationBase`1:InvokeExecute()
-System.Action`1:Invoke(T)
-UnityEngine.ResourceManagement.AsyncOperations.<>c__DisplayClass57_0:<add_CompletedTypeless>b__0(AsyncOperationHandle`1)
-System.Action`1:Invoke(T)
-DelegateList`1:Invoke(T)
-UnityEngine.ResourceManagement.AsyncOperations.AsyncOperationBase`1:InvokeCompletionEvent()
-UnityEngine.ResourceManagement.AsyncOperations.AsyncOperationBase`1:Complete(TObject, Boolean, Exception, Boolean)
-UnityEngine.ResourceManagement.AsyncOperations.ProviderOperation`1:ProviderCompleted(T, Boolean, Exception)
-UnityEngine.ResourceManagement.ResourceProviders.InternalOp:CompleteOperation()
-System.Action`1:Invoke(T)
-UnityEngine.AsyncOperation:InvokeCompletionEvent()
-
-[ line 519430760]
-
-Unloading 2 Unused Serialized files (Serialized files now loaded: 425)
-UnloadTime: 13.319100 ms
-
-Unloading 1001 unused Assets to reduce memory usage. Loaded Objects now: 43144.
-Total: 148.861300 ms (FindLiveObjects: 2.124900 ms CreateObjectMapping: 1.666400 ms MarkObjects: 141.867000 ms  DeleteObjects: 3.202500 ms)
-
-Unloading 0 Unused Serialized files (Serialized files now loaded: 418)
-
-Unloading 0 unused Assets to reduce memory usage. Loaded Objects now: 43142.
-Total: 144.319800 ms (FindLiveObjects: 1.773900 ms CreateObjectMapping: 1.529000 ms MarkObjects: 140.941100 ms  DeleteObjects: 0.075100 ms)
+Unloading 0 unused Assets to reduce memory usage. Loaded Objects now: 43343.
+Total: 89.283100 ms (FindLiveObjects: 1.820100 ms CreateObjectMapping: 1.356300 ms MarkObjects: 86.031600 ms  DeleteObjects: 0.074500 ms)
 
 Unloading 1 Unused Serialized files (Serialized files now loaded: 419)
-UnloadTime: 0.572400 ms
+UnloadTime: 0.406700 ms
 
-Unloading 8632 unused Assets to reduce memory usage. Loaded Objects now: 83063.
-Total: 170.679200 ms (FindLiveObjects: 3.225700 ms CreateObjectMapping: 3.427600 ms MarkObjects: 161.783900 ms  DeleteObjects: 2.241500 ms)
+Unloading 265 unused Assets to reduce memory usage. Loaded Objects now: 56245.
+Total: 105.006100 ms (FindLiveObjects: 2.160300 ms CreateObjectMapping: 2.239200 ms MarkObjects: 99.976900 ms  DeleteObjects: 0.628900 ms)
 
-The referenced script on this Behaviour (Game Object '<null>') is missing!
-The referenced script on this Behaviour (Game Object '<null>') is missing!
-Failed to create agent because there is no valid NavMesh
-UnityEngine.Object:Instantiate(Object, Vector3, Quaternion, Transform)
-UnityEngine.Object:Instantiate(T, Vector3, Quaternion, Transform)
-FishAllocator:DoInstanceFishOrGroup(GameObject, Action`1, Boolean)
-<InstanceCheckRoutine>d__38:MoveNext()
-UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+Unloading 3 Unused Serialized files (Serialized files now loaded: 450)
+UnloadTime: 20.993200 ms
 
-[ line 519432008]
+Unloading 1481 unused Assets to reduce memory usage. Loaded Objects now: 125566.
+Total: 211.138800 ms (FindLiveObjects: 4.720100 ms CreateObjectMapping: 5.620000 ms MarkObjects: 198.063900 ms  DeleteObjects: 2.734300 ms)
 
-Please play only one sound for the audioSourceTransform.
-UnityEngine.Logger:Log(LogType, Object)
-UnityEngine.Debug:LogWarning(Object)
-SoundManager:PlaySound(SoundPlayInfo, Transform, Boolean, SameClipPlayType)
-AniClipSoundEvent:Fire(Animator)
-AniEventConsumer:OnAniClipSoundEvent(AnimationEvent)
+Unloading 0 Unused Serialized files (Serialized files now loaded: 441)
 
-Please play only one sound for the audioSourceTransform.
-UnityEngine.Logger:Log(LogType, Object)
-UnityEngine.Debug:LogWarning(Object)
-SoundManager:PlaySound(SoundPlayInfo, Transform, Boolean, SameClipPlayType)
-AniClipSoundEvent:Fire(Animator)
-AniEventConsumer:OnAniClipSoundEvent(AnimationEvent)
+Unloading 0 unused Assets to reduce memory usage. Loaded Objects now: 125566.
+Total: 213.394600 ms (FindLiveObjects: 4.837600 ms CreateObjectMapping: 5.540600 ms MarkObjects: 202.784200 ms  DeleteObjects: 0.231200 ms)
 
-Please play only one sound for the audioSourceTransform.
-UnityEngine.Logger:Log(LogType, Object)
-UnityEngine.Debug:LogWarning(Object)
-SoundManager:PlaySound(SoundPlayInfo, Transform, Boolean, SameClipPlayType)
-AniClipSoundEvent:Fire(Animator)
-AniEventConsumer:OnAniClipSoundEvent(AnimationEvent)
+Unloading 1 Unused Serialized files (Serialized files now loaded: 443)
+Shader 'Water2D/Metaballs_RegularFresnel': fallback shader 'UnLit' not found
+UnloadTime: 0.795300 ms
 
-Please play only one sound for the audioSourceTransform.
-UnityEngine.Logger:Log(LogType, Object)
-UnityEngine.Debug:LogWarning(Object)
-SoundManager:PlaySound(SoundPlayInfo, Transform, Boolean, SameClipPlayType)
-AniClipSoundEvent:Fire(Animator)
-AniEventConsumer:OnAniClipSoundEvent(AnimationEvent)
+Unloading 84 unused Assets to reduce memory usage. Loaded Objects now: 140599.
+Total: 205.919700 ms (FindLiveObjects: 5.576800 ms CreateObjectMapping: 5.025100 ms MarkObjects: 194.613900 ms  DeleteObjects: 0.703000 ms)
 
-Failed to create agent because there is no valid NavMesh
-UnityEngine.Object:Instantiate(Object, Vector3, Quaternion, Transform)
-UnityEngine.Object:Instantiate(T, Vector3, Quaternion, Transform)
-FishAllocator:DoInstanceFishOrGroup(GameObject, Action`1, Boolean)
-<InstanceCheckRoutine>d__38:MoveNext()
-UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
-
-[ line 519432008]
-
-Failed to create agent because there is no valid NavMesh
-UnityEngine.Object:Instantiate(Object, Vector3, Quaternion, Transform)
-UnityEngine.Object:Instantiate(T, Vector3, Quaternion, Transform)
-FishAllocator:DoInstanceFishOrGroup(GameObject, Action`1, Boolean)
-<InstanceCheckRoutine>d__38:MoveNext()
-UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
-
-[ line 519432008]
-
-Failed to create agent because there is no valid NavMesh
-UnityEngine.Object:Instantiate(Object, Vector3, Quaternion, Transform)
-UnityEngine.Object:Instantiate(T, Vector3, Quaternion, Transform)
-FishAllocator:DoInstanceFishOrGroup(GameObject, Action`1, Boolean)
-<InstanceCheckRoutine>d__38:MoveNext()
-UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
-
-[ line 519432008]
-
-Please play only one sound for the audioSourceTransform.
-UnityEngine.Logger:Log(LogType, Object)
-UnityEngine.Debug:LogWarning(Object)
-SoundManager:PlaySound(SoundPlayInfo, Transform, Boolean, SameClipPlayType)
-AniClipSoundEvent:Fire(Animator)
-AniEventConsumer:OnAniClipSoundEvent(AnimationEvent)
-
-Please play only one sound for the audioSourceTransform.
-UnityEngine.Logger:Log(LogType, Object)
-UnityEngine.Debug:LogWarning(Object)
-SoundManager:PlaySound(SoundPlayInfo, Transform, Boolean, SameClipPlayType)
-AniClipSoundEvent:Fire(Animator)
-AniEventConsumer:OnAniClipSoundEvent(AnimationEvent)
-
-Please play only one sound for the audioSourceTransform.
-UnityEngine.Logger:Log(LogType, Object)
-UnityEngine.Debug:LogWarning(Object)
-SoundManager:PlaySound(SoundPlayInfo, Transform, Boolean, SameClipPlayType)
-AniClipSoundEvent:Fire(Animator)
-AniEventConsumer:OnAniClipSoundEvent(AnimationEvent)
-
-Please play only one sound for the audioSourceTransform.
-UnityEngine.Logger:Log(LogType, Object)
-UnityEngine.Debug:LogWarning(Object)
-SoundManager:PlaySound(SoundPlayInfo, Transform, Boolean, SameClipPlayType)
-AniClipSoundEvent:Fire(Animator)
-AniEventConsumer:OnAniClipSoundEvent(AnimationEvent)
-
-Please play only one sound for the audioSourceTransform.
-UnityEngine.Logger:Log(LogType, Object)
-UnityEngine.Debug:LogWarning(Object)
-SoundManager:PlaySound(SoundPlayInfo, Transform, Boolean, SameClipPlayType)
-AniClipSoundEvent:Fire(Animator)
-AniEventConsumer:OnAniClipSoundEvent(AnimationEvent)
-
-Please play only one sound for the audioSourceTransform.
-UnityEngine.Logger:Log(LogType, Object)
-UnityEngine.Debug:LogWarning(Object)
-SoundManager:PlaySound(SoundPlayInfo, Transform, Boolean, SameClipPlayType)
-AniClipSoundEvent:Fire(Animator)
-AniEventConsumer:OnAniClipSoundEvent(AnimationEvent)
-
-Please play only one sound for the audioSourceTransform.
-UnityEngine.Logger:Log(LogType, Object)
-UnityEngine.Debug:LogWarning(Object)
-SoundManager:PlaySound(SoundPlayInfo, Transform, Boolean, SameClipPlayType)
-AniClipSoundEvent:Fire(Animator)
-AniEventConsumer:OnAniClipSoundEvent(AnimationEvent)
-
-Please play only one sound for the audioSourceTransform.
-UnityEngine.Logger:Log(LogType, Object)
-UnityEngine.Debug:LogWarning(Object)
-SoundManager:PlaySound(SoundPlayInfo, Transform, Boolean, SameClipPlayType)
-AniClipSoundEvent:Fire(Animator)
-AniEventConsumer:OnAniClipSoundEvent(AnimationEvent)
-
-Please play only one sound for the audioSourceTransform.
-UnityEngine.Logger:Log(LogType, Object)
-UnityEngine.Debug:LogWarning(Object)
-SoundManager:PlaySound(SoundPlayInfo, Transform, Boolean, SameClipPlayType)
-AniClipSoundEvent:Fire(Animator)
-AniEventConsumer:OnAniClipSoundEvent(AnimationEvent)
-
-Please play only one sound for the audioSourceTransform.
-UnityEngine.Logger:Log(LogType, Object)
-UnityEngine.Debug:LogWarning(Object)
-SoundManager:PlaySound(SoundPlayInfo, Transform, Boolean, SameClipPlayType)
-AniClipSoundEvent:Fire(Animator)
-AniEventConsumer:OnAniClipSoundEvent(AnimationEvent)
-
-Please play only one sound for the audioSourceTransform.
-UnityEngine.Logger:Log(LogType, Object)
-UnityEngine.Debug:LogWarning(Object)
-SoundManager:PlaySound(SoundPlayInfo, Transform, Boolean, SameClipPlayType)
-AniClipSoundEvent:Fire(Animator)
-AniEventConsumer:OnAniClipSoundEvent(AnimationEvent)
-
-Please play only one sound for the audioSourceTransform.
-UnityEngine.Logger:Log(LogType, Object)
-UnityEngine.Debug:LogWarning(Object)
-SoundManager:PlaySound(SoundPlayInfo, Transform, Boolean, SameClipPlayType)
-AniClipSoundEventOnlyKey:Fire(Animator)
-AniEventConsumer:OnAniClipSoundEvent(AnimationEvent)
-
-Please play only one sound for the audioSourceTransform.
-UnityEngine.Logger:Log(LogType, Object)
-UnityEngine.Debug:LogWarning(Object)
-SoundManager:PlaySound(SoundPlayInfo, Transform, Boolean, SameClipPlayType)
-AniClipSoundEventOnlyKey:Fire(Animator)
-AniEventConsumer:OnAniClipSoundEvent(AnimationEvent)
-
-Please play only one sound for the audioSourceTransform.
-UnityEngine.Logger:Log(LogType, Object)
-UnityEngine.Debug:LogWarning(Object)
-SoundManager:PlaySound(SoundPlayInfo, Transform, Boolean, SameClipPlayType)
-AniClipSoundEventOnlyKey:Fire(Animator)
-AniEventConsumer:OnAniClipSoundEvent(AnimationEvent)
-
-Please play only one sound for the audioSourceTransform.
-UnityEngine.Logger:Log(LogType, Object)
-UnityEngine.Debug:LogWarning(Object)
-SoundManager:PlaySound(SoundPlayInfo, Transform, Boolean, SameClipPlayType)
-AniClipSoundEventOnlyKey:Fire(Animator)
-AniEventConsumer:OnAniClipSoundEvent(AnimationEvent)
-
-Please play only one sound for the audioSourceTransform.
-UnityEngine.Logger:Log(LogType, Object)
-UnityEngine.Debug:LogWarning(Object)
-SoundManager:PlaySound(SoundPlayInfo, Transform, Boolean, SameClipPlayType)
-AniClipSoundEventOnlyKey:Fire(Animator)
-AniEventConsumer:OnAniClipSoundEvent(AnimationEvent)
-
-Please play only one sound for the audioSourceTransform.
-UnityEngine.Logger:Log(LogType, Object)
-UnityEngine.Debug:LogWarning(Object)
-SoundManager:PlaySound(SoundPlayInfo, Transform, Boolean, SameClipPlayType)
-AniClipSoundEventOnlyKey:Fire(Animator)
-AniEventConsumer:OnAniClipSoundEvent(AnimationEvent)
-
-Failed to create agent because there is no valid NavMesh
-UnityEngine.Object:Instantiate(Object, Vector3, Quaternion, Transform)
-UnityEngine.Object:Instantiate(T, Vector3, Quaternion, Transform)
-FishAllocator:DoInstanceFishOrGroup(GameObject, Action`1, Boolean)
-<InstanceCheckRoutine>d__38:MoveNext()
-UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
-
-[ line 519432008]
-
-Failed to create agent because there is no valid NavMesh
-UnityEngine.Object:Instantiate(Object, Vector3, Quaternion, Transform)
-UnityEngine.Object:Instantiate(T, Vector3, Quaternion, Transform)
-FishAllocator:DoInstanceFishOrGroup(GameObject, Action`1, Boolean)
-<InstanceCheckRoutine>d__38:MoveNext()
-UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
-
-[ line 519432008]
-
-Failed to create agent because there is no valid NavMesh
-UnityEngine.Object:Instantiate(Object, Vector3, Quaternion, Transform)
-UnityEngine.Object:Instantiate(T, Vector3, Quaternion, Transform)
-FishAllocator:DoInstanceFishOrGroup(GameObject, Action`1, Boolean)
-<InstanceCheckRoutine>d__38:MoveNext()
-UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
-
-[ line 519432008]
-
-Failed to create agent because there is no valid NavMesh
-UnityEngine.Object:Instantiate(Object, Vector3, Quaternion, Transform)
-UnityEngine.Object:Instantiate(T, Vector3, Quaternion, Transform)
-FishAllocator:DoInstanceFishOrGroup(GameObject, Action`1, Boolean)
-<InstanceCheckRoutine>d__38:MoveNext()
-UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
-
-[ line 519432008]
-
-Failed to create agent because there is no valid NavMesh
-UnityEngine.Object:Instantiate(Object, Vector3, Quaternion, Transform)
-UnityEngine.Object:Instantiate(T, Vector3, Quaternion, Transform)
-FishAllocator:DoInstanceFishOrGroup(GameObject, Action`1, Boolean)
-<InstanceCheckRoutine>d__38:MoveNext()
-UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
-
-[ line 519432008]
-
-Please play only one sound for the audioSourceTransform.
-UnityEngine.Logger:Log(LogType, Object)
-UnityEngine.Debug:LogWarning(Object)
-SoundManager:PlaySound(SoundPlayInfo, Transform, Boolean, SameClipPlayType)
-AniClipSoundEvent:Fire(Animator)
-AniEventConsumer:OnAniClipSoundEvent(AnimationEvent)
-
-Please play only one sound for the audioSourceTransform.
-UnityEngine.Logger:Log(LogType, Object)
-UnityEngine.Debug:LogWarning(Object)
-SoundManager:PlaySound(SoundPlayInfo, Transform, Boolean, SameClipPlayType)
-AniClipSoundEvent:Fire(Animator)
-AniEventConsumer:OnAniClipSoundEvent(AnimationEvent)
-
-Please play only one sound for the audioSourceTransform.
-UnityEngine.Logger:Log(LogType, Object)
-UnityEngine.Debug:LogWarning(Object)
-SoundManager:PlaySound(SoundPlayInfo, Transform, Boolean, SameClipPlayType)
-AniClipSoundEvent:Fire(Animator)
-AniEventConsumer:OnAniClipSoundEvent(AnimationEvent)
-
-Please play only one sound for the audioSourceTransform.
-UnityEngine.Logger:Log(LogType, Object)
-UnityEngine.Debug:LogWarning(Object)
-SoundManager:PlaySound(SoundPlayInfo, Transform, Boolean, SameClipPlayType)
-AniClipSoundEvent:Fire(Animator)
-AniEventConsumer:OnAniClipSoundEvent(AnimationEvent)
-
-Please play only one sound for the audioSourceTransform.
-UnityEngine.Logger:Log(LogType, Object)
-UnityEngine.Debug:LogWarning(Object)
-SoundManager:PlaySound(SoundPlayInfo, Transform, Boolean, SameClipPlayType)
-AniClipSoundEvent:Fire(Animator)
-AniEventConsumer:OnAniClipSoundEvent(AnimationEvent)
-
-Please play only one sound for the audioSourceTransform.
-UnityEngine.Logger:Log(LogType, Object)
-UnityEngine.Debug:LogWarning(Object)
-SoundManager:PlaySound(SoundPlayInfo, Transform, Boolean, SameClipPlayType)
-AniClipSoundEvent:Fire(Animator)
-AniEventConsumer:OnAniClipSoundEvent(AnimationEvent)
-
-Unloading 2 Unused Serialized files (Serialized files now loaded: 444)
-UnloadTime: 181.460200 ms
-
-Unloading 31824 unused Assets to reduce memory usage. Loaded Objects now: 47826.
-Total: 166.142500 ms (FindLiveObjects: 3.377800 ms CreateObjectMapping: 3.801900 ms MarkObjects: 139.098200 ms  DeleteObjects: 19.864100 ms)
-
-Unloading 1 Unused Serialized files (Serialized files now loaded: 420)
-UnloadTime: 1.019200 ms
-
-Unloading 273 unused Assets to reduce memory usage. Loaded Objects now: 47389.
-Total: 149.677900 ms (FindLiveObjects: 2.059700 ms CreateObjectMapping: 1.898300 ms MarkObjects: 145.214600 ms  DeleteObjects: 0.504800 ms)
-
-Unloading 0 Unused Serialized files (Serialized files now loaded: 418)
-
-Unloading 0 unused Assets to reduce memory usage. Loaded Objects now: 47389.
-Total: 147.985600 ms (FindLiveObjects: 2.202600 ms CreateObjectMapping: 1.772300 ms MarkObjects: 143.934800 ms  DeleteObjects: 0.075200 ms)
-
-Unloading 1 Unused Serialized files (Serialized files now loaded: 421)
-UnloadTime: 0.450500 ms
-
-Unloading 265 unused Assets to reduce memory usage. Loaded Objects now: 60142.
-Total: 149.191000 ms (FindLiveObjects: 2.788900 ms CreateObjectMapping: 2.121800 ms MarkObjects: 143.746300 ms  DeleteObjects: 0.533500 ms)
-
-Req StartScenario :Mission21_Stealth_Evening ,[Option]isIgnorePlayingScenario : False
+Req StartScenario :VIPMission_WangPang_Appear ,[Option]isIgnorePlayingScenario : False
 UnityEngine.Logger:Log(LogType, Object)
 UnityEngine.Debug:Log(Object)
 ScenarioManager:StartScenario(String, Action`1, Boolean, Boolean, Boolean)
 <ProcessMissionSequenceV2>d__190:MoveNext()
 UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
-
-Unloading 3 Unused Serialized files (Serialized files now loaded: 451)
-UnloadTime: 22.823400 ms
-
-Unloading 1281 unused Assets to reduce memory usage. Loaded Objects now: 130303.
-Total: 259.141100 ms (FindLiveObjects: 5.502500 ms CreateObjectMapping: 4.435700 ms MarkObjects: 246.320600 ms  DeleteObjects: 2.881800 ms)
-
-Unloading 0 Unused Serialized files (Serialized files now loaded: 444)
-
-Unloading 0 unused Assets to reduce memory usage. Loaded Objects now: 130301.
-Total: 253.377000 ms (FindLiveObjects: 5.643700 ms CreateObjectMapping: 4.806800 ms MarkObjects: 242.692100 ms  DeleteObjects: 0.233300 ms)
-
-Unloading 1 Unused Serialized files (Serialized files now loaded: 445)
-UnloadTime: 0.842000 ms
-
-Unloading 671 unused Assets to reduce memory usage. Loaded Objects now: 148274.
-Total: 275.389500 ms (FindLiveObjects: 6.798400 ms CreateObjectMapping: 5.873100 ms MarkObjects: 261.844400 ms  DeleteObjects: 0.872900 ms)
-
-Unloading 2 Unused Serialized files (Serialized files now loaded: 447)
-UnloadTime: 16.583400 ms
-
-Unloading 3713 unused Assets to reduce memory usage. Loaded Objects now: 131277.
-Total: 261.694000 ms (FindLiveObjects: 5.498900 ms CreateObjectMapping: 4.457600 ms MarkObjects: 248.186500 ms  DeleteObjects: 3.550300 ms)
-
-Unloading 0 Unused Serialized files (Serialized files now loaded: 443)
-
-Unloading 0 unused Assets to reduce memory usage. Loaded Objects now: 131277.
-Total: 257.895600 ms (FindLiveObjects: 5.617300 ms CreateObjectMapping: 4.415700 ms MarkObjects: 247.637300 ms  DeleteObjects: 0.224400 ms)
-
-Unloading 1 Unused Serialized files (Serialized files now loaded: 445)
-UnloadTime: 0.831900 ms
-
-Unloading 249 unused Assets to reduce memory usage. Loaded Objects now: 155602.
-Total: 287.678500 ms (FindLiveObjects: 6.638700 ms CreateObjectMapping: 4.335800 ms MarkObjects: 276.088400 ms  DeleteObjects: 0.615200 ms)
-
-The referenced script on this Behaviour (Game Object '<null>') is missing!
-The referenced script on this Behaviour (Game Object '<null>') is missing!
-SoftMask will not work on CountText (TMPro.TextMeshProUGUI) because material Snowstorm SDF Material (UnityEngine.Material) doesn't support masking. Add masking support to your material or set Graphic's material to None to use a default one.
-UnityEngine.Logger:LogFormat(LogType, Object, String, Object[])
-UnityEngine.Debug:LogWarningFormat(Object, String, Object[])
-SoftMasking.SoftMaskable:GetModifiedMaterial(Material)
-TMPro.TMP_MaterialManager:GetMaterialForRendering(MaskableGraphic, Material)
-TMPro.TextMeshProUGUI:UpdateMaterial()
-TMPro.TextMeshProUGUI:Rebuild(CanvasUpdate)
-UnityEngine.UI.CanvasUpdateRegistry:PerformUpdate()
-UnityEngine.AI.OnNavMeshPreUpdate:Invoke()
-UnityEngine.UI.ScrollRect:LateUpdate()
-
-SoftMask will not work on DensityText (TMPro.TextMeshProUGUI) because material Snowstorm SDF Material (UnityEngine.Material) doesn't support masking. Add masking support to your material or set Graphic's material to None to use a default one.
-UnityEngine.Logger:LogFormat(LogType, Object, String, Object[])
-UnityEngine.Debug:LogWarningFormat(Object, String, Object[])
-SoftMasking.SoftMaskable:GetModifiedMaterial(Material)
-TMPro.TMP_MaterialManager:GetMaterialForRendering(MaskableGraphic, Material)
-TMPro.TextMeshProUGUI:UpdateMaterial()
-TMPro.TextMeshProUGUI:Rebuild(CanvasUpdate)
-UnityEngine.UI.CanvasUpdateRegistry:PerformUpdate()
-UnityEngine.AI.OnNavMeshPreUpdate:Invoke()
-UnityEngine.UI.ScrollRect:LateUpdate()
-
-SoftMask will not work on Title (TMPro.TextMeshProUGUI) because material 210YouthL SDF Material (UnityEngine.Material) doesn't support masking. Add masking support to your material or set Graphic's material to None to use a default one.
-UnityEngine.Logger:LogFormat(LogType, Object, String, Object[])
-UnityEngine.Debug:LogWarningFormat(Object, String, Object[])
-SoftMasking.SoftMaskable:GetModifiedMaterial(Material)
-TMPro.TMP_MaterialManager:GetMaterialForRendering(MaskableGraphic, Material)
-TMPro.TextMeshProUGUI:UpdateMaterial()
-TMPro.TextMeshProUGUI:Rebuild(CanvasUpdate)
-UnityEngine.UI.CanvasUpdateRegistry:PerformUpdate()
-UnityEngine.AI.OnNavMeshPreUpdate:Invoke()
-UnityEngine.UI.ScrollRect:LateUpdate()
-
-SoftMask will not work on Title (TMPro.TextMeshProUGUI) because material 210YouthL SDF Material (UnityEngine.Material) doesn't support masking. Add masking support to your material or set Graphic's material to None to use a default one.
-UnityEngine.Logger:LogFormat(LogType, Object, String, Object[])
-UnityEngine.Debug:LogWarningFormat(Object, String, Object[])
-SoftMasking.SoftMaskable:GetModifiedMaterial(Material)
-TMPro.TMP_MaterialManager:GetMaterialForRendering(MaskableGraphic, Material)
-TMPro.TextMeshProUGUI:UpdateMaterial()
-TMPro.TextMeshProUGUI:Rebuild(CanvasUpdate)
-UnityEngine.UI.CanvasUpdateRegistry:PerformUpdate()
-UnityEngine.AI.OnNavMeshPreUpdate:Invoke()
-UnityEngine.UI.ScrollRect:LateUpdate()
-
-Failed to create agent because there is no valid NavMesh
-UnityEngine.Object:Instantiate(Object, Transform, Boolean)
-UnityEngine.Object:Instantiate(T, Transform, Boolean)
-FishFarm.FishFarmAquarium:LoadFish(Int32, GameObject, Transform)
-FishFarm.FishFarmAquarium:LoadAquariumFish(FishFarmAreaModel, Dictionary`2)
-FishFarm.FishFarmAquariumPanel:AddCellData()
-BaseScrollController:Init(Int32, Boolean)
-FishFarm.FishFarmAquariumPanel:Show(FishFarmAquarium, FishFarmAreaModel, Action, Action)
-FishFarm.FishFarmMainCanvasManager:ShowAquarium(FishFarmAquarium, FishFarmAreaModel)
-BecameInactiveEventHandler:Invoke()
-FishFarm.FishFarmDetailPanel:OnDirectHandler(Input)
-UnityEngine.Events.UnityAction`1:Invoke(T0)
-UnityEngine.Events.InvokableCall`1:Invoke(T1)
-UnityEngine.Events.UnityEvent`1:Invoke(T0)
-InputSystemWrapper.Handler`4:Handle(Input)
-BecameInactiveEventHandler:Invoke()
-UnityEngine.InputSystem.Utilities.DelegateHelpers:InvokeCallbacksSafe(CallbackArray`1&, String, Object)
-UnityEngine.InputSystem.InputManager:InvokeAfterUpdateCallback(InputUpdateType)
-UnityEngine.InputSystem.InputManager:OnUpdate(InputUpdateType, InputEventBuffer&)
-InputSystemWrapper.OnActionHandler:Invoke(TEnumAction, CallbackContext)
-UnityEngine.InputSystem.LowLevel.<>c__DisplayClass7_0:<set_onUpdate>b__0(NativeInputUpdateType, NativeInputEventBuffer*)
-InputSystemWrapper.OnActionHandler:Invoke(TEnumAction, CallbackContext)
-UnityEngineInternal.Input.NativeInputSystem:NotifyUpdate(NativeInputUpdateType, IntPtr)
-
-[ line 519429432]
-
-Failed to create agent because there is no valid NavMesh
-UnityEngine.Object:Instantiate(Object, Transform, Boolean)
-UnityEngine.Object:Instantiate(T, Transform, Boolean)
-FishFarm.FishFarmAquarium:LoadFish(Int32, GameObject, Transform)
-FishFarm.FishFarmAquarium:LoadAquariumFish(FishFarmAreaModel, Dictionary`2)
-FishFarm.FishFarmAquariumPanel:AddCellData()
-BaseScrollController:Init(Int32, Boolean)
-FishFarm.FishFarmAquariumPanel:Show(FishFarmAquarium, FishFarmAreaModel, Action, Action)
-FishFarm.FishFarmMainCanvasManager:ShowAquarium(FishFarmAquarium, FishFarmAreaModel)
-BecameInactiveEventHandler:Invoke()
-FishFarm.FishFarmDetailPanel:OnDirectHandler(Input)
-UnityEngine.Events.UnityAction`1:Invoke(T0)
-UnityEngine.Events.InvokableCall`1:Invoke(T1)
-UnityEngine.Events.UnityEvent`1:Invoke(T0)
-InputSystemWrapper.Handler`4:Handle(Input)
-BecameInactiveEventHandler:Invoke()
-UnityEngine.InputSystem.Utilities.DelegateHelpers:InvokeCallbacksSafe(CallbackArray`1&, String, Object)
-UnityEngine.InputSystem.InputManager:InvokeAfterUpdateCallback(InputUpdateType)
-UnityEngine.InputSystem.InputManager:OnUpdate(InputUpdateType, InputEventBuffer&)
-InputSystemWrapper.OnActionHandler:Invoke(TEnumAction, CallbackContext)
-UnityEngine.InputSystem.LowLevel.<>c__DisplayClass7_0:<set_onUpdate>b__0(NativeInputUpdateType, NativeInputEventBuffer*)
-InputSystemWrapper.OnActionHandler:Invoke(TEnumAction, CallbackContext)
-UnityEngineInternal.Input.NativeInputSystem:NotifyUpdate(NativeInputUpdateType, IntPtr)
-
-[ line 519429432]
-
-Failed to create agent because there is no valid NavMesh
-UnityEngine.Object:Instantiate(Object, Transform, Boolean)
-UnityEngine.Object:Instantiate(T, Transform, Boolean)
-FishFarm.FishFarmAquarium:LoadFish(Int32, GameObject, Transform)
-FishFarm.FishFarmAquarium:LoadAquariumFish(FishFarmAreaModel, Dictionary`2)
-FishFarm.FishFarmAquariumPanel:AddCellData()
-BaseScrollController:Init(Int32, Boolean)
-FishFarm.FishFarmAquariumPanel:Show(FishFarmAquarium, FishFarmAreaModel, Action, Action)
-FishFarm.FishFarmMainCanvasManager:ShowAquarium(FishFarmAquarium, FishFarmAreaModel)
-BecameInactiveEventHandler:Invoke()
-FishFarm.FishFarmDetailPanel:OnDirectHandler(Input)
-UnityEngine.Events.UnityAction`1:Invoke(T0)
-UnityEngine.Events.InvokableCall`1:Invoke(T1)
-UnityEngine.Events.UnityEvent`1:Invoke(T0)
-InputSystemWrapper.Handler`4:Handle(Input)
-BecameInactiveEventHandler:Invoke()
-UnityEngine.InputSystem.Utilities.DelegateHelpers:InvokeCallbacksSafe(CallbackArray`1&, String, Object)
-UnityEngine.InputSystem.InputManager:InvokeAfterUpdateCallback(InputUpdateType)
-UnityEngine.InputSystem.InputManager:OnUpdate(InputUpdateType, InputEventBuffer&)
-InputSystemWrapper.OnActionHandler:Invoke(TEnumAction, CallbackContext)
-UnityEngine.InputSystem.LowLevel.<>c__DisplayClass7_0:<set_onUpdate>b__0(NativeInputUpdateType, NativeInputEventBuffer*)
-InputSystemWrapper.OnActionHandler:Invoke(TEnumAction, CallbackContext)
-UnityEngineInternal.Input.NativeInputSystem:NotifyUpdate(NativeInputUpdateType, IntPtr)
-
-[ line 519429432]
 
 SoftMask will not work on Text (TMPro.TextMeshProUGUI) because material 210YouthL SDF Material (UnityEngine.Material) doesn't support masking. Add masking support to your material or set Graphic's material to None to use a default one.
 UnityEngine.Logger:LogFormat(LogType, Object, String, Object[])
@@ -1614,24 +579,10 @@ UnityEngine.AI.OnNavMeshPreUpdate:Invoke()
 UnityEngine.UI.ScrollRect:SetNormalizedPosition(Single, Int32)
 EnhancedUI.EnhancedScroller.EnhancedScroller:ReloadData(Single)
 BaseScrollController:ReloadData()
-FishFarm.FishFarmAquariumPanel:Show(FishFarmAquarium, FishFarmAreaModel, Action, Action)
-FishFarm.FishFarmMainCanvasManager:ShowAquarium(FishFarmAquarium, FishFarmAreaModel)
-BecameInactiveEventHandler:Invoke()
-FishFarm.FishFarmDetailPanel:OnDirectHandler(Input)
-UnityEngine.Events.UnityAction`1:Invoke(T0)
-UnityEngine.Events.InvokableCall`1:Invoke(T1)
-UnityEngine.Events.UnityEvent`1:Invoke(T0)
-InputSystemWrapper.Handler`4:Handle(Input)
-BecameInactiveEventHandler:Invoke()
-UnityEngine.InputSystem.Utilities.DelegateHelpers:InvokeCallbacksSafe(CallbackArray`1&, String, Object)
-UnityEngine.InputSystem.InputManager:InvokeAfterUpdateCallback(InputUpdateType)
-UnityEngine.InputSystem.InputManager:OnUpdate(InputUpdateType, InputEventBuffer&)
-InputSystemWrapper.OnActionHandler:Invoke(TEnumAction, CallbackContext)
-UnityEngine.InputSystem.LowLevel.<>c__DisplayClass7_0:<set_onUpdate>b__0(NativeInputUpdateType, NativeInputEventBuffer*)
-InputSystemWrapper.OnActionHandler:Invoke(TEnumAction, CallbackContext)
-UnityEngineInternal.Input.NativeInputSystem:NotifyUpdate(NativeInputUpdateType, IntPtr)
+<ShowItemsFromFishFarm>d__84:MoveNext()
+UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
 
-SoftMask will not work on Amount (TMPro.TextMeshProUGUI) because material Snowstorm SDF Material (UnityEngine.Material) doesn't support masking. Add masking support to your material or set Graphic's material to None to use a default one.
+SoftMask will not work on Title (TMPro.TextMeshProUGUI) because material 210YouthL SDF Material (UnityEngine.Material) doesn't support masking. Add masking support to your material or set Graphic's material to None to use a default one.
 UnityEngine.Logger:LogFormat(LogType, Object, String, Object[])
 UnityEngine.Debug:LogWarningFormat(Object, String, Object[])
 SoftMasking.SoftMaskable:GetModifiedMaterial(Material)
@@ -1642,454 +593,900 @@ UnityEngine.UI.CanvasUpdateRegistry:PerformUpdate()
 UnityEngine.AI.OnNavMeshPreUpdate:Invoke()
 UnityEngine.UI.ScrollRect:SetNormalizedPosition(Single, Int32)
 EnhancedUI.EnhancedScroller.EnhancedScroller:ReloadData(Single)
-BaseScrollController:ReloadData()
-FishFarm.FishFarmAquariumPanel:Show(FishFarmAquarium, FishFarmAreaModel, Action, Action)
-FishFarm.FishFarmMainCanvasManager:ShowAquarium(FishFarmAquarium, FishFarmAreaModel)
-BecameInactiveEventHandler:Invoke()
-FishFarm.FishFarmDetailPanel:OnDirectHandler(Input)
-UnityEngine.Events.UnityAction`1:Invoke(T0)
-UnityEngine.Events.InvokableCall`1:Invoke(T1)
-UnityEngine.Events.UnityEvent`1:Invoke(T0)
-InputSystemWrapper.Handler`4:Handle(Input)
-BecameInactiveEventHandler:Invoke()
-UnityEngine.InputSystem.Utilities.DelegateHelpers:InvokeCallbacksSafe(CallbackArray`1&, String, Object)
-UnityEngine.InputSystem.InputManager:InvokeAfterUpdateCallback(InputUpdateType)
-UnityEngine.InputSystem.InputManager:OnUpdate(InputUpdateType, InputEventBuffer&)
-InputSystemWrapper.OnActionHandler:Invoke(TEnumAction, CallbackContext)
-UnityEngine.InputSystem.LowLevel.<>c__DisplayClass7_0:<set_onUpdate>b__0(NativeInputUpdateType, NativeInputEventBuffer*)
-InputSystemWrapper.OnActionHandler:Invoke(TEnumAction, CallbackContext)
-UnityEngineInternal.Input.NativeInputSystem:NotifyUpdate(NativeInputUpdateType, IntPtr)
+EnhancedUI.EnhancedScroller.EnhancedScroller:Update()
 
-Failed to create agent because there is no valid NavMesh
-Common.DataStructure.Pool`1:Get(Boolean)
-FishFarm.FishFarmAquarium:LoadFish(Int32, GameObject, Transform)
-FishFarm.FishFarmAquarium:LoadAquariumFish(FishFarmAreaModel, Dictionary`2)
-FishFarm.FishFarmAquariumPanel:AddCellData()
-BaseScrollController:Init(Int32, Boolean)
-FishFarm.FishFarmAquariumPanel:Show(FishFarmAquarium, FishFarmAreaModel, Action, Action)
-FishFarm.FishFarmMainCanvasManager:ShowAquarium(FishFarmAquarium, FishFarmAreaModel)
-BecameInactiveEventHandler:Invoke()
-FishFarm.FishFarmDetailPanel:OnDirectHandler(Input)
-UnityEngine.Events.UnityAction`1:Invoke(T0)
-UnityEngine.Events.InvokableCall`1:Invoke(T1)
-UnityEngine.Events.UnityEvent`1:Invoke(T0)
-InputSystemWrapper.Handler`4:Handle(Input)
-BecameInactiveEventHandler:Invoke()
-UnityEngine.InputSystem.Utilities.DelegateHelpers:InvokeCallbacksSafe(CallbackArray`1&, String, Object)
-UnityEngine.InputSystem.InputManager:InvokeAfterUpdateCallback(InputUpdateType)
-UnityEngine.InputSystem.InputManager:OnUpdate(InputUpdateType, InputEventBuffer&)
-InputSystemWrapper.OnActionHandler:Invoke(TEnumAction, CallbackContext)
-UnityEngine.InputSystem.LowLevel.<>c__DisplayClass7_0:<set_onUpdate>b__0(NativeInputUpdateType, NativeInputEventBuffer*)
-InputSystemWrapper.OnActionHandler:Invoke(TEnumAction, CallbackContext)
-UnityEngineInternal.Input.NativeInputSystem:NotifyUpdate(NativeInputUpdateType, IntPtr)
+SoftMask will not work on Text (TMPro.TextMeshProUGUI) because material 210YouthL SDF Material (UnityEngine.Material) doesn't support masking. Add masking support to your material or set Graphic's material to None to use a default one.
+UnityEngine.Logger:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Debug:LogWarningFormat(Object, String, Object[])
+SoftMasking.SoftMaskable:GetModifiedMaterial(Material)
+TMPro.TMP_MaterialManager:GetMaterialForRendering(MaskableGraphic, Material)
+TMPro.TextMeshProUGUI:UpdateMaterial()
+TMPro.TextMeshProUGUI:Rebuild(CanvasUpdate)
+UnityEngine.UI.CanvasUpdateRegistry:PerformUpdate()
+UnityEngine.AI.OnNavMeshPreUpdate:Invoke()
+UnityEngine.UI.ScrollRect:SetNormalizedPosition(Single, Int32)
+EnhancedUI.EnhancedScroller.EnhancedScroller:ReloadData(Single)
+EnhancedUI.EnhancedScroller.EnhancedScroller:Update()
 
-[ line 519429832]
+SoftMask will not work on Count (TMPro.TextMeshProUGUI) because material Snowstorm SDF Material (UnityEngine.Material) doesn't support masking. Add masking support to your material or set Graphic's material to None to use a default one.
+UnityEngine.Logger:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Debug:LogWarningFormat(Object, String, Object[])
+SoftMasking.SoftMaskable:GetModifiedMaterial(Material)
+TMPro.TMP_MaterialManager:GetMaterialForRendering(MaskableGraphic, Material)
+TMPro.TextMeshProUGUI:UpdateMaterial()
+TMPro.TextMeshProUGUI:Rebuild(CanvasUpdate)
+UnityEngine.UI.CanvasUpdateRegistry:PerformUpdate()
+UnityEngine.AI.OnNavMeshPreUpdate:Invoke()
+UnityEngine.UI.ScrollRect:SetNormalizedPosition(Single, Int32)
+EnhancedUI.EnhancedScroller.EnhancedScroller:ReloadData(Single)
+EnhancedUI.EnhancedScroller.EnhancedScroller:Update()
 
-Failed to create agent because there is no valid NavMesh
-Common.DataStructure.Pool`1:Get(Boolean)
-FishFarm.FishFarmAquarium:LoadFish(Int32, GameObject, Transform)
-FishFarm.FishFarmAquarium:LoadAquariumFish(FishFarmAreaModel, Dictionary`2)
-FishFarm.FishFarmAquariumPanel:AddCellData()
-BaseScrollController:Init(Int32, Boolean)
-FishFarm.FishFarmAquariumPanel:Show(FishFarmAquarium, FishFarmAreaModel, Action, Action)
-FishFarm.FishFarmMainCanvasManager:ShowAquarium(FishFarmAquarium, FishFarmAreaModel)
-BecameInactiveEventHandler:Invoke()
-FishFarm.FishFarmDetailPanel:OnDirectHandler(Input)
-UnityEngine.Events.UnityAction`1:Invoke(T0)
-UnityEngine.Events.InvokableCall`1:Invoke(T1)
-UnityEngine.Events.UnityEvent`1:Invoke(T0)
-InputSystemWrapper.Handler`4:Handle(Input)
-BecameInactiveEventHandler:Invoke()
-UnityEngine.InputSystem.Utilities.DelegateHelpers:InvokeCallbacksSafe(CallbackArray`1&, String, Object)
-UnityEngine.InputSystem.InputManager:InvokeAfterUpdateCallback(InputUpdateType)
-UnityEngine.InputSystem.InputManager:OnUpdate(InputUpdateType, InputEventBuffer&)
-InputSystemWrapper.OnActionHandler:Invoke(TEnumAction, CallbackContext)
-UnityEngine.InputSystem.LowLevel.<>c__DisplayClass7_0:<set_onUpdate>b__0(NativeInputUpdateType, NativeInputEventBuffer*)
-InputSystemWrapper.OnActionHandler:Invoke(TEnumAction, CallbackContext)
-UnityEngineInternal.Input.NativeInputSystem:NotifyUpdate(NativeInputUpdateType, IntPtr)
+SoftMask will not work on Text (TMPro.TextMeshProUGUI) because material 210YouthL SDF Material (UnityEngine.Material) doesn't support masking. Add masking support to your material or set Graphic's material to None to use a default one.
+UnityEngine.Logger:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Debug:LogWarningFormat(Object, String, Object[])
+SoftMasking.SoftMaskable:GetModifiedMaterial(Material)
+TMPro.TMP_MaterialManager:GetMaterialForRendering(MaskableGraphic, Material)
+TMPro.TextMeshProUGUI:UpdateMaterial()
+TMPro.TextMeshProUGUI:Rebuild(CanvasUpdate)
+UnityEngine.UI.CanvasUpdateRegistry:PerformUpdate()
+UnityEngine.AI.OnNavMeshPreUpdate:Invoke()
+UnityEngine.UI.ScrollRect:SetNormalizedPosition(Single, Int32)
+EnhancedUI.EnhancedScroller.EnhancedScroller:ReloadData(Single)
+EnhancedUI.EnhancedScroller.EnhancedScroller:Update()
 
-[ line 519429832]
+SoftMask will not work on Text (TMPro.TextMeshProUGUI) because material 210YouthL SDF Material (UnityEngine.Material) doesn't support masking. Add masking support to your material or set Graphic's material to None to use a default one.
+UnityEngine.Logger:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Debug:LogWarningFormat(Object, String, Object[])
+SoftMasking.SoftMaskable:GetModifiedMaterial(Material)
+TMPro.TMP_MaterialManager:GetMaterialForRendering(MaskableGraphic, Material)
+TMPro.TextMeshProUGUI:UpdateMaterial()
+TMPro.TextMeshProUGUI:Rebuild(CanvasUpdate)
+UnityEngine.UI.CanvasUpdateRegistry:PerformUpdate()
+UnityEngine.AI.OnNavMeshPreUpdate:Invoke()
+UnityEngine.UI.ScrollRect:SetNormalizedPosition(Single, Int32)
+EnhancedUI.EnhancedScroller.EnhancedScroller:ReloadData(Single)
+EnhancedUI.EnhancedScroller.EnhancedScroller:Update()
 
-Failed to create agent because there is no valid NavMesh
-Common.DataStructure.Pool`1:Get(Boolean)
-FishFarm.FishFarmAquarium:LoadFish(Int32, GameObject, Transform)
-FishFarm.FishFarmAquarium:LoadAquariumFish(FishFarmAreaModel, Dictionary`2)
-FishFarm.FishFarmAquariumPanel:AddCellData()
-BaseScrollController:Init(Int32, Boolean)
-FishFarm.FishFarmAquariumPanel:Show(FishFarmAquarium, FishFarmAreaModel, Action, Action)
-FishFarm.FishFarmMainCanvasManager:ShowAquarium(FishFarmAquarium, FishFarmAreaModel)
-BecameInactiveEventHandler:Invoke()
-FishFarm.FishFarmDetailPanel:OnDirectHandler(Input)
-UnityEngine.Events.UnityAction`1:Invoke(T0)
-UnityEngine.Events.InvokableCall`1:Invoke(T1)
-UnityEngine.Events.UnityEvent`1:Invoke(T0)
-InputSystemWrapper.Handler`4:Handle(Input)
-BecameInactiveEventHandler:Invoke()
-UnityEngine.InputSystem.Utilities.DelegateHelpers:InvokeCallbacksSafe(CallbackArray`1&, String, Object)
-UnityEngine.InputSystem.InputManager:InvokeAfterUpdateCallback(InputUpdateType)
-UnityEngine.InputSystem.InputManager:OnUpdate(InputUpdateType, InputEventBuffer&)
-InputSystemWrapper.OnActionHandler:Invoke(TEnumAction, CallbackContext)
-UnityEngine.InputSystem.LowLevel.<>c__DisplayClass7_0:<set_onUpdate>b__0(NativeInputUpdateType, NativeInputEventBuffer*)
-InputSystemWrapper.OnActionHandler:Invoke(TEnumAction, CallbackContext)
-UnityEngineInternal.Input.NativeInputSystem:NotifyUpdate(NativeInputUpdateType, IntPtr)
+SoftMask will not work on Title (TMPro.TextMeshProUGUI) because material 210YouthL SDF Material (UnityEngine.Material) doesn't support masking. Add masking support to your material or set Graphic's material to None to use a default one.
+UnityEngine.Logger:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Debug:LogWarningFormat(Object, String, Object[])
+SoftMasking.SoftMaskable:GetModifiedMaterial(Material)
+TMPro.TMP_MaterialManager:GetMaterialForRendering(MaskableGraphic, Material)
+TMPro.TextMeshProUGUI:UpdateMaterial()
+TMPro.TextMeshProUGUI:Rebuild(CanvasUpdate)
+UnityEngine.UI.CanvasUpdateRegistry:PerformUpdate()
+UnityEngine.AI.OnNavMeshPreUpdate:Invoke()
+UnityEngine.UI.ScrollRect:LateUpdate()
 
-[ line 519429832]
+SoftMask will not work on Text (TMPro.TextMeshProUGUI) because material 210YouthL SDF Material (UnityEngine.Material) doesn't support masking. Add masking support to your material or set Graphic's material to None to use a default one.
+UnityEngine.Logger:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Debug:LogWarningFormat(Object, String, Object[])
+SoftMasking.SoftMaskable:GetModifiedMaterial(Material)
+TMPro.TMP_MaterialManager:GetMaterialForRendering(MaskableGraphic, Material)
+TMPro.TextMeshProUGUI:UpdateMaterial()
+TMPro.TextMeshProUGUI:Rebuild(CanvasUpdate)
+UnityEngine.UI.CanvasUpdateRegistry:PerformUpdate()
+UnityEngine.AI.OnNavMeshPreUpdate:Invoke()
+UnityEngine.UI.ScrollRect:LateUpdate()
 
-Unloading 2 Unused Serialized files (Serialized files now loaded: 446)
-UnloadTime: 29.422400 ms
+SoftMask will not work on Text (TMPro.TextMeshProUGUI) because material 210YouthL SDF Material (UnityEngine.Material) doesn't support masking. Add masking support to your material or set Graphic's material to None to use a default one.
+UnityEngine.Logger:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Debug:LogWarningFormat(Object, String, Object[])
+SoftMasking.SoftMaskable:GetModifiedMaterial(Material)
+TMPro.TMP_MaterialManager:GetMaterialForRendering(MaskableGraphic, Material)
+TMPro.TextMeshProUGUI:UpdateMaterial()
+TMPro.TextMeshProUGUI:Rebuild(CanvasUpdate)
+UnityEngine.UI.CanvasUpdateRegistry:PerformUpdate()
+UnityEngine.AI.OnNavMeshPreUpdate:Invoke()
+UnityEngine.UI.ScrollRect:LateUpdate()
 
-Unloading 17816 unused Assets to reduce memory usage. Loaded Objects now: 132015.
-Total: 278.469000 ms (FindLiveObjects: 6.135600 ms CreateObjectMapping: 5.165700 ms MarkObjects: 258.034300 ms  DeleteObjects: 9.132800 ms)
+SoftMask will not work on Text (TMPro.TextMeshProUGUI) because material 210YouthL SDF Material (UnityEngine.Material) doesn't support masking. Add masking support to your material or set Graphic's material to None to use a default one.
+UnityEngine.Logger:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Debug:LogWarningFormat(Object, String, Object[])
+SoftMasking.SoftMaskable:GetModifiedMaterial(Material)
+TMPro.TMP_MaterialManager:GetMaterialForRendering(MaskableGraphic, Material)
+TMPro.TextMeshProUGUI:UpdateMaterial()
+TMPro.TextMeshProUGUI:Rebuild(CanvasUpdate)
+UnityEngine.UI.CanvasUpdateRegistry:PerformUpdate()
+UnityEngine.AI.OnNavMeshPreUpdate:Invoke()
+UnityEngine.UI.ScrollRect:LateUpdate()
 
-Unloading 1 Unused Serialized files (Serialized files now loaded: 445)
-UnloadTime: 1.236700 ms
+SoftMask will not work on Name (TMPro.TextMeshProUGUI) because material 210YouthL SDF Material (UnityEngine.Material) doesn't support masking. Add masking support to your material or set Graphic's material to None to use a default one.
+UnityEngine.Logger:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Debug:LogWarningFormat(Object, String, Object[])
+SoftMasking.SoftMaskable:GetModifiedMaterial(Material)
+TMPro.TMP_MaterialManager:GetMaterialForRendering(MaskableGraphic, Material)
+TMPro.TextMeshProUGUI:UpdateMaterial()
+TMPro.TextMeshProUGUI:Rebuild(CanvasUpdate)
+UnityEngine.UI.CanvasUpdateRegistry:PerformUpdate()
+UnityEngine.AI.OnNavMeshPreUpdate:Invoke()
+UnityEngine.UI.ScrollRect:LateUpdate()
 
-Unloading 7 unused Assets to reduce memory usage. Loaded Objects now: 131842.
-Total: 260.354800 ms (FindLiveObjects: 5.402300 ms CreateObjectMapping: 4.333600 ms MarkObjects: 250.360400 ms  DeleteObjects: 0.258200 ms)
+SoftMask will not work on Skill_Script (TMPro.TextMeshProUGUI) because material 210YouthL SDF Material (UnityEngine.Material) doesn't support masking. Add masking support to your material or set Graphic's material to None to use a default one.
+UnityEngine.Logger:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Debug:LogWarningFormat(Object, String, Object[])
+SoftMasking.SoftMaskable:GetModifiedMaterial(Material)
+TMPro.TMP_MaterialManager:GetMaterialForRendering(MaskableGraphic, Material)
+TMPro.TextMeshProUGUI:UpdateMaterial()
+TMPro.TextMeshProUGUI:Rebuild(CanvasUpdate)
+UnityEngine.UI.CanvasUpdateRegistry:PerformUpdate()
+UnityEngine.AI.OnNavMeshPreUpdate:Invoke()
+UnityEngine.UI.ScrollRect:LateUpdate()
 
-Unloading 0 Unused Serialized files (Serialized files now loaded: 443)
+SoftMask will not work on Skill_Script (TMPro.TextMeshProUGUI) because material 210YouthL SDF Material (UnityEngine.Material) doesn't support masking. Add masking support to your material or set Graphic's material to None to use a default one.
+UnityEngine.Logger:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Debug:LogWarningFormat(Object, String, Object[])
+SoftMasking.SoftMaskable:GetModifiedMaterial(Material)
+TMPro.TMP_MaterialManager:GetMaterialForRendering(MaskableGraphic, Material)
+TMPro.TextMeshProUGUI:UpdateMaterial()
+TMPro.TextMeshProUGUI:Rebuild(CanvasUpdate)
+UnityEngine.UI.CanvasUpdateRegistry:PerformUpdate()
+UnityEngine.AI.OnNavMeshPreUpdate:Invoke()
+UnityEngine.UI.ScrollRect:LateUpdate()
 
-Unloading 0 unused Assets to reduce memory usage. Loaded Objects now: 131842.
-Total: 262.607700 ms (FindLiveObjects: 5.591200 ms CreateObjectMapping: 4.284100 ms MarkObjects: 252.511400 ms  DeleteObjects: 0.220300 ms)
+SoftMask will not work on LevelText (TMPro.TextMeshProUGUI) because material Snowstorm SDF Material (UnityEngine.Material) doesn't support masking. Add masking support to your material or set Graphic's material to None to use a default one.
+UnityEngine.Logger:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Debug:LogWarningFormat(Object, String, Object[])
+SoftMasking.SoftMaskable:GetModifiedMaterial(Material)
+TMPro.TMP_MaterialManager:GetMaterialForRendering(MaskableGraphic, Material)
+TMPro.TextMeshProUGUI:UpdateMaterial()
+TMPro.TextMeshProUGUI:Rebuild(CanvasUpdate)
+UnityEngine.UI.CanvasUpdateRegistry:PerformUpdate()
+UnityEngine.AI.OnNavMeshPreUpdate:Invoke()
+UnityEngine.UI.ScrollRect:LateUpdate()
 
-Unloading 1 Unused Serialized files (Serialized files now loaded: 445)
-UnloadTime: 0.866900 ms
+SoftMask will not work on Tag (TMPro.TextMeshProUGUI) because material 210YouthL SDF Material (UnityEngine.Material) doesn't support masking. Add masking support to your material or set Graphic's material to None to use a default one.
+UnityEngine.Logger:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Debug:LogWarningFormat(Object, String, Object[])
+SoftMasking.SoftMaskable:GetModifiedMaterial(Material)
+TMPro.TMP_MaterialManager:GetMaterialForRendering(MaskableGraphic, Material)
+TMPro.TextMeshProUGUI:UpdateMaterial()
+TMPro.TextMeshProUGUI:Rebuild(CanvasUpdate)
+UnityEngine.UI.CanvasUpdateRegistry:PerformUpdate()
+UnityEngine.AI.OnNavMeshPreUpdate:Invoke()
+UnityEngine.UI.ScrollRect:LateUpdate()
 
-Unloading 262 unused Assets to reduce memory usage. Loaded Objects now: 144494.
-Total: 279.945700 ms (FindLiveObjects: 6.208000 ms CreateObjectMapping: 4.434900 ms MarkObjects: 268.742700 ms  DeleteObjects: 0.559500 ms)
+SoftMask will not work on Value (TMPro.TextMeshProUGUI) because material Snowstorm SDF Material (UnityEngine.Material) doesn't support masking. Add masking support to your material or set Graphic's material to None to use a default one.
+UnityEngine.Logger:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Debug:LogWarningFormat(Object, String, Object[])
+SoftMasking.SoftMaskable:GetModifiedMaterial(Material)
+TMPro.TMP_MaterialManager:GetMaterialForRendering(MaskableGraphic, Material)
+TMPro.TextMeshProUGUI:UpdateMaterial()
+TMPro.TextMeshProUGUI:Rebuild(CanvasUpdate)
+UnityEngine.UI.CanvasUpdateRegistry:PerformUpdate()
+UnityEngine.AI.OnNavMeshPreUpdate:Invoke()
+UnityEngine.UI.ScrollRect:LateUpdate()
 
-Unloading 2 Unused Serialized files (Serialized files now loaded: 424)
-UnloadTime: 13.246600 ms
+SoftMask will not work on Tag (TMPro.TextMeshProUGUI) because material 210YouthL SDF Material (UnityEngine.Material) doesn't support masking. Add masking support to your material or set Graphic's material to None to use a default one.
+UnityEngine.Logger:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Debug:LogWarningFormat(Object, String, Object[])
+SoftMasking.SoftMaskable:GetModifiedMaterial(Material)
+TMPro.TMP_MaterialManager:GetMaterialForRendering(MaskableGraphic, Material)
+TMPro.TextMeshProUGUI:UpdateMaterial()
+TMPro.TextMeshProUGUI:Rebuild(CanvasUpdate)
+UnityEngine.UI.CanvasUpdateRegistry:PerformUpdate()
+UnityEngine.AI.OnNavMeshPreUpdate:Invoke()
+UnityEngine.UI.ScrollRect:LateUpdate()
 
-Unloading 938 unused Assets to reduce memory usage. Loaded Objects now: 47617.
-Total: 190.684200 ms (FindLiveObjects: 2.147100 ms CreateObjectMapping: 1.602800 ms MarkObjects: 184.734400 ms  DeleteObjects: 2.199400 ms)
+SoftMask will not work on Value (TMPro.TextMeshProUGUI) because material Snowstorm SDF Material (UnityEngine.Material) doesn't support masking. Add masking support to your material or set Graphic's material to None to use a default one.
+UnityEngine.Logger:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Debug:LogWarningFormat(Object, String, Object[])
+SoftMasking.SoftMaskable:GetModifiedMaterial(Material)
+TMPro.TMP_MaterialManager:GetMaterialForRendering(MaskableGraphic, Material)
+TMPro.TextMeshProUGUI:UpdateMaterial()
+TMPro.TextMeshProUGUI:Rebuild(CanvasUpdate)
+UnityEngine.UI.CanvasUpdateRegistry:PerformUpdate()
+UnityEngine.AI.OnNavMeshPreUpdate:Invoke()
+UnityEngine.UI.ScrollRect:LateUpdate()
 
-Unloading 0 Unused Serialized files (Serialized files now loaded: 417)
+SoftMask will not work on Tag (TMPro.TextMeshProUGUI) because material 210YouthL SDF Material (UnityEngine.Material) doesn't support masking. Add masking support to your material or set Graphic's material to None to use a default one.
+UnityEngine.Logger:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Debug:LogWarningFormat(Object, String, Object[])
+SoftMasking.SoftMaskable:GetModifiedMaterial(Material)
+TMPro.TMP_MaterialManager:GetMaterialForRendering(MaskableGraphic, Material)
+TMPro.TextMeshProUGUI:UpdateMaterial()
+TMPro.TextMeshProUGUI:Rebuild(CanvasUpdate)
+UnityEngine.UI.CanvasUpdateRegistry:PerformUpdate()
+UnityEngine.AI.OnNavMeshPreUpdate:Invoke()
+UnityEngine.UI.ScrollRect:LateUpdate()
 
-Unloading 0 unused Assets to reduce memory usage. Loaded Objects now: 47617.
-Total: 189.177400 ms (FindLiveObjects: 2.126800 ms CreateObjectMapping: 1.625700 ms MarkObjects: 185.344300 ms  DeleteObjects: 0.079900 ms)
+SoftMask will not work on Value (TMPro.TextMeshProUGUI) because material Snowstorm SDF Material (UnityEngine.Material) doesn't support masking. Add masking support to your material or set Graphic's material to None to use a default one.
+UnityEngine.Logger:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Debug:LogWarningFormat(Object, String, Object[])
+SoftMasking.SoftMaskable:GetModifiedMaterial(Material)
+TMPro.TMP_MaterialManager:GetMaterialForRendering(MaskableGraphic, Material)
+TMPro.TextMeshProUGUI:UpdateMaterial()
+TMPro.TextMeshProUGUI:Rebuild(CanvasUpdate)
+UnityEngine.UI.CanvasUpdateRegistry:PerformUpdate()
+UnityEngine.AI.OnNavMeshPreUpdate:Invoke()
+UnityEngine.UI.ScrollRect:LateUpdate()
 
-Unloading 1 Unused Serialized files (Serialized files now loaded: 420)
-UnloadTime: 0.561300 ms
+SoftMask will not work on Name (TMPro.TextMeshProUGUI) because material 210YouthL SDF Material (UnityEngine.Material) doesn't support masking. Add masking support to your material or set Graphic's material to None to use a default one.
+UnityEngine.Logger:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Debug:LogWarningFormat(Object, String, Object[])
+SoftMasking.SoftMaskable:GetModifiedMaterial(Material)
+TMPro.TMP_MaterialManager:GetMaterialForRendering(MaskableGraphic, Material)
+TMPro.TextMeshProUGUI:UpdateMaterial()
+TMPro.TextMeshProUGUI:Rebuild(CanvasUpdate)
+UnityEngine.UI.CanvasUpdateRegistry:PerformUpdate()
+UnityEngine.AI.OnNavMeshPreUpdate:Invoke()
 
-Unloading 4212 unused Assets to reduce memory usage. Loaded Objects now: 92761.
-Total: 199.985700 ms (FindLiveObjects: 3.311000 ms CreateObjectMapping: 2.282000 ms MarkObjects: 192.803200 ms  DeleteObjects: 1.588300 ms)
+SoftMask will not work on Name (TMPro.TextMeshProUGUI) because material 210YouthL SDF Material (UnityEngine.Material) doesn't support masking. Add masking support to your material or set Graphic's material to None to use a default one.
+UnityEngine.Logger:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Debug:LogWarningFormat(Object, String, Object[])
+SoftMasking.SoftMaskable:GetModifiedMaterial(Material)
+TMPro.TMP_MaterialManager:GetMaterialForRendering(MaskableGraphic, Material)
+TMPro.TextMeshProUGUI:UpdateMaterial()
+TMPro.TextMeshProUGUI:Rebuild(CanvasUpdate)
+UnityEngine.UI.CanvasUpdateRegistry:PerformUpdate()
+UnityEngine.AI.OnNavMeshPreUpdate:Invoke()
 
-Animation Count is 1
-UnityEngine.Logger:Log(LogType, Object)
-UnityEngine.Debug:Log(Object)
-AnimationInstancingMgr:ReadTexture(BinaryReader, String)
-AnimationManager:CreateAnimationInfoFromFile(GameObject, AnimationInstancing)
-AnimationInstancing:InitializeAnimation()
-AnimationInstancingMgr:AddInstance(GameObject)
-AnimationInstancing:Start()
+SoftMask will not work on Name (TMPro.TextMeshProUGUI) because material 210YouthL SDF Material (UnityEngine.Material) doesn't support masking. Add masking support to your material or set Graphic's material to None to use a default one.
+UnityEngine.Logger:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Debug:LogWarningFormat(Object, String, Object[])
+SoftMasking.SoftMaskable:GetModifiedMaterial(Material)
+TMPro.TMP_MaterialManager:GetMaterialForRendering(MaskableGraphic, Material)
+TMPro.TextMeshProUGUI:UpdateMaterial()
+TMPro.TextMeshProUGUI:Rebuild(CanvasUpdate)
+UnityEngine.UI.CanvasUpdateRegistry:PerformUpdate()
+UnityEngine.AI.OnNavMeshPreUpdate:Invoke()
 
-Animation Count is 1
-UnityEngine.Logger:Log(LogType, Object)
-UnityEngine.Debug:Log(Object)
-AnimationInstancingMgr:ReadTexture(BinaryReader, String)
-AnimationManager:CreateAnimationInfoFromFile(GameObject, AnimationInstancing)
-AnimationInstancing:InitializeAnimation()
-AnimationInstancingMgr:AddInstance(GameObject)
-AnimationInstancing:Start()
+SoftMask will not work on LevelText (TMPro.TextMeshProUGUI) because material Snowstorm SDF Material (UnityEngine.Material) doesn't support masking. Add masking support to your material or set Graphic's material to None to use a default one.
+UnityEngine.Logger:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Debug:LogWarningFormat(Object, String, Object[])
+SoftMasking.SoftMaskable:GetModifiedMaterial(Material)
+TMPro.TMP_MaterialManager:GetMaterialForRendering(MaskableGraphic, Material)
+TMPro.TextMeshProUGUI:UpdateMaterial()
+TMPro.TextMeshProUGUI:Rebuild(CanvasUpdate)
+UnityEngine.UI.CanvasUpdateRegistry:PerformUpdate()
+UnityEngine.AI.OnNavMeshPreUpdate:Invoke()
 
-Can Support Instancing
-UnityEngine.Logger:Log(LogType, Object)
-UnityEngine.Debug:Log(Object)
+SoftMask will not work on Tag (TMPro.TextMeshProUGUI) because material 210YouthL SDF Material (UnityEngine.Material) doesn't support masking. Add masking support to your material or set Graphic's material to None to use a default one.
+UnityEngine.Logger:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Debug:LogWarningFormat(Object, String, Object[])
+SoftMasking.SoftMaskable:GetModifiedMaterial(Material)
+TMPro.TMP_MaterialManager:GetMaterialForRendering(MaskableGraphic, Material)
+TMPro.TextMeshProUGUI:UpdateMaterial()
+TMPro.TextMeshProUGUI:Rebuild(CanvasUpdate)
+UnityEngine.UI.CanvasUpdateRegistry:PerformUpdate()
+UnityEngine.AI.OnNavMeshPreUpdate:Invoke()
 
-Failed to create agent because there is no valid NavMesh
-UnityEngine.Object:Instantiate(Object, Vector3, Quaternion, Transform)
-UnityEngine.Object:Instantiate(T, Vector3, Quaternion, Transform)
-FishAllocator:DoInstanceFishOrGroup(GameObject, Action`1, Boolean)
-<InstanceCheckRoutine>d__38:MoveNext()
-UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+SoftMask will not work on Value (TMPro.TextMeshProUGUI) because material Snowstorm SDF Material (UnityEngine.Material) doesn't support masking. Add masking support to your material or set Graphic's material to None to use a default one.
+UnityEngine.Logger:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Debug:LogWarningFormat(Object, String, Object[])
+SoftMasking.SoftMaskable:GetModifiedMaterial(Material)
+TMPro.TMP_MaterialManager:GetMaterialForRendering(MaskableGraphic, Material)
+TMPro.TextMeshProUGUI:UpdateMaterial()
+TMPro.TextMeshProUGUI:Rebuild(CanvasUpdate)
+UnityEngine.UI.CanvasUpdateRegistry:PerformUpdate()
+UnityEngine.AI.OnNavMeshPreUpdate:Invoke()
 
-[ line 519432008]
+SoftMask will not work on Tag (TMPro.TextMeshProUGUI) because material 210YouthL SDF Material (UnityEngine.Material) doesn't support masking. Add masking support to your material or set Graphic's material to None to use a default one.
+UnityEngine.Logger:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Debug:LogWarningFormat(Object, String, Object[])
+SoftMasking.SoftMaskable:GetModifiedMaterial(Material)
+TMPro.TMP_MaterialManager:GetMaterialForRendering(MaskableGraphic, Material)
+TMPro.TextMeshProUGUI:UpdateMaterial()
+TMPro.TextMeshProUGUI:Rebuild(CanvasUpdate)
+UnityEngine.UI.CanvasUpdateRegistry:PerformUpdate()
+UnityEngine.AI.OnNavMeshPreUpdate:Invoke()
 
-Failed to create agent because there is no valid NavMesh
-UnityEngine.Object:Instantiate(Object, Vector3, Quaternion, Transform)
-UnityEngine.Object:Instantiate(T, Vector3, Quaternion, Transform)
-FishAllocator:DoInstanceFishOrGroup(GameObject, Action`1, Boolean)
-<InstanceCheckRoutine>d__38:MoveNext()
-UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+SoftMask will not work on Value (TMPro.TextMeshProUGUI) because material Snowstorm SDF Material (UnityEngine.Material) doesn't support masking. Add masking support to your material or set Graphic's material to None to use a default one.
+UnityEngine.Logger:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Debug:LogWarningFormat(Object, String, Object[])
+SoftMasking.SoftMaskable:GetModifiedMaterial(Material)
+TMPro.TMP_MaterialManager:GetMaterialForRendering(MaskableGraphic, Material)
+TMPro.TextMeshProUGUI:UpdateMaterial()
+TMPro.TextMeshProUGUI:Rebuild(CanvasUpdate)
+UnityEngine.UI.CanvasUpdateRegistry:PerformUpdate()
+UnityEngine.AI.OnNavMeshPreUpdate:Invoke()
 
-[ line 519432008]
+SoftMask will not work on Tag (TMPro.TextMeshProUGUI) because material 210YouthL SDF Material (UnityEngine.Material) doesn't support masking. Add masking support to your material or set Graphic's material to None to use a default one.
+UnityEngine.Logger:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Debug:LogWarningFormat(Object, String, Object[])
+SoftMasking.SoftMaskable:GetModifiedMaterial(Material)
+TMPro.TMP_MaterialManager:GetMaterialForRendering(MaskableGraphic, Material)
+TMPro.TextMeshProUGUI:UpdateMaterial()
+TMPro.TextMeshProUGUI:Rebuild(CanvasUpdate)
+UnityEngine.UI.CanvasUpdateRegistry:PerformUpdate()
+UnityEngine.AI.OnNavMeshPreUpdate:Invoke()
 
-Failed to create agent because there is no valid NavMesh
-UnityEngine.Object:Instantiate(Object, Vector3, Quaternion, Transform)
-UnityEngine.Object:Instantiate(T, Vector3, Quaternion, Transform)
-FishAllocator:DoInstanceFishOrGroup(GameObject, Action`1, Boolean)
-<InstanceCheckRoutine>d__38:MoveNext()
-UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+SoftMask will not work on Value (TMPro.TextMeshProUGUI) because material Snowstorm SDF Material (UnityEngine.Material) doesn't support masking. Add masking support to your material or set Graphic's material to None to use a default one.
+UnityEngine.Logger:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Debug:LogWarningFormat(Object, String, Object[])
+SoftMasking.SoftMaskable:GetModifiedMaterial(Material)
+TMPro.TMP_MaterialManager:GetMaterialForRendering(MaskableGraphic, Material)
+TMPro.TextMeshProUGUI:UpdateMaterial()
+TMPro.TextMeshProUGUI:Rebuild(CanvasUpdate)
+UnityEngine.UI.CanvasUpdateRegistry:PerformUpdate()
+UnityEngine.AI.OnNavMeshPreUpdate:Invoke()
 
-[ line 519432008]
+SoftMask will not work on LevelText (TMPro.TextMeshProUGUI) because material Snowstorm SDF Material (UnityEngine.Material) doesn't support masking. Add masking support to your material or set Graphic's material to None to use a default one.
+UnityEngine.Logger:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Debug:LogWarningFormat(Object, String, Object[])
+SoftMasking.SoftMaskable:GetModifiedMaterial(Material)
+TMPro.TMP_MaterialManager:GetMaterialForRendering(MaskableGraphic, Material)
+TMPro.TextMeshProUGUI:UpdateMaterial()
+TMPro.TextMeshProUGUI:Rebuild(CanvasUpdate)
+UnityEngine.UI.CanvasUpdateRegistry:PerformUpdate()
+UnityEngine.AI.OnNavMeshPreUpdate:Invoke()
 
-Req StartScenario :Side_Udo02_FindSpotLight ,[Option]isIgnorePlayingScenario : True
+SoftMask will not work on Tag (TMPro.TextMeshProUGUI) because material 210YouthL SDF Material (UnityEngine.Material) doesn't support masking. Add masking support to your material or set Graphic's material to None to use a default one.
+UnityEngine.Logger:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Debug:LogWarningFormat(Object, String, Object[])
+SoftMasking.SoftMaskable:GetModifiedMaterial(Material)
+TMPro.TMP_MaterialManager:GetMaterialForRendering(MaskableGraphic, Material)
+TMPro.TextMeshProUGUI:UpdateMaterial()
+TMPro.TextMeshProUGUI:Rebuild(CanvasUpdate)
+UnityEngine.UI.CanvasUpdateRegistry:PerformUpdate()
+UnityEngine.AI.OnNavMeshPreUpdate:Invoke()
+
+SoftMask will not work on Value (TMPro.TextMeshProUGUI) because material Snowstorm SDF Material (UnityEngine.Material) doesn't support masking. Add masking support to your material or set Graphic's material to None to use a default one.
+UnityEngine.Logger:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Debug:LogWarningFormat(Object, String, Object[])
+SoftMasking.SoftMaskable:GetModifiedMaterial(Material)
+TMPro.TMP_MaterialManager:GetMaterialForRendering(MaskableGraphic, Material)
+TMPro.TextMeshProUGUI:UpdateMaterial()
+TMPro.TextMeshProUGUI:Rebuild(CanvasUpdate)
+UnityEngine.UI.CanvasUpdateRegistry:PerformUpdate()
+UnityEngine.AI.OnNavMeshPreUpdate:Invoke()
+
+SoftMask will not work on Tag (TMPro.TextMeshProUGUI) because material 210YouthL SDF Material (UnityEngine.Material) doesn't support masking. Add masking support to your material or set Graphic's material to None to use a default one.
+UnityEngine.Logger:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Debug:LogWarningFormat(Object, String, Object[])
+SoftMasking.SoftMaskable:GetModifiedMaterial(Material)
+TMPro.TMP_MaterialManager:GetMaterialForRendering(MaskableGraphic, Material)
+TMPro.TextMeshProUGUI:UpdateMaterial()
+TMPro.TextMeshProUGUI:Rebuild(CanvasUpdate)
+UnityEngine.UI.CanvasUpdateRegistry:PerformUpdate()
+UnityEngine.AI.OnNavMeshPreUpdate:Invoke()
+
+SoftMask will not work on Value (TMPro.TextMeshProUGUI) because material Snowstorm SDF Material (UnityEngine.Material) doesn't support masking. Add masking support to your material or set Graphic's material to None to use a default one.
+UnityEngine.Logger:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Debug:LogWarningFormat(Object, String, Object[])
+SoftMasking.SoftMaskable:GetModifiedMaterial(Material)
+TMPro.TMP_MaterialManager:GetMaterialForRendering(MaskableGraphic, Material)
+TMPro.TextMeshProUGUI:UpdateMaterial()
+TMPro.TextMeshProUGUI:Rebuild(CanvasUpdate)
+UnityEngine.UI.CanvasUpdateRegistry:PerformUpdate()
+UnityEngine.AI.OnNavMeshPreUpdate:Invoke()
+
+SoftMask will not work on Tag (TMPro.TextMeshProUGUI) because material 210YouthL SDF Material (UnityEngine.Material) doesn't support masking. Add masking support to your material or set Graphic's material to None to use a default one.
+UnityEngine.Logger:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Debug:LogWarningFormat(Object, String, Object[])
+SoftMasking.SoftMaskable:GetModifiedMaterial(Material)
+TMPro.TMP_MaterialManager:GetMaterialForRendering(MaskableGraphic, Material)
+TMPro.TextMeshProUGUI:UpdateMaterial()
+TMPro.TextMeshProUGUI:Rebuild(CanvasUpdate)
+UnityEngine.UI.CanvasUpdateRegistry:PerformUpdate()
+UnityEngine.AI.OnNavMeshPreUpdate:Invoke()
+
+SoftMask will not work on Value (TMPro.TextMeshProUGUI) because material Snowstorm SDF Material (UnityEngine.Material) doesn't support masking. Add masking support to your material or set Graphic's material to None to use a default one.
+UnityEngine.Logger:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Debug:LogWarningFormat(Object, String, Object[])
+SoftMasking.SoftMaskable:GetModifiedMaterial(Material)
+TMPro.TMP_MaterialManager:GetMaterialForRendering(MaskableGraphic, Material)
+TMPro.TextMeshProUGUI:UpdateMaterial()
+TMPro.TextMeshProUGUI:Rebuild(CanvasUpdate)
+UnityEngine.UI.CanvasUpdateRegistry:PerformUpdate()
+UnityEngine.AI.OnNavMeshPreUpdate:Invoke()
+
+SoftMask will not work on LevelText (TMPro.TextMeshProUGUI) because material Snowstorm SDF Material (UnityEngine.Material) doesn't support masking. Add masking support to your material or set Graphic's material to None to use a default one.
+UnityEngine.Logger:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Debug:LogWarningFormat(Object, String, Object[])
+SoftMasking.SoftMaskable:GetModifiedMaterial(Material)
+TMPro.TMP_MaterialManager:GetMaterialForRendering(MaskableGraphic, Material)
+TMPro.TextMeshProUGUI:UpdateMaterial()
+TMPro.TextMeshProUGUI:Rebuild(CanvasUpdate)
+UnityEngine.UI.CanvasUpdateRegistry:PerformUpdate()
+UnityEngine.AI.OnNavMeshPreUpdate:Invoke()
+
+SoftMask will not work on Tag (TMPro.TextMeshProUGUI) because material 210YouthL SDF Material (UnityEngine.Material) doesn't support masking. Add masking support to your material or set Graphic's material to None to use a default one.
+UnityEngine.Logger:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Debug:LogWarningFormat(Object, String, Object[])
+SoftMasking.SoftMaskable:GetModifiedMaterial(Material)
+TMPro.TMP_MaterialManager:GetMaterialForRendering(MaskableGraphic, Material)
+TMPro.TextMeshProUGUI:UpdateMaterial()
+TMPro.TextMeshProUGUI:Rebuild(CanvasUpdate)
+UnityEngine.UI.CanvasUpdateRegistry:PerformUpdate()
+UnityEngine.AI.OnNavMeshPreUpdate:Invoke()
+
+SoftMask will not work on Value (TMPro.TextMeshProUGUI) because material Snowstorm SDF Material (UnityEngine.Material) doesn't support masking. Add masking support to your material or set Graphic's material to None to use a default one.
+UnityEngine.Logger:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Debug:LogWarningFormat(Object, String, Object[])
+SoftMasking.SoftMaskable:GetModifiedMaterial(Material)
+TMPro.TMP_MaterialManager:GetMaterialForRendering(MaskableGraphic, Material)
+TMPro.TextMeshProUGUI:UpdateMaterial()
+TMPro.TextMeshProUGUI:Rebuild(CanvasUpdate)
+UnityEngine.UI.CanvasUpdateRegistry:PerformUpdate()
+UnityEngine.AI.OnNavMeshPreUpdate:Invoke()
+
+SoftMask will not work on Tag (TMPro.TextMeshProUGUI) because material 210YouthL SDF Material (UnityEngine.Material) doesn't support masking. Add masking support to your material or set Graphic's material to None to use a default one.
+UnityEngine.Logger:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Debug:LogWarningFormat(Object, String, Object[])
+SoftMasking.SoftMaskable:GetModifiedMaterial(Material)
+TMPro.TMP_MaterialManager:GetMaterialForRendering(MaskableGraphic, Material)
+TMPro.TextMeshProUGUI:UpdateMaterial()
+TMPro.TextMeshProUGUI:Rebuild(CanvasUpdate)
+UnityEngine.UI.CanvasUpdateRegistry:PerformUpdate()
+UnityEngine.AI.OnNavMeshPreUpdate:Invoke()
+
+SoftMask will not work on Value (TMPro.TextMeshProUGUI) because material Snowstorm SDF Material (UnityEngine.Material) doesn't support masking. Add masking support to your material or set Graphic's material to None to use a default one.
+UnityEngine.Logger:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Debug:LogWarningFormat(Object, String, Object[])
+SoftMasking.SoftMaskable:GetModifiedMaterial(Material)
+TMPro.TMP_MaterialManager:GetMaterialForRendering(MaskableGraphic, Material)
+TMPro.TextMeshProUGUI:UpdateMaterial()
+TMPro.TextMeshProUGUI:Rebuild(CanvasUpdate)
+UnityEngine.UI.CanvasUpdateRegistry:PerformUpdate()
+UnityEngine.AI.OnNavMeshPreUpdate:Invoke()
+
+SoftMask will not work on Tag (TMPro.TextMeshProUGUI) because material 210YouthL SDF Material (UnityEngine.Material) doesn't support masking. Add masking support to your material or set Graphic's material to None to use a default one.
+UnityEngine.Logger:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Debug:LogWarningFormat(Object, String, Object[])
+SoftMasking.SoftMaskable:GetModifiedMaterial(Material)
+TMPro.TMP_MaterialManager:GetMaterialForRendering(MaskableGraphic, Material)
+TMPro.TextMeshProUGUI:UpdateMaterial()
+TMPro.TextMeshProUGUI:Rebuild(CanvasUpdate)
+UnityEngine.UI.CanvasUpdateRegistry:PerformUpdate()
+UnityEngine.AI.OnNavMeshPreUpdate:Invoke()
+
+SoftMask will not work on Value (TMPro.TextMeshProUGUI) because material Snowstorm SDF Material (UnityEngine.Material) doesn't support masking. Add masking support to your material or set Graphic's material to None to use a default one.
+UnityEngine.Logger:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Debug:LogWarningFormat(Object, String, Object[])
+SoftMasking.SoftMaskable:GetModifiedMaterial(Material)
+TMPro.TMP_MaterialManager:GetMaterialForRendering(MaskableGraphic, Material)
+TMPro.TextMeshProUGUI:UpdateMaterial()
+TMPro.TextMeshProUGUI:Rebuild(CanvasUpdate)
+UnityEngine.UI.CanvasUpdateRegistry:PerformUpdate()
+UnityEngine.AI.OnNavMeshPreUpdate:Invoke()
+
+SoftMask will not work on Skill_Script (TMPro.TextMeshProUGUI) because material 210YouthL SDF Material (UnityEngine.Material) doesn't support masking. Add masking support to your material or set Graphic's material to None to use a default one.
+UnityEngine.Logger:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Debug:LogWarningFormat(Object, String, Object[])
+SoftMasking.SoftMaskable:GetModifiedMaterial(Material)
+TMPro.TMP_MaterialManager:GetMaterialForRendering(MaskableGraphic, Material)
+TMPro.TextMeshProUGUI:UpdateMaterial()
+TMPro.TextMeshProUGUI:Rebuild(CanvasUpdate)
+UnityEngine.UI.CanvasUpdateRegistry:PerformUpdate()
+UnityEngine.AI.OnNavMeshPreUpdate:Invoke()
+
+SoftMask will not work on Skill_Script (TMPro.TextMeshProUGUI) because material 210YouthL SDF Material (UnityEngine.Material) doesn't support masking. Add masking support to your material or set Graphic's material to None to use a default one.
+UnityEngine.Logger:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Debug:LogWarningFormat(Object, String, Object[])
+SoftMasking.SoftMaskable:GetModifiedMaterial(Material)
+TMPro.TMP_MaterialManager:GetMaterialForRendering(MaskableGraphic, Material)
+TMPro.TextMeshProUGUI:UpdateMaterial()
+TMPro.TextMeshProUGUI:Rebuild(CanvasUpdate)
+UnityEngine.UI.CanvasUpdateRegistry:PerformUpdate()
+UnityEngine.AI.OnNavMeshPreUpdate:Invoke()
+
+SoftMask will not work on Skill_Script (TMPro.TextMeshProUGUI) because material 210YouthL SDF Material (UnityEngine.Material) doesn't support masking. Add masking support to your material or set Graphic's material to None to use a default one.
+UnityEngine.Logger:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Debug:LogWarningFormat(Object, String, Object[])
+SoftMasking.SoftMaskable:GetModifiedMaterial(Material)
+TMPro.TMP_MaterialManager:GetMaterialForRendering(MaskableGraphic, Material)
+TMPro.TextMeshProUGUI:UpdateMaterial()
+TMPro.TextMeshProUGUI:Rebuild(CanvasUpdate)
+UnityEngine.UI.CanvasUpdateRegistry:PerformUpdate()
+UnityEngine.AI.OnNavMeshPreUpdate:Invoke()
+
+SoftMask will not work on Skill_Script (TMPro.TextMeshProUGUI) because material 210YouthL SDF Material (UnityEngine.Material) doesn't support masking. Add masking support to your material or set Graphic's material to None to use a default one.
+UnityEngine.Logger:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Debug:LogWarningFormat(Object, String, Object[])
+SoftMasking.SoftMaskable:GetModifiedMaterial(Material)
+TMPro.TMP_MaterialManager:GetMaterialForRendering(MaskableGraphic, Material)
+TMPro.TextMeshProUGUI:UpdateMaterial()
+TMPro.TextMeshProUGUI:Rebuild(CanvasUpdate)
+UnityEngine.UI.CanvasUpdateRegistry:PerformUpdate()
+UnityEngine.AI.OnNavMeshPreUpdate:Invoke()
+
+SoftMask will not work on Skill_Script (TMPro.TextMeshProUGUI) because material 210YouthL SDF Material (UnityEngine.Material) doesn't support masking. Add masking support to your material or set Graphic's material to None to use a default one.
+UnityEngine.Logger:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Debug:LogWarningFormat(Object, String, Object[])
+SoftMasking.SoftMaskable:GetModifiedMaterial(Material)
+TMPro.TMP_MaterialManager:GetMaterialForRendering(MaskableGraphic, Material)
+TMPro.TextMeshProUGUI:UpdateMaterial()
+TMPro.TextMeshProUGUI:Rebuild(CanvasUpdate)
+UnityEngine.UI.CanvasUpdateRegistry:PerformUpdate()
+UnityEngine.AI.OnNavMeshPreUpdate:Invoke()
+
+SoftMask will not work on Skill_Script (TMPro.TextMeshProUGUI) because material 210YouthL SDF Material (UnityEngine.Material) doesn't support masking. Add masking support to your material or set Graphic's material to None to use a default one.
+UnityEngine.Logger:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Debug:LogWarningFormat(Object, String, Object[])
+SoftMasking.SoftMaskable:GetModifiedMaterial(Material)
+TMPro.TMP_MaterialManager:GetMaterialForRendering(MaskableGraphic, Material)
+TMPro.TextMeshProUGUI:UpdateMaterial()
+TMPro.TextMeshProUGUI:Rebuild(CanvasUpdate)
+UnityEngine.UI.CanvasUpdateRegistry:PerformUpdate()
+UnityEngine.AI.OnNavMeshPreUpdate:Invoke()
+
+SoftMask will not work on Name (TMPro.TextMeshProUGUI) because material 210YouthL SDF Material (UnityEngine.Material) doesn't support masking. Add masking support to your material or set Graphic's material to None to use a default one.
+UnityEngine.Logger:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Debug:LogWarningFormat(Object, String, Object[])
+SoftMasking.SoftMaskable:GetModifiedMaterial(Material)
+TMPro.TMP_MaterialManager:GetMaterialForRendering(MaskableGraphic, Material)
+TMPro.TextMeshProUGUI:UpdateMaterial()
+TMPro.TextMeshProUGUI:Rebuild(CanvasUpdate)
+UnityEngine.UI.CanvasUpdateRegistry:PerformUpdate()
+UnityEngine.AI.OnNavMeshPreUpdate:Invoke()
+
+SoftMask will not work on LevelText (TMPro.TextMeshProUGUI) because material Snowstorm SDF Material (UnityEngine.Material) doesn't support masking. Add masking support to your material or set Graphic's material to None to use a default one.
+UnityEngine.Logger:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Debug:LogWarningFormat(Object, String, Object[])
+SoftMasking.SoftMaskable:GetModifiedMaterial(Material)
+TMPro.TMP_MaterialManager:GetMaterialForRendering(MaskableGraphic, Material)
+TMPro.TextMeshProUGUI:UpdateMaterial()
+TMPro.TextMeshProUGUI:Rebuild(CanvasUpdate)
+UnityEngine.UI.CanvasUpdateRegistry:PerformUpdate()
+UnityEngine.AI.OnNavMeshPreUpdate:Invoke()
+
+SoftMask will not work on Tag (TMPro.TextMeshProUGUI) because material 210YouthL SDF Material (UnityEngine.Material) doesn't support masking. Add masking support to your material or set Graphic's material to None to use a default one.
+UnityEngine.Logger:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Debug:LogWarningFormat(Object, String, Object[])
+SoftMasking.SoftMaskable:GetModifiedMaterial(Material)
+TMPro.TMP_MaterialManager:GetMaterialForRendering(MaskableGraphic, Material)
+TMPro.TextMeshProUGUI:UpdateMaterial()
+TMPro.TextMeshProUGUI:Rebuild(CanvasUpdate)
+UnityEngine.UI.CanvasUpdateRegistry:PerformUpdate()
+UnityEngine.AI.OnNavMeshPreUpdate:Invoke()
+
+SoftMask will not work on Value (TMPro.TextMeshProUGUI) because material Snowstorm SDF Material (UnityEngine.Material) doesn't support masking. Add masking support to your material or set Graphic's material to None to use a default one.
+UnityEngine.Logger:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Debug:LogWarningFormat(Object, String, Object[])
+SoftMasking.SoftMaskable:GetModifiedMaterial(Material)
+TMPro.TMP_MaterialManager:GetMaterialForRendering(MaskableGraphic, Material)
+TMPro.TextMeshProUGUI:UpdateMaterial()
+TMPro.TextMeshProUGUI:Rebuild(CanvasUpdate)
+UnityEngine.UI.CanvasUpdateRegistry:PerformUpdate()
+UnityEngine.AI.OnNavMeshPreUpdate:Invoke()
+
+SoftMask will not work on Tag (TMPro.TextMeshProUGUI) because material 210YouthL SDF Material (UnityEngine.Material) doesn't support masking. Add masking support to your material or set Graphic's material to None to use a default one.
+UnityEngine.Logger:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Debug:LogWarningFormat(Object, String, Object[])
+SoftMasking.SoftMaskable:GetModifiedMaterial(Material)
+TMPro.TMP_MaterialManager:GetMaterialForRendering(MaskableGraphic, Material)
+TMPro.TextMeshProUGUI:UpdateMaterial()
+TMPro.TextMeshProUGUI:Rebuild(CanvasUpdate)
+UnityEngine.UI.CanvasUpdateRegistry:PerformUpdate()
+UnityEngine.AI.OnNavMeshPreUpdate:Invoke()
+
+SoftMask will not work on Value (TMPro.TextMeshProUGUI) because material Snowstorm SDF Material (UnityEngine.Material) doesn't support masking. Add masking support to your material or set Graphic's material to None to use a default one.
+UnityEngine.Logger:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Debug:LogWarningFormat(Object, String, Object[])
+SoftMasking.SoftMaskable:GetModifiedMaterial(Material)
+TMPro.TMP_MaterialManager:GetMaterialForRendering(MaskableGraphic, Material)
+TMPro.TextMeshProUGUI:UpdateMaterial()
+TMPro.TextMeshProUGUI:Rebuild(CanvasUpdate)
+UnityEngine.UI.CanvasUpdateRegistry:PerformUpdate()
+UnityEngine.AI.OnNavMeshPreUpdate:Invoke()
+
+SoftMask will not work on Tag (TMPro.TextMeshProUGUI) because material 210YouthL SDF Material (UnityEngine.Material) doesn't support masking. Add masking support to your material or set Graphic's material to None to use a default one.
+UnityEngine.Logger:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Debug:LogWarningFormat(Object, String, Object[])
+SoftMasking.SoftMaskable:GetModifiedMaterial(Material)
+TMPro.TMP_MaterialManager:GetMaterialForRendering(MaskableGraphic, Material)
+TMPro.TextMeshProUGUI:UpdateMaterial()
+TMPro.TextMeshProUGUI:Rebuild(CanvasUpdate)
+UnityEngine.UI.CanvasUpdateRegistry:PerformUpdate()
+UnityEngine.AI.OnNavMeshPreUpdate:Invoke()
+
+SoftMask will not work on Value (TMPro.TextMeshProUGUI) because material Snowstorm SDF Material (UnityEngine.Material) doesn't support masking. Add masking support to your material or set Graphic's material to None to use a default one.
+UnityEngine.Logger:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Debug:LogWarningFormat(Object, String, Object[])
+SoftMasking.SoftMaskable:GetModifiedMaterial(Material)
+TMPro.TMP_MaterialManager:GetMaterialForRendering(MaskableGraphic, Material)
+TMPro.TextMeshProUGUI:UpdateMaterial()
+TMPro.TextMeshProUGUI:Rebuild(CanvasUpdate)
+UnityEngine.UI.CanvasUpdateRegistry:PerformUpdate()
+UnityEngine.AI.OnNavMeshPreUpdate:Invoke()
+
+SoftMask will not work on Skill_Script (TMPro.TextMeshProUGUI) because material 210YouthL SDF Material (UnityEngine.Material) doesn't support masking. Add masking support to your material or set Graphic's material to None to use a default one.
+UnityEngine.Logger:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Debug:LogWarningFormat(Object, String, Object[])
+SoftMasking.SoftMaskable:GetModifiedMaterial(Material)
+TMPro.TMP_MaterialManager:GetMaterialForRendering(MaskableGraphic, Material)
+TMPro.TextMeshProUGUI:UpdateMaterial()
+TMPro.TextMeshProUGUI:Rebuild(CanvasUpdate)
+UnityEngine.UI.CanvasUpdateRegistry:PerformUpdate()
+UnityEngine.AI.OnNavMeshPreUpdate:Invoke()
+
+SoftMask will not work on Skill_Script (TMPro.TextMeshProUGUI) because material 210YouthL SDF Material (UnityEngine.Material) doesn't support masking. Add masking support to your material or set Graphic's material to None to use a default one.
+UnityEngine.Logger:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Debug:LogWarningFormat(Object, String, Object[])
+SoftMasking.SoftMaskable:GetModifiedMaterial(Material)
+TMPro.TMP_MaterialManager:GetMaterialForRendering(MaskableGraphic, Material)
+TMPro.TextMeshProUGUI:UpdateMaterial()
+TMPro.TextMeshProUGUI:Rebuild(CanvasUpdate)
+UnityEngine.UI.CanvasUpdateRegistry:PerformUpdate()
+UnityEngine.AI.OnNavMeshPreUpdate:Invoke()
+
+SoftMask will not work on Name (TMPro.TextMeshProUGUI) because material 210YouthL SDF Material (UnityEngine.Material) doesn't support masking. Add masking support to your material or set Graphic's material to None to use a default one.
+UnityEngine.Logger:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Debug:LogWarningFormat(Object, String, Object[])
+SoftMasking.SoftMaskable:GetModifiedMaterial(Material)
+TMPro.TMP_MaterialManager:GetMaterialForRendering(MaskableGraphic, Material)
+TMPro.TextMeshProUGUI:UpdateMaterial()
+TMPro.TextMeshProUGUI:Rebuild(CanvasUpdate)
+UnityEngine.UI.CanvasUpdateRegistry:PerformUpdate()
+UnityEngine.AI.OnNavMeshPreUpdate:Invoke()
+
+SoftMask will not work on LevelText (TMPro.TextMeshProUGUI) because material Snowstorm SDF Material (UnityEngine.Material) doesn't support masking. Add masking support to your material or set Graphic's material to None to use a default one.
+UnityEngine.Logger:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Debug:LogWarningFormat(Object, String, Object[])
+SoftMasking.SoftMaskable:GetModifiedMaterial(Material)
+TMPro.TMP_MaterialManager:GetMaterialForRendering(MaskableGraphic, Material)
+TMPro.TextMeshProUGUI:UpdateMaterial()
+TMPro.TextMeshProUGUI:Rebuild(CanvasUpdate)
+UnityEngine.UI.CanvasUpdateRegistry:PerformUpdate()
+UnityEngine.AI.OnNavMeshPreUpdate:Invoke()
+
+SoftMask will not work on Tag (TMPro.TextMeshProUGUI) because material 210YouthL SDF Material (UnityEngine.Material) doesn't support masking. Add masking support to your material or set Graphic's material to None to use a default one.
+UnityEngine.Logger:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Debug:LogWarningFormat(Object, String, Object[])
+SoftMasking.SoftMaskable:GetModifiedMaterial(Material)
+TMPro.TMP_MaterialManager:GetMaterialForRendering(MaskableGraphic, Material)
+TMPro.TextMeshProUGUI:UpdateMaterial()
+TMPro.TextMeshProUGUI:Rebuild(CanvasUpdate)
+UnityEngine.UI.CanvasUpdateRegistry:PerformUpdate()
+UnityEngine.AI.OnNavMeshPreUpdate:Invoke()
+
+SoftMask will not work on Value (TMPro.TextMeshProUGUI) because material Snowstorm SDF Material (UnityEngine.Material) doesn't support masking. Add masking support to your material or set Graphic's material to None to use a default one.
+UnityEngine.Logger:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Debug:LogWarningFormat(Object, String, Object[])
+SoftMasking.SoftMaskable:GetModifiedMaterial(Material)
+TMPro.TMP_MaterialManager:GetMaterialForRendering(MaskableGraphic, Material)
+TMPro.TextMeshProUGUI:UpdateMaterial()
+TMPro.TextMeshProUGUI:Rebuild(CanvasUpdate)
+UnityEngine.UI.CanvasUpdateRegistry:PerformUpdate()
+UnityEngine.AI.OnNavMeshPreUpdate:Invoke()
+
+SoftMask will not work on Tag (TMPro.TextMeshProUGUI) because material 210YouthL SDF Material (UnityEngine.Material) doesn't support masking. Add masking support to your material or set Graphic's material to None to use a default one.
+UnityEngine.Logger:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Debug:LogWarningFormat(Object, String, Object[])
+SoftMasking.SoftMaskable:GetModifiedMaterial(Material)
+TMPro.TMP_MaterialManager:GetMaterialForRendering(MaskableGraphic, Material)
+TMPro.TextMeshProUGUI:UpdateMaterial()
+TMPro.TextMeshProUGUI:Rebuild(CanvasUpdate)
+UnityEngine.UI.CanvasUpdateRegistry:PerformUpdate()
+UnityEngine.AI.OnNavMeshPreUpdate:Invoke()
+
+SoftMask will not work on Value (TMPro.TextMeshProUGUI) because material Snowstorm SDF Material (UnityEngine.Material) doesn't support masking. Add masking support to your material or set Graphic's material to None to use a default one.
+UnityEngine.Logger:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Debug:LogWarningFormat(Object, String, Object[])
+SoftMasking.SoftMaskable:GetModifiedMaterial(Material)
+TMPro.TMP_MaterialManager:GetMaterialForRendering(MaskableGraphic, Material)
+TMPro.TextMeshProUGUI:UpdateMaterial()
+TMPro.TextMeshProUGUI:Rebuild(CanvasUpdate)
+UnityEngine.UI.CanvasUpdateRegistry:PerformUpdate()
+UnityEngine.AI.OnNavMeshPreUpdate:Invoke()
+
+SoftMask will not work on Tag (TMPro.TextMeshProUGUI) because material 210YouthL SDF Material (UnityEngine.Material) doesn't support masking. Add masking support to your material or set Graphic's material to None to use a default one.
+UnityEngine.Logger:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Debug:LogWarningFormat(Object, String, Object[])
+SoftMasking.SoftMaskable:GetModifiedMaterial(Material)
+TMPro.TMP_MaterialManager:GetMaterialForRendering(MaskableGraphic, Material)
+TMPro.TextMeshProUGUI:UpdateMaterial()
+TMPro.TextMeshProUGUI:Rebuild(CanvasUpdate)
+UnityEngine.UI.CanvasUpdateRegistry:PerformUpdate()
+UnityEngine.AI.OnNavMeshPreUpdate:Invoke()
+
+SoftMask will not work on Value (TMPro.TextMeshProUGUI) because material Snowstorm SDF Material (UnityEngine.Material) doesn't support masking. Add masking support to your material or set Graphic's material to None to use a default one.
+UnityEngine.Logger:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Debug:LogWarningFormat(Object, String, Object[])
+SoftMasking.SoftMaskable:GetModifiedMaterial(Material)
+TMPro.TMP_MaterialManager:GetMaterialForRendering(MaskableGraphic, Material)
+TMPro.TextMeshProUGUI:UpdateMaterial()
+TMPro.TextMeshProUGUI:Rebuild(CanvasUpdate)
+UnityEngine.UI.CanvasUpdateRegistry:PerformUpdate()
+UnityEngine.AI.OnNavMeshPreUpdate:Invoke()
+
+SoftMask will not work on Skill_Script (TMPro.TextMeshProUGUI) because material 210YouthL SDF Material (UnityEngine.Material) doesn't support masking. Add masking support to your material or set Graphic's material to None to use a default one.
+UnityEngine.Logger:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Debug:LogWarningFormat(Object, String, Object[])
+SoftMasking.SoftMaskable:GetModifiedMaterial(Material)
+TMPro.TMP_MaterialManager:GetMaterialForRendering(MaskableGraphic, Material)
+TMPro.TextMeshProUGUI:UpdateMaterial()
+TMPro.TextMeshProUGUI:Rebuild(CanvasUpdate)
+UnityEngine.UI.CanvasUpdateRegistry:PerformUpdate()
+UnityEngine.AI.OnNavMeshPreUpdate:Invoke()
+
+SoftMask will not work on Skill_Script (TMPro.TextMeshProUGUI) because material 210YouthL SDF Material (UnityEngine.Material) doesn't support masking. Add masking support to your material or set Graphic's material to None to use a default one.
+UnityEngine.Logger:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Debug:LogWarningFormat(Object, String, Object[])
+SoftMasking.SoftMaskable:GetModifiedMaterial(Material)
+TMPro.TMP_MaterialManager:GetMaterialForRendering(MaskableGraphic, Material)
+TMPro.TextMeshProUGUI:UpdateMaterial()
+TMPro.TextMeshProUGUI:Rebuild(CanvasUpdate)
+UnityEngine.UI.CanvasUpdateRegistry:PerformUpdate()
+UnityEngine.AI.OnNavMeshPreUpdate:Invoke()
+
+SoftMask will not work on Name (TMPro.TextMeshProUGUI) because material 210YouthL SDF Material (UnityEngine.Material) doesn't support masking. Add masking support to your material or set Graphic's material to None to use a default one.
+UnityEngine.Logger:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Debug:LogWarningFormat(Object, String, Object[])
+SoftMasking.SoftMaskable:GetModifiedMaterial(Material)
+TMPro.TMP_MaterialManager:GetMaterialForRendering(MaskableGraphic, Material)
+TMPro.TextMeshProUGUI:UpdateMaterial()
+TMPro.TextMeshProUGUI:Rebuild(CanvasUpdate)
+UnityEngine.UI.CanvasUpdateRegistry:PerformUpdate()
+UnityEngine.AI.OnNavMeshPreUpdate:Invoke()
+
+SoftMask will not work on Level (TMPro.TextMeshProUGUI) because material Snowstorm SDF Material (UnityEngine.Material) doesn't support masking. Add masking support to your material or set Graphic's material to None to use a default one.
+UnityEngine.Logger:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Debug:LogWarningFormat(Object, String, Object[])
+SoftMasking.SoftMaskable:GetModifiedMaterial(Material)
+TMPro.TMP_MaterialManager:GetMaterialForRendering(MaskableGraphic, Material)
+TMPro.TextMeshProUGUI:UpdateMaterial()
+TMPro.TextMeshProUGUI:Rebuild(CanvasUpdate)
+UnityEngine.UI.CanvasUpdateRegistry:PerformUpdate()
+UnityEngine.AI.OnNavMeshPreUpdate:Invoke()
+
+SoftMask will not work on TimeTag (TMPro.TextMeshProUGUI) because material 210YouthL SDF Material (UnityEngine.Material) doesn't support masking. Add masking support to your material or set Graphic's material to None to use a default one.
+UnityEngine.Logger:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Debug:LogWarningFormat(Object, String, Object[])
+SoftMasking.SoftMaskable:GetModifiedMaterial(Material)
+TMPro.TMP_MaterialManager:GetMaterialForRendering(MaskableGraphic, Material)
+TMPro.TextMeshProUGUI:UpdateMaterial()
+TMPro.TextMeshProUGUI:Rebuild(CanvasUpdate)
+UnityEngine.UI.CanvasUpdateRegistry:PerformUpdate()
+UnityEngine.AI.OnNavMeshPreUpdate:Invoke()
+
+SoftMask will not work on Text (TMPro.TextMeshProUGUI) because material 210YouthL SDF Material (UnityEngine.Material) doesn't support masking. Add masking support to your material or set Graphic's material to None to use a default one.
+UnityEngine.Logger:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Debug:LogWarningFormat(Object, String, Object[])
+SoftMasking.SoftMaskable:GetModifiedMaterial(Material)
+TMPro.TMP_MaterialManager:GetMaterialForRendering(MaskableGraphic, Material)
+TMPro.TextMeshProUGUI:UpdateMaterial()
+TMPro.TextMeshProUGUI:Rebuild(CanvasUpdate)
+UnityEngine.UI.CanvasUpdateRegistry:PerformUpdate()
+UnityEngine.AI.OnNavMeshPreUpdate:Invoke()
+
+SoftMask will not work on Amount (TMPro.TextMeshProUGUI) because material Snowstorm SDF Material (UnityEngine.Material) doesn't support masking. Add masking support to your material or set Graphic's material to None to use a default one.
+UnityEngine.Logger:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Debug:LogWarningFormat(Object, String, Object[])
+SoftMasking.SoftMaskable:GetModifiedMaterial(Material)
+TMPro.TMP_MaterialManager:GetMaterialForRendering(MaskableGraphic, Material)
+TMPro.TextMeshProUGUI:UpdateMaterial()
+TMPro.TextMeshProUGUI:Rebuild(CanvasUpdate)
+UnityEngine.UI.CanvasUpdateRegistry:PerformUpdate()
+UnityEngine.AI.OnNavMeshPreUpdate:Invoke()
+
+SoftMask will not work on Text (TMPro.TextMeshProUGUI) because material 210YouthL SDF Material (UnityEngine.Material) doesn't support masking. Add masking support to your material or set Graphic's material to None to use a default one.
+UnityEngine.Logger:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Debug:LogWarningFormat(Object, String, Object[])
+SoftMasking.SoftMaskable:GetModifiedMaterial(Material)
+TMPro.TMP_MaterialManager:GetMaterialForRendering(MaskableGraphic, Material)
+TMPro.TextMeshProUGUI:UpdateMaterial()
+TMPro.TextMeshProUGUI:Rebuild(CanvasUpdate)
+UnityEngine.UI.CanvasUpdateRegistry:PerformUpdate()
+UnityEngine.AI.OnNavMeshPreUpdate:Invoke()
+
+SoftMask will not work on Name (TMPro.TextMeshProUGUI) because material 210YouthL SDF Material (UnityEngine.Material) doesn't support masking. Add masking support to your material or set Graphic's material to None to use a default one.
+UnityEngine.Logger:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Debug:LogWarningFormat(Object, String, Object[])
+SoftMasking.SoftMaskable:GetModifiedMaterial(Material)
+TMPro.TMP_MaterialManager:GetMaterialForRendering(MaskableGraphic, Material)
+TMPro.TextMeshProUGUI:UpdateMaterial()
+TMPro.TextMeshProUGUI:Rebuild(CanvasUpdate)
+UnityEngine.UI.CanvasUpdateRegistry:PerformUpdate()
+UnityEngine.AI.OnNavMeshPreUpdate:Invoke()
+
+SoftMask will not work on Level (TMPro.TextMeshProUGUI) because material Snowstorm SDF Material (UnityEngine.Material) doesn't support masking. Add masking support to your material or set Graphic's material to None to use a default one.
+UnityEngine.Logger:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Debug:LogWarningFormat(Object, String, Object[])
+SoftMasking.SoftMaskable:GetModifiedMaterial(Material)
+TMPro.TMP_MaterialManager:GetMaterialForRendering(MaskableGraphic, Material)
+TMPro.TextMeshProUGUI:UpdateMaterial()
+TMPro.TextMeshProUGUI:Rebuild(CanvasUpdate)
+UnityEngine.UI.CanvasUpdateRegistry:PerformUpdate()
+UnityEngine.AI.OnNavMeshPreUpdate:Invoke()
+
+SoftMask will not work on TimeTag (TMPro.TextMeshProUGUI) because material 210YouthL SDF Material (UnityEngine.Material) doesn't support masking. Add masking support to your material or set Graphic's material to None to use a default one.
+UnityEngine.Logger:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Debug:LogWarningFormat(Object, String, Object[])
+SoftMasking.SoftMaskable:GetModifiedMaterial(Material)
+TMPro.TMP_MaterialManager:GetMaterialForRendering(MaskableGraphic, Material)
+TMPro.TextMeshProUGUI:UpdateMaterial()
+TMPro.TextMeshProUGUI:Rebuild(CanvasUpdate)
+UnityEngine.UI.CanvasUpdateRegistry:PerformUpdate()
+UnityEngine.AI.OnNavMeshPreUpdate:Invoke()
+
+SoftMask will not work on Text (TMPro.TextMeshProUGUI) because material 210YouthL SDF Material (UnityEngine.Material) doesn't support masking. Add masking support to your material or set Graphic's material to None to use a default one.
+UnityEngine.Logger:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Debug:LogWarningFormat(Object, String, Object[])
+SoftMasking.SoftMaskable:GetModifiedMaterial(Material)
+TMPro.TMP_MaterialManager:GetMaterialForRendering(MaskableGraphic, Material)
+TMPro.TextMeshProUGUI:UpdateMaterial()
+TMPro.TextMeshProUGUI:Rebuild(CanvasUpdate)
+UnityEngine.UI.CanvasUpdateRegistry:PerformUpdate()
+UnityEngine.AI.OnNavMeshPreUpdate:Invoke()
+
+SoftMask will not work on Amount (TMPro.TextMeshProUGUI) because material Snowstorm SDF Material (UnityEngine.Material) doesn't support masking. Add masking support to your material or set Graphic's material to None to use a default one.
+UnityEngine.Logger:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Debug:LogWarningFormat(Object, String, Object[])
+SoftMasking.SoftMaskable:GetModifiedMaterial(Material)
+TMPro.TMP_MaterialManager:GetMaterialForRendering(MaskableGraphic, Material)
+TMPro.TextMeshProUGUI:UpdateMaterial()
+TMPro.TextMeshProUGUI:Rebuild(CanvasUpdate)
+UnityEngine.UI.CanvasUpdateRegistry:PerformUpdate()
+UnityEngine.AI.OnNavMeshPreUpdate:Invoke()
+
+SoftMask will not work on Text (TMPro.TextMeshProUGUI) because material 210YouthL SDF Material (UnityEngine.Material) doesn't support masking. Add masking support to your material or set Graphic's material to None to use a default one.
+UnityEngine.Logger:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Debug:LogWarningFormat(Object, String, Object[])
+SoftMasking.SoftMaskable:GetModifiedMaterial(Material)
+TMPro.TMP_MaterialManager:GetMaterialForRendering(MaskableGraphic, Material)
+TMPro.TextMeshProUGUI:UpdateMaterial()
+TMPro.TextMeshProUGUI:Rebuild(CanvasUpdate)
+UnityEngine.UI.CanvasUpdateRegistry:PerformUpdate()
+UnityEngine.AI.OnNavMeshPreUpdate:Invoke()
+
+SoftMask will not work on Name (TMPro.TextMeshProUGUI) because material 210YouthL SDF Material (UnityEngine.Material) doesn't support masking. Add masking support to your material or set Graphic's material to None to use a default one.
+UnityEngine.Logger:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Debug:LogWarningFormat(Object, String, Object[])
+SoftMasking.SoftMaskable:GetModifiedMaterial(Material)
+TMPro.TMP_MaterialManager:GetMaterialForRendering(MaskableGraphic, Material)
+TMPro.TextMeshProUGUI:UpdateMaterial()
+TMPro.TextMeshProUGUI:Rebuild(CanvasUpdate)
+UnityEngine.UI.CanvasUpdateRegistry:PerformUpdate()
+UnityEngine.AI.OnNavMeshPreUpdate:Invoke()
+
+SoftMask will not work on Level (TMPro.TextMeshProUGUI) because material Snowstorm SDF Material (UnityEngine.Material) doesn't support masking. Add masking support to your material or set Graphic's material to None to use a default one.
+UnityEngine.Logger:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Debug:LogWarningFormat(Object, String, Object[])
+SoftMasking.SoftMaskable:GetModifiedMaterial(Material)
+TMPro.TMP_MaterialManager:GetMaterialForRendering(MaskableGraphic, Material)
+TMPro.TextMeshProUGUI:UpdateMaterial()
+TMPro.TextMeshProUGUI:Rebuild(CanvasUpdate)
+UnityEngine.UI.CanvasUpdateRegistry:PerformUpdate()
+UnityEngine.AI.OnNavMeshPreUpdate:Invoke()
+
+SoftMask will not work on TimeTag (TMPro.TextMeshProUGUI) because material 210YouthL SDF Material (UnityEngine.Material) doesn't support masking. Add masking support to your material or set Graphic's material to None to use a default one.
+UnityEngine.Logger:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Debug:LogWarningFormat(Object, String, Object[])
+SoftMasking.SoftMaskable:GetModifiedMaterial(Material)
+TMPro.TMP_MaterialManager:GetMaterialForRendering(MaskableGraphic, Material)
+TMPro.TextMeshProUGUI:UpdateMaterial()
+TMPro.TextMeshProUGUI:Rebuild(CanvasUpdate)
+UnityEngine.UI.CanvasUpdateRegistry:PerformUpdate()
+UnityEngine.AI.OnNavMeshPreUpdate:Invoke()
+
+SoftMask will not work on Text (TMPro.TextMeshProUGUI) because material 210YouthL SDF Material (UnityEngine.Material) doesn't support masking. Add masking support to your material or set Graphic's material to None to use a default one.
+UnityEngine.Logger:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Debug:LogWarningFormat(Object, String, Object[])
+SoftMasking.SoftMaskable:GetModifiedMaterial(Material)
+TMPro.TMP_MaterialManager:GetMaterialForRendering(MaskableGraphic, Material)
+TMPro.TextMeshProUGUI:UpdateMaterial()
+TMPro.TextMeshProUGUI:Rebuild(CanvasUpdate)
+UnityEngine.UI.CanvasUpdateRegistry:PerformUpdate()
+UnityEngine.AI.OnNavMeshPreUpdate:Invoke()
+
+SoftMask will not work on Amount (TMPro.TextMeshProUGUI) because material Snowstorm SDF Material (UnityEngine.Material) doesn't support masking. Add masking support to your material or set Graphic's material to None to use a default one.
+UnityEngine.Logger:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Debug:LogWarningFormat(Object, String, Object[])
+SoftMasking.SoftMaskable:GetModifiedMaterial(Material)
+TMPro.TMP_MaterialManager:GetMaterialForRendering(MaskableGraphic, Material)
+TMPro.TextMeshProUGUI:UpdateMaterial()
+TMPro.TextMeshProUGUI:Rebuild(CanvasUpdate)
+UnityEngine.UI.CanvasUpdateRegistry:PerformUpdate()
+UnityEngine.AI.OnNavMeshPreUpdate:Invoke()
+
+SoftMask will not work on Text (TMPro.TextMeshProUGUI) because material 210YouthL SDF Material (UnityEngine.Material) doesn't support masking. Add masking support to your material or set Graphic's material to None to use a default one.
+UnityEngine.Logger:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Debug:LogWarningFormat(Object, String, Object[])
+SoftMasking.SoftMaskable:GetModifiedMaterial(Material)
+TMPro.TMP_MaterialManager:GetMaterialForRendering(MaskableGraphic, Material)
+TMPro.TextMeshProUGUI:UpdateMaterial()
+TMPro.TextMeshProUGUI:Rebuild(CanvasUpdate)
+UnityEngine.UI.CanvasUpdateRegistry:PerformUpdate()
+UnityEngine.AI.OnNavMeshPreUpdate:Invoke()
+
+Req StartScenario :Call_Duff03 ,[Option]isIgnorePlayingScenario : False
 UnityEngine.Logger:Log(LogType, Object)
 UnityEngine.Debug:Log(Object)
 ScenarioManager:StartScenario(String, Action`1, Boolean, Boolean, Boolean)
-<ProcessMissionSequenceV2>d__190:MoveNext()
+<Process>d__27:MoveNext()
 UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
-
-Req StartScenario :Side_Udo02_FixedSpotLight ,[Option]isIgnorePlayingScenario : False
-UnityEngine.Logger:Log(LogType, Object)
-UnityEngine.Debug:Log(Object)
-ScenarioManager:StartScenario(String, Action`1, Boolean, Boolean, Boolean)
-<ProcessMissionSequenceV2>d__190:MoveNext()
-UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
-
-Req StartScenario :Side_Udo02_UseBaitCapsule ,[Option]isIgnorePlayingScenario : False
-UnityEngine.Logger:Log(LogType, Object)
-UnityEngine.Debug:Log(Object)
-ScenarioManager:StartScenario(String, Action`1, Boolean, Boolean, Boolean)
-<ProcessMissionSequenceV2>d__190:MoveNext()
-UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
-
-Req StartScenario :Side_Udo02_FindMantaray ,[Option]isIgnorePlayingScenario : False
-UnityEngine.Logger:Log(LogType, Object)
-UnityEngine.Debug:Log(Object)
-ScenarioManager:StartScenario(String, Action`1, Boolean, Boolean, Boolean)
-<ProcessMissionSequenceV2>d__190:MoveNext()
-UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
-
-DialogueContainer : null bundle ID
-UnityEngine.Logger:Log(LogType, Object)
-UnityEngine.Debug:LogError(Object)
-BecameInactiveEventHandler:Invoke()
-UnityEngine.Events.UnityEvent:Invoke()
-Common.Contents.<OnTrigger_Do>d__23:MoveNext()
-UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
-
-Req StartScenario :Side_Udo02_Fail_TooClose ,[Option]isIgnorePlayingScenario : False
-UnityEngine.Logger:Log(LogType, Object)
-UnityEngine.Debug:Log(Object)
-ScenarioManager:StartScenario(String, Action`1, Boolean, Boolean, Boolean)
-MissionTargetFail:MissionUpdate()
-PhotoZoneMissionTargetFail:MissionUpdate()
-BecameInactiveEventHandler:Invoke()
-UnityEngine.Events.UnityEvent:Invoke()
-Common.TargetTriggerBase:OnTrigger_Impl(Collider2D, Boolean)
-
-Req StartScenario :Side_Udo02_PhotoShootSuccess ,[Option]isIgnorePlayingScenario : False
-UnityEngine.Logger:Log(LogType, Object)
-UnityEngine.Debug:Log(Object)
-ScenarioManager:StartScenario(String, Action`1, Boolean, Boolean, Boolean)
-<ProcessMissionSequenceV2>d__190:MoveNext()
-UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
-
-Failed to create agent because there is no valid NavMesh
-UnityEngine.Object:Instantiate(Object, Vector3, Quaternion, Transform)
-UnityEngine.Object:Instantiate(T, Vector3, Quaternion, Transform)
-FishAllocator:DoInstanceFishOrGroup(GameObject, Action`1, Boolean)
-<InstanceCheckRoutine>d__38:MoveNext()
-UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
-
-[ line 519432008]
-
-Failed to create agent because there is no valid NavMesh
-UnityEngine.Object:Instantiate(Object, Vector3, Quaternion, Transform)
-UnityEngine.Object:Instantiate(T, Vector3, Quaternion, Transform)
-FishAllocator:DoInstanceFishOrGroup(GameObject, Action`1, Boolean)
-<InstanceCheckRoutine>d__38:MoveNext()
-UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
-
-[ line 519432008]
-
-Failed to create agent because there is no valid NavMesh
-UnityEngine.Object:Instantiate(Object, Vector3, Quaternion, Transform)
-UnityEngine.Object:Instantiate(T, Vector3, Quaternion, Transform)
-FishAllocator:DoInstanceFishOrGroup(GameObject, Action`1, Boolean)
-<InstanceCheckRoutine>d__38:MoveNext()
-UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
-
-[ line 519432008]
-
-Please play only one sound for the audioSourceTransform.
-UnityEngine.Logger:Log(LogType, Object)
-UnityEngine.Debug:LogWarning(Object)
-SoundManager:PlaySound(SoundPlayInfo, Transform, Boolean, SameClipPlayType)
-AniClipSoundEvent:Fire(Animator)
-AniEventConsumer:OnAniClipSoundEvent(AnimationEvent)
-
-Please play only one sound for the audioSourceTransform.
-UnityEngine.Logger:Log(LogType, Object)
-UnityEngine.Debug:LogWarning(Object)
-SoundManager:PlaySound(SoundPlayInfo, Transform, Boolean, SameClipPlayType)
-AniClipSoundEvent:Fire(Animator)
-AniEventConsumer:OnAniClipSoundEvent(AnimationEvent)
-
-Failed to create agent because there is no valid NavMesh
-UnityEngine.Object:Instantiate(Object, Vector3, Quaternion, Transform)
-UnityEngine.Object:Instantiate(T, Vector3, Quaternion, Transform)
-FishAllocator:DoInstanceFishOrGroup(GameObject, Action`1, Boolean)
-<InstanceCheckRoutine>d__38:MoveNext()
-UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
-
-[ line 519432008]
-
-Failed to create agent because there is no valid NavMesh
-UnityEngine.Object:Instantiate(Object, Vector3, Quaternion, Transform)
-UnityEngine.Object:Instantiate(T, Vector3, Quaternion, Transform)
-FishAllocator:DoInstanceFishOrGroup(GameObject, Action`1, Boolean)
-<InstanceCheckRoutine>d__38:MoveNext()
-UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
-
-[ line 519432008]
-
-Failed to create agent because there is no valid NavMesh
-UnityEngine.Object:Instantiate(Object, Vector3, Quaternion, Transform)
-UnityEngine.Object:Instantiate(T, Vector3, Quaternion, Transform)
-FishAllocator:DoInstanceFishOrGroup(GameObject, Action`1, Boolean)
-<InstanceCheckRoutine>d__38:MoveNext()
-UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
-
-[ line 519432008]
-
-Failed to create agent because there is no valid NavMesh
-UnityEngine.Object:Instantiate(Object, Vector3, Quaternion, Transform)
-UnityEngine.Object:Instantiate(T, Vector3, Quaternion, Transform)
-FishAllocator:DoInstanceFishOrGroup(GameObject, Action`1, Boolean)
-<InstanceCheckRoutine>d__38:MoveNext()
-UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
-
-[ line 519432008]
-
-Failed to create agent because there is no valid NavMesh
-UnityEngine.Object:Instantiate(Object, Vector3, Quaternion, Transform)
-UnityEngine.Object:Instantiate(T, Vector3, Quaternion, Transform)
-FishAllocator:DoInstanceFishOrGroup(GameObject, Action`1, Boolean)
-<InstanceCheckRoutine>d__38:MoveNext()
-UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
-
-[ line 519432008]
-
-Failed to create agent because there is no valid NavMesh
-UnityEngine.Object:Instantiate(Object, Vector3, Quaternion, Transform)
-UnityEngine.Object:Instantiate(T, Vector3, Quaternion, Transform)
-FishAllocator:DoInstanceFishOrGroup(GameObject, Action`1, Boolean)
-<InstanceCheckRoutine>d__38:MoveNext()
-UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
-
-[ line 519432008]
-
-Failed to create agent because there is no valid NavMesh
-UnityEngine.Object:Instantiate(Object, Vector3, Quaternion, Transform)
-UnityEngine.Object:Instantiate(T, Vector3, Quaternion, Transform)
-FishAllocator:DoInstanceFishOrGroup(GameObject, Action`1, Boolean)
-<InstanceCheckRoutine>d__38:MoveNext()
-UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
-
-[ line 519432008]
-
-Failed to create agent because there is no valid NavMesh
-UnityEngine.Object:Instantiate(Object, Vector3, Quaternion, Transform)
-UnityEngine.Object:Instantiate(T, Vector3, Quaternion, Transform)
-FishAllocator:DoInstanceFishOrGroup(GameObject, Action`1, Boolean)
-<InstanceCheckRoutine>d__38:MoveNext()
-UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
-
-[ line 519432008]
-
-Failed to create agent because there is no valid NavMesh
-UnityEngine.Object:Instantiate(Object, Vector3, Quaternion, Transform)
-UnityEngine.Object:Instantiate(T, Vector3, Quaternion, Transform)
-FishAllocator:DoInstanceFishOrGroup(GameObject, Action`1, Boolean)
-<InstanceCheckRoutine>d__38:MoveNext()
-UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
-
-[ line 519432008]
-
-Please play only one sound for the audioSourceTransform.
-UnityEngine.Logger:Log(LogType, Object)
-UnityEngine.Debug:LogWarning(Object)
-SoundManager:PlaySound(SoundPlayInfo, Transform, Boolean, SameClipPlayType)
-AniClipSoundEvent:Fire(Animator)
-AniEventConsumer:OnAniClipSoundEvent(AnimationEvent)
-
-Please play only one sound for the audioSourceTransform.
-UnityEngine.Logger:Log(LogType, Object)
-UnityEngine.Debug:LogWarning(Object)
-SoundManager:PlaySound(SoundPlayInfo, Transform, Boolean, SameClipPlayType)
-AniClipSoundEvent:Fire(Animator)
-AniEventConsumer:OnAniClipSoundEvent(AnimationEvent)
-
-Please play only one sound for the audioSourceTransform.
-UnityEngine.Logger:Log(LogType, Object)
-UnityEngine.Debug:LogWarning(Object)
-SoundManager:PlaySound(SoundPlayInfo, Transform, Boolean, SameClipPlayType)
-AniClipSoundEvent:Fire(Animator)
-AniEventConsumer:OnAniClipSoundEvent(AnimationEvent)
-
-Please play only one sound for the audioSourceTransform.
-UnityEngine.Logger:Log(LogType, Object)
-UnityEngine.Debug:LogWarning(Object)
-SoundManager:PlaySound(SoundPlayInfo, Transform, Boolean, SameClipPlayType)
-AniClipSoundEvent:Fire(Animator)
-AniEventConsumer:OnAniClipSoundEvent(AnimationEvent)
-
-Failed to create agent because there is no valid NavMesh
-UnityEngine.Object:Instantiate(Object, Vector3, Quaternion, Transform)
-UnityEngine.Object:Instantiate(T, Vector3, Quaternion, Transform)
-FishAllocator:DoInstanceFishOrGroup(GameObject, Action`1, Boolean)
-<InstanceCheckRoutine>d__38:MoveNext()
-UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
-
-[ line 519432008]
-
-Please play only one sound for the audioSourceTransform.
-UnityEngine.Logger:Log(LogType, Object)
-UnityEngine.Debug:LogWarning(Object)
-SoundManager:PlaySound(SoundPlayInfo, Transform, Boolean, SameClipPlayType)
-AniClipSoundEvent:Fire(Animator)
-AniEventConsumer:OnAniClipSoundEvent(AnimationEvent)
-
-Unloading 2 Unused Serialized files (Serialized files now loaded: 445)
-UnloadTime: 116.811400 ms
-
-Unloading 14535 unused Assets to reduce memory usage. Loaded Objects now: 49431.
-Total: 253.214600 ms (FindLiveObjects: 2.872400 ms CreateObjectMapping: 2.818500 ms MarkObjects: 237.367900 ms  DeleteObjects: 10.155400 ms)
-
-Unloading 1 Unused Serialized files (Serialized files now loaded: 420)
-UnloadTime: 0.804900 ms
-
-Unloading 285 unused Assets to reduce memory usage. Loaded Objects now: 48982.
-Total: 255.595900 ms (FindLiveObjects: 2.175400 ms CreateObjectMapping: 1.648300 ms MarkObjects: 251.288800 ms  DeleteObjects: 0.482800 ms)
-
-Unloading 0 Unused Serialized files (Serialized files now loaded: 418)
-
-Unloading 0 unused Assets to reduce memory usage. Loaded Objects now: 48982.
-Total: 254.103000 ms (FindLiveObjects: 2.295900 ms CreateObjectMapping: 2.020000 ms MarkObjects: 249.703300 ms  DeleteObjects: 0.083000 ms)
-
-Unloading 1 Unused Serialized files (Serialized files now loaded: 421)
-UnloadTime: 0.480900 ms
-
-Unloading 1652 unused Assets to reduce memory usage. Loaded Objects now: 60330.
-Total: 212.729400 ms (FindLiveObjects: 2.770200 ms CreateObjectMapping: 2.123000 ms MarkObjects: 205.971300 ms  DeleteObjects: 1.864200 ms)
-
-Req StartScenario :Side_Udo02_Complete ,[Option]isIgnorePlayingScenario : False
-UnityEngine.Logger:Log(LogType, Object)
-UnityEngine.Debug:Log(Object)
-ScenarioManager:StartScenario(String, Action`1, Boolean, Boolean, Boolean)
-<StartScenarioRoutinue>d__38:MoveNext()
-UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
-
-Unloading 2 Unused Serialized files (Serialized files now loaded: 452)
-UnloadTime: 21.181500 ms
-
-Unloading 1159 unused Assets to reduce memory usage. Loaded Objects now: 129170.
-Total: 296.477500 ms (FindLiveObjects: 5.396000 ms CreateObjectMapping: 4.308200 ms MarkObjects: 284.127500 ms  DeleteObjects: 2.645100 ms)
-
-Unloading 0 Unused Serialized files (Serialized files now loaded: 443)
-
-Unloading 0 unused Assets to reduce memory usage. Loaded Objects now: 129170.
-Total: 294.955300 ms (FindLiveObjects: 5.828300 ms CreateObjectMapping: 4.474100 ms MarkObjects: 284.418700 ms  DeleteObjects: 0.233300 ms)
-
-Unloading 1 Unused Serialized files (Serialized files now loaded: 445)
-Shader 'Water2D/Metaballs_RegularFresnel': fallback shader 'UnLit' not found
-UnloadTime: 0.866800 ms
-
-Unloading 84 unused Assets to reduce memory usage. Loaded Objects now: 144156.
-Total: 309.181800 ms (FindLiveObjects: 6.437400 ms CreateObjectMapping: 4.781900 ms MarkObjects: 297.393100 ms  DeleteObjects: 0.568700 ms)
 
 SoftMask will not work on Text (TMPro.TextMeshProUGUI) because material 210YouthL SDF Material (UnityEngine.Material) doesn't support masking. Add masking support to your material or set Graphic's material to None to use a default one.
 UnityEngine.Logger:LogFormat(LogType, Object, String, Object[])
@@ -2163,253 +1560,41 @@ UnityEngine.InputSystem.LowLevel.<>c__DisplayClass7_0:<set_onUpdate>b__0(NativeI
 InputSystemWrapper.OnActionHandler:Invoke(TEnumAction, CallbackContext)
 UnityEngineInternal.Input.NativeInputSystem:NotifyUpdate(NativeInputUpdateType, IntPtr)
 
-Unloading 2 Unused Serialized files (Serialized files now loaded: 453)
-UnloadTime: 137.828800 ms
+Unloading 2 Unused Serialized files (Serialized files now loaded: 452)
+UnloadTime: 194.003800 ms
 
-Unloading 3847 unused Assets to reduce memory usage. Loaded Objects now: 132708.
-Total: 321.565500 ms (FindLiveObjects: 5.699200 ms CreateObjectMapping: 4.504700 ms MarkObjects: 305.095900 ms  DeleteObjects: 6.265000 ms)
+Unloading 5392 unused Assets to reduce memory usage. Loaded Objects now: 131035.
+Total: 257.186500 ms (FindLiveObjects: 5.669700 ms CreateObjectMapping: 4.765500 ms MarkObjects: 238.902100 ms  DeleteObjects: 7.848600 ms)
 
-Unloading 0 Unused Serialized files (Serialized files now loaded: 442)
+Unloading 0 Unused Serialized files (Serialized files now loaded: 440)
 
-Unloading 0 unused Assets to reduce memory usage. Loaded Objects now: 132708.
-Total: 314.294100 ms (FindLiveObjects: 5.850600 ms CreateObjectMapping: 4.444900 ms MarkObjects: 303.762600 ms  DeleteObjects: 0.235500 ms)
+Unloading 0 unused Assets to reduce memory usage. Loaded Objects now: 131035.
+Total: 243.887600 ms (FindLiveObjects: 5.834600 ms CreateObjectMapping: 4.620600 ms MarkObjects: 233.274000 ms  DeleteObjects: 0.157700 ms)
 
-Unloading 1 Unused Serialized files (Serialized files now loaded: 445)
-UnloadTime: 0.946400 ms
+Unloading 1 Unused Serialized files (Serialized files now loaded: 443)
+UnloadTime: 0.928800 ms
 
-Unloading 6 unused Assets to reduce memory usage. Loaded Objects now: 132882.
-Total: 317.017400 ms (FindLiveObjects: 5.606300 ms CreateObjectMapping: 5.159300 ms MarkObjects: 305.991400 ms  DeleteObjects: 0.259600 ms)
+Unloading 6 unused Assets to reduce memory usage. Loaded Objects now: 131209.
+Total: 250.202000 ms (FindLiveObjects: 5.284600 ms CreateObjectMapping: 4.406000 ms MarkObjects: 240.337100 ms  DeleteObjects: 0.173800 ms)
 
-[SingletonGameObject] has already : EventSystem, key EventSystem
-UnityEngine.Logger:Log(LogType, Object)
-UnityEngine.Debug:LogError(Object)
-Common.UniqueGameObject:Awake()
+Unloading 1 Unused Serialized files (Serialized files now loaded: 443)
+UnloadTime: 1.319100 ms
 
-Req StartScenario :Intermission_Chapter5_Dave_Start ,[Option]isIgnorePlayingScenario : False
-UnityEngine.Logger:Log(LogType, Object)
-UnityEngine.Debug:Log(Object)
-ScenarioManager:StartScenario(String, Action`1, Boolean, Boolean, Boolean)
-MissionManager:PushMission(Int32, Action`1)
-StealthMission.<Start>d__25:MoveNext()
-UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+Unloading 7 unused Assets to reduce memory usage. Loaded Objects now: 131035.
+Total: 246.492200 ms (FindLiveObjects: 5.272200 ms CreateObjectMapping: 4.241400 ms MarkObjects: 236.774900 ms  DeleteObjects: 0.203000 ms)
 
-[SingletonGameObject] has already : EventSystem, key EventSystem
-UnityEngine.Logger:Log(LogType, Object)
-UnityEngine.Debug:LogError(Object)
-Common.UniqueGameObject:Awake()
+Unloading 0 Unused Serialized files (Serialized files now loaded: 440)
 
-Animation Count is 1
-UnityEngine.Logger:Log(LogType, Object)
-UnityEngine.Debug:Log(Object)
-AnimationInstancingMgr:ReadTexture(BinaryReader, String)
-AnimationManager:CreateAnimationInfoFromFile(GameObject, AnimationInstancing)
-AnimationInstancing:InitializeAnimation()
-AnimationInstancingMgr:AddInstance(GameObject)
-AnimationInstancing:Start()
+Unloading 0 unused Assets to reduce memory usage. Loaded Objects now: 131035.
+Total: 243.980700 ms (FindLiveObjects: 5.523400 ms CreateObjectMapping: 4.393100 ms MarkObjects: 233.899400 ms  DeleteObjects: 0.163800 ms)
 
-Animation Count is 1
-UnityEngine.Logger:Log(LogType, Object)
-UnityEngine.Debug:Log(Object)
-AnimationInstancingMgr:ReadTexture(BinaryReader, String)
-AnimationManager:CreateAnimationInfoFromFile(GameObject, AnimationInstancing)
-AnimationInstancing:InitializeAnimation()
-AnimationInstancingMgr:AddInstance(GameObject)
-AnimationInstancing:Start()
+Unloading 1 Unused Serialized files (Serialized files now loaded: 442)
+UnloadTime: 0.846500 ms
 
-Can Support Instancing
-UnityEngine.Logger:Log(LogType, Object)
-UnityEngine.Debug:Log(Object)
+Unloading 261 unused Assets to reduce memory usage. Loaded Objects now: 143825.
+Total: 260.274400 ms (FindLiveObjects: 6.208200 ms CreateObjectMapping: 4.477200 ms MarkObjects: 248.967100 ms  DeleteObjects: 0.621100 ms)
 
-Req StartScenario :Intermission_Chapter5_Dave_FollowDrone ,[Option]isIgnorePlayingScenario : False
-UnityEngine.Logger:Log(LogType, Object)
-UnityEngine.Debug:Log(Object)
-ScenarioManager:StartScenario(String, Action`1, Boolean, Boolean, Boolean)
-<ProcessMissionSequenceV2>d__190:MoveNext()
-UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
-
-Failed to create agent because there is no valid NavMesh
-UnityEngine.Object:Instantiate(Object, Vector3, Quaternion, Transform)
-UnityEngine.Object:Instantiate(T, Vector3, Quaternion, Transform)
-FishAllocator:DoInstanceFishOrGroup(GameObject, Action`1, Boolean)
-<InstanceCheckRoutine>d__38:MoveNext()
-UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
-
-[ line 519432008]
-
-Failed to create agent because there is no valid NavMesh
-UnityEngine.Object:Instantiate(Object, Vector3, Quaternion, Transform)
-UnityEngine.Object:Instantiate(T, Vector3, Quaternion, Transform)
-FishAllocator:DoInstanceFishOrGroup(GameObject, Action`1, Boolean)
-<InstanceCheckRoutine>d__38:MoveNext()
-UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
-
-[ line 519432008]
-
-Failed to create agent because there is no valid NavMesh
-UnityEngine.Object:Instantiate(Object, Vector3, Quaternion, Transform)
-UnityEngine.Object:Instantiate(T, Vector3, Quaternion, Transform)
-FishAllocator:DoInstanceFishOrGroup(GameObject, Action`1, Boolean)
-<InstanceCheckRoutine>d__38:MoveNext()
-UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
-
-[ line 519432008]
-
-[SingletonGameObject] has already : EventSystem, key EventSystem
-UnityEngine.Logger:Log(LogType, Object)
-UnityEngine.Debug:LogError(Object)
-Common.UniqueGameObject:Awake()
-
-Parent of RectTransform is being set with parent property. Consider using the SetParent method instead, with the worldPositionStays argument set to false. This will retain local orientation and scale rather than world orientation and scale, which can prevent common UI scaling issues.
-UnityEngine.Logger:Log(LogType, Object, Object)
-UnityEngine.Debug:LogWarning(Object, Object)
-UnityEngine.Transform:set_parent(Transform)
-MissionHUD:RemoveMission(MissionData)
-MissionHUD:IMissionCompletedListener.CompletedMission(MissionData, Int32)
-<>c__DisplayClass143_0:<ApplyMissionDone>b__0(IMissionCompletedListener)
-System.Action`1:Invoke(T)
-MissionManager:ExecuteMissionEventListener(Action`1)
-MissionManager:ApplyMissionDone(MissionData, Boolean)
-<ProcessMissionSequenceV2>d__190:MoveNext()
-UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
-
-Parent of RectTransform is being set with parent property. Consider using the SetParent method instead, with the worldPositionStays argument set to false. This will retain local orientation and scale rather than world orientation and scale, which can prevent common UI scaling issues.
-UnityEngine.Logger:Log(LogType, Object, Object)
-UnityEngine.Debug:LogWarning(Object, Object)
-UnityEngine.Transform:set_parent(Transform)
-MissionHUD:RemoveMission(MissionData)
-MissionHUD:IMissionCompletedListener.CompletedMission(MissionData, Int32)
-<>c__DisplayClass143_0:<ApplyMissionDone>b__0(IMissionCompletedListener)
-System.Action`1:Invoke(T)
-MissionManager:ExecuteMissionEventListener(Action`1)
-MissionManager:ApplyMissionDone(MissionData, Boolean)
-<ProcessMissionSequenceV2>d__190:MoveNext()
-UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
-
-Internal: JobTempAlloc has allocations that are more than 4 frames old - this is not allowed and likely a leak
-Req StartScenario :Intermission_Chapter5_Dave_Stealth_Start ,[Option]isIgnorePlayingScenario : False
-UnityEngine.Logger:Log(LogType, Object)
-UnityEngine.Debug:Log(Object)
-ScenarioManager:StartScenario(String, Action`1, Boolean, Boolean, Boolean)
-<ProcessMissionSequenceV2>d__190:MoveNext()
-UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
-
-There is no CustomTag Object
-UnityEngine.Logger:Log(LogType, Object)
-UnityEngine.Debug:LogError(Object)
-OrthographicCameraManager:StartSequenceCamAction(CameraSequenceInfo, Action)
-ScenarioManager:PlaySequenceNode(DRSequence, Action`1)
-SRDebugger.Services.PinEntryCompleteCallback:Invoke(Boolean)
-DialogueManager:TotalFinishDialogue()
-BecameInactiveEventHandler:Invoke()
-DialoguePanel:OnPressedContinue()
-DialogueManager:OnDirectHandler(Input)
-UnityEngine.Events.UnityAction`1:Invoke(T0)
-UnityEngine.Events.InvokableCall`1:Invoke(T1)
-UnityEngine.Events.UnityEvent`1:Invoke(T0)
-InputSystemWrapper.Handler`4:Handle(Input)
-BecameInactiveEventHandler:Invoke()
-UnityEngine.InputSystem.Utilities.DelegateHelpers:InvokeCallbacksSafe(CallbackArray`1&, String, Object)
-UnityEngine.InputSystem.InputManager:InvokeAfterUpdateCallback(InputUpdateType)
-UnityEngine.InputSystem.InputManager:OnUpdate(InputUpdateType, InputEventBuffer&)
-InputSystemWrapper.OnActionHandler:Invoke(TEnumAction, CallbackContext)
-UnityEngine.InputSystem.LowLevel.<>c__DisplayClass7_0:<set_onUpdate>b__0(NativeInputUpdateType, NativeInputEventBuffer*)
-InputSystemWrapper.OnActionHandler:Invoke(TEnumAction, CallbackContext)
-UnityEngineInternal.Input.NativeInputSystem:NotifyUpdate(NativeInputUpdateType, IntPtr)
-
-There is no CustomTag Object
-UnityEngine.Logger:Log(LogType, Object)
-UnityEngine.Debug:LogError(Object)
-OrthographicCameraManager:StartSequenceCamAction(CameraSequenceInfo, Action)
-ScenarioManager:PlaySequenceNode(DRSequence, Action`1)
-BecameInactiveEventHandler:Invoke()
-OrthographicCameraManager:StartSequenceCamAction(CameraSequenceInfo, Action)
-ScenarioManager:PlaySequenceNode(DRSequence, Action`1)
-SRDebugger.Services.PinEntryCompleteCallback:Invoke(Boolean)
-DialogueManager:TotalFinishDialogue()
-BecameInactiveEventHandler:Invoke()
-DialoguePanel:OnPressedContinue()
-DialogueManager:OnDirectHandler(Input)
-UnityEngine.Events.UnityAction`1:Invoke(T0)
-UnityEngine.Events.InvokableCall`1:Invoke(T1)
-UnityEngine.Events.UnityEvent`1:Invoke(T0)
-InputSystemWrapper.Handler`4:Handle(Input)
-BecameInactiveEventHandler:Invoke()
-UnityEngine.InputSystem.Utilities.DelegateHelpers:InvokeCallbacksSafe(CallbackArray`1&, String, Object)
-UnityEngine.InputSystem.InputManager:InvokeAfterUpdateCallback(InputUpdateType)
-UnityEngine.InputSystem.InputManager:OnUpdate(InputUpdateType, InputEventBuffer&)
-InputSystemWrapper.OnActionHandler:Invoke(TEnumAction, CallbackContext)
-UnityEngine.InputSystem.LowLevel.<>c__DisplayClass7_0:<set_onUpdate>b__0(NativeInputUpdateType, NativeInputEventBuffer*)
-InputSystemWrapper.OnActionHandler:Invoke(TEnumAction, CallbackContext)
-UnityEngineInternal.Input.NativeInputSystem:NotifyUpdate(NativeInputUpdateType, IntPtr)
-
-Req StartScenario :Intermission_Chapter5_Dave_Stealth_End ,[Option]isIgnorePlayingScenario : True
-UnityEngine.Logger:Log(LogType, Object)
-UnityEngine.Debug:Log(Object)
-ScenarioManager:StartScenario(String, Action`1, Boolean, Boolean, Boolean)
-<ProcessMissionSequenceV2>d__190:MoveNext()
-UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
-
-Req StartScenario :Intermission_Chapter5_Dave_Find_Item ,[Option]isIgnorePlayingScenario : False
-UnityEngine.Logger:Log(LogType, Object)
-UnityEngine.Debug:Log(Object)
-ScenarioManager:StartScenario(String, Action`1, Boolean, Boolean, Boolean)
-MissionEventTrigger:DoDialogue(String, Action`1, UnityEvent)
-MissionEventTrigger:OnPlayerEnter()
-BecameInactiveEventHandler:Invoke()
-UnityEngine.Events.UnityEvent:Invoke()
-Common.TargetTriggerBase:OnTrigger_Impl(Collider2D, Boolean)
-
-The referenced script on this Behaviour (Game Object '<null>') is missing!
-The referenced script on this Behaviour (Game Object '<null>') is missing!
-The referenced script on this Behaviour (Game Object '<null>') is missing!
-The referenced script on this Behaviour (Game Object '<null>') is missing!
-The referenced script on this Behaviour (Game Object '<null>') is missing!
-The referenced script on this Behaviour (Game Object '<null>') is missing!
-The referenced script on this Behaviour (Game Object '<null>') is missing!
-Parent of RectTransform is being set with parent property. Consider using the SetParent method instead, with the worldPositionStays argument set to false. This will retain local orientation and scale rather than world orientation and scale, which can prevent common UI scaling issues.
-UnityEngine.Logger:Log(LogType, Object, Object)
-UnityEngine.Debug:LogWarning(Object, Object)
-UnityEngine.Transform:set_parent(Transform)
-MissionHUD:RemoveMission(MissionData)
-MissionHUD:IMissionUpdateListener.UpdateMission(MissionData)
-System.Action`1:Invoke(T)
-MissionManager:ExecuteMissionEventListener(Action`1)
-MissionManager:ClearMissionInternal(Int32, Func`2)
-StealthMission.StealthMissionManager:OnFinishGame()
-BecameInactiveEventHandler:Invoke()
-UnityEngine.Events.UnityEvent:Invoke()
-MissionEventTrigger:OnTimelineFinish()
-SRDebugger.Services.PinEntryCompleteCallback:Invoke(Boolean)
-TimelineManager:OnTimelineFinished(TimelineController)
-BecameInactiveEventHandler:Invoke()
-TimelineController:Skip()
-TimelineController:LateUpdate()
-
-Unloading 2 Unused Serialized files (Serialized files now loaded: 425)
-UnloadTime: 1.009300 ms
-
-Unloading 13128 unused Assets to reduce memory usage. Loaded Objects now: 56073.
-Total: 256.440500 ms (FindLiveObjects: 2.760300 ms CreateObjectMapping: 2.775400 ms MarkObjects: 240.089700 ms  DeleteObjects: 10.814800 ms)
-
-Unloading 0 Unused Serialized files (Serialized files now loaded: 420)
-
-Unloading 0 unused Assets to reduce memory usage. Loaded Objects now: 56073.
-Total: 233.652300 ms (FindLiveObjects: 2.672300 ms CreateObjectMapping: 2.478300 ms MarkObjects: 228.151000 ms  DeleteObjects: 0.349800 ms)
-
-Unloading 1 Unused Serialized files (Serialized files now loaded: 423)
-UnloadTime: 0.483200 ms
-
-Unloading 265 unused Assets to reduce memory usage. Loaded Objects now: 68826.
-Total: 254.229500 ms (FindLiveObjects: 2.973300 ms CreateObjectMapping: 2.728600 ms MarkObjects: 248.038800 ms  DeleteObjects: 0.488300 ms)
-
-Req StartScenario :Main_Mission22_BaconMorningTalk01 ,[Option]isIgnorePlayingScenario : False
-UnityEngine.Logger:Log(LogType, Object)
-UnityEngine.Debug:Log(Object)
-ScenarioManager:StartScenario(String, Action`1, Boolean, Boolean, Boolean)
-<ProcessMissionSequenceV2>d__190:MoveNext()
-UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
-
-Req StartScenario :Tutorial_Tuna_Start ,[Option]isIgnorePlayingScenario : False
+Req StartScenario :Main_Mission25_Start ,[Option]isIgnorePlayingScenario : False
 UnityEngine.Logger:Log(LogType, Object)
 UnityEngine.Debug:Log(Object)
 ScenarioManager:StartScenario(String, Action`1, Boolean, Boolean, Boolean)
